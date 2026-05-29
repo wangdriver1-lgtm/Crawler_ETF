@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "C:/Users/cjwang/source/repos/TSUMS_GUI/TSUMS_GUI"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"chat.tools.terminal.autoApprove": {
+			"/^\\.\\\\\\.venv\\\\Scripts\\\\python\\.exe -c \"import re; t=open\\('stock_shares/web_reports/stock_changes_report_20260522\\.html',encoding='utf-8'\\)\\.read\\(\\); print\\('clickable rows:', t\\.count\\('class=' \\+ chr\\(39\\) \\+ 'clickable' \\+ chr\\(39\\)\\)\\); print\\('modal present:', 'detailMask' in t\\); m=re\\.search\\(r'2330\\.\\{0,200\\}', t\\); print\\(m\\.group\\(0\\) if m else 'none'\\)\"$/": {
+				"approve": true,
+				"matchCommandLine": true
+			}
+		}
+	}
+}
