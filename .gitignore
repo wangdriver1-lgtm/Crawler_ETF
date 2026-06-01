@@ -40,10 +40,7 @@ logs/
 .DS_Store
 
 # 敏感信息
-*.json
-!active_etf_summary.json
-*.txt
-!README.txt
+# 允許 JSON/TXT 產出文件直接提交到 GitHub
 
 # 構建輸出
 build/

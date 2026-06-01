@@ -29,6 +29,37 @@ jobs:
       - name: 運行爬蟲
         run: python Crawler_ETF.py
       
+      - name: 生成 GitHub Pages 網站資料
+        run: |
+          python - <<'PY'
+          import json
+          import os
+
+          all_stocks_path = os.path.join('etf', 'all_stocks.json')
+          output_path = os.path.join('docs', 'data', 'active_etf_summary.json')
+
+          if not os.path.exists(all_stocks_path):
+              raise SystemExit(f'找不到 {all_stocks_path}')
+
+          with open(all_stocks_path, 'r', encoding='utf-8') as f:
+              payload = json.load(f)
+
+          etfs = payload.get('etfs', {})
+          output = []
+          for code, info in etfs.items():
+              output.append({
+                  'code': code,
+                  'name': info.get('name', ''),
+                  'company': info.get('company', '未知') if isinstance(info, dict) else '未知',
+                  'price': info.get('price', 'N/A') if isinstance(info, dict) else 'N/A',
+                  'change': info.get('change', 'N/A') if isinstance(info, dict) else 'N/A'
+              })
+
+          os.makedirs(os.path.dirname(output_path), exist_ok=True)
+          with open(output_path, 'w', encoding='utf-8') as f:
+              json.dump(output, f, ensure_ascii=False, indent=2)
+          PY
+      
       - name: 提交更新到 GitHub
         run: |
           git config --local user.email "action@github.com"
