@@ -30,6 +30,7 @@ jobs:
         run: python Crawler_ETF.py
       
       - name: 生成 GitHub Pages 網站資料
+        shell: bash
         run: |
           python - <<'PY'
           import json
