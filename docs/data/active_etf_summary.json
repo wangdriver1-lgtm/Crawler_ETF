@@ -1,56 +1,114 @@
-{
-  "00998A": {
-    "name": "復華全球金融股票入息主動式ETF基金",
-    "company": "復華投信",
-    "price": "加載中",
-    "change": "待更新"
+[
+  {
+    "code": "00980A",
+    "name": "主動野村臺灣優選",
+    "company": "未知",
+    "price": "N/A",
+    "change": "N/A"
   },
-  "00991A": {
+  {
+    "code": "00982A",
+    "name": "主動群益台灣強棒",
+    "company": "未知",
+    "price": "N/A",
+    "change": "N/A"
+  },
+  {
+    "code": "00981A",
+    "name": "主動統一台股增長",
+    "company": "未知",
+    "price": "N/A",
+    "change": "N/A"
+  },
+  {
+    "code": "00984A",
+    "name": "主動安聯台灣高息",
+    "company": "未知",
+    "price": "N/A",
+    "change": "N/A"
+  },
+  {
+    "code": "00985A",
+    "name": "主動野村台灣50",
+    "company": "未知",
+    "price": "N/A",
+    "change": "N/A"
+  },
+  {
+    "code": "00986A",
+    "name": "主動台新龍頭成長",
+    "company": "未知",
+    "price": "N/A",
+    "change": "N/A"
+  },
+  {
+    "code": "00991A",
     "name": "主動復華未來50",
-    "company": "復華投信",
-    "price": "加載中",
-    "change": "待更新"
+    "company": "未知",
+    "price": "N/A",
+    "change": "N/A"
   },
-  "00929": {
-    "name": "復華台灣科技優息",
-    "company": "復華投信",
-    "price": "加載中",
-    "change": "待更新"
+  {
+    "code": "00987A",
+    "name": "主動台新優勢成長",
+    "company": "未知",
+    "price": "N/A",
+    "change": "N/A"
   },
-  "00949": {
-    "name": "復華日本護城河優勢龍頭企業ETF",
-    "company": "復華投信",
-    "price": "加載中",
-    "change": "待更新"
+  {
+    "code": "00992A",
+    "name": "主動群益科技創新",
+    "company": "未知",
+    "price": "N/A",
+    "change": "N/A"
   },
-  "00986D": {
-    "name": "復華全球金融債券入息主動式ETF基金",
-    "company": "復華投信",
-    "price": "加載中",
-    "change": "待更新"
+  {
+    "code": "00994A",
+    "name": "主動第一金台股優",
+    "company": "未知",
+    "price": "N/A",
+    "change": "N/A"
   },
-  "00768B": {
-    "name": "復華美國20年期以上公債ETF基金",
-    "company": "復華投信",
-    "price": "加載中",
-    "change": "待更新"
+  {
+    "code": "00995A",
+    "name": "主動中信台灣卓越",
+    "company": "未知",
+    "price": "N/A",
+    "change": "N/A"
   },
-  "00789B": {
-    "name": "復華20年期以上A3級以上公司債券ETF基金",
-    "company": "復華投信",
-    "price": "加載中",
-    "change": "待更新"
+  {
+    "code": "00993A",
+    "name": "主動安聯台灣",
+    "company": "未知",
+    "price": "N/A",
+    "change": "N/A"
   },
-  "00760B": {
-    "name": "復華新興市場企業債券ETF基金",
-    "company": "復華投信",
-    "price": "加載中",
-    "change": "待更新"
+  {
+    "code": "00996A",
+    "name": "主動兆豐台灣豐收",
+    "company": "未知",
+    "price": "N/A",
+    "change": "N/A"
   },
-  "00710B": {
-    "name": "復華1至5年期非投資等級債券基金",
-    "company": "復華投信",
-    "price": "加載中",
-    "change": "待更新"
+  {
+    "code": "00400A",
+    "name": "主動國泰動能高息",
+    "company": "未知",
+    "price": "N/A",
+    "change": "N/A"
+  },
+  {
+    "code": "00401A",
+    "name": "主動摩根台灣鑫收",
+    "company": "未知",
+    "price": "N/A",
+    "change": "N/A"
+  },
+  {
+    "code": "00997A",
+    "name": "主動群益美國增長",
+    "company": "未知",
+    "price": "N/A",
+    "change": "N/A"
   }
-}
+]
