@@ -1,0 +1,249 @@
+{
+  "code": "00987A",
+  "name": "主動台新優勢成長",
+  "asof": "20260601",
+  "previous_date": "20260528",
+  "official_url": "https://www.tsit.com.tw/ETF/Home/ETFSeriesDetail/00987A",
+  "holdings": [
+    {
+      "code": "6274 TT",
+      "name": "台燿",
+      "shares": 150000,
+      "weight": "6.9533%",
+      "lot_size": 1000
+    },
+    {
+      "code": "3017 TT",
+      "name": "奇鋐",
+      "shares": 86000,
+      "weight": "6.5117%",
+      "lot_size": 1000
+    },
+    {
+      "code": "3037 TT",
+      "name": "欣興",
+      "shares": 223000,
+      "weight": "6.3660%",
+      "lot_size": 1000
+    },
+    {
+      "code": "2330 TT",
+      "name": "台積電",
+      "shares": 90000,
+      "weight": "5.7624%",
+      "lot_size": 1000
+    },
+    {
+      "code": "2383 TT",
+      "name": "台光電",
+      "shares": 41000,
+      "weight": "5.6515%",
+      "lot_size": 1000
+    },
+    {
+      "code": "2308 TT",
+      "name": "台達電",
+      "shares": 80000,
+      "weight": "5.2636%",
+      "lot_size": 1000
+    },
+    {
+      "code": "6187 TT",
+      "name": "萬潤",
+      "shares": 170000,
+      "weight": "4.9455%",
+      "lot_size": 1000
+    },
+    {
+      "code": "6805 TT",
+      "name": "富世達",
+      "shares": 76000,
+      "weight": "4.3805%",
+      "lot_size": 1000
+    },
+    {
+      "code": "2360 TT",
+      "name": "致茂",
+      "shares": 60000,
+      "weight": "4.2087%",
+      "lot_size": 1000
+    },
+    {
+      "code": "6223 TT",
+      "name": "旺矽",
+      "shares": 27000,
+      "weight": "4.1695%",
+      "lot_size": 1000
+    },
+    {
+      "code": "8358 TT",
+      "name": "金居",
+      "shares": 201000,
+      "weight": "3.6504%",
+      "lot_size": 1000
+    },
+    {
+      "code": "8299 TT",
+      "name": "群聯",
+      "shares": 46000,
+      "weight": "3.4643%",
+      "lot_size": 1000
+    },
+    {
+      "code": "2345 TT",
+      "name": "智邦",
+      "shares": 42000,
+      "weight": "2.8661%",
+      "lot_size": 1000
+    },
+    {
+      "code": "8155 TT",
+      "name": "博智",
+      "shares": 262000,
+      "weight": "2.8386%",
+      "lot_size": 1000
+    },
+    {
+      "code": "3491 TT",
+      "name": "昇達科",
+      "shares": 46000,
+      "weight": "2.7076%",
+      "lot_size": 1000
+    },
+    {
+      "code": "3081 TT",
+      "name": "聯亞",
+      "shares": 37000,
+      "weight": "2.7010%",
+      "lot_size": 1000
+    },
+    {
+      "code": "6683 TT",
+      "name": "雍智科技",
+      "shares": 52000,
+      "weight": "2.4246%",
+      "lot_size": 1000
+    },
+    {
+      "code": "2455 TT",
+      "name": "全新",
+      "shares": 205000,
+      "weight": "2.3158%",
+      "lot_size": 1000
+    },
+    {
+      "code": "2454 TT",
+      "name": "聯發科",
+      "shares": 17000,
+      "weight": "2.1053%",
+      "lot_size": 1000
+    },
+    {
+      "code": "6739 TT",
+      "name": "竹陞科技",
+      "shares": 60000,
+      "weight": "2.0472%",
+      "lot_size": 1000
+    },
+    {
+      "code": "3363 TT",
+      "name": "上詮",
+      "shares": 92729,
+      "weight": "2.0396%",
+      "lot_size": 1000
+    },
+    {
+      "code": "3653 TT",
+      "name": "健策",
+      "shares": 18000,
+      "weight": "1.8792%",
+      "lot_size": 1000
+    },
+    {
+      "code": "8996 TT",
+      "name": "高力",
+      "shares": 60000,
+      "weight": "1.7047%",
+      "lot_size": 1000
+    },
+    {
+      "code": "2408 TT",
+      "name": "南亞科",
+      "shares": 161000,
+      "weight": "1.6699%",
+      "lot_size": 1000
+    },
+    {
+      "code": "5274 TT",
+      "name": "信驊",
+      "shares": 3000,
+      "weight": "1.5089%",
+      "lot_size": 1000
+    },
+    {
+      "code": "6669 TT",
+      "name": "緯穎",
+      "shares": 10000,
+      "weight": "1.4994%",
+      "lot_size": 1000
+    },
+    {
+      "code": "6781 TT",
+      "name": "AES-KY",
+      "shares": 42000,
+      "weight": "1.3703%",
+      "lot_size": 1000
+    },
+    {
+      "code": "2368 TT",
+      "name": "金像電",
+      "shares": 35000,
+      "weight": "1.2608%",
+      "lot_size": 1000
+    },
+    {
+      "code": "3665 TT",
+      "name": "貿聯 -KY",
+      "shares": 16000,
+      "weight": "0.9222%",
+      "lot_size": 1000
+    }
+  ],
+  "changes": [
+    {
+      "code": "6187 TT",
+      "name": "萬潤",
+      "shares": 170000,
+      "weight": "4.9455%",
+      "lot_size": 1000,
+      "previous_shares": 148000,
+      "delta_shares": 22000,
+      "delta_lots": 22.0
+    },
+    {
+      "code": "6510 TT",
+      "name": "精測",
+      "shares": 0,
+      "weight": "1.6621%",
+      "lot_size": 1000,
+      "previous_shares": 18000,
+      "delta_shares": -18000,
+      "delta_lots": -18.0
+    },
+    {
+      "code": "3443 TT",
+      "name": "創意",
+      "shares": 0,
+      "weight": "1.2922%",
+      "lot_size": 1000,
+      "previous_shares": 10000,
+      "delta_shares": -10000,
+      "delta_lots": -10.0
+    }
+  ],
+  "comparable": true,
+  "added_shares": 22000,
+  "reduced_shares": 28000,
+  "comparison_note": "持股快照差異不是實際成交紀錄，可能包含申贖、分割或資料修正；海外持股不換算台股張數。",
+  "profit_note": "基金及成分股實際買進成本未提供，無法由持股快照計算基金目前獲利。可另外輸入個人持倉成本試算。"
+}

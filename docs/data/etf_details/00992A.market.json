@@ -1,0 +1,30 @@
+{
+  "code": "00992A",
+  "quote": {
+    "date": "20261027",
+    "close": 16.45,
+    "change": -0.48,
+    "volume": 64252775,
+    "currency": "TWD",
+    "source": "https://openapi.twse.com.tw/v1/exchangeReport/STOCK_DAY_ALL"
+  },
+  "quote_status": "ok",
+  "dividends": [
+    {
+      "ex_date": "115年10月19日",
+      "record_date": "115年10月25日",
+      "pay_date": "115年11月13日",
+      "cash_per_unit": 0.85
+    },
+    {
+      "ex_date": "115年07月16日",
+      "record_date": "115年07月22日",
+      "pay_date": "115年08月11日",
+      "cash_per_unit": 0.47
+    }
+  ],
+  "dividend_status": "ok",
+  "dividend_source": "https://www.twse.com.tw/zh/products/securities/etf/products/div.html",
+  "dividend_period": "2025/01/01–2026/12/31",
+  "retrieved_at": "2026-10-28T21:35:35.243229+08:00"
+}

@@ -1,12 +1,20 @@
 # -*- mode: python ; coding: utf-8 -*-
 
+from pathlib import Path
+import ssl
+
+# Some bundled Python runtimes load this certificate file beside ssl.py.
+# Preserve that TLS configuration in the frozen application as well.
+ssl_support_file = Path(ssl.__file__).with_name('codex-rejected-cas.pem')
+ssl_support_data = [(str(ssl_support_file), '.')] if ssl_support_file.is_file() else []
 
 a = Analysis(
     ['Crawler_ETF.py'],
     pathex=[],
     binaries=[],
-    datas=[],
-    hiddenimports=[],
+    datas=ssl_support_data,
+    # Selenium resolves Chrome's driver lazily; PyInstaller cannot infer it.
+    hiddenimports=['selenium.webdriver.chrome.webdriver'],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],

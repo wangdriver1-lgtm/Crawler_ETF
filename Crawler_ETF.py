@@ -16,6 +16,31 @@ import html
 import urllib.request
 from urllib.parse import urlparse, parse_qs
 from typing import List, Dict, Optional, Tuple
+from decimal import Decimal, InvalidOperation
+
+
+def _parse_shares(value) -> Optional[int]:
+    """缺少或無效的股數是未知值，不能當成零持股。"""
+    try:
+        number = Decimal(str(value).replace(",", "").strip())
+        if number.is_finite() and number >= 0 and number == number.to_integral_value():
+            return int(number)
+    except (InvalidOperation, ValueError, TypeError):
+        pass
+    return None
+
+
+def _taipei_today() -> datetime.date:
+    return datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).date()
+
+
+def _summary_etf_scope(summary: Dict) -> List[str]:
+    if "included_etfs" in summary:
+        return sorted(summary["included_etfs"])
+    return sorted({
+        d["ETF股票代號"] for s in summary.get("stocks", [])
+        for d in s.get("ETF明細", [])
+    })
 
 # SSL Context：本機環境憑證偏弱，將 SECLEVEL 降到 1 以便對部分站台直連 API
 _SSL_CTX = ssl.create_default_context()
@@ -83,7 +108,7 @@ ETF_CONFIG = [
     {"code": "00987A", "name": "主動台新優勢成長", "url": "https://www.tsit.com.tw/ETF/Home/ETFSeriesDetail/00987A"},
     {"code": "00992A", "name": "主動群益科技創新", "url": "https://www.capitalfund.com.tw/etf/product/detail/500/portfolio"},
     {"code": "00994A", "name": "主動第一金台股優", "url": "https://www.fsitc.com.tw/FundDetail.aspx?ID=182#TabLinkdivEditTab3"},
-    {"code": "00995A", "name": "主動中信台灣卓越", "url": "https://www.ctbcinvestments.com.tw/Etf/00653201/Combination"},
+    {"code": "00995A", "name": "主動中信台灣卓越", "url": "https://www.ctbcinvestments.com/Etf/00653201/Combination"},
     {"code": "00993A", "name": "主動安聯台灣", "url": "https://etf.allianzgi.com.tw/etf-info/E0002?tab=4"},
     {"code": "00996A", "name": "主動兆豐台灣豐收", "url": "https://www.megafunds.com.tw/MEGA/etf/etf_product.aspx?id=23"},
     {"code": "00400A", "name": "主動國泰動能高息", "url": "https://www.cathaysite.com.tw/ETF/detail/EEA?tab=etf3"},
@@ -329,6 +354,12 @@ def _build_weekly_inventory_series_from_diff(stock_shares_dir: str, window_days:
                 diff_by_date[d] = json.load(f)
         except Exception as e:
             print(f"  讀取 diff 失敗 {p}: {e}")
+            return [], {}, {}
+
+    if "included_etfs" in latest_summary:
+        scope = _summary_etf_scope(latest_summary)
+        dates = [d for d in dates if diff_by_date[d].get("included_etfs") == scope]
+        if len(dates) < 2:
             return [], {}, {}
 
     qty_map_by_date: Dict[str, Dict[str, int]] = {}
@@ -997,6 +1028,8 @@ def _compute_cumulative_cost(history: List[Dict]) -> Tuple[Optional[float], Opti
         except Exception:
             price = None
         delta = shares - cum_shares
+        if price is None and (delta > 0 or (delta < 0 and shares > 0)):
+            return None, None
         if cum_shares == 0:
             if price is not None and shares > 0:
                 cum_cost = price * shares
@@ -1012,7 +1045,7 @@ def _compute_cumulative_cost(history: List[Dict]) -> Tuple[Optional[float], Opti
             cum_shares = shares
     if cum_shares <= 0 or cum_cost <= 0:
         return None, None
-    avg_per_k = cum_cost / cum_shares
+    avg_per_k = cum_cost / cum_shares * 1000
     return cum_cost, avg_per_k
 
 
@@ -1052,10 +1085,9 @@ def enrich_diff_with_market_values(diff_summary: Dict, price_date: str,
             c = str(it.get("股票代號") or "").strip()
             hist = history_map.get(c) or []
             cum_cost, avg_per_k = _compute_cumulative_cost(hist)
-            if cum_cost is not None:
-                it["目前總投入金額"] = int(round(cum_cost))
-            if avg_per_k is not None:
-                it["每1000股成本均值"] = round(avg_per_k, 2)
+            # 不把資料不足的累計成本偽裝成已知成本。
+            it["目前總投入金額"] = int(round(cum_cost)) if cum_cost is not None else None
+            it["每1000股成本均值"] = round(avg_per_k, 2) if avg_per_k is not None else None
 
     diff_summary["收盤價基準日"] = price_date
     return diff_summary
@@ -1089,6 +1121,7 @@ def build_stock_5d_history(stock_shares_dir: str, codes: List[str], end_date: st
     code_set = {str(c).strip() for c in codes if c}
     history: Dict[str, List[Dict]] = {c: [] for c in code_set}
 
+    reference_scope = None
     for ymd, path in files:
         try:
             with open(path, "r", encoding="utf-8") as f:
@@ -1096,6 +1129,13 @@ def build_stock_5d_history(stock_shares_dir: str, codes: List[str], end_date: st
         except Exception as e:
             print(f"  讀取 {os.path.basename(path)} 失敗：{e}")
             continue
+
+        scope = _summary_etf_scope(snap)
+        if reference_scope is None:
+            reference_scope = scope
+        elif scope != reference_scope:
+            # 統計範圍改變不是買賣，不跨越此邊界回算成本。
+            break
 
         stocks = snap.get("stocks", []) or []
         by_code: Dict[str, Dict] = {}
@@ -1470,6 +1510,7 @@ def generate_diff_html_report(stock_shares_dir: str, diff_summary: Dict, today: 
         <div class='card'>
             <h1>個股異動分類統整</h1>
             <div class='meta'>資料日：{html.escape(str(diff_summary.get('date') or today))}，比較日：{html.escape(str(diff_summary.get('previous_date') or '-'))}</div>
+            <div class='meta'>缺少股數、不納入股數統計的 ETF：{html.escape(', '.join(diff_summary.get('missing_share_etfs', [])) or '無')}</div>
             <div class='kpis'>
                 <a class='kpi new' href='#sec-new'>新增分類資訊：{len(new_stocks)} 檔</a>
                 <a class='kpi up' href='#sec-inc'>原本持有而新增股數：{len(existed_increase)} 檔</a>
@@ -1655,6 +1696,7 @@ def generate_diff_html_report(stock_shares_dir: str, diff_summary: Dict, today: 
                 const ordered = hist.slice().reverse();
                 let cumShares = 0;
                 let cumCost = 0;
+                let costKnown = true;
                 let prevEtfMap = null;
                 const calc = ordered.map(function(h) {{
                     const shares = (h['總股數'] === null || h['總股數'] === undefined) ? 0 : Number(h['總股數']);
@@ -1691,17 +1733,20 @@ def generate_diff_html_report(stock_shares_dir: str, diff_summary: Dict, today: 
                     const etfSnapshot = Object.keys(currEtfMap).map(function(k) {{ return currEtfMap[k]; }});
                     etfSnapshot.sort(function(a, b) {{ return Number(b.shares || 0) - Number(a.shares || 0); }});
                     if (cumShares === 0) {{
+                        costKnown = shares === 0 || price !== null;
                         if (price !== null && shares > 0) cumCost = price * shares;
                         cumShares = shares;
                     }} else if (delta > 0) {{
+                        if (price === null) costKnown = false;
                         if (price !== null) cumCost += price * delta;
                         cumShares = shares;
                     }} else if (delta < 0) {{
+                        if (price === null && shares > 0) costKnown = false;
                         // 股數減少：以當日收盤價計算賣出金額，從累計成本扣除
                         if (price !== null) cumCost -= price * (-delta);
                         cumShares = shares;
                     }}
-                    const avgPerK = (cumShares > 0 && cumCost) ? (cumCost / cumShares) : null;
+                    const avgPerK = (costKnown && cumShares > 0 && cumCost > 0) ? (cumCost / cumShares * 1000) : null;
                     prevEtfMap = currEtfMap;
                     return {{
                         date: h.date,
@@ -1709,7 +1754,7 @@ def generate_diff_html_report(stock_shares_dir: str, diff_summary: Dict, today: 
                         delta: delta,
                         close: h['收盤價'],
                         invest: h['目前總投入金額'],
-                        cumCost: cumShares > 0 ? cumCost : null,
+                        cumCost: costKnown && cumShares > 0 ? cumCost : null,
                         avgPerK: avgPerK,
                         etfChanges: etfChanges,
                         etfSnapshot: etfSnapshot,
@@ -1932,6 +1977,8 @@ def scrape_cathaysite_api(etf_stock_code: str, etf_url: str) -> List[Dict[str, s
         {
             "股票代號": it.get("stockCode", "").strip(),
             "股票名稱": (it.get("stockName") or "").strip(),
+            # 此權重 API 通常不提供數量；保留未知值，不從比例推算股數。
+            "股數": _parse_shares(it.get("shares")),
             "持股比例": f"{it.get('weights', '')}%" if it.get("weights") else "",
             "ETF股票代號": etf_stock_code,
         }
@@ -2231,6 +2278,14 @@ def scrape_generic_table(soup, etf_stock_code: str) -> List[Dict[str, str]]:
 
 def wait_for_dynamic_content(driver, site_type: str, timeout: int = 25) -> None:
     """針對 SPA 站等待動態內容載入；不同站等待不同關鍵特徵。"""
+    if site_type == "tsit":
+        # The static page already contains column headings; wait for actual rows.
+        end = time.time() + timeout
+        while time.time() < end:
+            if scrape_generic_table(BeautifulSoup(driver.page_source, "html.parser"), ""):
+                return
+            time.sleep(1)
+        return
     keyword_map = {
         "nomurafunds": ["col-code", "持股比例", "股票代號"],
         "ctbcinvestments": ["持股", "股票代號", "成分"],
@@ -2339,13 +2394,18 @@ def scrape_etf(etf_config: Dict[str, str]) -> Optional[List[Dict[str, str]]]:
 
     # 其他站走 Selenium
     chrome_opts = ChromeOptions()
+    chrome_opts.add_argument("--headless=new")
+    chrome_opts.add_argument("--window-size=1920,1080")
+    chrome_opts.add_argument("--disable-dev-shm-usage")
     if site_type == "ctbcinvestments":
         # 需要 performance log 攔截 token
         chrome_opts.set_capability("goog:loggingPrefs", {"performance": "ALL"})
-    driver = webdriver.Chrome(options=chrome_opts)
+    driver = None
     stocks = []
 
     try:
+        driver = webdriver.Chrome(options=chrome_opts)
+        driver.set_page_load_timeout(60)
         driver.get(etf_url)
 
         # 等待頁面加載
@@ -2358,7 +2418,7 @@ def scrape_etf(etf_config: Dict[str, str]) -> Optional[List[Dict[str, str]]]:
             return None
 
         # SPA / 慢渲染站需要額外等待動態內容
-        if site_type in ("nomurafunds", "ctbcinvestments", "allianzgi", "fsitc", "fhtrust"):
+        if site_type in ("nomurafunds", "ctbcinvestments", "allianzgi", "fsitc", "fhtrust", "tsit"):
             wait_for_dynamic_content(driver, site_type)
 
         # 點擊『展開全部 / 顯示更多』類按鈕，避免被預設 10 筆截斷
@@ -2402,7 +2462,11 @@ def scrape_etf(etf_config: Dict[str, str]) -> Optional[List[Dict[str, str]]]:
         return None
 
     finally:
-        driver.quit()
+        if driver is not None:
+            try:
+                driver.quit()
+            except Exception as e:
+                print(f"  關閉瀏覽器失敗: {e}")
 
 
 def main():
@@ -2418,7 +2482,7 @@ def main():
     """
 
     # === Tee logger：把 print 同時輸出到 console 與 logs/run_YYYYMMDD.txt ===
-    today = datetime.date.today().strftime("%Y%m%d")
+    today = _taipei_today().strftime("%Y%m%d")
     log_dir = "logs"
     os.makedirs(log_dir, exist_ok=True)
     log_path = os.path.join(log_dir, f"run_{today}.txt")
@@ -2450,6 +2514,16 @@ def main():
     sys.stdout = _Tee(original_stdout, log_file)
     sys.stderr = _Tee(original_stderr, log_file)
 
+    try:
+        return _run_crawler(today, log_path)
+    finally:
+        sys.stdout = original_stdout
+        sys.stderr = original_stderr
+        log_file.close()
+
+
+def _run_crawler(today: str, log_path: str) -> int:
+
     all_stocks: Dict[str, Dict] = {}
     failed_etfs: List[str] = []
 
@@ -2460,20 +2534,18 @@ def main():
     print("="*60)
 
     # 交易日判斷：非交易日直接結束，不執行任何爬取
-    today_date = datetime.date.today()
+    today_date = datetime.datetime.strptime(today, "%Y%m%d").date()
     if not is_tw_trading_day(today_date):
         print(f"\n今日 {today_date.isoformat()} 非交易日，停止執行。")
         print(f"Log 已寫入 {log_path}")
-        sys.stdout = original_stdout
-        sys.stderr = original_stderr
-        try:
-            log_file.close()
-        except Exception:
-            pass
-        return
+        return 0
 
     for etf_config in ETF_CONFIG:
-        stocks = scrape_etf(etf_config)
+        try:
+            stocks = scrape_etf(etf_config)
+        except Exception as e:
+            print(f"  {etf_config['code']} 爬取失敗: {e}")
+            stocks = None
 
         if stocks:
             all_stocks[etf_config["code"]] = {
@@ -2482,6 +2554,18 @@ def main():
             }
         else:
             failed_etfs.append(etf_config["code"])
+
+    if failed_etfs:
+        print(f"爬取不完整，保留上一份完整資料，不產生異動：{', '.join(failed_etfs)}")
+        return 1
+
+    missing_share_etfs = sorted(
+        code for code, data in all_stocks.items()
+        if any(_parse_shares(s.get("股數")) is None for s in data["stocks"])
+    )
+    included_etfs = sorted(set(all_stocks) - set(missing_share_etfs))
+    if missing_share_etfs:
+        print(f"缺少有效股數，以下 ETF 僅保留持股清單，不納入股數統計：{', '.join(missing_share_etfs)}")
 
     # 保存結果
     print("\n" + "="*60)
@@ -2525,6 +2609,8 @@ def main():
         "total_etfs": len(ETF_CONFIG),
         "successful_etfs": len(all_stocks),
         "failed_etfs": failed_etfs,
+        "missing_share_etfs": missing_share_etfs,
+        "updated_at": datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).isoformat(),
         "etfs": all_stocks
     }
 
@@ -2542,16 +2628,13 @@ def main():
     etf_name_map = {cfg["code"]: cfg["name"] for cfg in ETF_CONFIG}
     aggregate: Dict[str, Dict] = {}
     for etf_code, data in all_stocks.items():
+        if etf_code not in included_etfs:
+            continue
         for s in data["stocks"]:
             code = (s.get("股票代號") or "").strip()
             if not code:
                 continue
-            # 股數可能含逗號或空白，取整數；無法解析者視為 0
-            raw = str(s.get("股數") or "").replace(",", "").strip()
-            try:
-                shares = int(float(raw)) if raw else 0
-            except ValueError:
-                shares = 0
+            shares = _parse_shares(s.get("股數"))
             entry = aggregate.setdefault(code, {
                 "股票代號": code,
                 "股票名稱": s.get("股票名稱") or "",
@@ -2578,7 +2661,7 @@ def main():
     # 檢查是否有前一份 summary 可比較，並計算異動股數
     prev_files = sorted(
         f for f in glob.glob(os.path.join(stock_shares_dir, "stock_shares_summary_*.json"))
-        if os.path.basename(f) != os.path.basename(agg_filename)
+        if (ymd := _extract_ymd_from_filename(f, "stock_shares_summary")) and ymd < today
     )
     diff_summary = None
     total_delta_map: Dict[str, int] = {}
@@ -2590,6 +2673,11 @@ def main():
         except Exception as e:
             print(f"  無法讀取前一份 {prev_path}: {e}")
             prev_summary = None
+
+        if prev_summary:
+            if _summary_etf_scope(prev_summary) != included_etfs:
+                print("  前後股數統計涵蓋的 ETF 不同，略過異動比較，避免產生假增減。")
+                prev_summary = None
 
         if prev_summary:
             prev_date = prev_summary.get("date") or os.path.basename(prev_path)
@@ -2695,6 +2783,8 @@ def main():
                 "date": today,
                 "previous_date": prev_date,
                 "previous_file": os.path.basename(prev_path),
+                "included_etfs": included_etfs,
+                "missing_share_etfs": missing_share_etfs,
                 "新增個股數": len(new_stocks_out),
                 "移除個股數": len(removed_stocks_out),
                 "持股異動個股數": len(changed_out),
@@ -2716,6 +2806,8 @@ def main():
 
     agg_summary = {
         "date": today,
+        "included_etfs": included_etfs,
+        "missing_share_etfs": missing_share_etfs,
         "total_unique_stocks": len(aggregated_list),
         "stocks": aggregated_list,
     }
@@ -2744,10 +2836,11 @@ def main():
         if report_path:
             print(f"✓ 已保存 {report_path}")
     else:
-        print("（無前一份 stock_shares_summary 可比較，略過 diff）")
+        print("（無可比較的前一份 stock_shares_summary，略過 diff）")
 
     # 5. 用 diff 產生近一週個股每日庫存量折線圖
-    generate_weekly_inventory_charts(stock_shares_dir, window_days=7, top_n=20)
+    if diff_summary:
+        generate_weekly_inventory_charts(stock_shares_dir, window_days=7, top_n=20)
 
     print(f"\n統計：")
     print(f"  總 ETF 數: {len(ETF_CONFIG)}")
@@ -2756,15 +2849,9 @@ def main():
     if failed_etfs:
         print(f"  失敗的 ETF: {', '.join(failed_etfs)}")
 
-    # 還原 stdout/stderr，並關閉 log file
     print(f"\nLog 已寫入 {log_path}")
-    sys.stdout = original_stdout
-    sys.stderr = original_stderr
-    try:
-        log_file.close()
-    except Exception:
-        pass
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

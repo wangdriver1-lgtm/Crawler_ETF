@@ -1,0 +1,180 @@
+{
+  "code": "00986A",
+  "name": "主動台新龍頭成長",
+  "asof": "20260601",
+  "previous_date": "20260528",
+  "official_url": "https://www.tsit.com.tw/ETF/Home/ETFSeriesDetail/00986A",
+  "holdings": [
+    {
+      "code": "MU US",
+      "name": "美光科技公司",
+      "shares": 2000,
+      "weight": "9.2826%",
+      "lot_size": null
+    },
+    {
+      "code": "AVGO US",
+      "name": "博通公司",
+      "shares": 3900,
+      "weight": "8.3285%",
+      "lot_size": null
+    },
+    {
+      "code": "GOOGL US",
+      "name": "Alphabet 公司",
+      "shares": 4500,
+      "weight": "8.1809%",
+      "lot_size": null
+    },
+    {
+      "code": "2330 TT",
+      "name": "台積電",
+      "shares": 22000,
+      "weight": "7.9050%",
+      "lot_size": 1000
+    },
+    {
+      "code": "NVDA US",
+      "name": "輝達",
+      "shares": 7000,
+      "weight": "7.0646%",
+      "lot_size": null
+    },
+    {
+      "code": "LITE US",
+      "name": "魯門特姆控股公司",
+      "shares": 1100,
+      "weight": "4.4953%",
+      "lot_size": null
+    },
+    {
+      "code": "AMZN US",
+      "name": "AMAZON. COM INC",
+      "shares": 3000,
+      "weight": "3.8809%",
+      "lot_size": null
+    },
+    {
+      "code": "CRWD US",
+      "name": "Crowdstrike控股公司",
+      "shares": 938,
+      "weight": "3.2775%",
+      "lot_size": null
+    },
+    {
+      "code": "GEV US",
+      "name": "奇異維諾瓦公司",
+      "shares": 700,
+      "weight": "3.2399%",
+      "lot_size": null
+    },
+    {
+      "code": "LRCX US",
+      "name": "科林研發股份有限公司",
+      "shares": 2021,
+      "weight": "3.0737%",
+      "lot_size": null
+    },
+    {
+      "code": "COHR US",
+      "name": "連貫公司",
+      "shares": 1300,
+      "weight": "2.2461%",
+      "lot_size": null
+    },
+    {
+      "code": "MSFT US",
+      "name": "Microsoft Corp",
+      "shares": 1000,
+      "weight": "2.1521%",
+      "lot_size": null
+    },
+    {
+      "code": "HWM US",
+      "name": "Howmet航太公司",
+      "shares": 1700,
+      "weight": "2.0985%",
+      "lot_size": null
+    },
+    {
+      "code": "AMD US",
+      "name": "超微半導體公司",
+      "shares": 800,
+      "weight": "1.9735%",
+      "lot_size": null
+    },
+    {
+      "code": "ETN US",
+      "name": "伊頓公開有限公司",
+      "shares": 1000,
+      "weight": "1.9148%",
+      "lot_size": null
+    },
+    {
+      "code": "SNDK US",
+      "name": "晟碟公司（德拉瓦州）",
+      "shares": 200,
+      "weight": "1.6204%",
+      "lot_size": null
+    },
+    {
+      "code": "GS US",
+      "name": "高盛集團",
+      "shares": 320,
+      "weight": "1.5687%",
+      "lot_size": null
+    },
+    {
+      "code": "CAT US",
+      "name": "Caterpillar Inc",
+      "shares": 350,
+      "weight": "1.4653%",
+      "lot_size": null
+    },
+    {
+      "code": "NET US",
+      "name": "Cloudflare公司",
+      "shares": 1200,
+      "weight": "1.3871%",
+      "lot_size": null
+    },
+    {
+      "code": "BWXT US",
+      "name": "BWX科技股份有限公司",
+      "shares": 1100,
+      "weight": "1.0299%",
+      "lot_size": null
+    },
+    {
+      "code": "VRTX US",
+      "name": "福泰製藥公司",
+      "shares": 450,
+      "weight": "0.9626%",
+      "lot_size": null
+    },
+    {
+      "code": "TSLA US",
+      "name": "特斯拉公司",
+      "shares": 450,
+      "weight": "0.9374%",
+      "lot_size": null
+    }
+  ],
+  "changes": [
+    {
+      "code": "SNDK US",
+      "name": "晟碟公司（德拉瓦州）",
+      "shares": 200,
+      "weight": "1.6204%",
+      "lot_size": null,
+      "previous_shares": 140,
+      "delta_shares": 60,
+      "delta_lots": null
+    }
+  ],
+  "comparable": true,
+  "added_shares": 60,
+  "reduced_shares": 0,
+  "comparison_note": "持股快照差異不是實際成交紀錄，可能包含申贖、分割或資料修正；海外持股不換算台股張數。",
+  "profit_note": "基金及成分股實際買進成本未提供，無法由持股快照計算基金目前獲利。可另外輸入個人持倉成本試算。"
+}

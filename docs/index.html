@@ -3,345 +3,406 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ETF 爬蟲數據查看器</title>
+    <meta name="theme-color" content="#0b1017">
+    <meta name="description" content="台灣主動式 ETF 觀測站：集中查看基金資料、來源日期與持股資料完整度。">
+    <title>ETF Observatory · 主動式 ETF 觀測站</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            padding: 20px;
-        }
-        
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            background: white;
-            border-radius: 12px;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-            overflow: hidden;
-        }
-        
-        header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 40px 20px;
-            text-align: center;
-        }
-        
-        header h1 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
-        }
-        
-        header p {
-            font-size: 1.1em;
-            opacity: 0.9;
-        }
-        
-        .content {
-            padding: 30px;
-        }
-        
-        .section {
-            margin-bottom: 40px;
-        }
-        
-        .section h2 {
-            color: #667eea;
-            border-bottom: 3px solid #667eea;
-            padding-bottom: 10px;
-            margin-bottom: 20px;
-            font-size: 1.8em;
-        }
-        
-        .status-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            margin-bottom: 30px;
-        }
-        
-        .status-card {
-            background: #f8f9fa;
-            border-left: 5px solid #667eea;
-            padding: 20px;
-            border-radius: 8px;
-            transition: transform 0.3s ease;
-        }
-        
-        .status-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.1);
-        }
-        
-        .status-card h3 {
-            color: #333;
-            margin-bottom: 10px;
-        }
-        
-        .status-card .value {
-            font-size: 1.8em;
-            font-weight: bold;
-            color: #667eea;
-        }
-        
-        .status-card .label {
-            color: #666;
-            font-size: 0.9em;
-            margin-top: 5px;
-        }
-        
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 15px;
-        }
-        
-        table thead {
-            background: #f0f0f0;
-        }
-        
-        table th {
-            padding: 12px;
-            text-align: left;
-            color: #333;
-            font-weight: 600;
-            border-bottom: 2px solid #667eea;
-        }
-        
-        table td {
-            padding: 12px;
-            border-bottom: 1px solid #e0e0e0;
-        }
-        
-        table tbody tr:hover {
-            background: #f9f9f9;
-        }
-        
-        .stats-row {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 15px;
-            margin-top: 15px;
-        }
-        
-        .stat-item {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 15px;
-            border-radius: 8px;
-            text-align: center;
-        }
-        
-        .stat-item .number {
-            font-size: 1.8em;
-            font-weight: bold;
-            margin-bottom: 5px;
-        }
-        
-        .stat-item .label {
-            font-size: 0.9em;
-            opacity: 0.9;
-        }
-        
-        .footer {
-            background: #f0f0f0;
-            padding: 20px;
-            text-align: center;
-            color: #666;
-            border-top: 1px solid #e0e0e0;
-        }
-        
-        .loading {
-            text-align: center;
-            padding: 40px;
-            color: #667eea;
-        }
-        
-        .error {
-            background: #fee;
-            border: 1px solid #fcc;
-            color: #c33;
-            padding: 15px;
-            border-radius: 8px;
-            margin-bottom: 20px;
-        }
-        
-        .success {
-            background: #efe;
-            border: 1px solid #cfc;
-            color: #3c3;
-            padding: 15px;
-            border-radius: 8px;
-            margin-bottom: 20px;
-        }
-        
-        .btn {
-            display: inline-block;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 10px 20px;
-            border-radius: 6px;
-            border: none;
-            cursor: pointer;
-            font-size: 1em;
-            transition: transform 0.2s;
-            margin-right: 10px;
-        }
-        
-        .btn:hover {
-            transform: scale(1.05);
-        }
+        :root{color-scheme:dark;--bg:#0b1017;--panel:#111923;--panel-soft:#141e2a;--line:#23303e;--text:#e9eff5;--muted:#8e9dac;--accent:#8ce5c4;--amber:#edc68b;--radius:16px}
+        *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:28px}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,"Segoe UI","Microsoft JhengHei",sans-serif;font-size:14px;line-height:1.6;-webkit-font-smoothing:antialiased}button,input{font:inherit}button,a,input{-webkit-tap-highlight-color:transparent}button{cursor:pointer}a{color:inherit;text-decoration:none}button:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:5px}svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}button:disabled{opacity:.55;cursor:wait}::selection{background:#31584e;color:#fff}
+        .app{min-height:100vh;display:grid;grid-template-columns:220px minmax(0,1fr)}
+        .sidebar{border-right:1px solid var(--line);padding:34px 20px;display:flex;flex-direction:column;position:sticky;top:0;height:100vh;background:#0e151e}
+        .brand{display:flex;gap:11px;align-items:center;padding:0 10px}.brand-mark{display:flex;align-items:end;gap:4px;width:31px;height:31px;transform:skewY(-10deg)}.brand-mark i{display:block;width:7px;background:var(--accent);border-radius:2px}.brand-mark i:nth-child(1){height:13px;opacity:.5}.brand-mark i:nth-child(2){height:22px;opacity:.75}.brand-mark i:nth-child(3){height:30px}.brand-name{font-size:15px;font-weight:700;letter-spacing:.3px}.brand-sub{font-size:9px;letter-spacing:2.1px;color:var(--muted);margin-top:2px}
+        .nav-caption{color:#617487;font-size:10px;letter-spacing:2px;padding:0 13px;margin:52px 0 14px}.nav{display:grid;gap:8px}.nav a{display:flex;align-items:center;gap:12px;padding:12px 14px;border-radius:9px;color:var(--muted);transition:background .2s,color .2s}.nav a:hover{background:#172330;color:var(--text)}.nav .active{background:#183029;color:var(--accent)}.nav svg{width:18px;height:18px}.nav-tail{margin-left:auto;font-size:11px;opacity:.7}.sidebar-bottom{margin-top:auto;padding:20px 11px 0}.market-tag{font-size:11px;border:1px solid var(--line);border-radius:7px;padding:8px 10px;display:flex;gap:8px;align-items:center;color:#b5c2cf}.dot{width:6px;height:6px;background:var(--accent);border-radius:50%;display:inline-block}.sidebar-bottom p{color:#617487;font-size:11px;margin:14px 0 0}
+        main{min-width:0;padding:0 42px;max-width:1680px;width:100%;margin:auto}.topbar{height:86px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:16px;color:var(--muted);font-size:12px}.breadcrumb{display:flex;gap:12px;align-items:center}.breadcrumb span:last-child{color:#c4d0dc}.topbar-right{display:flex;gap:20px;align-items:center}.region{font-size:10px;letter-spacing:1.2px}.region span{color:#506174;margin:0 7px}.source-tag{display:flex;gap:7px;align-items:center;color:var(--accent);border:1px solid #294138;padding:4px 10px;border-radius:30px;font-size:11px;background:#13231e}
+        .hero{padding:35px 0 27px;display:flex;justify-content:space-between;align-items:center;gap:24px}.eyebrow{font-size:10px;letter-spacing:2.4px;color:var(--accent);font-weight:600;margin:0 0 9px}.hero h1{font-size:30px;font-weight:650;letter-spacing:-.8px;margin:0 0 9px;line-height:1.35}.hero p:last-child{font-size:13px;color:var(--muted);margin:0}.btn{border:1px solid #344341;border-radius:8px;background:#182922;color:var(--accent);padding:10px 15px;display:inline-flex;align-items:center;justify-content:center;gap:9px;white-space:nowrap;transition:background .2s,transform .2s}.btn:hover{background:#223d31;transform:translateY(-1px)}.btn svg{width:16px;height:16px}
+        .stats-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin-bottom:28px}.metric{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:20px 22px;min-height:143px;position:relative;overflow:hidden}.metric:first-child{background:linear-gradient(120deg,#152b25,#111d20);border-color:#2b463c}.metric-head{display:flex;justify-content:space-between;gap:8px;color:#a7b5c3;font-size:12px}.metric-head svg{width:17px;height:17px;color:#607487}.metric:first-child .metric-head svg{color:var(--accent)}.metric-value{font-size:32px;line-height:1.35;letter-spacing:-1px;font-weight:600;margin:12px 0 6px;font-variant-numeric:tabular-nums}.metric:first-child .metric-value{color:var(--accent)}.metric-value small{font-size:13px;color:var(--muted);font-weight:400;margin-left:7px;letter-spacing:0}.metric-value.date-value{font-size:24px;letter-spacing:-.5px;padding-top:7px}.metric-note{font-size:11px;color:#7e91a3}.metric-note .dot{width:5px;height:5px;margin-right:5px}
+        .workspace{display:grid;grid-template-columns:minmax(0,1fr) 288px;gap:22px;align-items:start}.panel{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}.panel-heading{display:flex;justify-content:space-between;align-items:center;gap:14px;padding:23px 24px 18px}.section-kicker{font-size:9px;color:#6f8295;letter-spacing:1.8px;margin-bottom:4px}.panel-heading h2{font-size:17px;font-weight:600;margin:0;letter-spacing:.2px}.count-badge{display:inline-flex;margin-left:8px;font-size:10px;color:#a8b9c9;background:#22303e;border-radius:5px;padding:1px 6px;vertical-align:middle}.table-tools{padding:0 24px 18px;display:flex;align-items:center;justify-content:space-between;gap:12px}.tabs{display:flex;gap:4px;flex-wrap:wrap}.tab{border:0;background:transparent;color:var(--muted);font-size:11px;padding:7px 10px;border-radius:6px;white-space:nowrap}.tab:hover{color:var(--text);background:#1b2936}.tab[aria-pressed=true]{background:#20332e;color:var(--accent)}.search{display:flex;align-items:center;gap:9px;background:#0d141d;border:1px solid var(--line);border-radius:7px;padding:7px 10px;max-width:225px;width:100%}.search svg{width:14px;height:14px;color:#72879a}.search input{width:100%;min-width:0;border:0;outline:none;background:transparent;color:var(--text);font-size:11px}.search input::placeholder{color:#647689}.search:focus-within{border-color:#729c8e}.table-scroll{overflow:auto;min-height:180px}table{width:100%;border-collapse:collapse;white-space:nowrap;text-align:left;font-size:12px}th{font-weight:400;font-size:10px;color:#7e91a5;letter-spacing:.4px;background:#101823;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:13px 15px}td{padding:17px 15px;border-bottom:1px solid #1e2a37;vertical-align:middle}th:first-child,td:first-child{padding-left:24px}th:last-child,td:last-child{padding-right:24px}tbody tr:last-child td{border-bottom:0}tbody tr:hover{background:#17232f}.code{font-weight:650;letter-spacing:.5px;color:#d8e7f2;font-variant-numeric:tabular-nums}.fund-name{font-weight:500;font-size:12px;max-width:245px;overflow:hidden;text-overflow:ellipsis}.fund-type{color:#708396;font-size:10px;margin-top:4px}.muted{color:#73879b}.numeric{text-align:right;font-variant-numeric:tabular-nums}.pill{display:inline-flex;align-items:center;gap:5px;font-size:10px;padding:3px 7px;border:1px solid #2b443c;background:#172a24;color:#9cd3bc;border-radius:5px}.pill.warn{background:#30291d;border-color:#4c3c26;color:var(--amber)}.pill.neutral{color:#96a5b4;background:#1b2530;border-color:#303e4c}.pill .dot{width:4px;height:4px}.pill.warn .dot{background:var(--amber)}.positive{color:var(--accent)}.negative{color:#f1a3a3}.table-footer{border-top:1px solid var(--line);padding:13px 24px;font-size:10px;color:#72879a;display:flex;justify-content:space-between;gap:12px}.empty{padding:48px 24px;text-align:center;color:var(--muted);white-space:normal}
+        .rail{display:grid;gap:18px}.rail .panel-heading{padding:20px 21px 10px}.rail .panel-heading h2{font-size:14px}.health-body{padding:13px 21px 21px}.ring{--coverage:0%;width:118px;height:118px;margin:8px auto 23px;border-radius:50%;background:conic-gradient(var(--accent) var(--coverage),#263340 0);position:relative;display:grid;place-items:center;transform:rotate(-90deg)}.ring:before{content:"";position:absolute;inset:7px;background:var(--panel);border-radius:50%}.ring-value{position:relative;text-align:center;transform:rotate(90deg)}.ring-value strong{font-size:25px;letter-spacing:-.8px;display:block;font-weight:600}.ring-value span{color:var(--muted);font-size:9px}.legend{display:flex;justify-content:space-between;font-size:11px;padding:9px 0;border-bottom:1px solid var(--line);color:#a6b5c3}.legend:last-of-type{border:0}.legend span:first-child{display:flex;gap:7px;align-items:center}.legend strong{font-weight:500;color:var(--text);font-variant-numeric:tabular-nums}.legend .amber{background:var(--amber)}.health-note{font-size:10px;color:#778b9e;line-height:1.8;margin:14px 0 0}
+        .feed-body{padding:5px 21px 21px}.feed-icon{width:32px;height:32px;background:#1b3029;border:1px solid #2a4339;border-radius:9px;color:var(--accent);display:grid;place-items:center;margin-bottom:13px}.feed-icon svg{width:16px;height:16px}.feed-body h3{font-size:12px;font-weight:500;margin:0 0 6px}.feed-body p{font-size:11px;color:var(--muted);line-height:1.9;margin:0}.feed-body>p:last-child{margin-top:12px;padding-top:12px;border-top:1px solid var(--line);color:#bca47c}.feed-body>p:last-child:only-of-type{border:0;color:var(--muted);padding:0;margin:0}.schedule{padding:20px 21px;background:linear-gradient(145deg,#17252b,#121b25)}.schedule-top{display:flex;align-items:center;gap:9px;color:#a2b8c3;font-size:11px}.schedule-top svg{width:16px;height:16px}.schedule-time{font-size:25px;letter-spacing:-.7px;margin:12px 0 2px;font-weight:550}.schedule-time small{font-size:11px;font-weight:400;color:#8398aa;margin-left:6px;letter-spacing:0}.schedule p{margin:0;font-size:10px;color:#7f93a5;line-height:1.8}.footnote{margin:22px 0 0;padding:17px 0 25px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:20px;color:#6e8296;font-size:10px}.footnote span{color:#92a3b3}.loading{padding:30px 24px;color:var(--muted)}.error{padding:20px;border:1px solid #67464a;border-radius:10px;color:#edb0b7;background:#2b1d25;font-size:12px}.loading-indicator{width:7px;height:7px;display:inline-block;background:var(--accent);border-radius:50%;margin-right:8px;animation:pulse 1.5s ease-in-out infinite}@keyframes pulse{50%{opacity:.3}}
+        @media(min-width:1450px){main{padding:0 54px}.workspace{grid-template-columns:minmax(0,1fr) 310px}td{padding-top:19px;padding-bottom:19px}}
+        @media(max-width:1180px){.app{grid-template-columns:184px minmax(0,1fr)}.sidebar{padding-left:12px;padding-right:12px}main{padding:0 25px}.workspace{grid-template-columns:minmax(0,1fr)}.rail{grid-template-columns:1fr 1fr 1fr;gap:16px}.rail .panel{height:100%}.stats-grid{gap:12px}.metric{padding:17px}.metric-value.date-value{font-size:20px}.ring{width:100px;height:100px;margin-bottom:12px}.health-note{display:none}.table-tools{gap:18px}}
+        @media(max-width:760px){.app{display:block}.sidebar{position:static;height:auto;padding:20px;border:0;border-bottom:1px solid var(--line);flex-direction:row;align-items:center;justify-content:space-between;gap:12px}.brand{padding:0}.brand-name{font-size:13px}.brand-sub{font-size:8px}.brand-mark{width:25px;height:25px}.brand-mark i{width:6px}.brand-mark i:nth-child(3){height:25px}.brand-mark i:nth-child(2){height:18px}.nav-caption,.sidebar-bottom,.nav-tail{display:none}.nav{display:flex;gap:3px}.nav a{padding:8px;font-size:11px;gap:6px}.nav svg{width:15px;height:15px}.nav a:last-child{display:none}main{padding:0 20px}.topbar{height:59px}.topbar-right .region{display:none}.hero{padding:27px 0 23px;align-items:flex-start;gap:12px}.hero h1{font-size:25px}.hero p:last-child{font-size:11px;max-width:245px}.eyebrow{font-size:8px}.btn{font-size:11px;padding:9px 11px}.hero .btn{margin-top:22px}.stats-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-bottom:20px}.metric{padding:16px;min-height:132px}.metric-value{font-size:28px}.metric-value.date-value{font-size:21px}.metric-note{font-size:10px}.workspace{gap:18px}.panel-heading{padding:20px 18px 16px}.table-tools{padding:0 18px 17px;align-items:stretch;flex-direction:column;gap:13px}.search{max-width:none;padding:10px}.search input{font-size:12px}.tabs{gap:5px}.tab{font-size:11px;padding:7px 10px}.table-footer{padding:13px 18px;font-size:9px}.table-footer span:last-child{display:none}th:first-child,td:first-child{padding-left:18px}td,th{padding-right:18px}.rail{grid-template-columns:1fr 1fr}.rail .schedule{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;align-items:center;column-gap:15px}.schedule-top{grid-column:1}.schedule-time{grid-column:2;grid-row:1/3;text-align:right;margin:0}.schedule p{grid-column:1;margin-top:7px}.footnote{flex-direction:column;gap:7px;margin-top:20px;font-size:9px}}
+        @media(max-width:390px){.nav a{font-size:10px;padding:7px}.nav svg{display:none}.hero h1{font-size:23px}.hero .btn{padding:8px}.hero .btn svg{display:none}main{padding:0 15px}.metric{padding:14px}.metric-value.date-value{font-size:19px}.rail{grid-template-columns:1fr}.rail .schedule{grid-column:auto}.health-note{display:block}}
+        @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}
+        .ai-panel{margin-top:24px;scroll-margin-top:24px}.ai-panel .panel-heading{align-items:flex-start}.ai-heading-note{margin:8px 0 0;color:var(--muted);font-size:12px}.ai-tag{color:var(--accent);border:1px solid #315548;border-radius:6px;padding:4px 9px;font-size:10px;white-space:nowrap}.ai-content{padding:0 24px 24px}.ai-form{display:grid;grid-template-columns:minmax(0,1fr) 180px auto;gap:14px;align-items:end}.ai-field{display:grid;gap:7px;font-size:11px;color:#a8b9c9}.ai-field input,.ai-field select{width:100%;min-height:43px;border:1px solid var(--line);border-radius:8px;background:#0d141d;padding:10px 12px;color:var(--text);font:inherit;font-size:13px}.ai-field input::placeholder{color:#647689}.ai-form .btn{min-height:43px}.ai-help{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;margin:13px 0 0;color:#7e93a7;font-size:11px}.ai-status{font-size:12px;color:var(--muted);margin-top:18px;padding:15px;background:#0d151e;border:1px solid var(--line);border-radius:9px}.ai-status[data-state=error]{color:var(--amber);border-color:#4c3c26;background:#261f18}.ai-status[data-state=ready]{color:var(--accent)}.ai-setup{margin-top:12px;color:#8e9dac;font-size:11px;line-height:1.9}.ai-setup summary{cursor:pointer;color:#afc1cf}.ai-setup code{color:var(--accent)}.ai-result{margin-top:22px;border-top:1px solid var(--line);padding-top:20px}.ai-result:empty{display:none}.ai-result-header{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:18px}.ai-result-header h3{font-size:17px;margin:0}.ai-result-meta{font-size:11px;color:var(--muted)}.ai-prose{white-space:pre-wrap;overflow-wrap:anywhere;line-height:2;font-size:13px;color:#c8d5e1;max-width:1000px}.ai-prose p{margin:0 0 20px}.ai-prose a,.ai-sources a{color:var(--accent);text-decoration:underline;text-underline-offset:3px}.ai-sources{border-top:1px solid var(--line);margin-top:20px;padding-top:16px;font-size:12px}.ai-sources h4{margin:0 0 10px;font-size:12px}.ai-sources li{margin:8px 0;overflow-wrap:anywhere}.ai-disclaimer{color:#8d9cab;font-size:11px;margin-top:18px}.ai-form button[disabled]{opacity:.55;cursor:wait}@media(max-width:760px){.nav{flex-wrap:wrap;justify-content:flex-end}.sidebar{align-items:flex-start}.ai-content{padding:0 18px 20px}.ai-form{grid-template-columns:minmax(0,1fr) 130px}.ai-form .btn{grid-column:1/-1}.ai-panel .panel-heading{padding:20px 18px}.ai-heading-note{font-size:11px}}@media(max-width:390px){.ai-form{grid-template-columns:1fr}.ai-form .btn{grid-column:auto}}
+        .fund-open{background:none;border:0;padding:0;color:inherit;font:inherit;text-align:left;cursor:pointer}.fund-open .code{color:var(--accent)}tr[data-etf]{cursor:pointer}.fund-open:hover{text-decoration:underline;text-underline-offset:4px}.etf-dialog{width:min(1120px,calc(100% - 32px));max-height:90vh;padding:0;border:1px solid #344657;border-radius:18px;background:var(--panel);color:var(--text);box-shadow:0 28px 100px #0009}.etf-dialog::backdrop{background:#030811c9;backdrop-filter:blur(6px)}.detail-header{display:flex;align-items:flex-start;justify-content:space-between;gap:15px;padding:24px 26px 18px;border-bottom:1px solid var(--line)}.detail-header h2{margin:4px 0 7px;font-size:23px}.detail-header p{font-size:11px;color:var(--muted);margin:0}.detail-close{border:1px solid var(--line);background:#1b2936;color:var(--text);border-radius:8px;width:34px;height:34px;font-size:22px}.detail-body{padding:22px 26px}.detail-kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:0 0 20px}.detail-kpi{padding:16px;background:#0e1720;border:1px solid var(--line);border-radius:11px}.detail-kpi small{font-size:11px;color:var(--muted);display:block}.detail-kpi strong{display:block;font-size:22px;font-variant-numeric:tabular-nums;margin-top:7px;font-weight:550}.detail-kpi span{font-size:10px;color:var(--muted)}.detail-tabs{display:flex;flex-wrap:wrap;gap:7px;padding-bottom:18px;border-bottom:1px solid var(--line);margin-bottom:18px}.detail-tabs button{background:#182430;border:1px solid var(--line);color:#a9b9c9;border-radius:7px;padding:8px 13px;font-size:12px}.detail-tabs button[aria-pressed=true]{color:var(--accent);border-color:#426959;background:#1b352a}.detail-section h3{font-size:15px;margin:0 0 9px}.detail-note{font-size:11px;color:#90a3b6;line-height:1.9;margin:10px 0 17px}.detail-section .table-scroll{max-height:410px;min-height:0}.detail-section table{font-size:12px}.detail-section a{color:var(--accent);text-decoration:underline;text-underline-offset:3px}.profit-form{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px;margin:18px 0}.profit-output{padding:20px;background:#0d161e;border-radius:10px;font-size:14px;line-height:2}.detail-status{color:var(--muted);font-size:12px;padding:24px}.detail-market-note{font-size:11px;color:#adbdcb;line-height:1.9}.detail-section[hidden]{display:none}.detail-trend .btn{margin:12px 0}.detail-trend .ai-result{padding-top:17px}@media(max-width:760px){.detail-header{padding:20px}.detail-header h2{font-size:19px}.detail-body{padding:18px}.detail-kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.profit-form{grid-template-columns:repeat(2,minmax(0,1fr))}.detail-kpi strong{font-size:20px}.detail-tabs{gap:6px}.detail-tabs button{padding:7px 10px;font-size:11px}}
     </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>📊 ETF 爬蟲數據查看器</h1>
-            <p>實時展示台灣 ETF 基金數據</p>
-        </header>
-        
-        <div class="content">
-            <!-- 狀態信息 -->
-            <div class="section">
-                <h2>📈 數據總覽</h2>
-                <div id="status" class="loading">
-                    <p>加載中...</p>
-                </div>
+    <div class="app">
+        <aside class="sidebar" aria-label="主要導覽">
+            <a class="brand" href="#overview" aria-label="ETF Observatory 首頁"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><div><div class="brand-name">ETF Observatory</div><div class="brand-sub">TAIWAN MARKET INTELLIGENCE</div></div></a>
+            <div class="nav-caption">WORKSPACE</div>
+            <nav class="nav">
+                <a href="#overview" class="active"><svg aria-hidden="true" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>市場總覽<span class="nav-tail">01</span></a>
+                <a href="#funds"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 20V10m5 10V4m6 16v-7m5 7V7"/></svg>ETF 清單<span class="nav-tail">02</span></a>
+                <a href="#ai-analysis"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m12 3 2.5 6.5L21 12l-6.5 2.5L12 21l-2.5-6.5L3 12l6.5-2.5z"/></svg>AI 個股分析<span class="nav-tail">AI</span></a>
+                <a href="#data-health"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3 4 6v6c0 4 8 9 8 9s8-5 8-9V6z"/><path d="m8 12 3 3 5-6"/></svg>資料狀態<span class="nav-tail">03</span></a>
+            </nav>
+            <div class="sidebar-bottom"><div class="market-tag"><span class="dot"></span>台灣主動式 ETF</div><p>看見數據，掌握全貌。<br>Built for a clearer perspective.</p></div>
+        </aside>
+        <main id="overview">
+            <div class="topbar"><div class="breadcrumb">工作空間<span>/</span><span>市場總覽</span></div><div class="topbar-right"><div class="region">TAIWAN<span>·</span>UTC+8</div><div class="source-tag">每日資料觀測</div></div></div>
+            <header class="hero"><div><p class="eyebrow">THE ACTIVE ETF OBSERVATORY</p><h1>主動投資，一覽全局。</h1><p>整合台灣主動式 ETF，讓每一份資料的來源與狀態清晰可見。</p></div><button id="refresh-button" class="btn" type="button" onclick="refreshData()"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M20 7v5h-5M4 17v-5h5"/><path d="M6 7a7 7 0 0 1 12-1l2 3M4 15l2 3a7 7 0 0 0 12-1"/></svg><span id="refresh-label">重新載入</span></button></header>
+            <section id="status" aria-label="資料總覽" aria-live="polite"><div class="loading"><span class="loading-indicator"></span>正在整理觀測資料…</div></section>
+            <div class="workspace">
+                <section class="panel" id="funds" aria-labelledby="funds-title">
+                    <div class="panel-heading"><div><div class="section-kicker">FUND EXPLORER</div><h2 id="funds-title">ETF 觀測清單<span class="count-badge" id="fund-count">—</span></h2></div><svg class="muted" aria-hidden="true" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/><circle cx="8" cy="6" r="2"/><circle cx="16" cy="12" r="2"/><circle cx="10" cy="18" r="2"/></svg></div>
+                    <div class="table-tools"><div class="tabs" role="group" aria-label="依股數完整度篩選"><button class="tab" type="button" data-filter="all" aria-pressed="true" onclick="setFundFilter('all')">全部 ETF</button><button class="tab" type="button" data-filter="complete" aria-pressed="false" onclick="setFundFilter('complete')">股數完整</button><button class="tab" type="button" data-filter="missing" aria-pressed="false" onclick="setFundFilter('missing')">待補股數</button></div><label class="search"><svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg><input id="fund-search" type="search" placeholder="搜尋代碼、基金名稱…" aria-label="搜尋 ETF 代碼、基金名稱或發行公司" oninput="renderFunds()"></label></div>
+                    <div class="table-scroll" id="etf-summary" aria-live="polite"><div class="loading">正在載入基金清單…</div></div>
+                    <div class="table-footer"><span id="result-count">等待資料載入</span><span>「—」代表來源未提供資料</span></div>
+                </section>
+                <aside class="rail" aria-label="資料與更新資訊">
+                    <section class="panel" id="data-health" aria-labelledby="health-title"><div class="panel-heading"><div><div class="section-kicker">DATA COVERAGE</div><h2 id="health-title">股數資料完整度</h2></div></div><div id="coverage" class="health-body"><div class="loading">正在檢查…</div></div></section>
+                    <section class="panel" aria-labelledby="source-title"><div class="panel-heading"><div><div class="section-kicker">SOURCE NOTES</div><h2 id="source-title">資料觀測紀錄</h2></div></div><div id="reports" class="feed-body" aria-live="polite"><p>正在確認來源資料…</p></div></section>
+                    <section class="panel schedule"><div class="schedule-top"><svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>排程更新時間</div><div class="schedule-time">21:00<small>TAIPEI</small></div><p>台股交易日擷取<br>實際更新狀態以來源日期為準</p></section>
+                </aside>
             </div>
-            
-            <!-- ETF 摘要 -->
-            <div class="section">
-                <h2>💼 活躍 ETF 基金</h2>
-                <div id="etf-summary" class="loading">
-                    <p>加載中...</p>
+            <section class="panel ai-panel" id="ai-analysis" aria-labelledby="ai-title">
+                <div class="panel-heading"><div><div class="section-kicker">AI STOCK RESEARCH</div><h2 id="ai-title">AI 個股分析與趨勢情境</h2><p class="ai-heading-note">從近期公開資料出發，理解基本面、走勢與可能的未來方向。</p></div><span class="ai-tag">Gemini · 附來源引用</span></div>
+                <div class="ai-content">
+                    <form class="ai-form" onsubmit="event.preventDefault(); analyzeStock();">
+                        <label class="ai-field" for="ai-stock">股票代碼或公司名稱<input id="ai-stock" name="stock" maxlength="60" required autocomplete="off" placeholder="例如：2330、台積電、AAPL NASDAQ"></label>
+                        <label class="ai-field" for="ai-horizon">分析期間<select id="ai-horizon" name="horizon"><option value="1m">未來一個月</option><option value="3m" selected>未來三個月</option><option value="6m">未來六個月</option></select></label>
+                        <button class="btn" id="ai-submit" type="submit">開始 AI 分析 ↗</button>
+                    </form>
+                    <div class="ai-help"><span>支援台股與海外股票；海外標的請補上交易所。</span><span>每次分析使用 Gemini 與 Google 搜尋，依 Google API 帳戶額度計費。</span></div>
+                    <div class="ai-status" id="ai-status" role="status" aria-live="polite">正在確認 AI 服務連線…</div>
+                    <details class="ai-setup" id="ai-setup"><summary>AI 服務設定與資料說明</summary><p>請先在 <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener noreferrer">Google AI Studio</a> 建立 API 金鑰，再由本機伺服器讀取 <code>GEMINI_API_KEY</code>，再以 <code>python dashboard_server.py</code> 啟動網站。請勿把金鑰填入網頁或提交到 Git。可用 <code>GEMINI_MODEL</code> 指定支援 Google 搜尋的 Gemini 模型（預設 gemini-3.8-flash）。純靜態 GitHub Pages 不提供 AI 後端。</p><p>分析使用網路搜尋取得公開資料，並非即時交易報價。資料不足時會標示缺口，未來趨勢以基本／偏多／偏空情境呈現，不代表必然發生。</p></details>
+                    <div id="ai-result" class="ai-result" aria-live="polite"></div>
                 </div>
-            </div>
-            
-            <!-- 股票變動 -->
-            <div class="section">
-                <h2>📑 最新報告</h2>
-                <div id="reports" class="loading">
-                    <p>加載中...</p>
-                </div>
-            </div>
-            
-            <!-- 使用說明 -->
-            <div class="section">
-                <h2>ℹ️ 使用說明</h2>
-                <div class="status-card">
-                    <h3>數據更新</h3>
-                    <p style="color: #666; line-height: 1.6;">
-                        此網站展示 ETF 爬蟲自動收集的最新數據。<br><br>
-                        <strong>更新時間：</strong>每晚 9:00 PM（台灣時間）<br>
-                        <strong>數據來源：</strong>台灣各大基金公司官網<br>
-                        <strong>數據格式：</strong>JSON 格式存儲<br><br>
-                        <button class="btn" onclick="refreshData()">🔄 重新加載</button>
-                    </p>
-                </div>
-            </div>
-        </div>
-        
-        <div class="footer">
-            <p>🚀 ETF 爬蟲系統 | 由 GitHub Actions 每日自動更新</p>
-            <p style="font-size: 0.9em; margin-top: 10px;">最後更新：<span id="last-update">加載中...</span></p>
-        </div>
+            </section>
+            <footer class="footnote"><div>ETF OBSERVATORY<span> / </span>資料來源：各基金公司官網</div><div>來源最後更新：<span id="last-update">讀取中…</span></div></footer>
+        </main>
     </div>
-    
+    <dialog id="etf-dialog" class="etf-dialog" aria-labelledby="detail-title">
+        <div class="detail-header"><div><div class="section-kicker">ETF RESEARCH DESK</div><h2 id="detail-title">ETF 詳細資訊</h2><p id="detail-date">正在讀取資料…</p></div><button type="button" class="detail-close" onclick="closeEtfDetails()" aria-label="關閉 ETF 詳細資訊">×</button></div>
+        <div class="detail-body"><div id="detail-status" class="detail-status" role="status" aria-live="polite"></div><div id="detail-content" hidden>
+            <div class="detail-kpis" id="detail-kpis"></div>
+            <div class="detail-tabs" role="group" aria-label="ETF 資訊分類"><button type="button" data-detail-tab="holdings" aria-pressed="true" onclick="selectDetailTab('holdings')">目前持股</button><button type="button" data-detail-tab="changes" aria-pressed="false" onclick="selectDetailTab('changes')">持股增減</button><button type="button" data-detail-tab="profit" aria-pressed="false" onclick="selectDetailTab('profit')">獲利試算</button><button type="button" data-detail-tab="dividends" aria-pressed="false" onclick="selectDetailTab('dividends')">股利分配</button><button type="button" data-detail-tab="trend" aria-pressed="false" onclick="selectDetailTab('trend')">未來趨勢</button></div>
+            <section class="detail-section" id="detail-holdings"><h3>成分股持有資訊</h3><p id="detail-holdings-note" class="detail-note"></p><div class="table-scroll" id="detail-holdings-table"></div></section>
+            <section class="detail-section" id="detail-changes" hidden><h3>最近兩份快照的持股增減</h3><p id="detail-changes-note" class="detail-note"></p><div class="table-scroll" id="detail-changes-table"></div></section>
+            <section class="detail-section" id="detail-profit" hidden><h3>我的 ETF 持倉損益試算</h3><p id="detail-profit-note" class="detail-note"></p><div class="profit-form"><label class="ai-field">持有張數（1 張＝1,000 單位）<input id="profit-lots" type="number" min="0" step="0.001" placeholder="例如 1.5" oninput="calculateEtfProfit()"></label><label class="ai-field">平均買入成本（元／單位）<input id="profit-cost" type="number" min="0" step="0.0001" placeholder="例如 15.5" oninput="calculateEtfProfit()"></label><label class="ai-field">參考市價（元／單位）<input id="profit-price" type="number" min="0" step="0.0001" placeholder="等待官方盤後價或自行輸入" oninput="this.dataset.manual='true'; calculateEtfProfit()"></label><label class="ai-field">累計實領配息總額（元）<input id="profit-dividends" type="number" min="0" step="0.01" value="0" oninput="calculateEtfProfit()"></label></div><div class="profit-output" id="profit-output" aria-live="polite">輸入持有張數與成本後，即可計算估計損益。</div><p class="detail-note" id="profit-price-note">官方盤後價查詢中；手動市價僅供試算。未計入手續費與稅費，配息需填寫實際領取總額。</p></section>
+            <section class="detail-section" id="detail-dividends" hidden><h3>官方收益分配公告</h3><div id="detail-dividends-table"><p class="detail-note">正在讀取證交所資料…</p></div></section>
+            <section class="detail-section detail-trend" id="detail-trend" hidden><h3>AI 基金研究與未來趨勢</h3><p class="detail-note">結合本機持股快照與近期官方公開資料，分析配息、產業曝險與基本／偏多／偏空情境。按下按鈕才呼叫 AI，可能產生 API 費用。</p><label class="ai-field" style="max-width:220px">分析期間<select id="detail-horizon"><option value="1m">未來一個月</option><option value="3m" selected>未來三個月</option><option value="6m">未來六個月</option></select></label><button type="button" class="btn" id="detail-ai-submit" onclick="analyzeEtfTrend()">產生 ETF 研究報告 ↗</button><div class="ai-status" id="detail-ai-status" role="status">分析結果將附資料日期與來源；不代表保證報酬。</div><div id="detail-ai-result" class="ai-result"></div></section>
+            <p class="detail-note" id="detail-source"></p>
+        </div></div>
+    </dialog>
     <script>
-        // 加載 JSON 數據
+        let fundDetails = [];
+        let fundFilter = 'all';
+        let loadingData = false;
+        const icons = {
+            funds: '<rect x="3" y="7" width="18" height="14" rx="2"/><path d="M8 7V3h8v4M3 12h18M10 12v3h4v-3"/>',
+            calendar: '<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4m10-4v4M3 11h18m-13 4h2m4 0h2"/>',
+            shield: '<path d="M12 3 4 6v6c0 4 8 9 8 9s8-5 8-9V6z"/><path d="m8 12 3 3 5-6"/>',
+            clock: '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
+        };
+        function icon(name) { return `<svg aria-hidden="true" viewBox="0 0 24 24">${icons[name]}</svg>`; }
+        function escapeHtml(value) {
+            return String(value ?? '').replace(/[&<>"']/g, character => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[character]));
+        }
+        function present(value) { return value !== null && value !== undefined && !['', 'N/A', '未知'].includes(String(value).trim()); }
         async function loadData() {
+            if (loadingData) return;
+            loadingData = true;
+            document.getElementById('refresh-button').disabled = true;
+            document.getElementById('refresh-label').textContent = '載入中…';
             try {
-                // 嘗試加載 ETF 摘要
-                const response = await fetch('./data/active_etf_summary.json');
-                if (response.ok) {
-                    const data = await response.json();
-                    displayEtfData(data);
-                } else {
-                    showStatus('數據暫未準備就緒，請稍後再試');
-                }
+                const response = await fetch('./data/active_etf_summary.json', { cache: 'no-store' });
+                if (!response.ok) throw new Error('Unable to load source data');
+                displayEtfData(await response.json());
             } catch (error) {
-                showStatus('無法加載數據，請確保數據文件已上傳到 GitHub');
+                showStatus('資料暫時無法載入，請稍後點選「重新載入」再試一次。');
+            } finally {
+                loadingData = false;
+                document.getElementById('refresh-button').disabled = false;
+                document.getElementById('refresh-label').textContent = '重新載入';
             }
         }
-        
         function displayEtfData(data) {
-            const statusDiv = document.getElementById('status');
-            const summaryDiv = document.getElementById('etf-summary');
-            
-            // 計算統計信息
-            const totalFunds = Object.keys(data).length;
-            let totalValue = 0;
-            let fundDetails = [];
-            
-            for (const [fundCode, fundInfo] of Object.entries(data)) {
-                if (fundInfo.price) {
-                    totalValue += parseFloat(fundInfo.price) || 0;
-                }
-                fundDetails.push({
-                    code: fundCode,
-                    name: fundInfo.name || '未知',
-                    price: fundInfo.price || 'N/A',
-                    change: fundInfo.change || 'N/A',
-                    company: fundInfo.company || '未知'
-                });
+            if (!data || typeof data !== 'object') throw new Error('Invalid data');
+            const etfs = data.etfs || data;
+            const entries = (Array.isArray(etfs) ? etfs.map(item => [item.code || '', item]) : Object.entries(etfs))
+                .filter(([code, info]) => code && info && typeof info === 'object');
+            const hasCoverage = Array.isArray(data.missing_share_etfs);
+            const missing = new Set(hasCoverage ? data.missing_share_etfs : []);
+            const missingCount = entries.filter(([code]) => missing.has(code)).length;
+            const totalFunds = entries.length;
+            const completeCount = hasCoverage ? totalFunds - missingCount : null;
+            const percent = hasCoverage && totalFunds ? Math.round(completeCount / totalFunds * 100) : null;
+            const rawDate = typeof data.date === 'string' ? data.date : '';
+            const dataDate = /^\d{8}$/.test(rawDate) ? `${rawDate.slice(0, 4)}/${rawDate.slice(4, 6)}/${rawDate.slice(6, 8)}` : '未提供';
+            const updatedAt = data.updated_at ? new Date(data.updated_at) : null;
+            fundDetails = entries.map(([code, info]) => ({ code, name: info.name || '未提供', company: info.company,
+                price: info.price, change: info.change, sharesState: hasCoverage ? (missing.has(code) ? 'missing' : 'complete') : 'unknown' }));
+            document.getElementById('status').innerHTML = `<div class="stats-grid">
+                <article class="metric"><div class="metric-head">監控基金數${icon('funds')}</div><div class="metric-value">${totalFunds.toString().padStart(2, '0')}<small>檔 ETF</small></div><div class="metric-note"><span class="dot"></span>來自最新來源快照</div></article>
+                <article class="metric"><div class="metric-head">來源資料日期${icon('calendar')}</div><div class="metric-value date-value">${dataDate}</div><div class="metric-note">依爬蟲來源日期顯示</div></article>
+                <article class="metric"><div class="metric-head">股數完整基金${icon('shield')}</div><div class="metric-value">${completeCount === null ? '—' : completeCount.toString().padStart(2, '0')}<small>/ ${totalFunds} 檔</small></div><div class="metric-note">${hasCoverage ? (missingCount ? `${missingCount} 檔待補完整股數` : '所有基金股數資料完整') : '來源未提供完整度資訊'}</div></article>
+                <article class="metric"><div class="metric-head">每日排程${icon('clock')}</div><div class="metric-value">21:00<small>UTC+8</small></div><div class="metric-note">台股交易日自動擷取</div></article>
+            </div>`;
+            document.getElementById('fund-count').textContent = totalFunds;
+            document.getElementById('coverage').innerHTML = `<div class="ring" style="--coverage:${percent ?? 0}%" role="img" aria-label="股數資料完整度 ${percent === null ? '未提供' : percent + '%'}"><div class="ring-value"><strong>${percent === null ? '—' : percent + '<small>%</small>'}</strong><span>股數完整比例</span></div></div><div class="legend"><span><i class="dot"></i>股數完整</span><strong>${completeCount ?? '—'} 檔</strong></div><div class="legend"><span><i class="dot amber"></i>待補股數</span><strong>${hasCoverage ? missingCount : '—'} 檔</strong></div><p class="health-note">完整度僅反映股數欄位。缺少股數的基金仍保留清單，不納入股數統計。</p>`;
+            const reportsDiv = document.getElementById('reports');
+            reportsDiv.innerHTML = `<div class="feed-icon">${icon('shield')}</div><h3>${totalFunds ? '來源快照已載入' : '來源快照暫無基金'}</h3><p>已載入 ${totalFunds} 筆 ETF 基金資料。<br>資料日期：${dataDate}<br>缺少淨值或漲跌時以「—」顯示。</p>`;
+            if (hasCoverage && missingCount) {
+                const note = document.createElement('p');
+                note.textContent = `以下 ETF 未提供完整股數，未納入股數統計：${entries.filter(([code]) => missing.has(code)).map(([code]) => code).join('、')}`;
+                reportsDiv.appendChild(note);
             }
-            
-            // 顯示統計卡片
-            statusDiv.innerHTML = `
-                <div class="stats-row">
-                    <div class="stat-item">
-                        <div class="number">${totalFunds}</div>
-                        <div class="label">監控基金數</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="number">${new Date().toLocaleDateString('zh-TW')}</div>
-                        <div class="label">數據日期</div>
-                    </div>
-                </div>
-            `;
-            
-            // 顯示 ETF 表格
-            let tableHTML = '<table><thead><tr><th>基金代碼</th><th>基金名稱</th><th>發行公司</th><th>淨值</th><th>漲跌</th></tr></thead><tbody>';
-            
-            fundDetails.slice(0, 10).forEach(fund => {
-                tableHTML += `
-                    <tr>
-                        <td><strong>${fund.code}</strong></td>
-                        <td>${fund.name}</td>
-                        <td>${fund.company}</td>
-                        <td>${fund.price}</td>
-                        <td>${fund.change}</td>
-                    </tr>
-                `;
-            });
-            
-            tableHTML += '</tbody></table>';
-            summaryDiv.innerHTML = tableHTML;
-            
-            // 更新時間
-            document.getElementById('last-update').textContent = new Date().toLocaleString('zh-TW');
+            document.getElementById('last-update').textContent = updatedAt && !Number.isNaN(updatedAt.getTime())
+                ? updatedAt.toLocaleString('zh-TW', { timeZone: 'Asia/Taipei' })
+                : (dataDate === '未提供' ? '未提供' : `${dataDate}（未提供更新時間）`);
+            renderFunds();
         }
-        
+        function setFundFilter(filter) {
+            fundFilter = filter;
+            document.querySelectorAll('[data-filter]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.filter === filter)));
+            renderFunds();
+        }
+        function renderFunds() {
+            const query = document.getElementById('fund-search').value.trim().toLocaleLowerCase();
+            const filtered = fundDetails.filter(fund => (fundFilter === 'all' || fund.sharesState === fundFilter)
+                && [fund.code, fund.name, fund.company].some(value => String(value ?? '').toLocaleLowerCase().includes(query)));
+            const rows = filtered.map(fund => {
+                const change = present(fund.change) ? String(fund.change).trim() : null;
+                const numericChange = change === null ? null : Number(change.replace(/[%+,]/g, ''));
+                const changeClass = numericChange > 0 ? 'positive' : numericChange < 0 ? 'negative' : '';
+                const shareBadge = fund.sharesState === 'complete' ? '<span class="pill"><i class="dot"></i>完整</span>'
+                    : fund.sharesState === 'missing' ? '<span class="pill warn"><i class="dot"></i>待補股數</span>' : '<span class="pill neutral">未提供</span>';
+                return `<tr data-etf="${escapeHtml(fund.code)}" onclick="openEtfDetails(this.dataset.etf)"><td><button class="fund-open" type="button" aria-haspopup="dialog" aria-label="查看 ${escapeHtml(fund.code)} ${escapeHtml(fund.name)} 詳細資訊"><span class="code">${escapeHtml(fund.code)} ↗</span></button></td><td><div class="fund-name">${escapeHtml(fund.name)}</div><div class="fund-type">主動式 ETF · 點選查看詳情</div></td><td class="muted">${present(fund.company) ? escapeHtml(fund.company) : '—'}</td><td class="numeric">${present(fund.price) ? escapeHtml(fund.price) : '<span class="muted">—</span>'}</td><td class="numeric ${changeClass}">${change === null ? '<span class="muted">—</span>' : escapeHtml(change)}</td><td>${shareBadge}</td></tr>`;
+            }).join('');
+            document.getElementById('etf-summary').innerHTML = `<table><caption style="position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)">ETF 基金與股數資料狀態</caption><thead><tr><th scope="col">基金代碼</th><th scope="col">基金名稱</th><th scope="col">發行公司</th><th scope="col" class="numeric">淨值</th><th scope="col" class="numeric">漲跌</th><th scope="col">股數資料</th></tr></thead><tbody>${rows || '<tr><td colspan="6" class="empty">找不到符合條件的 ETF，請調整搜尋或篩選條件。</td></tr>'}</tbody></table>`;
+            document.getElementById('result-count').textContent = `顯示 ${filtered.length} / ${fundDetails.length} 檔基金`;
+        }
         function showStatus(message) {
-            document.getElementById('status').innerHTML = `<div class="error">${message}</div>`;
-            document.getElementById('etf-summary').innerHTML = `<div class="error">${message}</div>`;
+            fundDetails = [];
+            for (const id of ['status', 'etf-summary', 'reports', 'coverage']) {
+                document.getElementById(id).innerHTML = `<div class="error" role="alert">${escapeHtml(message)}</div>`;
+            }
+            document.getElementById('fund-count').textContent = '—';
+            document.getElementById('result-count').textContent = '來源資料尚未載入';
+            document.getElementById('last-update').textContent = '未提供';
         }
-        
-        function refreshData() {
-            location.reload();
+        function refreshData() { return loadData(); }
+        let analyzingStock = false;
+        function aiStatus(message, state) {
+            const node = document.getElementById('ai-status');
+            node.textContent = message;
+            node.dataset.state = state;
         }
-        
-        // 頁面加載完成後執行
-        window.addEventListener('load', () => {
-            loadData();
-        });
+        async function loadAiStatus() {
+            try {
+                const response = await fetch('/api/ai-status', { cache: 'no-store' });
+                if (!response.ok) throw new Error('AI backend unavailable');
+                const data = await response.json();
+                aiStatus(data.configured ? 'Google AI Studio（Gemini）已連線，輸入股票即可開始分析。' : '尚未設定 Google AI Studio 金鑰。請展開下方「AI 服務設定」完成設定後重新啟動伺服器。', data.configured ? 'ready' : 'error');
+                document.getElementById('ai-setup').open = !data.configured;
+            } catch (error) {
+                aiStatus('尚未連線 AI 後端。請使用 dashboard_server.py 啟動本機網站；靜態預覽不支援 AI 分析。', 'error');
+                document.getElementById('ai-setup').open = true;
+            }
+        }
+        function analysisLink(url, label, title) {
+            if (typeof url !== 'string' || !/^https?:\/\//i.test(url)) return escapeHtml(label);
+            return `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer" title="${escapeHtml(title || label)}">${escapeHtml(label)}</a>`;
+        }
+        function renderAnalysis(data, targetId = 'ai-result') {
+            if (!Array.isArray(data.blocks) || !data.blocks.length || !Array.isArray(data.sources) || !data.sources.length) throw new Error('分析缺少內容或來源，請重試。');
+            const time = new Date(data.generated_at);
+            const generated = Number.isNaN(time.getTime()) ? '未提供' : time.toLocaleString('zh-TW', { timeZone: 'Asia/Taipei' });
+            const prose = data.blocks.map(block => `<p>${block.segments.map(segment => segment.url ? analysisLink(segment.url, segment.text, segment.title) : escapeHtml(segment.text)).join('')}</p>`).join('');
+            const sources = data.sources.map(source => `<li>${analysisLink(source.url, source.title || source.url)}</li>`).join('');
+            const suggestions = data.search_suggestions ? `<iframe title="Google 搜尋建議" sandbox="allow-popups allow-popups-to-escape-sandbox" referrerpolicy="no-referrer" style="width:100%;height:150px;border:0;margin-top:16px;background:white;border-radius:8px" srcdoc="${escapeHtml(data.search_suggestions)}"></iframe>` : '';
+            document.getElementById(targetId).innerHTML = `<div class="ai-result-header"><h3>${escapeHtml(data.stock)} · ${escapeHtml(data.horizon)}</h3><div class="ai-result-meta">產生時間：${escapeHtml(generated)} · ${escapeHtml(data.model)}</div></div><div class="ai-prose">${prose}</div><div class="ai-sources"><h4>參考來源 · 請核對原文與資料日期</h4><ol>${sources}</ol></div>${suggestions}<p class="ai-disclaimer">此為公開資料研究與情境推演，不是獲利保證或個人化投資建議。</p>`;
+        }
+        async function analyzeStock() {
+            if (analyzingStock) return;
+            const stock = document.getElementById('ai-stock').value.trim();
+            if (!stock) { aiStatus('請先輸入股票代碼或公司名稱。', 'error'); return; }
+            const horizon = document.getElementById('ai-horizon').value;
+            const button = document.getElementById('ai-submit');
+            const result = document.getElementById('ai-result');
+            analyzingStock = true;
+            button.disabled = true;
+            button.textContent = '搜尋與分析中…';
+            result.innerHTML = '';
+            result.setAttribute('aria-busy', 'true');
+            aiStatus('正在查詢近期公開資料並建立趨勢情境，通常需要數十秒…', 'loading');
+            const controller = new AbortController();
+            const timeout = setTimeout(() => controller.abort(), 110000);
+            try {
+                const response = await fetch('/api/analyze-stock', { method: 'POST', headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ stock, horizon }), signal: controller.signal });
+                if (!(response.headers.get('content-type') || '').includes('application/json')) throw new Error('AI 後端未啟動，請改用 dashboard_server.py 啟動網站。');
+                const data = await response.json();
+                if (!response.ok) throw new Error(data.error || 'AI 分析失敗，請稍後重試。');
+                renderAnalysis(data);
+                aiStatus('分析已完成，請同時查看引用來源、資料日期與風險情境。', 'ready');
+            } catch (error) {
+                result.innerHTML = '';
+                aiStatus(error.name === 'AbortError' ? '分析逾時，請稍後重試。' : (error.message === 'Failed to fetch' ? '無法連線 AI 後端，請確認本機伺服器仍在執行。' : error.message), 'error');
+            } finally {
+                clearTimeout(timeout);
+                analyzingStock = false;
+                button.disabled = false;
+                button.textContent = '開始 AI 分析 ↗';
+                result.setAttribute('aria-busy', 'false');
+            }
+        }
+        let activeEtf = null;
+        let etfRequest = 0;
+        let etfTrendController = null;
+        function detailDate(value) { return /^\d{8}$/.test(String(value)) ? `${String(value).slice(0,4)}/${String(value).slice(4,6)}/${String(value).slice(6,8)}` : String(value || '未提供'); }
+        function detailNumber(value, decimals = 3) { return value !== null && value !== undefined && value !== '' && Number.isFinite(Number(value)) ? Number(value).toLocaleString('zh-TW', { maximumFractionDigits: decimals }) : '—'; }
+        function selectDetailTab(tab) {
+            ['holdings','changes','profit','dividends','trend'].forEach(name => { document.getElementById(`detail-${name}`).hidden = name !== tab; });
+            document.querySelectorAll('[data-detail-tab]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.detailTab === tab)));
+        }
+        function invalidateEtf() { etfRequest++; activeEtf = null; if (etfTrendController) etfTrendController.abort(); etfTrendController = null; }
+        function closeEtfDetails() { invalidateEtf(); document.getElementById('etf-dialog').close(); }
+        async function openEtfDetails(code) {
+            invalidateEtf();
+            const request = etfRequest;
+            const dialog = document.getElementById('etf-dialog');
+            if (!dialog.open) dialog.showModal();
+            document.getElementById('detail-title').textContent = `${code} · ETF 詳細資訊`;
+            document.getElementById('detail-date').textContent = '正在讀取來源日期…';
+            document.getElementById('detail-content').hidden = true;
+            document.getElementById('detail-status').textContent = '正在整理持股與增減資訊…';
+            document.getElementById('detail-ai-result').innerHTML = '';
+            document.getElementById('detail-ai-submit').disabled = false;
+            document.getElementById('detail-ai-status').textContent = '按下按鈕產生研究報告；需要設定 AI 金鑰。';
+            ['profit-lots','profit-cost','profit-price'].forEach(id => { document.getElementById(id).value = ''; });
+            document.getElementById('profit-dividends').value = '0';
+            document.getElementById('profit-price').dataset.manual = 'false';
+            document.getElementById('profit-price-note').textContent = '正在查詢官方盤後價；也可自行輸入參考市價。未計入手續費與稅費。';
+            document.getElementById('detail-dividends-table').innerHTML = '<p class="detail-note">正在查詢官方收益分配公告…</p>';
+            selectDetailTab('holdings');
+            calculateEtfProfit();
+            try {
+                let response;
+                try {
+                    response = await fetch(`/api/etf/${encodeURIComponent(code)}`, { cache:'no-store' });
+                    if (!response.ok || !(response.headers.get('content-type') || '').includes('application/json')) throw new Error('No backend');
+                } catch (error) {
+                    response = await fetch(`./data/etf_details/${encodeURIComponent(code)}.json`, { cache:'no-store' });
+                }
+                if (!response.ok) throw new Error('目前沒有這檔 ETF 的詳細資料，請先更新爬蟲資料。');
+                const data = await response.json();
+                if (request !== etfRequest) return;
+                if (!Array.isArray(data.holdings) || !Array.isArray(data.changes)) throw new Error('ETF 資料格式不完整。');
+                activeEtf = data;
+                renderEtfDetails(data);
+                document.getElementById('detail-content').hidden = false;
+                document.getElementById('detail-status').textContent = '';
+                loadEtfMarket(code, request);
+            } catch (error) {
+                if (request === etfRequest) document.getElementById('detail-status').textContent = error.message;
+            }
+        }
+        function renderEtfDetails(data) {
+            document.getElementById('detail-title').textContent = `${data.code} · ${data.name}`;
+            document.getElementById('detail-date').textContent = `持股快照：${detailDate(data.asof)} ｜比較基準：${detailDate(data.previous_date)}（非即時交易紀錄）`;
+            document.getElementById('detail-kpis').innerHTML = `<div class="detail-kpi"><small>持股種類</small><strong>${data.holdings.length}</strong><span>以快照為準</span></div><div class="detail-kpi"><small>快照增持合計（股）</small><strong class="positive">${detailNumber(data.added_shares)}</strong><span>不是基金實際買進成交量</span></div><div class="detail-kpi"><small>快照減持合計（股）</small><strong class="negative">${detailNumber(data.reduced_shares)}</strong><span>不是基金實際賣出成交量</span></div><div class="detail-kpi"><small>ETF 盤後收盤價</small><strong id="detail-close-price">查詢中</strong><span id="detail-quote-date">非盤中即時報價</span></div>`;
+            document.getElementById('detail-holdings-note').textContent = `資料日 ${detailDate(data.asof)}。股數或權重未提供時顯示「—」。此快照不代表今天的即時部位。`;
+            const rows = data.holdings.map(row => `<tr><td>${escapeHtml(row.code)}</td><td>${escapeHtml(row.name)}</td><td class="numeric">${detailNumber(row.shares)}</td><td class="numeric">${row.shares !== null && row.lot_size ? detailNumber(row.shares / row.lot_size) : '—'}</td><td class="numeric">${escapeHtml(row.weight || '—')}</td></tr>`).join('');
+            document.getElementById('detail-holdings-table').innerHTML = `<table><thead><tr><th>股票代碼</th><th>名稱</th><th class="numeric">持有股數</th><th class="numeric">台股張數</th><th class="numeric">持股比例</th></tr></thead><tbody>${rows || '<tr><td colspan="5">尚無持股資訊。</td></tr>'}</tbody></table>`;
+            document.getElementById('detail-changes-note').textContent = `${detailDate(data.previous_date)} → ${detailDate(data.asof)}。${data.comparison_note || ''}${data.comparable ? '' : ' 缺少前期快照或有效股數，無法計算增減，不視為零交易。'}`;
+            const changes = data.changes.map(row => `<tr><td>${escapeHtml(row.code)}</td><td>${escapeHtml(row.name)}</td><td class="numeric">${detailNumber(row.previous_shares)}</td><td class="numeric">${detailNumber(row.shares)}</td><td class="numeric ${row.delta_shares > 0 ? 'positive' : 'negative'}">${row.delta_shares > 0 ? '+' : ''}${detailNumber(row.delta_shares)}</td><td class="numeric">${row.delta_lots > 0 ? '+' : ''}${detailNumber(row.delta_lots)}</td></tr>`).join('');
+            document.getElementById('detail-changes-table').innerHTML = data.comparable ? `<table><thead><tr><th>股票代碼</th><th>名稱</th><th class="numeric">前次股數</th><th class="numeric">本次股數</th><th class="numeric">增減股數</th><th class="numeric">增減台股張數</th></tr></thead><tbody>${changes || '<tr><td colspan="6">兩份快照持股股數相同。</td></tr>'}</tbody></table>` : '<p class="detail-note">資料不足，尚無可比較的買賣張數。</p>';
+            document.getElementById('detail-profit-note').textContent = data.profit_note;
+            document.getElementById('detail-source').innerHTML = data.official_url ? `基金官方來源：${analysisLink(data.official_url, data.name + ' 持股／公告頁面')}` : '來源：本機爬蟲持股快照。';
+        }
+        async function loadEtfMarket(code, request) {
+            try {
+                let response;
+                try {
+                    response = await fetch(`/api/etf/${encodeURIComponent(code)}/market`, { cache:'no-store' });
+                    if (!response.ok || !(response.headers.get('content-type') || '').includes('application/json')) throw new Error('No backend');
+                } catch (error) {
+                    response = await fetch(`./data/etf_details/${encodeURIComponent(code)}.market.json`, { cache:'no-store' });
+                }
+                if (!response.ok) throw new Error('Official data unavailable');
+                const market = await response.json();
+                if (request !== etfRequest || !activeEtf) return;
+                if (market.quote && market.quote.close !== null) {
+                    activeEtf.quote = market.quote;
+                    document.getElementById('detail-close-price').textContent = detailNumber(market.quote.close, 4);
+                    document.getElementById('detail-quote-date').textContent = `${detailDate(market.quote.date)} · TWD 盤後價`;
+                    if (document.getElementById('profit-price').dataset.manual !== 'true') document.getElementById('profit-price').value = market.quote.close;
+                    document.getElementById('profit-price-note').textContent = `參考價來源：證交所 ${detailDate(market.quote.date)} 盤後收盤價。若手動修改市價則以輸入值為準；未計入手續費與稅費。`;
+                    calculateEtfProfit();
+                } else {
+                    document.getElementById('detail-close-price').textContent = '未取得';
+                    document.getElementById('profit-price-note').textContent = '官方報價暫時未取得，可自行輸入市價試算；不代表報價為零。未計入手續費與稅費。';
+                }
+                const dividends = (market.dividends || []).map(row => `<tr><td>${escapeHtml(row.ex_date)}</td><td>${escapeHtml(row.record_date)}</td><td>${escapeHtml(row.pay_date)}</td><td class="numeric">${detailNumber(row.cash_per_unit, 6)}</td></tr>`).join('');
+                document.getElementById('detail-dividends-table').innerHTML = `<p class="detail-note">公告期間：${escapeHtml(market.dividend_period || '未提供')}。每單位金額為新台幣元；未公告的未來配息不推測。</p>${market.dividend_status === 'ok' ? (dividends ? `<div class="table-scroll"><table><thead><tr><th>除息交易日</th><th>分配基準日</th><th>發放日</th><th class="numeric">每單位配息</th></tr></thead><tbody>${dividends}</tbody></table></div>` : '<p class="detail-note">此查詢期間未查得收益分配公告，不代表永久不配息。</p>') : '<p class="detail-note">官方公告暫時無法取得，不代表沒有配息。</p>'}<p class="detail-note">${analysisLink(market.dividend_source || 'https://www.twse.com.tw/zh/products/securities/etf/products/div.html', '查看證交所 ETF 收益分配公告')}</p>`;
+            } catch (error) {
+                if (request !== etfRequest) return;
+                document.getElementById('detail-close-price').textContent = '未取得';
+                document.getElementById('profit-price-note').textContent = '即時查詢需本機後端連線證交所。可手動輸入市價試算；未計入手續費與稅費。';
+                document.getElementById('detail-dividends-table').innerHTML = `<p class="detail-note">尚未連線官方配息查詢服務。請使用本機後端或查閱 ${analysisLink('https://www.twse.com.tw/zh/products/securities/etf/products/div.html', '證交所收益分配公告')}；不以空白視為不配息。</p>`;
+            }
+        }
+        function calculateEtfProfit() {
+            const ids = ['profit-lots','profit-cost','profit-price','profit-dividends'];
+            const raw = ids.map(id => String(document.getElementById(id).value));
+            const [lots, cost, price, dividends] = raw.map(Number);
+            const output = document.getElementById('profit-output');
+            if (raw.some(value => value.trim() === '') || ![lots,cost,price,dividends].every(Number.isFinite) || lots <= 0 || cost <= 0 || price < 0 || dividends < 0) {
+                output.textContent = '請輸入有效的持有張數、平均成本及參考市價；配息填實際已領取總額（未領填 0）。'; return;
+            }
+            const units = Math.round(lots * 1000);
+            if (Math.abs(lots * 1000 - units) > 0.00001 || units <= 0) { output.textContent = '持有張數需能換算成整數單位，例如 0.001 張＝1 單位。'; return; }
+            const unrealized = (price - cost) * units, total = unrealized + dividends;
+            const rate = total / (cost * units) * 100;
+            if (![unrealized,total,rate].every(Number.isFinite)) { output.textContent = '輸入值過大，無法試算。'; return; }
+            output.innerHTML = `持有單位：${detailNumber(units,0)} ｜估計市值：NT$ ${detailNumber(price * units,2)}<br>未實現價差：<span class="${unrealized >= 0 ? 'positive' : 'negative'}">NT$ ${detailNumber(unrealized,2)}</span><br>含已領息估計損益：<span class="${total >= 0 ? 'positive' : 'negative'}">NT$ ${detailNumber(total,2)}（${detailNumber(rate,2)}%）</span><br><small class="muted">以上為個人輸入的目前持倉試算，不是基金實際獲利，也不包含已賣出部位損益、手續費與稅費。</small>`;
+        }
+        async function analyzeEtfTrend() {
+            if (!activeEtf) return;
+            const token = etfRequest, code = activeEtf.code;
+            if (etfTrendController) return;
+            const controller = new AbortController();
+            etfTrendController = controller;
+            const button = document.getElementById('detail-ai-submit');
+            button.disabled = true;
+            document.getElementById('detail-ai-result').innerHTML = '';
+            document.getElementById('detail-ai-status').textContent = '正在搜尋最新官方公告、配息與基金趨勢…';
+            const timeout = setTimeout(() => controller.abort(), 110000);
+            try {
+                const response = await fetch('/api/analyze-stock', { method:'POST', headers:{'Content-Type':'application/json'},
+                    body: JSON.stringify({ stock:code, kind:'etf', horizon:document.getElementById('detail-horizon').value }), signal:controller.signal });
+                if (!(response.headers.get('content-type') || '').includes('application/json')) throw new Error('尚未啟動 AI 本機後端。');
+                const data = await response.json();
+                if (token !== etfRequest) return;
+                if (!response.ok) throw new Error(data.error || 'AI 分析失敗。');
+                renderAnalysis(data, 'detail-ai-result');
+                document.getElementById('detail-ai-status').textContent = '研究報告已完成；請核對資料日期、來源與風險情境。';
+            } catch (error) {
+                if (token === etfRequest) document.getElementById('detail-ai-status').textContent = error.name === 'AbortError' ? '分析逾時，請稍後重試。' : error.message;
+            } finally {
+                clearTimeout(timeout);
+                if (etfTrendController === controller) etfTrendController = null;
+                if (token === etfRequest) button.disabled = false;
+            }
+        }
+        document.getElementById('etf-dialog').addEventListener('cancel', invalidateEtf);
+        function updateNavigation() {
+            const target = window.location.hash || '#overview';
+            document.querySelectorAll('.nav a').forEach(link => {
+                link.classList.toggle('active', link.getAttribute('href') === target);
+                if (link.getAttribute('href') === target) link.setAttribute('aria-current', 'location');
+                else link.removeAttribute('aria-current');
+            });
+        }
+        window.addEventListener('hashchange', updateNavigation);
+        window.addEventListener('load', updateNavigation);
+        window.addEventListener('load', loadAiStatus);
+        window.addEventListener('load', loadData);
     </script>
 </body>
 </html>

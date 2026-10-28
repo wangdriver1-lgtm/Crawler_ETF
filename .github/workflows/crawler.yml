@@ -1,21 +1,39 @@
 name: Daily Crawler ETF
 
 on:
+  push:
+    branches: [main]
   schedule:
     # 每天晚上 9 點 (台灣時間) = UTC 13:00
     - cron: '0 13 * * *'
   workflow_dispatch:  # 允許手動觸發
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: etf-update-and-pages
+  cancel-in-progress: false
+
 jobs:
   run_crawler:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    env:
+      TZ: Asia/Taipei
+      PYTHONUNBUFFERED: '1'
     
     steps:
       - name: 檢查代碼
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       
       - name: 設置 Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
       
@@ -26,8 +44,23 @@ jobs:
           python -m pip show selenium
           python -m pip show beautifulsoup4
       
+      - name: 離線回歸測試
+        run: python -m unittest discover -s tests
+
       - name: 運行爬蟲
+        if: github.event_name != 'push'
         run: python Crawler_ETF.py
+
+      - name: 保存執行紀錄
+        if: always() && github.event_name != 'push'
+        uses: actions/upload-artifact@v4
+        with:
+          name: crawler-diagnostics-${{ github.run_id }}
+          path: |
+            logs/
+            debug_page_*.html
+          retention-days: 7
+          if-no-files-found: ignore
       
       - name: 生成 GitHub Pages 網站資料
         shell: bash
@@ -46,26 +79,51 @@ jobs:
               payload = json.load(f)
 
           etfs = payload.get('etfs', {})
-          output = []
+          output = {}
           for code, info in etfs.items():
-              output.append({
-                  'code': code,
+              if not isinstance(info, dict):
+                  continue
+              output[code] = {
                   'name': info.get('name', ''),
-                  'company': info.get('company', '未知') if isinstance(info, dict) else '未知',
-                  'price': info.get('price', 'N/A') if isinstance(info, dict) else 'N/A',
-                  'change': info.get('change', 'N/A') if isinstance(info, dict) else 'N/A'
-              })
+                  'company': info.get('company', '未知'),
+                  'price': info.get('price', 'N/A'),
+                  'change': info.get('change', 'N/A')
+              }
 
           os.makedirs(os.path.dirname(output_path), exist_ok=True)
           with open(output_path, 'w', encoding='utf-8') as f:
-              json.dump(output, f, ensure_ascii=False, indent=2)
+              json.dump({
+                  'date': payload.get('date'),
+                  'updated_at': payload.get('updated_at'),
+                  'missing_share_etfs': payload.get('missing_share_etfs', []),
+                  'etfs': output,
+              }, f, ensure_ascii=False, indent=2)
           PY
       
+      - name: 匯出 ETF 詳細資料
+        run: python etf_details.py --export docs/data/etf_details --market
+
       - name: 提交更新到 GitHub
+        if: github.event_name != 'push'
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add -A
-          git commit -m "自動爬蟲更新 - $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')" || echo "沒有更改要提交"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-        shell: powershell
+          git add etf/ stocks/ stock_shares/*.json docs/data/
+          if git diff --cached --quiet; then
+            echo "沒有更改要提交"
+          else
+            git commit -m "自動爬蟲更新 - $(date -u +'%Y-%m-%d %H:%M:%S')"
+            git push origin HEAD:main
+          fi
+
+      - name: 設定 GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: 上傳網站
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: docs
+
+      - name: 發佈網站
+        id: deployment
+        uses: actions/deploy-pages@v4

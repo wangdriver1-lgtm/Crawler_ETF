@@ -38,6 +38,13 @@ debug/
 logs/
 *.pyc
 .DS_Store
+.env
+.env.*
+.vs/
+debug_page_*.html
+html_debug/
+/*.exe
+stock_shares/rerun_*/
 
 # 敏感信息
 # 允許 JSON/TXT 產出文件直接提交到 GitHub
