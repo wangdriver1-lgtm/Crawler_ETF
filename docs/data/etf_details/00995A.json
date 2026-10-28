@@ -2,8 +2,9 @@
   "code": "00995A",
   "name": "主動中信台灣卓越",
   "asof": "20260601",
+  "data_status": "stale",
   "previous_date": "20260528",
-  "official_url": "https://www.ctbcinvestments.com.tw/Etf/00653201/Combination",
+  "official_url": "https://www.ctbcinvestments.com/Etf/00653201/Combination",
   "holdings": [
     {
       "code": "2330",
