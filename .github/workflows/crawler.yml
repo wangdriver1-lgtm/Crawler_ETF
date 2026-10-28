@@ -47,6 +47,10 @@ jobs:
       - name: 離線回歸測試
         run: python -m unittest discover -s tests
 
+      - name: 自動發現已上市主動式 ETF
+        if: github.event_name != 'push'
+        run: python etf_registry.py
+
       - name: 運行爬蟲
         if: github.event_name != 'push'
         env:

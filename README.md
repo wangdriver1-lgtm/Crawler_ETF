@@ -13,6 +13,14 @@ GitHub Actions 在台灣時間每天 **21:00（UTC 13:00）** 啟動，非台股
 
 可在 [Daily Crawler ETF](https://github.com/wangdriver1-lgtm/Crawler_ETF/actions/workflows/crawler.yml) 查看狀態或手動 Run workflow。
 
+每天先查證交所官方主動式 ETF 清單及上市日期，自動將已上市新基金加入清單（含海外股票與主動債券 ETF）。
+清單快取於 `etf/active_etf_registry.json`，官方暫時無法連線時沿用快取。
+既有基金沿用已驗證的持股網址；野村、台新新基金可直接由代碼建立網址。其他投信若使用內部編號且尚無可用持股接口，新基金仍自動列入並標示尚無資料；新增投信網站格式仍可能需要擴充解析器。
+
+持股完全相同（忽略排序、數字逗號格式）時，略過新的增減計算，不覆寫已有異動報表。
+ETF 詳情的增減頁保留最近 **10 個有快照的資料日**，可展開各日紀錄；重複快照標示「無異動」。
+底層保留 20 份快照以提供比較基準；不補造休市日資料，也不將未知股數當成零。
+
 ## 本機執行
 
 ```sh
@@ -20,7 +28,7 @@ python -m pip install -r requirements.txt
 python dashboard_server.py --port 8766
 ```
 
-開啟 `http://127.0.0.1:8766/`。執行 `python Crawler_ETF.py` 可單次更新持股，`python -m unittest discover -s tests` 執行離線測試。
+開啟 `http://127.0.0.1:8766/`。先執行 `python etf_registry.py` 更新官方清單，再執行 `python Crawler_ETF.py` 可單次更新持股，`python -m unittest discover -s tests` 執行離線測試。
 
 Google AI Studio 金鑰設定於伺服器環境變數 `GEMINI_API_KEY`；模型可用 `GEMINI_MODEL` 指定。
 不要將金鑰放入網頁或 Git。**GitHub Pages 提供靜態資料；即時 Gemini 分析需要另外執行 Python 後端。**

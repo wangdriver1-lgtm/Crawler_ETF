@@ -11,6 +11,7 @@ import threading
 import time
 import urllib.request
 from urllib.parse import urlencode
+from etf_registry import cached_registry, merge_config
 
 ROOT = Path(__file__).resolve().parent
 QUOTE_URL = "https://openapi.twse.com.tw/v1/exchangeReport/STOCK_DAY_ALL"
@@ -40,7 +41,7 @@ def etf_config(root=ROOT):
     tree = ast.parse((root / "Crawler_ETF.py").read_text(encoding="utf-8-sig"))
     for node in tree.body:
         if isinstance(node, ast.Assign) and any(isinstance(t, ast.Name) and t.id == "ETF_CONFIG" for t in node.targets):
-            return {item["code"]: item for item in ast.literal_eval(node.value)}
+            return {item["code"]: item for item in merge_config(ast.literal_eval(node.value), cached_registry(root))}
     return {}
 
 
@@ -62,6 +63,28 @@ def normalize_holdings(rows):
     return result
 
 
+def snapshot_signature(rows):
+    """Compare normalized content independent of ordering/number formatting."""
+    holdings = normalize_holdings(rows)
+    return tuple((code, row['name'], row['shares'], str(number(row['weight'].replace('%', ''))))
+                 for code, row in sorted(holdings.items()))
+
+
+def compare_holdings(current, previous):
+    comparable = bool(current) and previous is not None and all(
+        row['shares'] is not None for row in [*current.values(), *previous.values()])
+    changes = []
+    if comparable:
+        for stock in sorted(set(current) | set(previous)):
+            before, after = previous.get(stock, {}).get('shares', 0), current.get(stock, {}).get('shares', 0)
+            if after != before:
+                row = current.get(stock) or previous[stock]
+                changes.append({**row, 'previous_shares': before, 'shares': after, 'delta_shares': after - before,
+                                'delta_lots': (after - before) / row['lot_size'] if row['lot_size'] else None})
+    changes.sort(key=lambda row: abs(row['delta_shares']), reverse=True)
+    return comparable, changes
+
+
 def get_etf_details(code, root=ROOT):
     if not re.fullmatch(r"\d{4,5}[A-Z]?", code):
         raise ValueError("ETF 代碼格式不正確。")
@@ -78,31 +101,33 @@ def get_etf_details(code, root=ROOT):
         match = re.fullmatch(rf"stocks_{re.escape(code)}_(\d{{8}})\.json", path.name)
         if match and asof and match[1] < asof:
             candidates.append((match[1], path))
-    previous, previous_date = None, None
+    snapshots = [(asof, current, snapshot_signature(info.get('stocks', [])))] if current else []
     for date, path in sorted(candidates, reverse=True):
         try:
             rows = read_json(path)
             if isinstance(rows, list) and rows:
-                previous, previous_date = normalize_holdings(rows), date
-                break
+                snapshots.append((date, normalize_holdings(rows), snapshot_signature(rows)))
         except (OSError, ValueError):
             continue
-    comparable = bool(current) and previous is not None and all(
-        row["shares"] is not None for row in [*current.values(), *previous.values()])
-    changes = []
-    if comparable:
-        for stock in sorted(set(current) | set(previous)):
-            before, after = previous.get(stock, {}).get("shares", 0), current.get(stock, {}).get("shares", 0)
-            delta = after - before
-            if delta:
-                row = current.get(stock) or previous[stock]
-                changes.append({**row, "previous_shares": before, "shares": after, "delta_shares": delta,
-                                "delta_lots": delta / row["lot_size"] if row["lot_size"] else None})
-    changes.sort(key=lambda row: abs(row["delta_shares"]), reverse=True)
+    previous_date = snapshots[1][0] if len(snapshots) > 1 else None
+    history = []
+    for index, (date, holdings, signature) in enumerate(snapshots[:10]):
+        baseline = snapshots[index + 1] if index + 1 < len(snapshots) else None
+        unchanged = baseline is not None and signature == baseline[2]
+        if unchanged:
+            comparable, changes = False, []
+        else:
+            comparable, changes = compare_holdings(holdings, baseline[1] if baseline else None)
+        history.append({'date': date, 'previous_date': baseline[0] if baseline else None,
+                        'status': 'unchanged' if unchanged else 'changed' if comparable else 'unavailable',
+                        'comparable': comparable, 'changes': changes})
+    latest = history[0] if history else {}
+    comparable, changes = latest.get('comparable', False), latest.get('changes', [])
     config = etf_config(root).get(code, {})
     return {"code": code, "name": info.get("name", config.get("name", code)), "asof": asof,
             "data_status": info.get("status", "fresh"),
-            "previous_date": previous_date, "official_url": config.get("url"),
+            "unchanged": latest.get('status') == 'unchanged', "history": history,
+            "previous_date": previous_date, "official_url": config.get("url") or config.get('source'),
             "holdings": list(current.values()), "changes": changes, "comparable": comparable,
             "added_shares": sum(max(row["delta_shares"], 0) for row in changes) if comparable else None,
             "reduced_shares": sum(max(-row["delta_shares"], 0) for row in changes) if comparable else None,

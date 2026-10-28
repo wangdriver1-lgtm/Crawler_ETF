@@ -17,6 +17,9 @@ import urllib.request
 from urllib.parse import urlparse, parse_qs
 from typing import List, Dict, Optional, Tuple
 from decimal import Decimal, InvalidOperation
+from pathlib import Path
+from etf_registry import cached_registry, merge_config
+from etf_details import snapshot_signature
 
 
 def _parse_shares(value) -> Optional[int]:
@@ -2373,6 +2376,9 @@ def scrape_etf(etf_config: Dict[str, str]) -> Optional[List[Dict[str, str]]]:
     """爬取單個 ETF 的持股資訊"""
     etf_code = etf_config["code"]
     etf_url = etf_config["url"]
+    if not etf_url:
+        print(f"  {etf_code} 已自動收錄，持股來源尚未提供可用接口。")
+        return None
     site_type = detect_site_type(etf_url)
 
     print(f"\n爬取 {etf_code} ({etf_config['name']}) - {site_type}")
@@ -2528,6 +2534,12 @@ def _run_crawler(today: str, log_path: str) -> int:
 
     all_stocks: Dict[str, Dict] = {}
     failed_etfs: List[str] = []
+    configs = merge_config(ETF_CONFIG, cached_registry(Path('.')))
+    try:
+        with open('etf/all_stocks.json', encoding='utf-8') as source:
+            previous_payload = json.load(source)
+    except (OSError, ValueError):
+        previous_payload = {}
 
     print("="*60)
     print("開始爬取多個 ETF 網站")
@@ -2542,8 +2554,8 @@ def _run_crawler(today: str, log_path: str) -> int:
         print(f"Log 已寫入 {log_path}")
         return 0
 
-    for etf_config in ETF_CONFIG:
-        attempts = 1 + max(0, min(int(os.environ.get("CRAWLER_RETRIES", "0")), 2))
+    for etf_config in configs:
+        attempts = 1 + max(0, min(int(os.environ.get("CRAWLER_RETRIES", "0")), 2)) if etf_config.get('url') else 1
         stocks = None
         for attempt in range(attempts):
             try:
@@ -2578,15 +2590,25 @@ def _run_crawler(today: str, log_path: str) -> int:
                 previous_payload = json.load(source)
         except (OSError, ValueError):
             previous_payload = {}
-        configs = {item["code"]:item for item in ETF_CONFIG}
+        config_by_code = {item["code"]:item for item in configs}
         for code in failed_etfs:
             previous = previous_payload.get("etfs", {}).get(code) or {}
             all_stocks[code] = {
-                "name": configs[code]["name"], "stocks": previous.get("stocks", []),
+                "name": config_by_code[code]["name"], "stocks": previous.get("stocks", []),
                 "date": previous.get("date", previous_payload.get("date")) if previous else None,
                 "status": "stale" if previous.get("stocks") else "unavailable",
             }
         print(f"部分更新：{len(fresh_codes)} 檔成功；未更新基金保留原資料日期：{', '.join(failed_etfs)}")
+
+    unchanged_codes = []
+    for code in fresh_codes:
+        old = previous_payload.get('etfs', {}).get(code, {})
+        unchanged = bool(old.get('stocks')) and snapshot_signature(old['stocks']) == snapshot_signature(all_stocks[code]['stocks'])
+        all_stocks[code]['unchanged'] = unchanged
+        if unchanged:
+            unchanged_codes.append(code)
+    for item in configs:
+        all_stocks[item['code']]['company'] = item.get('company', '未知')
 
     missing_share_etfs = sorted(
         code for code, data in all_stocks.items()
@@ -2637,7 +2659,8 @@ def _run_crawler(today: str, log_path: str) -> int:
     # 2. 所有 ETF 匯總（檔名以執行日期命名，例如 all_stocks_20260428.json）
     summary = {
         "date": today,
-        "total_etfs": len(ETF_CONFIG),
+        "total_etfs": len(configs),
+        "unchanged_etfs": sorted(unchanged_codes),
         "successful_etfs": len(fresh_codes),
         "updated_etfs": sorted(fresh_codes),
         "failed_etfs": failed_etfs,
@@ -2657,7 +2680,7 @@ def _run_crawler(today: str, log_path: str) -> int:
     print(f"✓ 已保存 {os.path.join(etf_dir, 'all_stocks.json')}")
 
     # 3. 依股票代號彙總所有 ETF 的股數
-    etf_name_map = {cfg["code"]: cfg["name"] for cfg in ETF_CONFIG}
+    etf_name_map = {cfg["code"]: cfg["name"] for cfg in configs}
     aggregate: Dict[str, Dict] = {}
     for etf_code, data in all_stocks.items():
         if etf_code not in included_etfs:
@@ -2697,7 +2720,9 @@ def _run_crawler(today: str, log_path: str) -> int:
     )
     diff_summary = None
     total_delta_map: Dict[str, int] = {}
-    if prev_files:
+    if fresh_codes and fresh_codes == set(unchanged_codes):
+        print('所有成功抓取的持股均與前次相同；略過增減計算，保留既有異動紀錄。')
+    if prev_files and fresh_codes != set(unchanged_codes):
         prev_path = prev_files[-1]
         try:
             with open(prev_path, "r", encoding="utf-8") as f:
@@ -2876,7 +2901,7 @@ def _run_crawler(today: str, log_path: str) -> int:
         generate_weekly_inventory_charts(stock_shares_dir, window_days=7, top_n=20)
 
     print(f"\n統計：")
-    print(f"  總 ETF 數: {len(ETF_CONFIG)}")
+    print(f"  總 ETF 數: {len(configs)}")
     print(f"  成功爬取: {len(fresh_codes)}")
     print(f"  失敗: {len(failed_etfs)}")
     if failed_etfs:

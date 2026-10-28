@@ -1,0 +1,326 @@
+{
+  "checked_at": "20261028",
+  "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html",
+  "etfs": {
+    "00980A": {
+      "code": "00980A",
+      "name": "主動野村臺灣優選",
+      "company": "野村證券投資信託股份有限公司",
+      "category": "domestic",
+      "listed_date": "20250505",
+      "discovered_at": "20261028",
+      "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html",
+      "url": "https://www.nomurafunds.com.tw/ETFWEB/product-description?fundNo=00980A&tab=Shareholding"
+    },
+    "00982A": {
+      "code": "00982A",
+      "name": "主動群益台灣強棒",
+      "company": "群益證券投資信託股份有限公司",
+      "category": "domestic",
+      "listed_date": "20250522",
+      "discovered_at": "20261028",
+      "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html"
+    },
+    "00981A": {
+      "code": "00981A",
+      "name": "主動統一台股增長",
+      "company": "統一證券投資信託股份有限公司",
+      "category": "domestic",
+      "listed_date": "20250527",
+      "discovered_at": "20261028",
+      "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html"
+    },
+    "00983A": {
+      "code": "00983A",
+      "name": "主動中信ARK創新",
+      "company": "中國信託證券投資信託股份有限公司",
+      "category": "foreign",
+      "listed_date": "20250618",
+      "discovered_at": "20261028",
+      "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html"
+    },
+    "00984A": {
+      "code": "00984A",
+      "name": "主動安聯台灣高息",
+      "company": "安聯證券投資信託股份有限公司",
+      "category": "domestic",
+      "listed_date": "20250714",
+      "discovered_at": "20261028",
+      "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html"
+    },
+    "00985A": {
+      "code": "00985A",
+      "name": "主動野村台灣50",
+      "company": "野村證券投資信託股份有限公司",
+      "category": "domestic",
+      "listed_date": "20250721",
+      "discovered_at": "20261028",
+      "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html",
+      "url": "https://www.nomurafunds.com.tw/ETFWEB/product-description?fundNo=00985A&tab=Shareholding"
+    },
+    "00986A": {
+      "code": "00986A",
+      "name": "主動台新龍頭成長",
+      "company": "台新證券投資信託股份有限公司",
+      "category": "foreign",
+      "listed_date": "20250827",
+      "discovered_at": "20261028",
+      "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html",
+      "url": "https://www.tsit.com.tw/ETF/Home/ETFSeriesDetail/00986A"
+    },
+    "00982D": {
+      "code": "00982D",
+      "name": "主動富邦動態入息",
+      "company": "富邦證券投資信託股份有限公司",
+      "category": "bfIncome",
+      "listed_date": "20251014",
+      "discovered_at": "20261028",
+      "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html"
+    },
+    "00983D": {
+      "code": "00983D",
+      "name": "主動富邦複合收益",
+      "company": "富邦證券投資信託股份有限公司",
+      "category": "bfIncome",
+      "listed_date": "20251014",
+      "discovered_at": "20261028",
+      "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html"
+    },
+    "00989A": {
+      "code": "00989A",
+      "name": "主動摩根美國科技",
+      "company": "摩根證券投資信託股份有限公司",
+      "category": "foreign",
+      "listed_date": "20251022",
+      "discovered_at": "20261028",
+      "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html"
+    },
+    "00988A": {
+      "code": "00988A",
+      "name": "主動統一全球創新",
+      "company": "統一證券投資信託股份有限公司",
+      "category": "foreign",
+      "listed_date": "20251105",
+      "discovered_at": "20261028",
+      "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html"
+    },
+    "00991A": {
+      "code": "00991A",
+      "name": "主動復華未來50",
+      "company": "復華證券投資信託股份有限公司",
+      "category": "domestic",
+      "listed_date": "20251218",
+      "discovered_at": "20261028",
+      "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html"
+    },
+    "00990A": {
+      "code": "00990A",
+      "name": "主動元大AI新經濟",
+      "company": "元大證券投資信託股份有限公司",
+      "category": "foreign",
+      "listed_date": "20251222",
+      "discovered_at": "20261028",
+      "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html"
+    },
+    "00987A": {
+      "code": "00987A",
+      "name": "主動台新優勢成長",
+      "company": "台新證券投資信託股份有限公司",
+      "category": "domestic",
+      "listed_date": "20251230",
+      "discovered_at": "20261028",
+      "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html",
+      "url": "https://www.tsit.com.tw/ETF/Home/ETFSeriesDetail/00987A"
+    },
+    "00992A": {
+      "code": "00992A",
+      "name": "主動群益科技創新",
+      "company": "群益證券投資信託股份有限公司",
+      "category": "domestic",
+      "listed_date": "20251230",
+      "discovered_at": "20261028",
+      "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html"
+    },
+    "00994A": {
+      "code": "00994A",
+      "name": "主動第一金台股優",
+      "company": "第一金證券投資信託股份有限公司",
+      "category": "domestic",
+      "listed_date": "20260107",
+      "discovered_at": "20261028",
+      "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html"
+    },
+    "00995A": {
+      "code": "00995A",
+      "name": "主動中信台灣卓越",
+      "company": "中國信託證券投資信託股份有限公司",
+      "category": "domestic",
+      "listed_date": "20260122",
+      "discovered_at": "20261028",
+      "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html"
+    },
+    "00993A": {
+      "code": "00993A",
+      "name": "主動安聯台灣",
+      "company": "安聯證券投資信託股份有限公司",
+      "category": "domestic",
+      "listed_date": "20260203",
+      "discovered_at": "20261028",
+      "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html"
+    },
+    "00984D": {
+      "code": "00984D",
+      "name": "主動聯博全球非投",
+      "company": "聯博證券投資信託股份有限公司",
+      "category": "bfIncome",
+      "listed_date": "20260204",
+      "discovered_at": "20261028",
+      "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html"
+    },
+    "00996A": {
+      "code": "00996A",
+      "name": "主動兆豐台灣豐收",
+      "company": "兆豐國際證券投資信託股份有限公司",
+      "category": "domestic",
+      "listed_date": "20260325",
+      "discovered_at": "20261028",
+      "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html"
+    },
+    "00400A": {
+      "code": "00400A",
+      "name": "主動國泰動能高息",
+      "company": "國泰證券投資信託股份有限公司",
+      "category": "domestic",
+      "listed_date": "20260409",
+      "discovered_at": "20261028",
+      "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html"
+    },
+    "00401A": {
+      "code": "00401A",
+      "name": "主動摩根台灣鑫收",
+      "company": "摩根證券投資信託股份有限公司",
+      "category": "domestic",
+      "listed_date": "20260410",
+      "discovered_at": "20261028",
+      "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html"
+    },
+    "00997A": {
+      "code": "00997A",
+      "name": "主動群益美國增長",
+      "company": "群益證券投資信託股份有限公司",
+      "category": "foreign",
+      "listed_date": "20260414",
+      "discovered_at": "20261028",
+      "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html"
+    },
+    "00999A": {
+      "code": "00999A",
+      "name": "主動野村臺灣高息",
+      "company": "野村證券投資信託股份有限公司",
+      "category": "domestic",
+      "listed_date": "20260505",
+      "discovered_at": "20261028",
+      "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html",
+      "url": "https://www.nomurafunds.com.tw/ETFWEB/product-description?fundNo=00999A&tab=Shareholding"
+    },
+    "00403A": {
+      "code": "00403A",
+      "name": "主動統一升級50",
+      "company": "統一證券投資信託股份有限公司",
+      "category": "domestic",
+      "listed_date": "20260512",
+      "discovered_at": "20261028",
+      "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html"
+    },
+    "00402A": {
+      "code": "00402A",
+      "name": "主動安聯美國科技",
+      "company": "安聯證券投資信託股份有限公司",
+      "category": "foreign",
+      "listed_date": "20260609",
+      "discovered_at": "20261028",
+      "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html"
+    },
+    "00404A": {
+      "code": "00404A",
+      "name": "主動聯博動能50",
+      "company": "聯博證券投資信託股份有限公司",
+      "category": "domestic",
+      "listed_date": "20260609",
+      "discovered_at": "20261028",
+      "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html"
+    },
+    "00405A": {
+      "code": "00405A",
+      "name": "主動富邦台灣龍耀",
+      "company": "富邦證券投資信託股份有限公司",
+      "category": "domestic",
+      "listed_date": "20260609",
+      "discovered_at": "20261028",
+      "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html"
+    },
+    "00406A": {
+      "code": "00406A",
+      "name": "主動中信台灣收益",
+      "company": "中國信託證券投資信託股份有限公司",
+      "category": "domestic",
+      "listed_date": "20260611",
+      "discovered_at": "20261028",
+      "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html"
+    },
+    "00407A": {
+      "code": "00407A",
+      "name": "主動凱基台灣",
+      "company": "凱基證券投資信託股份有限公司",
+      "category": "domestic",
+      "listed_date": "20260624",
+      "discovered_at": "20261028",
+      "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html"
+    },
+    "00408A": {
+      "code": "00408A",
+      "name": "主動第一金優股息",
+      "company": "第一金證券投資信託股份有限公司",
+      "category": "domestic",
+      "listed_date": "20260715",
+      "discovered_at": "20261028",
+      "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html"
+    },
+    "00410A": {
+      "code": "00410A",
+      "name": "主動永豐科技趨勢",
+      "company": "永豐證券投資信託股份有限公司",
+      "category": "domestic",
+      "listed_date": "20260803",
+      "discovered_at": "20261028",
+      "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html"
+    },
+    "00409A": {
+      "code": "00409A",
+      "name": "主動復華全球50",
+      "company": "復華證券投資信託股份有限公司",
+      "category": "foreign",
+      "listed_date": "20260902",
+      "discovered_at": "20261028",
+      "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html"
+    },
+    "00412A": {
+      "code": "00412A",
+      "name": "主動安聯亞半導體",
+      "company": "安聯證券投資信託股份有限公司",
+      "category": "foreign",
+      "listed_date": "20261013",
+      "discovered_at": "20261028",
+      "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html"
+    },
+    "00415A": {
+      "code": "00415A",
+      "name": "主動群益核心50",
+      "company": "群益證券投資信託股份有限公司",
+      "category": "domestic",
+      "listed_date": "20261020",
+      "discovered_at": "20261028",
+      "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html"
+    }
+  }
+}

@@ -45,6 +45,28 @@ class EtfDetailTests(unittest.TestCase):
         self.assertIsNone(result["added_shares"])
         self.assertEqual(result["changes"], [])
 
+    def test_duplicate_day_skips_calculation_and_preserves_prior_history(self):
+        rows = details.read_json(self.root / 'etf/all_stocks.json')['etfs']['00980A']['stocks']
+        self.write('stocks/stocks_00980A_20260529.json', list(reversed(rows)))
+        result = details.get_etf_details('00980A', self.root)
+        self.assertTrue(result['unchanged'])
+        self.assertFalse(result['comparable'])
+        self.assertEqual(result['changes'], [])
+        self.assertEqual(result['history'][1]['status'], 'changed')
+        self.assertTrue(result['history'][1]['changes'])
+
+    def test_history_keeps_ten_dates_with_comparison_baseline(self):
+        for day in range(10, 30):
+            self.write(f'stocks/stocks_00980A_202605{day}.json', [self.row('2330', str(day * 100))])
+        result = details.get_etf_details('00980A', self.root)
+        self.assertEqual(len(result['history']), 10)
+        self.assertEqual(result['history'][-1]['previous_date'], '20260520')
+        self.assertEqual(result['history'][-1]['status'], 'changed')
+
+    def test_signature_normalizes_order_and_numeric_format(self):
+        self.assertEqual(details.snapshot_signature([self.row('2330', '1,000'), self.row('2308', '500')]),
+                         details.snapshot_signature([self.row('2308', 500), self.row('2330', 1000)]))
+
     def test_stale_fund_uses_its_own_snapshot_date_not_site_update_date(self):
         payload = details.read_json(self.root / "etf/all_stocks.json")
         payload["etfs"]["00980A"].update(date="20260528", status="stale")

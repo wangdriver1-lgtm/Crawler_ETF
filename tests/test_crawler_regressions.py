@@ -96,6 +96,18 @@ class CrawlerRegressionTests(unittest.TestCase):
                 self.assertIsNone(crawler.scrape_etf({"code": "AAA", "name": "A", "url": "https://example.test"}))
         driver.quit.assert_called_once()
 
+    def test_identical_holdings_keep_previous_change_report(self):
+        self.config('AAA')
+        self.previous('20260528')
+        self.write('etf/all_stocks.json', {'date': '20260528', 'etfs': {
+            'AAA': {'name': 'AAA', 'stocks': [self.stock()]}}})
+        self.write('stock_shares/stock_shares_diff.json', {'sentinel': 'prior changes'})
+        with patch.object(crawler, 'scrape_etf', return_value=[self.stock()]):
+            self.assertEqual(self.run_main(), 0)
+        self.assertEqual(self.read('stock_shares/stock_shares_diff.json'), {'sentinel': 'prior changes'})
+        self.assertEqual(self.read('etf/all_stocks.json')['unchanged_etfs'], ['AAA'])
+        self.assertFalse(Path('stock_shares/stock_shares_diff_20260601.json').exists())
+
     def test_partial_failure_preserves_all_previous_outputs(self):
         self.config("AAA", "BBB")
         paths = ["etf/all_stocks.json", "stocks/stocks_AAA_20260601.json",
