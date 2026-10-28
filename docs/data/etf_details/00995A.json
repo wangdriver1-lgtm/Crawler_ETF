@@ -3,6 +3,449 @@
   "name": "主動中信台灣卓越",
   "asof": "20260601",
   "data_status": "stale",
+  "unchanged": false,
+  "history": [
+    {
+      "date": "20260601",
+      "previous_date": "20260528",
+      "status": "changed",
+      "comparable": true,
+      "changes": [
+        {
+          "code": "6147",
+          "name": "頎邦科技",
+          "shares": 100000,
+          "weight": "0.48%",
+          "lot_size": 1000,
+          "previous_shares": 0,
+          "delta_shares": 100000,
+          "delta_lots": 100.0
+        },
+        {
+          "code": "2449",
+          "name": "京元電子",
+          "shares": 155000,
+          "weight": "0.83%",
+          "lot_size": 1000,
+          "previous_shares": 224500,
+          "delta_shares": -69500,
+          "delta_lots": -69.5
+        },
+        {
+          "code": "6531",
+          "name": "愛普科技",
+          "shares": 27000,
+          "weight": "0.51%",
+          "lot_size": 1000,
+          "previous_shares": 21000,
+          "delta_shares": 6000,
+          "delta_lots": 6.0
+        },
+        {
+          "code": "5274",
+          "name": "信驊科技",
+          "shares": 9000,
+          "weight": "2.80%",
+          "lot_size": 1000,
+          "previous_shares": 10000,
+          "delta_shares": -1000,
+          "delta_lots": -1.0
+        }
+      ]
+    },
+    {
+      "date": "20260528",
+      "previous_date": "20260526",
+      "status": "changed",
+      "comparable": true,
+      "changes": [
+        {
+          "code": "2303",
+          "name": "聯華電子",
+          "shares": 750000,
+          "weight": "1.85%",
+          "lot_size": 1000,
+          "previous_shares": 525000,
+          "delta_shares": 225000,
+          "delta_lots": 225.0
+        },
+        {
+          "code": "2421",
+          "name": "建準電機工業",
+          "shares": 0,
+          "weight": "0.21%",
+          "lot_size": 1000,
+          "previous_shares": 73637,
+          "delta_shares": -73637,
+          "delta_lots": -73.637
+        },
+        {
+          "code": "6187",
+          "name": "萬潤科技",
+          "shares": 24000,
+          "weight": "0.52%",
+          "lot_size": 1000,
+          "previous_shares": 14000,
+          "delta_shares": 10000,
+          "delta_lots": 10.0
+        },
+        {
+          "code": "3081",
+          "name": "聯亞光電工業",
+          "shares": 18000,
+          "weight": "0.83%",
+          "lot_size": 1000,
+          "previous_shares": 14000,
+          "delta_shares": 4000,
+          "delta_lots": 4.0
+        },
+        {
+          "code": "3661",
+          "name": "世芯電子",
+          "shares": 7000,
+          "weight": "0.52%",
+          "lot_size": 1000,
+          "previous_shares": 9000,
+          "delta_shares": -2000,
+          "delta_lots": -2.0
+        },
+        {
+          "code": "5274",
+          "name": "信驊科技",
+          "shares": 10000,
+          "weight": "3.09%",
+          "lot_size": 1000,
+          "previous_shares": 12000,
+          "delta_shares": -2000,
+          "delta_lots": -2.0
+        }
+      ]
+    },
+    {
+      "date": "20260526",
+      "previous_date": "20260525",
+      "status": "changed",
+      "comparable": true,
+      "changes": [
+        {
+          "code": "2313",
+          "name": "華通電腦",
+          "shares": 90000,
+          "weight": "0.43%",
+          "lot_size": 1000,
+          "previous_shares": 55000,
+          "delta_shares": 35000,
+          "delta_lots": 35.0
+        },
+        {
+          "code": "6531",
+          "name": "愛普科技",
+          "shares": 21000,
+          "weight": "0.38%",
+          "lot_size": 1000,
+          "previous_shares": 15000,
+          "delta_shares": 6000,
+          "delta_lots": 6.0
+        },
+        {
+          "code": "2383",
+          "name": "台光電子材料",
+          "shares": 77000,
+          "weight": "6.90%",
+          "lot_size": 1000,
+          "previous_shares": 74000,
+          "delta_shares": 3000,
+          "delta_lots": 3.0
+        },
+        {
+          "code": "6669",
+          "name": "緯穎科技服務",
+          "shares": 43000,
+          "weight": "3.85%",
+          "lot_size": 1000,
+          "previous_shares": 41000,
+          "delta_shares": 2000,
+          "delta_lots": 2.0
+        }
+      ]
+    },
+    {
+      "date": "20260525",
+      "previous_date": "20260522",
+      "status": "changed",
+      "comparable": true,
+      "changes": [
+        {
+          "code": "8046",
+          "name": "南亞電路板",
+          "shares": 170000,
+          "weight": "2.56%",
+          "lot_size": 1000,
+          "previous_shares": 152000,
+          "delta_shares": 18000,
+          "delta_lots": 18.0
+        }
+      ]
+    },
+    {
+      "date": "20260522",
+      "previous_date": "20260521",
+      "status": "changed",
+      "comparable": true,
+      "changes": [
+        {
+          "code": "2467",
+          "name": "志聖工業",
+          "shares": 27000,
+          "weight": "0.29%",
+          "lot_size": 1000,
+          "previous_shares": 0,
+          "delta_shares": 27000,
+          "delta_lots": 27.0
+        },
+        {
+          "code": "6187",
+          "name": "萬潤科技",
+          "shares": 14000,
+          "weight": "0.28%",
+          "lot_size": 1000,
+          "previous_shares": 0,
+          "delta_shares": 14000,
+          "delta_lots": 14.0
+        },
+        {
+          "code": "7750",
+          "name": "新代",
+          "shares": 12000,
+          "weight": "0.51%",
+          "lot_size": 1000,
+          "previous_shares": 9000,
+          "delta_shares": 3000,
+          "delta_lots": 3.0
+        }
+      ]
+    },
+    {
+      "date": "20260521",
+      "previous_date": "20260520",
+      "status": "changed",
+      "comparable": true,
+      "changes": [
+        {
+          "code": "6531",
+          "name": "愛普科技",
+          "shares": 15000,
+          "weight": "0.24%",
+          "lot_size": 1000,
+          "previous_shares": 0,
+          "delta_shares": 15000,
+          "delta_lots": 15.0
+        }
+      ]
+    },
+    {
+      "date": "20260520",
+      "previous_date": "20260519",
+      "status": "changed",
+      "comparable": true,
+      "changes": [
+        {
+          "code": "2330",
+          "name": "台灣積體電路製造",
+          "shares": 220000,
+          "weight": "9.38%",
+          "lot_size": 1000,
+          "previous_shares": 226000,
+          "delta_shares": -6000,
+          "delta_lots": -6.0
+        },
+        {
+          "code": "3665",
+          "name": "貿聯控股",
+          "shares": 71000,
+          "weight": "2.71%",
+          "lot_size": 1000,
+          "previous_shares": 74000,
+          "delta_shares": -3000,
+          "delta_lots": -3.0
+        }
+      ]
+    },
+    {
+      "date": "20260519",
+      "previous_date": "20260518",
+      "status": "changed",
+      "comparable": true,
+      "changes": [
+        {
+          "code": "2327",
+          "name": "國巨*",
+          "shares": 282000,
+          "weight": "2.70%",
+          "lot_size": 1000,
+          "previous_shares": 257000,
+          "delta_shares": 25000,
+          "delta_lots": 25.0
+        },
+        {
+          "code": "3711",
+          "name": "日月光投資控股",
+          "shares": 225000,
+          "weight": "2.05%",
+          "lot_size": 1000,
+          "previous_shares": 200000,
+          "delta_shares": 25000,
+          "delta_lots": 25.0
+        },
+        {
+          "code": "3661",
+          "name": "世芯電子",
+          "shares": 9000,
+          "weight": "0.77%",
+          "lot_size": 1000,
+          "previous_shares": 15000,
+          "delta_shares": -6000,
+          "delta_lots": -6.0
+        },
+        {
+          "code": "3443",
+          "name": "創意電子",
+          "shares": 5000,
+          "weight": "0.43%",
+          "lot_size": 1000,
+          "previous_shares": 9000,
+          "delta_shares": -4000,
+          "delta_lots": -4.0
+        },
+        {
+          "code": "3665",
+          "name": "貿聯控股",
+          "shares": 74000,
+          "weight": "2.84%",
+          "lot_size": 1000,
+          "previous_shares": 77000,
+          "delta_shares": -3000,
+          "delta_lots": -3.0
+        }
+      ]
+    },
+    {
+      "date": "20260518",
+      "previous_date": "20260515",
+      "status": "changed",
+      "comparable": true,
+      "changes": [
+        {
+          "code": "3711",
+          "name": "日月光投資控股",
+          "shares": 200000,
+          "weight": "1.91%",
+          "lot_size": 1000,
+          "previous_shares": 175000,
+          "delta_shares": 25000,
+          "delta_lots": 25.0
+        },
+        {
+          "code": "3189",
+          "name": "景碩科技",
+          "shares": 5000,
+          "weight": "0.05%",
+          "lot_size": 1000,
+          "previous_shares": 25000,
+          "delta_shares": -20000,
+          "delta_lots": -20.0
+        },
+        {
+          "code": "2360",
+          "name": "致茂電子",
+          "shares": 26000,
+          "weight": "1.07%",
+          "lot_size": 1000,
+          "previous_shares": 18000,
+          "delta_shares": 8000,
+          "delta_lots": 8.0
+        },
+        {
+          "code": "3443",
+          "name": "創意電子",
+          "shares": 9000,
+          "weight": "0.80%",
+          "lot_size": 1000,
+          "previous_shares": 12000,
+          "delta_shares": -3000,
+          "delta_lots": -3.0
+        },
+        {
+          "code": "3665",
+          "name": "貿聯控股",
+          "shares": 77000,
+          "weight": "2.93%",
+          "lot_size": 1000,
+          "previous_shares": 80000,
+          "delta_shares": -3000,
+          "delta_lots": -3.0
+        }
+      ]
+    },
+    {
+      "date": "20260515",
+      "previous_date": "20260514",
+      "status": "changed",
+      "comparable": true,
+      "changes": [
+        {
+          "code": "3189",
+          "name": "景碩科技",
+          "shares": 25000,
+          "weight": "0.23%",
+          "lot_size": 1000,
+          "previous_shares": 55000,
+          "delta_shares": -30000,
+          "delta_lots": -30.0
+        },
+        {
+          "code": "3665",
+          "name": "貿聯控股",
+          "shares": 80000,
+          "weight": "3.14%",
+          "lot_size": 1000,
+          "previous_shares": 96000,
+          "delta_shares": -16000,
+          "delta_lots": -16.0
+        },
+        {
+          "code": "8996",
+          "name": "高力熱處理工業",
+          "shares": 32000,
+          "weight": "0.62%",
+          "lot_size": 1000,
+          "previous_shares": 22000,
+          "delta_shares": 10000,
+          "delta_lots": 10.0
+        },
+        {
+          "code": "3533",
+          "name": "嘉澤端子工業",
+          "shares": 0,
+          "weight": "0.31%",
+          "lot_size": 1000,
+          "previous_shares": 7000,
+          "delta_shares": -7000,
+          "delta_lots": -7.0
+        },
+        {
+          "code": "3443",
+          "name": "創意電子",
+          "shares": 12000,
+          "weight": "1.09%",
+          "lot_size": 1000,
+          "previous_shares": 18000,
+          "delta_shares": -6000,
+          "delta_lots": -6.0
+        }
+      ]
+    }
+  ],
   "previous_date": "20260528",
   "official_url": "https://www.ctbcinvestments.com/Etf/00653201/Combination",
   "holdings": [

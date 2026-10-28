@@ -2,7 +2,1129 @@
   "code": "00997A",
   "name": "主動群益美國增長",
   "asof": "20261028",
-  "data_status": "fresh",
+  "data_status": "stale",
+  "unchanged": false,
+  "history": [
+    {
+      "date": "20261028",
+      "previous_date": "20260601",
+      "status": "changed",
+      "comparable": true,
+      "changes": [
+        {
+          "code": "3037",
+          "name": "欣興",
+          "shares": 360000,
+          "weight": "3.37%",
+          "lot_size": 1000,
+          "previous_shares": 0,
+          "delta_shares": 360000,
+          "delta_lots": 360.0
+        },
+        {
+          "code": "DT US",
+          "name": "Dynatrace公司",
+          "shares": 191966,
+          "weight": "3.51%",
+          "lot_size": null,
+          "previous_shares": 0,
+          "delta_shares": 191966,
+          "delta_lots": null
+        },
+        {
+          "code": "2308",
+          "name": "台達電",
+          "shares": 0,
+          "weight": "2.68%",
+          "lot_size": 1000,
+          "previous_shares": 141000,
+          "delta_shares": -141000,
+          "delta_lots": -141.0
+        },
+        {
+          "code": "2345",
+          "name": "智邦",
+          "shares": 0,
+          "weight": "2.04%",
+          "lot_size": 1000,
+          "previous_shares": 108000,
+          "delta_shares": -108000,
+          "delta_lots": -108.0
+        },
+        {
+          "code": "AIXA GY",
+          "name": "愛思強股份有限公司",
+          "shares": 0,
+          "weight": "1.64%",
+          "lot_size": null,
+          "previous_shares": 99000,
+          "delta_shares": -99000,
+          "delta_lots": null
+        },
+        {
+          "code": "6981 JP",
+          "name": "村田製作所有限公司",
+          "shares": 0,
+          "weight": "1.3%",
+          "lot_size": null,
+          "previous_shares": 88000,
+          "delta_shares": -88000,
+          "delta_lots": null
+        },
+        {
+          "code": "SPCX US",
+          "name": "太空探索科技公司",
+          "shares": 72940,
+          "weight": "3.11%",
+          "lot_size": null,
+          "previous_shares": 0,
+          "delta_shares": 72940,
+          "delta_lots": null
+        },
+        {
+          "code": "STMPA FP",
+          "name": "意法半導體公司",
+          "shares": 0,
+          "weight": "1.14%",
+          "lot_size": null,
+          "previous_shares": 68000,
+          "delta_shares": -68000,
+          "delta_lots": null
+        },
+        {
+          "code": "CRWD US",
+          "name": "Crowdstrike控股公司",
+          "shares": 63557,
+          "weight": "4.89%",
+          "lot_size": null,
+          "previous_shares": 0,
+          "delta_shares": 63557,
+          "delta_lots": null
+        },
+        {
+          "code": "YOU US",
+          "name": "Clear Secure Inc",
+          "shares": 0,
+          "weight": "0.71%",
+          "lot_size": null,
+          "previous_shares": 52461,
+          "delta_shares": -52461,
+          "delta_lots": null
+        },
+        {
+          "code": "FTNT US",
+          "name": "防特網公司",
+          "shares": 48626,
+          "weight": "2.58%",
+          "lot_size": null,
+          "previous_shares": 0,
+          "delta_shares": 48626,
+          "delta_lots": null
+        },
+        {
+          "code": "IFX GY",
+          "name": "英飛凌科技股份有限公司",
+          "shares": 0,
+          "weight": "1.11%",
+          "lot_size": null,
+          "previous_shares": 48000,
+          "delta_shares": -48000,
+          "delta_lots": null
+        },
+        {
+          "code": "PL US",
+          "name": "Planet Labs PBC",
+          "shares": 0,
+          "weight": "0.59%",
+          "lot_size": null,
+          "previous_shares": 47144,
+          "delta_shares": -47144,
+          "delta_lots": null
+        },
+        {
+          "code": "OKTA US",
+          "name": "Okta公司",
+          "shares": 45747,
+          "weight": "2.97%",
+          "lot_size": null,
+          "previous_shares": 0,
+          "delta_shares": 45747,
+          "delta_lots": null
+        },
+        {
+          "code": "TDC US",
+          "name": "天睿資訊公司",
+          "shares": 0,
+          "weight": "0.33%",
+          "lot_size": null,
+          "previous_shares": 39406,
+          "delta_shares": -39406,
+          "delta_lots": null
+        },
+        {
+          "code": "TTMI US",
+          "name": "TTM科技公司",
+          "shares": 0,
+          "weight": "1.44%",
+          "lot_size": null,
+          "previous_shares": 33991,
+          "delta_shares": -33991,
+          "delta_lots": null
+        },
+        {
+          "code": "EBAY US",
+          "name": "電子灣拍賣網站公司",
+          "shares": 0,
+          "weight": "0.89%",
+          "lot_size": null,
+          "previous_shares": 33326,
+          "delta_shares": -33326,
+          "delta_lots": null
+        },
+        {
+          "code": "CSCO US",
+          "name": "CISCO SYSTEMS INC",
+          "shares": 31992,
+          "weight": "1.02%",
+          "lot_size": null,
+          "previous_shares": 0,
+          "delta_shares": 31992,
+          "delta_lots": null
+        },
+        {
+          "code": "3110 JP",
+          "name": "日東紡織",
+          "shares": 0,
+          "weight": "1.1%",
+          "lot_size": null,
+          "previous_shares": 31773,
+          "delta_shares": -31773,
+          "delta_lots": null
+        },
+        {
+          "code": "WDC US",
+          "name": "WESTERN DIGITAL CORP",
+          "shares": 11727,
+          "weight": "1.28%",
+          "lot_size": null,
+          "previous_shares": 41940,
+          "delta_shares": -30213,
+          "delta_lots": null
+        },
+        {
+          "code": "AAPL US",
+          "name": "蘋果公司",
+          "shares": 41772,
+          "weight": "4.16%",
+          "lot_size": null,
+          "previous_shares": 11807,
+          "delta_shares": 29965,
+          "delta_lots": null
+        },
+        {
+          "code": "GLW US",
+          "name": "康寧公司",
+          "shares": 0,
+          "weight": "1.27%",
+          "lot_size": null,
+          "previous_shares": 28715,
+          "delta_shares": -28715,
+          "delta_lots": null
+        },
+        {
+          "code": "TER US",
+          "name": "泰瑞達公司",
+          "shares": 0,
+          "weight": "2.58%",
+          "lot_size": null,
+          "previous_shares": 28257,
+          "delta_shares": -28257,
+          "delta_lots": null
+        },
+        {
+          "code": "PANW US",
+          "name": "Palo Alto Networks Inc",
+          "shares": 25679,
+          "weight": "2.96%",
+          "lot_size": null,
+          "previous_shares": 0,
+          "delta_shares": 25679,
+          "delta_lots": null
+        },
+        {
+          "code": "APH US",
+          "name": "安費諾",
+          "shares": 52516,
+          "weight": "1.18%",
+          "lot_size": null,
+          "previous_shares": 27207,
+          "delta_shares": 25309,
+          "delta_lots": null
+        },
+        {
+          "code": "COHR US",
+          "name": "連貫公司",
+          "shares": 0,
+          "weight": "2.1%",
+          "lot_size": null,
+          "previous_shares": 23886,
+          "delta_shares": -23886,
+          "delta_lots": null
+        },
+        {
+          "code": "CIEN US",
+          "name": "喜雅納公司",
+          "shares": 0,
+          "weight": "2.98%",
+          "lot_size": null,
+          "previous_shares": 21093,
+          "delta_shares": -21093,
+          "delta_lots": null
+        },
+        {
+          "code": "AMZN US",
+          "name": "亞馬遜公司",
+          "shares": 0,
+          "weight": "1.31%",
+          "lot_size": null,
+          "previous_shares": 19919,
+          "delta_shares": -19919,
+          "delta_lots": null
+        },
+        {
+          "code": "QCOM US",
+          "name": "高通公司",
+          "shares": 0,
+          "weight": "1.18%",
+          "lot_size": null,
+          "previous_shares": 19333,
+          "delta_shares": -19333,
+          "delta_lots": null
+        },
+        {
+          "code": "NTRA US",
+          "name": "那提拉公司",
+          "shares": 18997,
+          "weight": "2.24%",
+          "lot_size": null,
+          "previous_shares": 0,
+          "delta_shares": 18997,
+          "delta_lots": null
+        },
+        {
+          "code": "STX US",
+          "name": "希捷科技控股公開有限公司",
+          "shares": 7559,
+          "weight": "1.45%",
+          "lot_size": null,
+          "previous_shares": 25967,
+          "delta_shares": -18408,
+          "delta_lots": null
+        },
+        {
+          "code": "CRDO US",
+          "name": "Credo科技集團控股有限公司",
+          "shares": 0,
+          "weight": "1.02%",
+          "lot_size": null,
+          "previous_shares": 17655,
+          "delta_shares": -17655,
+          "delta_lots": null
+        },
+        {
+          "code": "DELL US",
+          "name": "戴爾科技公司",
+          "shares": 17000,
+          "weight": "2.45%",
+          "lot_size": null,
+          "previous_shares": 0,
+          "delta_shares": 17000,
+          "delta_lots": null
+        },
+        {
+          "code": "MU US",
+          "name": "美光科技公司",
+          "shares": 13432,
+          "weight": "3.58%",
+          "lot_size": null,
+          "previous_shares": 30231,
+          "delta_shares": -16799,
+          "delta_lots": null
+        },
+        {
+          "code": "LRCX US",
+          "name": "科林研發股份有限公司",
+          "shares": 22071,
+          "weight": "1.52%",
+          "lot_size": null,
+          "previous_shares": 38116,
+          "delta_shares": -16045,
+          "delta_lots": null
+        },
+        {
+          "code": "AMD US",
+          "name": "ADVANCED MICRO DEVICES",
+          "shares": 13959,
+          "weight": "2.24%",
+          "lot_size": null,
+          "previous_shares": 29807,
+          "delta_shares": -15848,
+          "delta_lots": null
+        },
+        {
+          "code": "4062 JP",
+          "name": "揖斐電有限公司",
+          "shares": 115828,
+          "weight": "1.88%",
+          "lot_size": null,
+          "previous_shares": 130868,
+          "delta_shares": -15040,
+          "delta_lots": null
+        },
+        {
+          "code": "6857 JP",
+          "name": "愛德萬測試",
+          "shares": 15000,
+          "weight": "0.92%",
+          "lot_size": null,
+          "previous_shares": 0,
+          "delta_shares": 15000,
+          "delta_lots": null
+        },
+        {
+          "code": "MSFT US",
+          "name": "微軟公司",
+          "shares": 21042,
+          "weight": "3.21%",
+          "lot_size": null,
+          "previous_shares": 6428,
+          "delta_shares": 14614,
+          "delta_lots": null
+        },
+        {
+          "code": "PLTR US",
+          "name": "帕蘭提爾科技公司",
+          "shares": 23556,
+          "weight": "1.34%",
+          "lot_size": null,
+          "previous_shares": 9067,
+          "delta_shares": 14489,
+          "delta_lots": null
+        },
+        {
+          "code": "VRT US",
+          "name": "維諦控股公司",
+          "shares": 12136,
+          "weight": "0.73%",
+          "lot_size": null,
+          "previous_shares": 0,
+          "delta_shares": 12136,
+          "delta_lots": null
+        },
+        {
+          "code": "DDOG US",
+          "name": "數據狗公司",
+          "shares": 11884,
+          "weight": "0.96%",
+          "lot_size": null,
+          "previous_shares": 0,
+          "delta_shares": 11884,
+          "delta_lots": null
+        },
+        {
+          "code": "ANET US",
+          "name": "Arista網路公司",
+          "shares": 29673,
+          "weight": "1.59%",
+          "lot_size": null,
+          "previous_shares": 18815,
+          "delta_shares": 10858,
+          "delta_lots": null
+        },
+        {
+          "code": "VEEV US",
+          "name": "Veeva系統公司",
+          "shares": 10800,
+          "weight": "0.97%",
+          "lot_size": null,
+          "previous_shares": 0,
+          "delta_shares": 10800,
+          "delta_lots": null
+        },
+        {
+          "code": "TSLA US",
+          "name": "特斯拉公司",
+          "shares": 0,
+          "weight": "1.11%",
+          "lot_size": null,
+          "previous_shares": 10491,
+          "delta_shares": -10491,
+          "delta_lots": null
+        },
+        {
+          "code": "ARM US",
+          "name": "安謀控股公開有限公司",
+          "shares": 10410,
+          "weight": "0.68%",
+          "lot_size": null,
+          "previous_shares": 0,
+          "delta_shares": 10410,
+          "delta_lots": null
+        },
+        {
+          "code": "MRVL US",
+          "name": "Marvell Technology Inc",
+          "shares": 43260,
+          "weight": "3.02%",
+          "lot_size": null,
+          "previous_shares": 53237,
+          "delta_shares": -9977,
+          "delta_lots": null
+        },
+        {
+          "code": "GOOGL US",
+          "name": "ALPHABET INC-CL A",
+          "shares": 26903,
+          "weight": "2.47%",
+          "lot_size": null,
+          "previous_shares": 36597,
+          "delta_shares": -9694,
+          "delta_lots": null
+        },
+        {
+          "code": "KLAC US",
+          "name": "KLA CORP",
+          "shares": 11245,
+          "weight": "0.5%",
+          "lot_size": null,
+          "previous_shares": 1671,
+          "delta_shares": 9574,
+          "delta_lots": null
+        },
+        {
+          "code": "CRL US",
+          "name": "查爾斯河實驗室國際公司",
+          "shares": 9436,
+          "weight": "0.97%",
+          "lot_size": null,
+          "previous_shares": 0,
+          "delta_shares": 9436,
+          "delta_lots": null
+        },
+        {
+          "code": "ADI US",
+          "name": "亞德諾公司",
+          "shares": 8777,
+          "weight": "1.07%",
+          "lot_size": null,
+          "previous_shares": 0,
+          "delta_shares": 8777,
+          "delta_lots": null
+        },
+        {
+          "code": "5801 JP",
+          "name": "古河電氣工業有限公司",
+          "shares": 0,
+          "weight": "0.63%",
+          "lot_size": null,
+          "previous_shares": 7951,
+          "delta_shares": -7951,
+          "delta_lots": null
+        },
+        {
+          "code": "AVGO US",
+          "name": "博通公司",
+          "shares": 11017,
+          "weight": "1.08%",
+          "lot_size": null,
+          "previous_shares": 18110,
+          "delta_shares": -7093,
+          "delta_lots": null
+        },
+        {
+          "code": "NVDA US",
+          "name": "輝達公司",
+          "shares": 58576,
+          "weight": "3.66%",
+          "lot_size": null,
+          "previous_shares": 51763,
+          "delta_shares": 6813,
+          "delta_lots": null
+        },
+        {
+          "code": "SNDK US",
+          "name": "晟碟公司（德拉瓦州）",
+          "shares": 6008,
+          "weight": "2.25%",
+          "lot_size": null,
+          "previous_shares": 12652,
+          "delta_shares": -6644,
+          "delta_lots": null
+        },
+        {
+          "code": "SNOW US",
+          "name": "Snowflake公司",
+          "shares": 5963,
+          "weight": "0.58%",
+          "lot_size": null,
+          "previous_shares": 0,
+          "delta_shares": 5963,
+          "delta_lots": null
+        },
+        {
+          "code": "INTC US",
+          "name": "英特爾",
+          "shares": 63667,
+          "weight": "1.71%",
+          "lot_size": null,
+          "previous_shares": 69520,
+          "delta_shares": -5853,
+          "delta_lots": null
+        },
+        {
+          "code": "ADSK US",
+          "name": "歐特克",
+          "shares": 0,
+          "weight": "0.3%",
+          "lot_size": null,
+          "previous_shares": 5303,
+          "delta_shares": -5303,
+          "delta_lots": null
+        },
+        {
+          "code": "LMT US",
+          "name": "洛克希德馬丁",
+          "shares": 4854,
+          "weight": "0.87%",
+          "lot_size": null,
+          "previous_shares": 0,
+          "delta_shares": 4854,
+          "delta_lots": null
+        },
+        {
+          "code": "TXN US",
+          "name": "德州儀器公司",
+          "shares": 9954,
+          "weight": "0.88%",
+          "lot_size": null,
+          "previous_shares": 5111,
+          "delta_shares": 4843,
+          "delta_lots": null
+        },
+        {
+          "code": "GE US",
+          "name": "奇異公司",
+          "shares": 10935,
+          "weight": "0.93%",
+          "lot_size": null,
+          "previous_shares": 6185,
+          "delta_shares": 4750,
+          "delta_lots": null
+        },
+        {
+          "code": "009150 KS",
+          "name": "三星電機",
+          "shares": 4612,
+          "weight": "1.2%",
+          "lot_size": null,
+          "previous_shares": 0,
+          "delta_shares": 4612,
+          "delta_lots": null
+        },
+        {
+          "code": "META US",
+          "name": "Meta平台公司",
+          "shares": 0,
+          "weight": "0.63%",
+          "lot_size": null,
+          "previous_shares": 4057,
+          "delta_shares": -4057,
+          "delta_lots": null
+        },
+        {
+          "code": "APP US",
+          "name": "AppLovin公司",
+          "shares": 0,
+          "weight": "0.49%",
+          "lot_size": null,
+          "previous_shares": 3300,
+          "delta_shares": -3300,
+          "delta_lots": null
+        },
+        {
+          "code": "2330",
+          "name": "台積電",
+          "shares": 132000,
+          "weight": "2.8%",
+          "lot_size": 1000,
+          "previous_shares": 135000,
+          "delta_shares": -3000,
+          "delta_lots": -3.0
+        },
+        {
+          "code": "AMAT US",
+          "name": "應用材料",
+          "shares": 15656,
+          "weight": "1.78%",
+          "lot_size": null,
+          "previous_shares": 13500,
+          "delta_shares": 2156,
+          "delta_lots": null
+        },
+        {
+          "code": "BE US",
+          "name": "布魯姆能源公司",
+          "shares": 30260,
+          "weight": "1.9%",
+          "lot_size": null,
+          "previous_shares": 32000,
+          "delta_shares": -1740,
+          "delta_lots": null
+        },
+        {
+          "code": "2383",
+          "name": "台光電",
+          "shares": 41000,
+          "weight": "1.72%",
+          "lot_size": 1000,
+          "previous_shares": 42000,
+          "delta_shares": -1000,
+          "delta_lots": -1.0
+        },
+        {
+          "code": "LITE US",
+          "name": "魯門特姆控股公司",
+          "shares": 16015,
+          "weight": "3.98%",
+          "lot_size": null,
+          "previous_shares": 15055,
+          "delta_shares": 960,
+          "delta_lots": null
+        },
+        {
+          "code": "CDNS US",
+          "name": "Cadence設計系統公司",
+          "shares": 4405,
+          "weight": "0.43%",
+          "lot_size": null,
+          "previous_shares": 3823,
+          "delta_shares": 582,
+          "delta_lots": null
+        },
+        {
+          "code": "HWM US",
+          "name": "Howmet航太公司",
+          "shares": 15147,
+          "weight": "0.83%",
+          "lot_size": null,
+          "previous_shares": 14725,
+          "delta_shares": 422,
+          "delta_lots": null
+        }
+      ]
+    },
+    {
+      "date": "20260601",
+      "previous_date": "20260528",
+      "status": "changed",
+      "comparable": true,
+      "changes": [
+        {
+          "code": "IFX GY",
+          "name": "英飛凌科技股份有限公司",
+          "shares": 48000,
+          "weight": "1.11%",
+          "lot_size": null,
+          "previous_shares": 0,
+          "delta_shares": 48000,
+          "delta_lots": null
+        },
+        {
+          "code": "2454",
+          "name": "聯發科",
+          "shares": 25000,
+          "weight": "0.84%",
+          "lot_size": 1000,
+          "previous_shares": 0,
+          "delta_shares": 25000,
+          "delta_lots": 25.0
+        },
+        {
+          "code": "GLW US",
+          "name": "康寧公司",
+          "shares": 28715,
+          "weight": "1.27%",
+          "lot_size": null,
+          "previous_shares": 49715,
+          "delta_shares": -21000,
+          "delta_lots": null
+        },
+        {
+          "code": "MRVL US",
+          "name": "Marvell Technology Inc",
+          "shares": 53237,
+          "weight": "2.66%",
+          "lot_size": null,
+          "previous_shares": 42237,
+          "delta_shares": 11000,
+          "delta_lots": null
+        },
+        {
+          "code": "GEV US",
+          "name": "奇異維諾瓦公司",
+          "shares": 0,
+          "weight": "1.36%",
+          "lot_size": null,
+          "previous_shares": 5489,
+          "delta_shares": -5489,
+          "delta_lots": null
+        },
+        {
+          "code": "IDCC US",
+          "name": "InterDigital, Inc.",
+          "shares": 0,
+          "weight": "0.31%",
+          "lot_size": null,
+          "previous_shares": 5140,
+          "delta_shares": -5140,
+          "delta_lots": null
+        },
+        {
+          "code": "HWM US",
+          "name": "Howmet航太公司",
+          "shares": 14725,
+          "weight": "0.93%",
+          "lot_size": null,
+          "previous_shares": 17425,
+          "delta_shares": -2700,
+          "delta_lots": null
+        },
+        {
+          "code": "FIX US",
+          "name": "Comfort系統美國公司",
+          "shares": 0,
+          "weight": "0.92%",
+          "lot_size": null,
+          "previous_shares": 2050,
+          "delta_shares": -2050,
+          "delta_lots": null
+        },
+        {
+          "code": "LITE US",
+          "name": "魯門特姆控股公司",
+          "shares": 15055,
+          "weight": "3.14%",
+          "lot_size": null,
+          "previous_shares": 16855,
+          "delta_shares": -1800,
+          "delta_lots": null
+        }
+      ]
+    },
+    {
+      "date": "20260528",
+      "previous_date": "20260527",
+      "status": "changed",
+      "comparable": true,
+      "changes": [
+        {
+          "code": "MRVL US",
+          "name": "Marvell Technology Inc",
+          "shares": 42237,
+          "weight": "2.01%",
+          "lot_size": null,
+          "previous_shares": 38237,
+          "delta_shares": 4000,
+          "delta_lots": null
+        },
+        {
+          "code": "SNDK US",
+          "name": "晟碟公司（德拉瓦州）",
+          "shares": 12652,
+          "weight": "4.83%",
+          "lot_size": null,
+          "previous_shares": 11652,
+          "delta_shares": 1000,
+          "delta_lots": null
+        }
+      ]
+    },
+    {
+      "date": "20260527",
+      "previous_date": "20260526",
+      "status": "changed",
+      "comparable": true,
+      "changes": [
+        {
+          "code": "VIAV US",
+          "name": "Viavi解決方案公司",
+          "shares": 0,
+          "weight": "0.28%",
+          "lot_size": null,
+          "previous_shares": 21983,
+          "delta_shares": -21983,
+          "delta_lots": null
+        },
+        {
+          "code": "TTMI US",
+          "name": "TTM TECHNOLOGY",
+          "shares": 33991,
+          "weight": "1.62%",
+          "lot_size": null,
+          "previous_shares": 23500,
+          "delta_shares": 10491,
+          "delta_lots": null
+        },
+        {
+          "code": "GOOGL US",
+          "name": "ALPHABET INC-CL A",
+          "shares": 36597,
+          "weight": "3.45%",
+          "lot_size": null,
+          "previous_shares": 47024,
+          "delta_shares": -10427,
+          "delta_lots": null
+        },
+        {
+          "code": "QCOM US",
+          "name": "高通公司",
+          "shares": 19333,
+          "weight": "1.16%",
+          "lot_size": null,
+          "previous_shares": 11000,
+          "delta_shares": 8333,
+          "delta_lots": null
+        },
+        {
+          "code": "VRT US",
+          "name": "維諦控股公司",
+          "shares": 0,
+          "weight": "0.41%",
+          "lot_size": null,
+          "previous_shares": 5000,
+          "delta_shares": -5000,
+          "delta_lots": null
+        },
+        {
+          "code": "AVGO US",
+          "name": "博通公司",
+          "shares": 18110,
+          "weight": "1.85%",
+          "lot_size": null,
+          "previous_shares": 22928,
+          "delta_shares": -4818,
+          "delta_lots": null
+        }
+      ]
+    },
+    {
+      "date": "20260526",
+      "previous_date": "20260525",
+      "status": "unchanged",
+      "comparable": false,
+      "changes": []
+    },
+    {
+      "date": "20260525",
+      "previous_date": "20260522",
+      "status": "changed",
+      "comparable": true,
+      "changes": [
+        {
+          "code": "VIAV US",
+          "name": "Viavi解決方案公司",
+          "shares": 21983,
+          "weight": "0.28%",
+          "lot_size": null,
+          "previous_shares": 71983,
+          "delta_shares": -50000,
+          "delta_lots": null
+        },
+        {
+          "code": "BE US",
+          "name": "BLOOM ENERGY",
+          "shares": 32000,
+          "weight": "2.45%",
+          "lot_size": null,
+          "previous_shares": 25000,
+          "delta_shares": 7000,
+          "delta_lots": null
+        }
+      ]
+    },
+    {
+      "date": "20260522",
+      "previous_date": "20260521",
+      "status": "changed",
+      "comparable": true,
+      "changes": [
+        {
+          "code": "6981 JP",
+          "name": "村田製作所有限公司",
+          "shares": 88000,
+          "weight": "0.95%",
+          "lot_size": null,
+          "previous_shares": 0,
+          "delta_shares": 88000,
+          "delta_lots": null
+        },
+        {
+          "code": "BE US",
+          "name": "BLOOM ENERGY",
+          "shares": 25000,
+          "weight": "1.96%",
+          "lot_size": null,
+          "previous_shares": 14000,
+          "delta_shares": 11000,
+          "delta_lots": null
+        }
+      ]
+    },
+    {
+      "date": "20260521",
+      "previous_date": "20260520",
+      "status": "changed",
+      "comparable": true,
+      "changes": [
+        {
+          "code": "STMPA FP",
+          "name": "意法半導體公司",
+          "shares": 68000,
+          "weight": "1.16%",
+          "lot_size": null,
+          "previous_shares": 0,
+          "delta_shares": 68000,
+          "delta_lots": null
+        },
+        {
+          "code": "AIXA GY",
+          "name": "AIXTRON",
+          "shares": 99000,
+          "weight": "1.6%",
+          "lot_size": null,
+          "previous_shares": 63000,
+          "delta_shares": 36000,
+          "delta_lots": null
+        }
+      ]
+    },
+    {
+      "date": "20260520",
+      "previous_date": "20260519",
+      "status": "changed",
+      "comparable": true,
+      "changes": [
+        {
+          "code": "WDC US",
+          "name": "威騰電子公司",
+          "shares": 41940,
+          "weight": "5.18%",
+          "lot_size": null,
+          "previous_shares": 46940,
+          "delta_shares": -5000,
+          "delta_lots": null
+        },
+        {
+          "code": "STX US",
+          "name": "希捷科技控股公開有限公司",
+          "shares": 25967,
+          "weight": "5.16%",
+          "lot_size": null,
+          "previous_shares": 29967,
+          "delta_shares": -4000,
+          "delta_lots": null
+        },
+        {
+          "code": "LITE US",
+          "name": "魯門特姆控股公司",
+          "shares": 16855,
+          "weight": "4.06%",
+          "lot_size": null,
+          "previous_shares": 20155,
+          "delta_shares": -3300,
+          "delta_lots": null
+        }
+      ]
+    },
+    {
+      "date": "20260519",
+      "previous_date": "20260518",
+      "status": "changed",
+      "comparable": true,
+      "changes": [
+        {
+          "code": "AIXA GY",
+          "name": "AIXTRON",
+          "shares": 63000,
+          "weight": "0.98%",
+          "lot_size": null,
+          "previous_shares": 0,
+          "delta_shares": 63000,
+          "delta_lots": null
+        },
+        {
+          "code": "TTMI US",
+          "name": "TTM TECHNOLOGY",
+          "shares": 23500,
+          "weight": "0.99%",
+          "lot_size": null,
+          "previous_shares": 0,
+          "delta_shares": 23500,
+          "delta_lots": null
+        },
+        {
+          "code": "3110 JP",
+          "name": "日東紡織",
+          "shares": 31773,
+          "weight": "1.21%",
+          "lot_size": null,
+          "previous_shares": 52773,
+          "delta_shares": -21000,
+          "delta_lots": null
+        },
+        {
+          "code": "2383",
+          "name": "台光電",
+          "shares": 42000,
+          "weight": "1.61%",
+          "lot_size": 1000,
+          "previous_shares": 57000,
+          "delta_shares": -15000,
+          "delta_lots": -15.0
+        },
+        {
+          "code": "6515",
+          "name": "穎崴",
+          "shares": 0,
+          "weight": "0.79%",
+          "lot_size": 1000,
+          "previous_shares": 10000,
+          "delta_shares": -10000,
+          "delta_lots": -10.0
+        },
+        {
+          "code": "4062 JP",
+          "name": "揖斐電有限公司",
+          "shares": 130868,
+          "weight": "3.43%",
+          "lot_size": null,
+          "previous_shares": 135868,
+          "delta_shares": -5000,
+          "delta_lots": null
+        },
+        {
+          "code": "VRT US",
+          "name": "維諦控股公司",
+          "shares": 5000,
+          "weight": "0.45%",
+          "lot_size": null,
+          "previous_shares": 0,
+          "delta_shares": 5000,
+          "delta_lots": null
+        }
+      ]
+    }
+  ],
   "previous_date": "20260601",
   "official_url": "https://www.capitalfund.com.tw/etf/product/detail/502/portfolio",
   "holdings": [

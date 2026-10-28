@@ -3,6 +3,79 @@
   "name": "主動國泰動能高息",
   "asof": "20261028",
   "data_status": "fresh",
+  "unchanged": false,
+  "history": [
+    {
+      "date": "20261028",
+      "previous_date": "20260601",
+      "status": "unavailable",
+      "comparable": false,
+      "changes": []
+    },
+    {
+      "date": "20260601",
+      "previous_date": "20260528",
+      "status": "unavailable",
+      "comparable": false,
+      "changes": []
+    },
+    {
+      "date": "20260528",
+      "previous_date": "20260527",
+      "status": "unavailable",
+      "comparable": false,
+      "changes": []
+    },
+    {
+      "date": "20260527",
+      "previous_date": "20260526",
+      "status": "unavailable",
+      "comparable": false,
+      "changes": []
+    },
+    {
+      "date": "20260526",
+      "previous_date": "20260525",
+      "status": "unavailable",
+      "comparable": false,
+      "changes": []
+    },
+    {
+      "date": "20260525",
+      "previous_date": "20260522",
+      "status": "unavailable",
+      "comparable": false,
+      "changes": []
+    },
+    {
+      "date": "20260522",
+      "previous_date": "20260521",
+      "status": "unavailable",
+      "comparable": false,
+      "changes": []
+    },
+    {
+      "date": "20260521",
+      "previous_date": "20260520",
+      "status": "unavailable",
+      "comparable": false,
+      "changes": []
+    },
+    {
+      "date": "20260520",
+      "previous_date": "20260519",
+      "status": "unavailable",
+      "comparable": false,
+      "changes": []
+    },
+    {
+      "date": "20260519",
+      "previous_date": "20260518",
+      "status": "unavailable",
+      "comparable": false,
+      "changes": []
+    }
+  ],
   "previous_date": "20260601",
   "official_url": "https://www.cathaysite.com.tw/ETF/detail/EEA?tab=etf3",
   "holdings": [

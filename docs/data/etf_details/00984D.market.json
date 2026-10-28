@@ -1,0 +1,60 @@
+{
+  "code": "00984D",
+  "quote": {
+    "date": "20261027",
+    "close": 9.66,
+    "change": -0.02,
+    "volume": 12904451,
+    "currency": "TWD",
+    "source": "https://openapi.twse.com.tw/v1/exchangeReport/STOCK_DAY_ALL"
+  },
+  "quote_status": "ok",
+  "dividends": [
+    {
+      "ex_date": "115年11月03日",
+      "record_date": "115年11月09日",
+      "pay_date": "115年11月25日",
+      "cash_per_unit": null
+    },
+    {
+      "ex_date": "115年10月05日",
+      "record_date": "115年10月11日",
+      "pay_date": "115年10月28日",
+      "cash_per_unit": 0.085
+    },
+    {
+      "ex_date": "115年09月01日",
+      "record_date": "115年09月07日",
+      "pay_date": "115年09月23日",
+      "cash_per_unit": 0.085
+    },
+    {
+      "ex_date": "115年07月31日",
+      "record_date": "115年08月08日",
+      "pay_date": "115年08月25日",
+      "cash_per_unit": 0.085
+    },
+    {
+      "ex_date": "115年07月02日",
+      "record_date": "115年07月08日",
+      "pay_date": "115年07月24日",
+      "cash_per_unit": 0.085
+    },
+    {
+      "ex_date": "115年06月02日",
+      "record_date": "115年06月08日",
+      "pay_date": "115年06月25日",
+      "cash_per_unit": 0.085
+    },
+    {
+      "ex_date": "115年05月04日",
+      "record_date": "115年05月10日",
+      "pay_date": "115年05月26日",
+      "cash_per_unit": 0.085
+    }
+  ],
+  "dividend_status": "ok",
+  "dividend_source": "https://www.twse.com.tw/zh/products/securities/etf/products/div.html",
+  "dividend_period": "2025/01/01–2026/12/31",
+  "retrieved_at": "2026-10-28T22:15:20.349623+08:00"
+}

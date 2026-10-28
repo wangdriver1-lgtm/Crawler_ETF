@@ -1,20 +1,38 @@
 {
   "date": "20261028",
-  "updated_at": "2026-10-28T21:59:56.503132+08:00",
+  "updated_at": "2026-10-28T22:14:55.900901+08:00",
   "missing_share_etfs": [
     "00400A"
   ],
   "failed_etfs": [
     "00982A",
     "00987A",
-    "00992A",
     "00995A",
-    "00996A"
+    "00996A",
+    "00997A",
+    "00983A",
+    "00982D",
+    "00983D",
+    "00989A",
+    "00988A",
+    "00990A",
+    "00984D",
+    "00403A",
+    "00402A",
+    "00404A",
+    "00405A",
+    "00406A",
+    "00407A",
+    "00408A",
+    "00410A",
+    "00409A",
+    "00412A",
+    "00415A"
   ],
   "etfs": {
     "00980A": {
       "name": "主動野村臺灣優選",
-      "company": "未知",
+      "company": "野村證券投資信託股份有限公司",
       "price": "N/A",
       "change": "N/A",
       "date": "20261028",
@@ -22,7 +40,7 @@
     },
     "00981A": {
       "name": "主動統一台股增長",
-      "company": "未知",
+      "company": "統一證券投資信託股份有限公司",
       "price": "N/A",
       "change": "N/A",
       "date": "20261028",
@@ -30,7 +48,7 @@
     },
     "00984A": {
       "name": "主動安聯台灣高息",
-      "company": "未知",
+      "company": "安聯證券投資信託股份有限公司",
       "price": "N/A",
       "change": "N/A",
       "date": "20261028",
@@ -38,7 +56,7 @@
     },
     "00985A": {
       "name": "主動野村台灣50",
-      "company": "未知",
+      "company": "野村證券投資信託股份有限公司",
       "price": "N/A",
       "change": "N/A",
       "date": "20261028",
@@ -46,7 +64,7 @@
     },
     "00986A": {
       "name": "主動台新龍頭成長",
-      "company": "未知",
+      "company": "台新證券投資信託股份有限公司",
       "price": "N/A",
       "change": "N/A",
       "date": "20261028",
@@ -54,7 +72,15 @@
     },
     "00991A": {
       "name": "主動復華未來50",
-      "company": "未知",
+      "company": "復華證券投資信託股份有限公司",
+      "price": "N/A",
+      "change": "N/A",
+      "date": "20261028",
+      "status": "fresh"
+    },
+    "00992A": {
+      "name": "主動群益科技創新",
+      "company": "群益證券投資信託股份有限公司",
       "price": "N/A",
       "change": "N/A",
       "date": "20261028",
@@ -62,7 +88,7 @@
     },
     "00994A": {
       "name": "主動第一金台股優",
-      "company": "未知",
+      "company": "第一金證券投資信託股份有限公司",
       "price": "N/A",
       "change": "N/A",
       "date": "20261028",
@@ -70,7 +96,7 @@
     },
     "00993A": {
       "name": "主動安聯台灣",
-      "company": "未知",
+      "company": "安聯證券投資信託股份有限公司",
       "price": "N/A",
       "change": "N/A",
       "date": "20261028",
@@ -78,7 +104,7 @@
     },
     "00400A": {
       "name": "主動國泰動能高息",
-      "company": "未知",
+      "company": "國泰證券投資信託股份有限公司",
       "price": "N/A",
       "change": "N/A",
       "date": "20261028",
@@ -86,15 +112,15 @@
     },
     "00401A": {
       "name": "主動摩根台灣鑫收",
-      "company": "未知",
+      "company": "摩根證券投資信託股份有限公司",
       "price": "N/A",
       "change": "N/A",
       "date": "20261028",
       "status": "fresh"
     },
-    "00997A": {
-      "name": "主動群益美國增長",
-      "company": "未知",
+    "00999A": {
+      "name": "主動野村臺灣高息",
+      "company": "野村證券投資信託股份有限公司",
       "price": "N/A",
       "change": "N/A",
       "date": "20261028",
@@ -102,7 +128,7 @@
     },
     "00982A": {
       "name": "主動群益台灣強棒",
-      "company": "未知",
+      "company": "群益證券投資信託股份有限公司",
       "price": "N/A",
       "change": "N/A",
       "date": "20260601",
@@ -110,15 +136,7 @@
     },
     "00987A": {
       "name": "主動台新優勢成長",
-      "company": "未知",
-      "price": "N/A",
-      "change": "N/A",
-      "date": "20260601",
-      "status": "stale"
-    },
-    "00992A": {
-      "name": "主動群益科技創新",
-      "company": "未知",
+      "company": "台新證券投資信託股份有限公司",
       "price": "N/A",
       "change": "N/A",
       "date": "20260601",
@@ -126,7 +144,7 @@
     },
     "00995A": {
       "name": "主動中信台灣卓越",
-      "company": "未知",
+      "company": "中國信託證券投資信託股份有限公司",
       "price": "N/A",
       "change": "N/A",
       "date": "20260601",
@@ -134,11 +152,163 @@
     },
     "00996A": {
       "name": "主動兆豐台灣豐收",
-      "company": "未知",
+      "company": "兆豐國際證券投資信託股份有限公司",
       "price": "N/A",
       "change": "N/A",
       "date": "20260601",
       "status": "stale"
+    },
+    "00997A": {
+      "name": "主動群益美國增長",
+      "company": "群益證券投資信託股份有限公司",
+      "price": "N/A",
+      "change": "N/A",
+      "date": "20261028",
+      "status": "stale"
+    },
+    "00983A": {
+      "name": "主動中信ARK創新",
+      "company": "中國信託證券投資信託股份有限公司",
+      "price": "N/A",
+      "change": "N/A",
+      "date": null,
+      "status": "unavailable"
+    },
+    "00982D": {
+      "name": "主動富邦動態入息",
+      "company": "富邦證券投資信託股份有限公司",
+      "price": "N/A",
+      "change": "N/A",
+      "date": null,
+      "status": "unavailable"
+    },
+    "00983D": {
+      "name": "主動富邦複合收益",
+      "company": "富邦證券投資信託股份有限公司",
+      "price": "N/A",
+      "change": "N/A",
+      "date": null,
+      "status": "unavailable"
+    },
+    "00989A": {
+      "name": "主動摩根美國科技",
+      "company": "摩根證券投資信託股份有限公司",
+      "price": "N/A",
+      "change": "N/A",
+      "date": null,
+      "status": "unavailable"
+    },
+    "00988A": {
+      "name": "主動統一全球創新",
+      "company": "統一證券投資信託股份有限公司",
+      "price": "N/A",
+      "change": "N/A",
+      "date": null,
+      "status": "unavailable"
+    },
+    "00990A": {
+      "name": "主動元大AI新經濟",
+      "company": "元大證券投資信託股份有限公司",
+      "price": "N/A",
+      "change": "N/A",
+      "date": null,
+      "status": "unavailable"
+    },
+    "00984D": {
+      "name": "主動聯博全球非投",
+      "company": "聯博證券投資信託股份有限公司",
+      "price": "N/A",
+      "change": "N/A",
+      "date": null,
+      "status": "unavailable"
+    },
+    "00403A": {
+      "name": "主動統一升級50",
+      "company": "統一證券投資信託股份有限公司",
+      "price": "N/A",
+      "change": "N/A",
+      "date": null,
+      "status": "unavailable"
+    },
+    "00402A": {
+      "name": "主動安聯美國科技",
+      "company": "安聯證券投資信託股份有限公司",
+      "price": "N/A",
+      "change": "N/A",
+      "date": null,
+      "status": "unavailable"
+    },
+    "00404A": {
+      "name": "主動聯博動能50",
+      "company": "聯博證券投資信託股份有限公司",
+      "price": "N/A",
+      "change": "N/A",
+      "date": null,
+      "status": "unavailable"
+    },
+    "00405A": {
+      "name": "主動富邦台灣龍耀",
+      "company": "富邦證券投資信託股份有限公司",
+      "price": "N/A",
+      "change": "N/A",
+      "date": null,
+      "status": "unavailable"
+    },
+    "00406A": {
+      "name": "主動中信台灣收益",
+      "company": "中國信託證券投資信託股份有限公司",
+      "price": "N/A",
+      "change": "N/A",
+      "date": null,
+      "status": "unavailable"
+    },
+    "00407A": {
+      "name": "主動凱基台灣",
+      "company": "凱基證券投資信託股份有限公司",
+      "price": "N/A",
+      "change": "N/A",
+      "date": null,
+      "status": "unavailable"
+    },
+    "00408A": {
+      "name": "主動第一金優股息",
+      "company": "第一金證券投資信託股份有限公司",
+      "price": "N/A",
+      "change": "N/A",
+      "date": null,
+      "status": "unavailable"
+    },
+    "00410A": {
+      "name": "主動永豐科技趨勢",
+      "company": "永豐證券投資信託股份有限公司",
+      "price": "N/A",
+      "change": "N/A",
+      "date": null,
+      "status": "unavailable"
+    },
+    "00409A": {
+      "name": "主動復華全球50",
+      "company": "復華證券投資信託股份有限公司",
+      "price": "N/A",
+      "change": "N/A",
+      "date": null,
+      "status": "unavailable"
+    },
+    "00412A": {
+      "name": "主動安聯亞半導體",
+      "company": "安聯證券投資信託股份有限公司",
+      "price": "N/A",
+      "change": "N/A",
+      "date": null,
+      "status": "unavailable"
+    },
+    "00415A": {
+      "name": "主動群益核心50",
+      "company": "群益證券投資信託股份有限公司",
+      "price": "N/A",
+      "change": "N/A",
+      "date": null,
+      "status": "unavailable"
     }
   }
 }

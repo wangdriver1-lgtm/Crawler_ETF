@@ -3,6 +3,1449 @@
   "name": "主動第一金台股優",
   "asof": "20261028",
   "data_status": "fresh",
+  "unchanged": false,
+  "history": [
+    {
+      "date": "20261028",
+      "previous_date": "20260601",
+      "status": "changed",
+      "comparable": true,
+      "changes": [
+        {
+          "code": "2303",
+          "name": "聯電",
+          "shares": 0,
+          "weight": "2.19",
+          "lot_size": 1000,
+          "previous_shares": 870000,
+          "delta_shares": -870000,
+          "delta_lots": -870.0
+        },
+        {
+          "code": "2344",
+          "name": "華邦電",
+          "shares": 0,
+          "weight": "1.68",
+          "lot_size": 1000,
+          "previous_shares": 580000,
+          "delta_shares": -580000,
+          "delta_lots": -580.0
+        },
+        {
+          "code": "1303",
+          "name": "南亞",
+          "shares": 347000,
+          "weight": "2.82",
+          "lot_size": 1000,
+          "previous_shares": 0,
+          "delta_shares": 347000,
+          "delta_lots": 347.0
+        },
+        {
+          "code": "2327",
+          "name": "國巨*",
+          "shares": 0,
+          "weight": "4.04",
+          "lot_size": 1000,
+          "previous_shares": 297000,
+          "delta_shares": -297000,
+          "delta_lots": -297.0
+        },
+        {
+          "code": "2449",
+          "name": "京元電子",
+          "shares": 0,
+          "weight": "1.40",
+          "lot_size": 1000,
+          "previous_shares": 255000,
+          "delta_shares": -255000,
+          "delta_lots": -255.0
+        },
+        {
+          "code": "2880",
+          "name": "華南金",
+          "shares": 210000,
+          "weight": "0.26",
+          "lot_size": 1000,
+          "previous_shares": 0,
+          "delta_shares": 210000,
+          "delta_lots": 210.0
+        },
+        {
+          "code": "6147",
+          "name": "頎邦",
+          "shares": 0,
+          "weight": "0.89",
+          "lot_size": 1000,
+          "previous_shares": 180000,
+          "delta_shares": -180000,
+          "delta_lots": -180.0
+        },
+        {
+          "code": "3711",
+          "name": "日月光投控",
+          "shares": 146002,
+          "weight": "2.58",
+          "lot_size": 1000,
+          "previous_shares": 297002,
+          "delta_shares": -151000,
+          "delta_lots": -151.0
+        },
+        {
+          "code": "2408",
+          "name": "南亞科",
+          "shares": 25000,
+          "weight": "0.30",
+          "lot_size": 1000,
+          "previous_shares": 170000,
+          "delta_shares": -145000,
+          "delta_lots": -145.0
+        },
+        {
+          "code": "2382",
+          "name": "廣達",
+          "shares": 0,
+          "weight": "0.92",
+          "lot_size": 1000,
+          "previous_shares": 143000,
+          "delta_shares": -143000,
+          "delta_lots": -143.0
+        },
+        {
+          "code": "3036",
+          "name": "文曄",
+          "shares": 0,
+          "weight": "0.69",
+          "lot_size": 1000,
+          "previous_shares": 140000,
+          "delta_shares": -140000,
+          "delta_lots": -140.0
+        },
+        {
+          "code": "4958",
+          "name": "臻鼎-KY",
+          "shares": 0,
+          "weight": "1.29",
+          "lot_size": 1000,
+          "previous_shares": 137000,
+          "delta_shares": -137000,
+          "delta_lots": -137.0
+        },
+        {
+          "code": "2603",
+          "name": "長榮",
+          "shares": 128000,
+          "weight": "0.86",
+          "lot_size": 1000,
+          "previous_shares": 0,
+          "delta_shares": 128000,
+          "delta_lots": 128.0
+        },
+        {
+          "code": "3037",
+          "name": "欣興",
+          "shares": 208001,
+          "weight": "5.82",
+          "lot_size": 1000,
+          "previous_shares": 328001,
+          "delta_shares": -120000,
+          "delta_lots": -120.0
+        },
+        {
+          "code": "3189",
+          "name": "景碩",
+          "shares": 120000,
+          "weight": "3.16",
+          "lot_size": 1000,
+          "previous_shares": 0,
+          "delta_shares": 120000,
+          "delta_lots": 120.0
+        },
+        {
+          "code": "2308",
+          "name": "台達電",
+          "shares": 20500,
+          "weight": "0.81",
+          "lot_size": 1000,
+          "previous_shares": 130499,
+          "delta_shares": -109999,
+          "delta_lots": -109.999
+        },
+        {
+          "code": "2891",
+          "name": "中信金",
+          "shares": 101000,
+          "weight": "0.19",
+          "lot_size": 1000,
+          "previous_shares": 0,
+          "delta_shares": 101000,
+          "delta_lots": 101.0
+        },
+        {
+          "code": "2467",
+          "name": "志聖",
+          "shares": 0,
+          "weight": "1.02",
+          "lot_size": 1000,
+          "previous_shares": 93000,
+          "delta_shares": -93000,
+          "delta_lots": -93.0
+        },
+        {
+          "code": "2376",
+          "name": "技嘉",
+          "shares": 0,
+          "weight": "0.53",
+          "lot_size": 1000,
+          "previous_shares": 80000,
+          "delta_shares": -80000,
+          "delta_lots": -80.0
+        },
+        {
+          "code": "3231",
+          "name": "緯創",
+          "shares": 80000,
+          "weight": "0.40",
+          "lot_size": 1000,
+          "previous_shares": 0,
+          "delta_shares": 80000,
+          "delta_lots": 80.0
+        },
+        {
+          "code": "6285",
+          "name": "啟碁",
+          "shares": 0,
+          "weight": "0.38",
+          "lot_size": 1000,
+          "previous_shares": 70000,
+          "delta_shares": -70000,
+          "delta_lots": -70.0
+        },
+        {
+          "code": "8046",
+          "name": "南電",
+          "shares": 95000,
+          "weight": "3.14",
+          "lot_size": 1000,
+          "previous_shares": 163000,
+          "delta_shares": -68000,
+          "delta_lots": -68.0
+        },
+        {
+          "code": "6257",
+          "name": "矽格",
+          "shares": 0,
+          "weight": "0.25",
+          "lot_size": 1000,
+          "previous_shares": 65000,
+          "delta_shares": -65000,
+          "delta_lots": -65.0
+        },
+        {
+          "code": "2330",
+          "name": "台積電",
+          "shares": 244000,
+          "weight": "15.05",
+          "lot_size": 1000,
+          "previous_shares": 304999,
+          "delta_shares": -60999,
+          "delta_lots": -60.999
+        },
+        {
+          "code": "2360",
+          "name": "致茂",
+          "shares": 25000,
+          "weight": "1.29",
+          "lot_size": 1000,
+          "previous_shares": 84000,
+          "delta_shares": -59000,
+          "delta_lots": -59.0
+        },
+        {
+          "code": "2455",
+          "name": "全新",
+          "shares": 50000,
+          "weight": "0.65",
+          "lot_size": 1000,
+          "previous_shares": 0,
+          "delta_shares": 50000,
+          "delta_lots": 50.0
+        },
+        {
+          "code": "3264",
+          "name": "欣銓",
+          "shares": 49000,
+          "weight": "0.30",
+          "lot_size": 1000,
+          "previous_shares": 0,
+          "delta_shares": 49000,
+          "delta_lots": 49.0
+        },
+        {
+          "code": "6805",
+          "name": "富世達",
+          "shares": 47000,
+          "weight": "2.94",
+          "lot_size": 1000,
+          "previous_shares": 0,
+          "delta_shares": 47000,
+          "delta_lots": 47.0
+        },
+        {
+          "code": "8996",
+          "name": "高力",
+          "shares": 45000,
+          "weight": "1.82",
+          "lot_size": 1000,
+          "previous_shares": 0,
+          "delta_shares": 45000,
+          "delta_lots": 45.0
+        },
+        {
+          "code": "3044",
+          "name": "健鼎",
+          "shares": 0,
+          "weight": "0.36",
+          "lot_size": 1000,
+          "previous_shares": 40000,
+          "delta_shares": -40000,
+          "delta_lots": -40.0
+        },
+        {
+          "code": "2345",
+          "name": "智邦",
+          "shares": 23000,
+          "weight": "1.06",
+          "lot_size": 1000,
+          "previous_shares": 61000,
+          "delta_shares": -38000,
+          "delta_lots": -38.0
+        },
+        {
+          "code": "2368",
+          "name": "金像電",
+          "shares": 72000,
+          "weight": "2.17",
+          "lot_size": 1000,
+          "previous_shares": 107000,
+          "delta_shares": -35000,
+          "delta_lots": -35.0
+        },
+        {
+          "code": "3026",
+          "name": "禾伸堂",
+          "shares": 34000,
+          "weight": "0.65",
+          "lot_size": 1000,
+          "previous_shares": 0,
+          "delta_shares": 34000,
+          "delta_lots": 34.0
+        },
+        {
+          "code": "8299",
+          "name": "群聯",
+          "shares": 0,
+          "weight": "1.43",
+          "lot_size": 1000,
+          "previous_shares": 30000,
+          "delta_shares": -30000,
+          "delta_lots": -30.0
+        },
+        {
+          "code": "2454",
+          "name": "聯發科",
+          "shares": 55101,
+          "weight": "5.94",
+          "lot_size": 1000,
+          "previous_shares": 85000,
+          "delta_shares": -29899,
+          "delta_lots": -29.899
+        },
+        {
+          "code": "3653",
+          "name": "健策",
+          "shares": 27000,
+          "weight": "4.38",
+          "lot_size": 1000,
+          "previous_shares": 0,
+          "delta_shares": 27000,
+          "delta_lots": 27.0
+        },
+        {
+          "code": "6187",
+          "name": "萬潤",
+          "shares": 25000,
+          "weight": "0.86",
+          "lot_size": 1000,
+          "previous_shares": 0,
+          "delta_shares": 25000,
+          "delta_lots": 25.0
+        },
+        {
+          "code": "7769",
+          "name": "鴻勁",
+          "shares": 5000,
+          "weight": "0.71",
+          "lot_size": 1000,
+          "previous_shares": 26000,
+          "delta_shares": -21000,
+          "delta_lots": -21.0
+        },
+        {
+          "code": "2395",
+          "name": "研華",
+          "shares": 0,
+          "weight": "0.18",
+          "lot_size": 1000,
+          "previous_shares": 20000,
+          "delta_shares": -20000,
+          "delta_lots": -20.0
+        },
+        {
+          "code": "6691",
+          "name": "洋基工程",
+          "shares": 20000,
+          "weight": "0.34",
+          "lot_size": 1000,
+          "previous_shares": 0,
+          "delta_shares": 20000,
+          "delta_lots": 20.0
+        },
+        {
+          "code": "1560",
+          "name": "中砂",
+          "shares": 17000,
+          "weight": "0.40",
+          "lot_size": 1000,
+          "previous_shares": 0,
+          "delta_shares": 17000,
+          "delta_lots": 17.0
+        },
+        {
+          "code": "3661",
+          "name": "世芯-KY",
+          "shares": 0,
+          "weight": "1.42",
+          "lot_size": 1000,
+          "previous_shares": 17000,
+          "delta_shares": -17000,
+          "delta_lots": -17.0
+        },
+        {
+          "code": "3017",
+          "name": "奇鋐",
+          "shares": 75500,
+          "weight": "6.18",
+          "lot_size": 1000,
+          "previous_shares": 91500,
+          "delta_shares": -16000,
+          "delta_lots": -16.0
+        },
+        {
+          "code": "6526",
+          "name": "達發",
+          "shares": 16000,
+          "weight": "0.33",
+          "lot_size": 1000,
+          "previous_shares": 0,
+          "delta_shares": 16000,
+          "delta_lots": 16.0
+        },
+        {
+          "code": "8210",
+          "name": "勤誠",
+          "shares": 0,
+          "weight": "0.39",
+          "lot_size": 1000,
+          "previous_shares": 16000,
+          "delta_shares": -16000,
+          "delta_lots": -16.0
+        },
+        {
+          "code": "3105",
+          "name": "穩懋",
+          "shares": 40000,
+          "weight": "0.55",
+          "lot_size": 1000,
+          "previous_shares": 55000,
+          "delta_shares": -15000,
+          "delta_lots": -15.0
+        },
+        {
+          "code": "6488",
+          "name": "環球晶",
+          "shares": 15000,
+          "weight": "0.32",
+          "lot_size": 1000,
+          "previous_shares": 0,
+          "delta_shares": 15000,
+          "delta_lots": 15.0
+        },
+        {
+          "code": "3665",
+          "name": "貿聯-KY",
+          "shares": 0,
+          "weight": "0.51",
+          "lot_size": 1000,
+          "previous_shares": 14000,
+          "delta_shares": -14000,
+          "delta_lots": -14.0
+        },
+        {
+          "code": "6223",
+          "name": "旺矽",
+          "shares": 31901,
+          "weight": "4.15",
+          "lot_size": 1000,
+          "previous_shares": 20901,
+          "delta_shares": 11000,
+          "delta_lots": 11.0
+        },
+        {
+          "code": "6669",
+          "name": "緯穎",
+          "shares": 37518,
+          "weight": "1.86",
+          "lot_size": 1000,
+          "previous_shares": 27000,
+          "delta_shares": 10518,
+          "delta_lots": 10.518
+        },
+        {
+          "code": "3533",
+          "name": "嘉澤",
+          "shares": 0,
+          "weight": "0.46",
+          "lot_size": 1000,
+          "previous_shares": 10000,
+          "delta_shares": -10000,
+          "delta_lots": -10.0
+        },
+        {
+          "code": "2383",
+          "name": "台光電",
+          "shares": 51002,
+          "weight": "6.52",
+          "lot_size": 1000,
+          "previous_shares": 61000,
+          "delta_shares": -9998,
+          "delta_lots": -9.998
+        },
+        {
+          "code": "6515",
+          "name": "穎崴",
+          "shares": 0,
+          "weight": "1.35",
+          "lot_size": 1000,
+          "previous_shares": 9000,
+          "delta_shares": -9000,
+          "delta_lots": -9.0
+        },
+        {
+          "code": "6274",
+          "name": "台燿",
+          "shares": 118002,
+          "weight": "4.13",
+          "lot_size": 1000,
+          "previous_shares": 114000,
+          "delta_shares": 4002,
+          "delta_lots": 4.002
+        },
+        {
+          "code": "3081",
+          "name": "聯亞",
+          "shares": 34000,
+          "weight": "2.23",
+          "lot_size": 1000,
+          "previous_shares": 30000,
+          "delta_shares": 4000,
+          "delta_lots": 4.0
+        },
+        {
+          "code": "6510",
+          "name": "精測",
+          "shares": 4000,
+          "weight": "0.33",
+          "lot_size": 1000,
+          "previous_shares": 0,
+          "delta_shares": 4000,
+          "delta_lots": 4.0
+        },
+        {
+          "code": "2059",
+          "name": "川湖",
+          "shares": 13001,
+          "weight": "3.36",
+          "lot_size": 1000,
+          "previous_shares": 17000,
+          "delta_shares": -3999,
+          "delta_lots": -3.999
+        },
+        {
+          "code": "3008",
+          "name": "大立光",
+          "shares": 3000,
+          "weight": "0.48",
+          "lot_size": 1000,
+          "previous_shares": 0,
+          "delta_shares": 3000,
+          "delta_lots": 3.0
+        },
+        {
+          "code": "3045",
+          "name": "台灣大",
+          "shares": 1000,
+          "weight": "0.00",
+          "lot_size": 1000,
+          "previous_shares": 0,
+          "delta_shares": 1000,
+          "delta_lots": 1.0
+        },
+        {
+          "code": "5274",
+          "name": "信驊",
+          "shares": 6420,
+          "weight": "2.83",
+          "lot_size": 1000,
+          "previous_shares": 7200,
+          "delta_shares": -780,
+          "delta_lots": -0.78
+        },
+        {
+          "code": "4904",
+          "name": "遠傳",
+          "shares": 0,
+          "weight": "0.00",
+          "lot_size": 1000,
+          "previous_shares": 3,
+          "delta_shares": -3,
+          "delta_lots": -0.003
+        },
+        {
+          "code": "2412",
+          "name": "中華電",
+          "shares": 0,
+          "weight": "0.00",
+          "lot_size": 1000,
+          "previous_shares": 1,
+          "delta_shares": -1,
+          "delta_lots": -0.001
+        }
+      ]
+    },
+    {
+      "date": "20260601",
+      "previous_date": "20260528",
+      "status": "changed",
+      "comparable": true,
+      "changes": [
+        {
+          "code": "2344",
+          "name": "華邦電",
+          "shares": 580000,
+          "weight": "1.68",
+          "lot_size": 1000,
+          "previous_shares": 200000,
+          "delta_shares": 380000,
+          "delta_lots": 380.0
+        },
+        {
+          "code": "2408",
+          "name": "南亞科",
+          "shares": 170000,
+          "weight": "1.12",
+          "lot_size": 1000,
+          "previous_shares": 0,
+          "delta_shares": 170000,
+          "delta_lots": 170.0
+        },
+        {
+          "code": "2382",
+          "name": "廣達",
+          "shares": 143000,
+          "weight": "0.92",
+          "lot_size": 1000,
+          "previous_shares": 0,
+          "delta_shares": 143000,
+          "delta_lots": 143.0
+        },
+        {
+          "code": "3264",
+          "name": "欣銓",
+          "shares": 0,
+          "weight": "0.46",
+          "lot_size": 1000,
+          "previous_shares": 110000,
+          "delta_shares": -110000,
+          "delta_lots": -110.0
+        },
+        {
+          "code": "6147",
+          "name": "頎邦",
+          "shares": 180000,
+          "weight": "0.89",
+          "lot_size": 1000,
+          "previous_shares": 80000,
+          "delta_shares": 100000,
+          "delta_lots": 100.0
+        },
+        {
+          "code": "2376",
+          "name": "技嘉",
+          "shares": 80000,
+          "weight": "0.53",
+          "lot_size": 1000,
+          "previous_shares": 0,
+          "delta_shares": 80000,
+          "delta_lots": 80.0
+        },
+        {
+          "code": "6285",
+          "name": "啟碁",
+          "shares": 70000,
+          "weight": "0.38",
+          "lot_size": 1000,
+          "previous_shares": 0,
+          "delta_shares": 70000,
+          "delta_lots": 70.0
+        },
+        {
+          "code": "6415",
+          "name": "矽力*-KY",
+          "shares": 0,
+          "weight": "0.33",
+          "lot_size": 1000,
+          "previous_shares": 30000,
+          "delta_shares": -30000,
+          "delta_lots": -30.0
+        },
+        {
+          "code": "3037",
+          "name": "欣興",
+          "shares": 328001,
+          "weight": "5.93",
+          "lot_size": 1000,
+          "previous_shares": 308001,
+          "delta_shares": 20000,
+          "delta_lots": 20.0
+        },
+        {
+          "code": "3443",
+          "name": "創意",
+          "shares": 15050,
+          "weight": "1.21",
+          "lot_size": 1000,
+          "previous_shares": 30050,
+          "delta_shares": -15000,
+          "delta_lots": -15.0
+        },
+        {
+          "code": "6187",
+          "name": "萬潤",
+          "shares": 0,
+          "weight": "0.31",
+          "lot_size": 1000,
+          "previous_shares": 14000,
+          "delta_shares": -14000,
+          "delta_lots": -14.0
+        },
+        {
+          "code": "6223",
+          "name": "旺矽",
+          "shares": 20901,
+          "weight": "2.05",
+          "lot_size": 1000,
+          "previous_shares": 33901,
+          "delta_shares": -13000,
+          "delta_lots": -13.0
+        },
+        {
+          "code": "2330",
+          "name": "台積電",
+          "shares": 304999,
+          "weight": "12.36",
+          "lot_size": 1000,
+          "previous_shares": 292999,
+          "delta_shares": 12000,
+          "delta_lots": 12.0
+        },
+        {
+          "code": "2454",
+          "name": "聯發科",
+          "shares": 85000,
+          "weight": "6.67",
+          "lot_size": 1000,
+          "previous_shares": 75000,
+          "delta_shares": 10000,
+          "delta_lots": 10.0
+        },
+        {
+          "code": "3017",
+          "name": "奇鋐",
+          "shares": 91500,
+          "weight": "4.39",
+          "lot_size": 1000,
+          "previous_shares": 83500,
+          "delta_shares": 8000,
+          "delta_lots": 8.0
+        },
+        {
+          "code": "6669",
+          "name": "緯穎",
+          "shares": 27000,
+          "weight": "2.57",
+          "lot_size": 1000,
+          "previous_shares": 20000,
+          "delta_shares": 7000,
+          "delta_lots": 7.0
+        },
+        {
+          "code": "5274",
+          "name": "信驊",
+          "shares": 7200,
+          "weight": "2.29",
+          "lot_size": 1000,
+          "previous_shares": 4700,
+          "delta_shares": 2500,
+          "delta_lots": 2.5
+        }
+      ]
+    },
+    {
+      "date": "20260528",
+      "previous_date": "20260527",
+      "status": "changed",
+      "comparable": true,
+      "changes": [
+        {
+          "code": "4958",
+          "name": "臻鼎-KY",
+          "shares": 137000,
+          "weight": "1.18",
+          "lot_size": 1000,
+          "previous_shares": 340000,
+          "delta_shares": -203000,
+          "delta_lots": -203.0
+        },
+        {
+          "code": "2345",
+          "name": "智邦",
+          "shares": 61000,
+          "weight": "2.63",
+          "lot_size": 1000,
+          "previous_shares": 101000,
+          "delta_shares": -40000,
+          "delta_lots": -40.0
+        },
+        {
+          "code": "6274",
+          "name": "台燿",
+          "shares": 114000,
+          "weight": "3.10",
+          "lot_size": 1000,
+          "previous_shares": 154000,
+          "delta_shares": -40000,
+          "delta_lots": -40.0
+        },
+        {
+          "code": "2368",
+          "name": "金像電",
+          "shares": 107000,
+          "weight": "2.47",
+          "lot_size": 1000,
+          "previous_shares": 131000,
+          "delta_shares": -24000,
+          "delta_lots": -24.0
+        },
+        {
+          "code": "2360",
+          "name": "致茂",
+          "shares": 84000,
+          "weight": "3.82",
+          "lot_size": 1000,
+          "previous_shares": 73000,
+          "delta_shares": 11000,
+          "delta_lots": 11.0
+        },
+        {
+          "code": "2383",
+          "name": "台光電",
+          "shares": 61000,
+          "weight": "5.45",
+          "lot_size": 1000,
+          "previous_shares": 72000,
+          "delta_shares": -11000,
+          "delta_lots": -11.0
+        }
+      ]
+    },
+    {
+      "date": "20260527",
+      "previous_date": "20260526",
+      "status": "changed",
+      "comparable": true,
+      "changes": [
+        {
+          "code": "2344",
+          "name": "華邦電",
+          "shares": 200000,
+          "weight": "0.53",
+          "lot_size": 1000,
+          "previous_shares": 0,
+          "delta_shares": 200000,
+          "delta_lots": 200.0
+        },
+        {
+          "code": "2330",
+          "name": "台積電",
+          "shares": 292999,
+          "weight": "11.59",
+          "lot_size": 1000,
+          "previous_shares": 305999,
+          "delta_shares": -13000,
+          "delta_lots": -13.0
+        },
+        {
+          "code": "6669",
+          "name": "緯穎",
+          "shares": 20000,
+          "weight": "1.74",
+          "lot_size": 1000,
+          "previous_shares": 30000,
+          "delta_shares": -10000,
+          "delta_lots": -10.0
+        },
+        {
+          "code": "3711",
+          "name": "日月光投控",
+          "shares": 297002,
+          "weight": "3.27",
+          "lot_size": 1000,
+          "previous_shares": 288002,
+          "delta_shares": 9000,
+          "delta_lots": 9.0
+        },
+        {
+          "code": "2360",
+          "name": "致茂",
+          "shares": 73000,
+          "weight": "3.29",
+          "lot_size": 1000,
+          "previous_shares": 66000,
+          "delta_shares": 7000,
+          "delta_lots": 7.0
+        },
+        {
+          "code": "2383",
+          "name": "台光電",
+          "shares": 72000,
+          "weight": "6.55",
+          "lot_size": 1000,
+          "previous_shares": 79000,
+          "delta_shares": -7000,
+          "delta_lots": -7.0
+        },
+        {
+          "code": "6187",
+          "name": "萬潤",
+          "shares": 14000,
+          "weight": "0.27",
+          "lot_size": 1000,
+          "previous_shares": 16000,
+          "delta_shares": -2000,
+          "delta_lots": -2.0
+        }
+      ]
+    },
+    {
+      "date": "20260526",
+      "previous_date": "20260525",
+      "status": "changed",
+      "comparable": true,
+      "changes": [
+        {
+          "code": "2303",
+          "name": "聯電",
+          "shares": 870000,
+          "weight": "1.97",
+          "lot_size": 1000,
+          "previous_shares": 770000,
+          "delta_shares": 100000,
+          "delta_lots": 100.0
+        },
+        {
+          "code": "2455",
+          "name": "全新",
+          "shares": 0,
+          "weight": "0.47",
+          "lot_size": 1000,
+          "previous_shares": 60000,
+          "delta_shares": -60000,
+          "delta_lots": -60.0
+        },
+        {
+          "code": "6669",
+          "name": "緯穎",
+          "shares": 30000,
+          "weight": "2.75",
+          "lot_size": 1000,
+          "previous_shares": 46000,
+          "delta_shares": -16000,
+          "delta_lots": -16.0
+        },
+        {
+          "code": "2308",
+          "name": "台達電",
+          "shares": 130499,
+          "weight": "5.33",
+          "lot_size": 1000,
+          "previous_shares": 120499,
+          "delta_shares": 10000,
+          "delta_lots": 10.0
+        },
+        {
+          "code": "3017",
+          "name": "奇鋐",
+          "shares": 83500,
+          "weight": "3.95",
+          "lot_size": 1000,
+          "previous_shares": 77500,
+          "delta_shares": 6000,
+          "delta_lots": 6.0
+        }
+      ]
+    },
+    {
+      "date": "20260525",
+      "previous_date": "20260522",
+      "status": "changed",
+      "comparable": true,
+      "changes": [
+        {
+          "code": "2327",
+          "name": "國巨*",
+          "shares": 297000,
+          "weight": "3.59",
+          "lot_size": 1000,
+          "previous_shares": 257000,
+          "delta_shares": 40000,
+          "delta_lots": 40.0
+        },
+        {
+          "code": "2330",
+          "name": "台積電",
+          "shares": 305999,
+          "weight": "12.41",
+          "lot_size": 1000,
+          "previous_shares": 345999,
+          "delta_shares": -40000,
+          "delta_lots": -40.0
+        },
+        {
+          "code": "2308",
+          "name": "台達電",
+          "shares": 120499,
+          "weight": "4.83",
+          "lot_size": 1000,
+          "previous_shares": 105499,
+          "delta_shares": 15000,
+          "delta_lots": 15.0
+        },
+        {
+          "code": "2360",
+          "name": "致茂",
+          "shares": 66000,
+          "weight": "2.84",
+          "lot_size": 1000,
+          "previous_shares": 54000,
+          "delta_shares": 12000,
+          "delta_lots": 12.0
+        },
+        {
+          "code": "3081",
+          "name": "聯亞",
+          "shares": 30000,
+          "weight": "1.54",
+          "lot_size": 1000,
+          "previous_shares": 27000,
+          "delta_shares": 3000,
+          "delta_lots": 3.0
+        },
+        {
+          "code": "3443",
+          "name": "創意",
+          "shares": 30050,
+          "weight": "2.79",
+          "lot_size": 1000,
+          "previous_shares": 28050,
+          "delta_shares": 2000,
+          "delta_lots": 2.0
+        }
+      ]
+    },
+    {
+      "date": "20260522",
+      "previous_date": "20260521",
+      "status": "changed",
+      "comparable": true,
+      "changes": [
+        {
+          "code": "3105",
+          "name": "穩懋",
+          "shares": 55000,
+          "weight": "0.53",
+          "lot_size": 1000,
+          "previous_shares": 0,
+          "delta_shares": 55000,
+          "delta_lots": 55.0
+        },
+        {
+          "code": "2327",
+          "name": "國巨*",
+          "shares": 257000,
+          "weight": "2.93",
+          "lot_size": 1000,
+          "previous_shares": 205000,
+          "delta_shares": 52000,
+          "delta_lots": 52.0
+        },
+        {
+          "code": "4958",
+          "name": "臻鼎-KY",
+          "shares": 340000,
+          "weight": "3.18",
+          "lot_size": 1000,
+          "previous_shares": 300000,
+          "delta_shares": 40000,
+          "delta_lots": 40.0
+        },
+        {
+          "code": "2330",
+          "name": "台積電",
+          "shares": 345999,
+          "weight": "14.14",
+          "lot_size": 1000,
+          "previous_shares": 382999,
+          "delta_shares": -37000,
+          "delta_lots": -37.0
+        },
+        {
+          "code": "8046",
+          "name": "南電",
+          "shares": 163000,
+          "weight": "2.76",
+          "lot_size": 1000,
+          "previous_shares": 133000,
+          "delta_shares": 30000,
+          "delta_lots": 30.0
+        },
+        {
+          "code": "3037",
+          "name": "欣興",
+          "shares": 308001,
+          "weight": "5.41",
+          "lot_size": 1000,
+          "previous_shares": 292001,
+          "delta_shares": 16000,
+          "delta_lots": 16.0
+        },
+        {
+          "code": "2454",
+          "name": "聯發科",
+          "shares": 75000,
+          "weight": "5.24",
+          "lot_size": 1000,
+          "previous_shares": 68000,
+          "delta_shares": 7000,
+          "delta_lots": 7.0
+        },
+        {
+          "code": "2383",
+          "name": "台光電",
+          "shares": 79000,
+          "weight": "7.16",
+          "lot_size": 1000,
+          "previous_shares": 74000,
+          "delta_shares": 5000,
+          "delta_lots": 5.0
+        },
+        {
+          "code": "3045",
+          "name": "台灣大",
+          "shares": 0,
+          "weight": "0.00",
+          "lot_size": 1000,
+          "previous_shares": 1,
+          "delta_shares": -1,
+          "delta_lots": -0.001
+        }
+      ]
+    },
+    {
+      "date": "20260521",
+      "previous_date": "20260520",
+      "status": "changed",
+      "comparable": true,
+      "changes": [
+        {
+          "code": "8046",
+          "name": "南電",
+          "shares": 133000,
+          "weight": "2.17",
+          "lot_size": 1000,
+          "previous_shares": 73000,
+          "delta_shares": 60000,
+          "delta_lots": 60.0
+        },
+        {
+          "code": "3037",
+          "name": "欣興",
+          "shares": 292001,
+          "weight": "4.95",
+          "lot_size": 1000,
+          "previous_shares": 267001,
+          "delta_shares": 25000,
+          "delta_lots": 25.0
+        },
+        {
+          "code": "3044",
+          "name": "健鼎",
+          "shares": 40000,
+          "weight": "0.37",
+          "lot_size": 1000,
+          "previous_shares": 30000,
+          "delta_shares": 10000,
+          "delta_lots": 10.0
+        },
+        {
+          "code": "3533",
+          "name": "嘉澤",
+          "shares": 10000,
+          "weight": "0.47",
+          "lot_size": 1000,
+          "previous_shares": 0,
+          "delta_shares": 10000,
+          "delta_lots": 10.0
+        },
+        {
+          "code": "3443",
+          "name": "創意",
+          "shares": 28050,
+          "weight": "2.66",
+          "lot_size": 1000,
+          "previous_shares": 21050,
+          "delta_shares": 7000,
+          "delta_lots": 7.0
+        },
+        {
+          "code": "3661",
+          "name": "世芯-KY",
+          "shares": 17000,
+          "weight": "1.56",
+          "lot_size": 1000,
+          "previous_shares": 10000,
+          "delta_shares": 7000,
+          "delta_lots": 7.0
+        },
+        {
+          "code": "6669",
+          "name": "緯穎",
+          "shares": 46000,
+          "weight": "4.60",
+          "lot_size": 1000,
+          "previous_shares": 41000,
+          "delta_shares": 5000,
+          "delta_lots": 5.0
+        },
+        {
+          "code": "2383",
+          "name": "台光電",
+          "shares": 74000,
+          "weight": "6.50",
+          "lot_size": 1000,
+          "previous_shares": 70000,
+          "delta_shares": 4000,
+          "delta_lots": 4.0
+        }
+      ]
+    },
+    {
+      "date": "20260520",
+      "previous_date": "20260519",
+      "status": "changed",
+      "comparable": true,
+      "changes": [
+        {
+          "code": "3036",
+          "name": "文曄",
+          "shares": 140000,
+          "weight": "0.77",
+          "lot_size": 1000,
+          "previous_shares": 60000,
+          "delta_shares": 80000,
+          "delta_lots": 80.0
+        },
+        {
+          "code": "6147",
+          "name": "頎邦",
+          "shares": 80000,
+          "weight": "0.34",
+          "lot_size": 1000,
+          "previous_shares": 0,
+          "delta_shares": 80000,
+          "delta_lots": 80.0
+        },
+        {
+          "code": "2455",
+          "name": "全新",
+          "shares": 60000,
+          "weight": "0.47",
+          "lot_size": 1000,
+          "previous_shares": 0,
+          "delta_shares": 60000,
+          "delta_lots": 60.0
+        },
+        {
+          "code": "4958",
+          "name": "臻鼎-KY",
+          "shares": 300000,
+          "weight": "2.60",
+          "lot_size": 1000,
+          "previous_shares": 240000,
+          "delta_shares": 60000,
+          "delta_lots": 60.0
+        },
+        {
+          "code": "2449",
+          "name": "京元電子",
+          "shares": 255000,
+          "weight": "1.40",
+          "lot_size": 1000,
+          "previous_shares": 305000,
+          "delta_shares": -50000,
+          "delta_lots": -50.0
+        },
+        {
+          "code": "2327",
+          "name": "國巨*",
+          "shares": 205000,
+          "weight": "2.10",
+          "lot_size": 1000,
+          "previous_shares": 170000,
+          "delta_shares": 35000,
+          "delta_lots": 35.0
+        },
+        {
+          "code": "6415",
+          "name": "矽力*-KY",
+          "shares": 30000,
+          "weight": "0.30",
+          "lot_size": 1000,
+          "previous_shares": 0,
+          "delta_shares": 30000,
+          "delta_lots": 30.0
+        },
+        {
+          "code": "8299",
+          "name": "群聯",
+          "shares": 30000,
+          "weight": "1.34",
+          "lot_size": 1000,
+          "previous_shares": 50000,
+          "delta_shares": -20000,
+          "delta_lots": -20.0
+        },
+        {
+          "code": "3665",
+          "name": "貿聯-KY",
+          "shares": 14000,
+          "weight": "0.54",
+          "lot_size": 1000,
+          "previous_shares": 27000,
+          "delta_shares": -13000,
+          "delta_lots": -13.0
+        },
+        {
+          "code": "3661",
+          "name": "世芯-KY",
+          "shares": 10000,
+          "weight": "0.91",
+          "lot_size": 1000,
+          "previous_shares": 7000,
+          "delta_shares": 3000,
+          "delta_lots": 3.0
+        }
+      ]
+    },
+    {
+      "date": "20260519",
+      "previous_date": "20260518",
+      "status": "changed",
+      "comparable": true,
+      "changes": [
+        {
+          "code": "2408",
+          "name": "南亞科",
+          "shares": 0,
+          "weight": "1.82",
+          "lot_size": 1000,
+          "previous_shares": 318000,
+          "delta_shares": -318000,
+          "delta_lots": -318.0
+        },
+        {
+          "code": "4958",
+          "name": "臻鼎-KY",
+          "shares": 240000,
+          "weight": "1.90",
+          "lot_size": 1000,
+          "previous_shares": 210000,
+          "delta_shares": 30000,
+          "delta_lots": 30.0
+        },
+        {
+          "code": "3653",
+          "name": "健策",
+          "shares": 0,
+          "weight": "1.02",
+          "lot_size": 1000,
+          "previous_shares": 16501,
+          "delta_shares": -16501,
+          "delta_lots": -16.501
+        },
+        {
+          "code": "2360",
+          "name": "致茂",
+          "shares": 54000,
+          "weight": "2.15",
+          "lot_size": 1000,
+          "previous_shares": 70000,
+          "delta_shares": -16000,
+          "delta_lots": -16.0
+        },
+        {
+          "code": "1590",
+          "name": "亞德客-KY",
+          "shares": 0,
+          "weight": "0.25",
+          "lot_size": 1000,
+          "previous_shares": 9000,
+          "delta_shares": -9000,
+          "delta_lots": -9.0
+        },
+        {
+          "code": "5274",
+          "name": "信驊",
+          "shares": 4700,
+          "weight": "1.45",
+          "lot_size": 1000,
+          "previous_shares": 7700,
+          "delta_shares": -3000,
+          "delta_lots": -3.0
+        }
+      ]
+    }
+  ],
   "previous_date": "20260601",
   "official_url": "https://www.fsitc.com.tw/FundDetail.aspx?ID=182#TabLinkdivEditTab3",
   "holdings": [
