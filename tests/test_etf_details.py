@@ -45,6 +45,15 @@ class EtfDetailTests(unittest.TestCase):
         self.assertIsNone(result["added_shares"])
         self.assertEqual(result["changes"], [])
 
+    def test_stale_fund_uses_its_own_snapshot_date_not_site_update_date(self):
+        payload = details.read_json(self.root / "etf/all_stocks.json")
+        payload["etfs"]["00980A"].update(date="20260528", status="stale")
+        self.write("etf/all_stocks.json", payload)
+        result = details.get_etf_details("00980A", self.root)
+        self.assertEqual(result["asof"], "20260528")
+        self.assertEqual(result["data_status"], "stale")
+        self.assertIsNone(result["previous_date"])
+
     def test_foreign_holdings_do_not_use_taiwan_lots(self):
         result = details.normalize_holdings([self.row("AAPL", "1000"), self.row("6981 JP", "1000"), self.row("2330 TT", "1000")])
         self.assertIsNone(result["AAPL"]["lot_size"])

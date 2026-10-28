@@ -2278,11 +2278,13 @@ def scrape_generic_table(soup, etf_stock_code: str) -> List[Dict[str, str]]:
 
 def wait_for_dynamic_content(driver, site_type: str, timeout: int = 25) -> None:
     """針對 SPA 站等待動態內容載入；不同站等待不同關鍵特徵。"""
-    if site_type == "tsit":
+    if site_type in ("tsit", "capitalfund", "megafunds"):
         # The static page already contains column headings; wait for actual rows.
         end = time.time() + timeout
         while time.time() < end:
-            if scrape_generic_table(BeautifulSoup(driver.page_source, "html.parser"), ""):
+            soup = BeautifulSoup(driver.page_source, "html.parser")
+            parser = {"capitalfund":scrape_capitalfund,"megafunds":scrape_megafunds}.get(site_type, scrape_generic_table)
+            if parser(soup, ""):
                 return
             time.sleep(1)
         return
@@ -2418,7 +2420,7 @@ def scrape_etf(etf_config: Dict[str, str]) -> Optional[List[Dict[str, str]]]:
             return None
 
         # SPA / 慢渲染站需要額外等待動態內容
-        if site_type in ("nomurafunds", "ctbcinvestments", "allianzgi", "fsitc", "fhtrust", "tsit"):
+        if site_type in ("nomurafunds", "ctbcinvestments", "allianzgi", "fsitc", "fhtrust", "tsit", "capitalfund", "megafunds"):
             wait_for_dynamic_content(driver, site_type)
 
         # 點擊『展開全部 / 顯示更多』類按鈕，避免被預設 10 筆截斷
@@ -2541,29 +2543,56 @@ def _run_crawler(today: str, log_path: str) -> int:
         return 0
 
     for etf_config in ETF_CONFIG:
-        try:
-            stocks = scrape_etf(etf_config)
-        except Exception as e:
-            print(f"  {etf_config['code']} 爬取失敗: {e}")
-            stocks = None
+        attempts = 1 + max(0, min(int(os.environ.get("CRAWLER_RETRIES", "0")), 2))
+        stocks = None
+        for attempt in range(attempts):
+            try:
+                stocks = scrape_etf(etf_config)
+            except Exception as e:
+                print(f"  {etf_config['code']} 爬取失敗: {e}")
+                stocks = None
+            if stocks:
+                break
+            if attempt + 1 < attempts:
+                print(f"  {etf_config['code']} 稍後重試 ({attempt + 2}/{attempts})")
+                time.sleep(3)
 
         if stocks:
             all_stocks[etf_config["code"]] = {
                 "name": etf_config["name"],
+                "date": today,
+                "status": "fresh",
                 "stocks": stocks
             }
         else:
             failed_etfs.append(etf_config["code"])
 
-    if failed_etfs:
+    fresh_codes = set(all_stocks)
+    if failed_etfs and (os.environ.get("CRAWLER_ALLOW_PARTIAL") != "1" or not fresh_codes):
         print(f"爬取不完整，保留上一份完整資料，不產生異動：{', '.join(failed_etfs)}")
         return 1
+
+    if failed_etfs:
+        try:
+            with open(os.path.join("etf", "all_stocks.json"), encoding="utf-8") as source:
+                previous_payload = json.load(source)
+        except (OSError, ValueError):
+            previous_payload = {}
+        configs = {item["code"]:item for item in ETF_CONFIG}
+        for code in failed_etfs:
+            previous = previous_payload.get("etfs", {}).get(code) or {}
+            all_stocks[code] = {
+                "name": configs[code]["name"], "stocks": previous.get("stocks", []),
+                "date": previous.get("date", previous_payload.get("date")) if previous else None,
+                "status": "stale" if previous.get("stocks") else "unavailable",
+            }
+        print(f"部分更新：{len(fresh_codes)} 檔成功；未更新基金保留原資料日期：{', '.join(failed_etfs)}")
 
     missing_share_etfs = sorted(
         code for code, data in all_stocks.items()
         if any(_parse_shares(s.get("股數")) is None for s in data["stocks"])
     )
-    included_etfs = sorted(set(all_stocks) - set(missing_share_etfs))
+    included_etfs = sorted(fresh_codes - set(missing_share_etfs))
     if missing_share_etfs:
         print(f"缺少有效股數，以下 ETF 僅保留持股清單，不納入股數統計：{', '.join(missing_share_etfs)}")
 
@@ -2585,6 +2614,8 @@ def _run_crawler(today: str, log_path: str) -> int:
     #    並保留近 20 天，超過則刪除（每個股票代號一組獨立保留）
     KEEP_DAYS = 20
     for etf_code, data in all_stocks.items():
+        if etf_code not in fresh_codes:
+            continue
         filename = os.path.join(stocks_dir, f"stocks_{etf_code}_{today}.json")
         with open(filename, "w", encoding="utf-8") as f:
             json.dump(data["stocks"], f, ensure_ascii=False, indent=4)
@@ -2607,7 +2638,8 @@ def _run_crawler(today: str, log_path: str) -> int:
     summary = {
         "date": today,
         "total_etfs": len(ETF_CONFIG),
-        "successful_etfs": len(all_stocks),
+        "successful_etfs": len(fresh_codes),
+        "updated_etfs": sorted(fresh_codes),
         "failed_etfs": failed_etfs,
         "missing_share_etfs": missing_share_etfs,
         "updated_at": datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).isoformat(),
@@ -2808,6 +2840,7 @@ def _run_crawler(today: str, log_path: str) -> int:
         "date": today,
         "included_etfs": included_etfs,
         "missing_share_etfs": missing_share_etfs,
+        "stale_etfs": failed_etfs,
         "total_unique_stocks": len(aggregated_list),
         "stocks": aggregated_list,
     }
@@ -2844,7 +2877,7 @@ def _run_crawler(today: str, log_path: str) -> int:
 
     print(f"\n統計：")
     print(f"  總 ETF 數: {len(ETF_CONFIG)}")
-    print(f"  成功爬取: {len(all_stocks)}")
+    print(f"  成功爬取: {len(fresh_codes)}")
     print(f"  失敗: {len(failed_etfs)}")
     if failed_etfs:
         print(f"  失敗的 ETF: {', '.join(failed_etfs)}")

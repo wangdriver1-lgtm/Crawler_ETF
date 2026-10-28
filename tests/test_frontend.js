@@ -67,6 +67,18 @@ assert.equal(home.elements.get('last-update').textContent, '未提供');
 home.context.displayEtfData({ date: '20260601', updated_at: 'invalid', etfs: {} });
 assert.equal(home.elements.get('last-update').textContent, '2026/06/01（未提供更新時間）');
 
+home.context.displayEtfData({date:'20261028', missing_share_etfs:[], etfs:{
+    AAA:{name:'本次成功',date:'20261028',status:'fresh'},
+    BBB:{name:'舊持股基金',date:'20260601',status:'stale'},
+}});
+assert.match(home.elements.get('etf-summary').innerHTML,/2026\/06\/01/);
+assert.match(home.elements.get('etf-summary').innerHTML,/來源未更新/);
+home.context.setFundFilter('complete');
+assert.doesNotMatch(home.elements.get('etf-summary').innerHTML,/舊持股基金/);
+home.context.setFundFilter('stale');
+assert.match(home.elements.get('etf-summary').innerHTML,/舊持股基金/);
+home.context.setFundFilter('all');
+
 const saved = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'docs', 'data', 'active_etf_summary.json'), 'utf8'));
 home.context.displayEtfData(saved);
 assert.match(home.elements.get('status').innerHTML, new RegExp(saved.date.slice(0, 4)));

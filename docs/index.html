@@ -48,7 +48,7 @@
             <div class="workspace">
                 <section class="panel" id="funds" aria-labelledby="funds-title">
                     <div class="panel-heading"><div><div class="section-kicker">FUND EXPLORER</div><h2 id="funds-title">ETF 觀測清單<span class="count-badge" id="fund-count">—</span></h2></div><svg class="muted" aria-hidden="true" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/><circle cx="8" cy="6" r="2"/><circle cx="16" cy="12" r="2"/><circle cx="10" cy="18" r="2"/></svg></div>
-                    <div class="table-tools"><div class="tabs" role="group" aria-label="依股數完整度篩選"><button class="tab" type="button" data-filter="all" aria-pressed="true" onclick="setFundFilter('all')">全部 ETF</button><button class="tab" type="button" data-filter="complete" aria-pressed="false" onclick="setFundFilter('complete')">股數完整</button><button class="tab" type="button" data-filter="missing" aria-pressed="false" onclick="setFundFilter('missing')">待補股數</button></div><label class="search"><svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg><input id="fund-search" type="search" placeholder="搜尋代碼、基金名稱…" aria-label="搜尋 ETF 代碼、基金名稱或發行公司" oninput="renderFunds()"></label></div>
+                    <div class="table-tools"><div class="tabs" role="group" aria-label="依股數完整度篩選"><button class="tab" type="button" data-filter="all" aria-pressed="true" onclick="setFundFilter('all')">全部 ETF</button><button class="tab" type="button" data-filter="complete" aria-pressed="false" onclick="setFundFilter('complete')">股數完整</button><button class="tab" type="button" data-filter="stale" aria-pressed="false" onclick="setFundFilter('stale')">來源未更新</button><button class="tab" type="button" data-filter="missing" aria-pressed="false" onclick="setFundFilter('missing')">待補股數</button></div><label class="search"><svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg><input id="fund-search" type="search" placeholder="搜尋代碼、基金名稱…" aria-label="搜尋 ETF 代碼、基金名稱或發行公司" oninput="renderFunds()"></label></div>
                     <div class="table-scroll" id="etf-summary" aria-live="polite"><div class="loading">正在載入基金清單…</div></div>
                     <div class="table-footer"><span id="result-count">等待資料載入</span><span>「—」代表來源未提供資料</span></div>
                 </section>
@@ -129,23 +129,29 @@
             const missing = new Set(hasCoverage ? data.missing_share_etfs : []);
             const missingCount = entries.filter(([code]) => missing.has(code)).length;
             const totalFunds = entries.length;
-            const completeCount = hasCoverage ? totalFunds - missingCount : null;
+            const staleCount = entries.filter(([, info]) => ['stale','unavailable'].includes(info.status)).length;
+            const completeCount = hasCoverage ? entries.filter(([code, info]) => !missing.has(code) && !['stale','unavailable'].includes(info.status)).length : null;
             const percent = hasCoverage && totalFunds ? Math.round(completeCount / totalFunds * 100) : null;
             const rawDate = typeof data.date === 'string' ? data.date : '';
             const dataDate = /^\d{8}$/.test(rawDate) ? `${rawDate.slice(0, 4)}/${rawDate.slice(4, 6)}/${rawDate.slice(6, 8)}` : '未提供';
             const updatedAt = data.updated_at ? new Date(data.updated_at) : null;
             fundDetails = entries.map(([code, info]) => ({ code, name: info.name || '未提供', company: info.company,
-                price: info.price, change: info.change, sharesState: hasCoverage ? (missing.has(code) ? 'missing' : 'complete') : 'unknown' }));
+                price: info.price, change: info.change, date: 'date' in info ? info.date : rawDate, sharesState: ['stale','unavailable'].includes(info.status) ? 'stale' : hasCoverage ? (missing.has(code) ? 'missing' : 'complete') : 'unknown' }));
             document.getElementById('status').innerHTML = `<div class="stats-grid">
                 <article class="metric"><div class="metric-head">監控基金數${icon('funds')}</div><div class="metric-value">${totalFunds.toString().padStart(2, '0')}<small>檔 ETF</small></div><div class="metric-note"><span class="dot"></span>來自最新來源快照</div></article>
-                <article class="metric"><div class="metric-head">來源資料日期${icon('calendar')}</div><div class="metric-value date-value">${dataDate}</div><div class="metric-note">依爬蟲來源日期顯示</div></article>
-                <article class="metric"><div class="metric-head">股數完整基金${icon('shield')}</div><div class="metric-value">${completeCount === null ? '—' : completeCount.toString().padStart(2, '0')}<small>/ ${totalFunds} 檔</small></div><div class="metric-note">${hasCoverage ? (missingCount ? `${missingCount} 檔待補完整股數` : '所有基金股數資料完整') : '來源未提供完整度資訊'}</div></article>
+                <article class="metric"><div class="metric-head">網站資料整理日${icon('calendar')}</div><div class="metric-value date-value">${dataDate}</div><div class="metric-note">各基金持股日期請見清單</div></article>
+                <article class="metric"><div class="metric-head">股數完整基金${icon('shield')}</div><div class="metric-value">${completeCount === null ? '—' : completeCount.toString().padStart(2, '0')}<small>/ ${totalFunds} 檔</small></div><div class="metric-note">${hasCoverage ? (staleCount ? `${staleCount} 檔來源未更新；${missingCount} 檔待補股數` : missingCount ? `${missingCount} 檔待補完整股數` : '所有基金股數資料完整') : '來源未提供完整度資訊'}</div></article>
                 <article class="metric"><div class="metric-head">每日排程${icon('clock')}</div><div class="metric-value">21:00<small>UTC+8</small></div><div class="metric-note">台股交易日自動擷取</div></article>
             </div>`;
             document.getElementById('fund-count').textContent = totalFunds;
-            document.getElementById('coverage').innerHTML = `<div class="ring" style="--coverage:${percent ?? 0}%" role="img" aria-label="股數資料完整度 ${percent === null ? '未提供' : percent + '%'}"><div class="ring-value"><strong>${percent === null ? '—' : percent + '<small>%</small>'}</strong><span>股數完整比例</span></div></div><div class="legend"><span><i class="dot"></i>股數完整</span><strong>${completeCount ?? '—'} 檔</strong></div><div class="legend"><span><i class="dot amber"></i>待補股數</span><strong>${hasCoverage ? missingCount : '—'} 檔</strong></div><p class="health-note">完整度僅反映股數欄位。缺少股數的基金仍保留清單，不納入股數統計。</p>`;
+            document.getElementById('coverage').innerHTML = `<div class="ring" style="--coverage:${percent ?? 0}%" role="img" aria-label="股數資料完整度 ${percent === null ? '未提供' : percent + '%'}"><div class="ring-value"><strong>${percent === null ? '—' : percent + '<small>%</small>'}</strong><span>股數完整比例</span></div></div><div class="legend"><span><i class="dot"></i>股數完整</span><strong>${completeCount ?? '—'} 檔</strong></div><div class="legend"><span><i class="dot amber"></i>待補股數</span><strong>${hasCoverage ? missingCount : '—'} 檔</strong></div><div class="legend"><span><i class="dot amber"></i>來源未更新</span><strong>${staleCount} 檔</strong></div><p class="health-note">完整度計算排除未更新基金。缺少股數的基金仍保留清單，不納入股數統計。</p>`;
             const reportsDiv = document.getElementById('reports');
             reportsDiv.innerHTML = `<div class="feed-icon">${icon('shield')}</div><h3>${totalFunds ? '來源快照已載入' : '來源快照暫無基金'}</h3><p>已載入 ${totalFunds} 筆 ETF 基金資料。<br>資料日期：${dataDate}<br>缺少淨值或漲跌時以「—」顯示。</p>`;
+            if (staleCount) {
+                const staleNote = document.createElement('p');
+                staleNote.textContent = `${staleCount} 檔來源本次未更新，保留舊持股並標示原資料日期；其餘基金已更新。`;
+                reportsDiv.appendChild(staleNote);
+            }
             if (hasCoverage && missingCount) {
                 const note = document.createElement('p');
                 note.textContent = `以下 ETF 未提供完整股數，未納入股數統計：${entries.filter(([code]) => missing.has(code)).map(([code]) => code).join('、')}`;
@@ -170,8 +176,8 @@
                 const numericChange = change === null ? null : Number(change.replace(/[%+,]/g, ''));
                 const changeClass = numericChange > 0 ? 'positive' : numericChange < 0 ? 'negative' : '';
                 const shareBadge = fund.sharesState === 'complete' ? '<span class="pill"><i class="dot"></i>完整</span>'
-                    : fund.sharesState === 'missing' ? '<span class="pill warn"><i class="dot"></i>待補股數</span>' : '<span class="pill neutral">未提供</span>';
-                return `<tr data-etf="${escapeHtml(fund.code)}" onclick="openEtfDetails(this.dataset.etf)"><td><button class="fund-open" type="button" aria-haspopup="dialog" aria-label="查看 ${escapeHtml(fund.code)} ${escapeHtml(fund.name)} 詳細資訊"><span class="code">${escapeHtml(fund.code)} ↗</span></button></td><td><div class="fund-name">${escapeHtml(fund.name)}</div><div class="fund-type">主動式 ETF · 點選查看詳情</div></td><td class="muted">${present(fund.company) ? escapeHtml(fund.company) : '—'}</td><td class="numeric">${present(fund.price) ? escapeHtml(fund.price) : '<span class="muted">—</span>'}</td><td class="numeric ${changeClass}">${change === null ? '<span class="muted">—</span>' : escapeHtml(change)}</td><td>${shareBadge}</td></tr>`;
+                    : fund.sharesState === 'stale' ? '<span class="pill warn">來源未更新</span>' : fund.sharesState === 'missing' ? '<span class="pill warn"><i class="dot"></i>待補股數</span>' : '<span class="pill neutral">未提供</span>';
+                return `<tr data-etf="${escapeHtml(fund.code)}" onclick="openEtfDetails(this.dataset.etf)"><td><button class="fund-open" type="button" aria-haspopup="dialog" aria-label="查看 ${escapeHtml(fund.code)} ${escapeHtml(fund.name)} 詳細資訊"><span class="code">${escapeHtml(fund.code)} ↗</span></button></td><td><div class="fund-name">${escapeHtml(fund.name)}</div><div class="fund-type">持股資料 ${escapeHtml(detailDate(fund.date))} · 查看詳情</div></td><td class="muted">${present(fund.company) ? escapeHtml(fund.company) : '—'}</td><td class="numeric">${present(fund.price) ? escapeHtml(fund.price) : '<span class="muted">—</span>'}</td><td class="numeric ${changeClass}">${change === null ? '<span class="muted">—</span>' : escapeHtml(change)}</td><td>${shareBadge}</td></tr>`;
             }).join('');
             document.getElementById('etf-summary').innerHTML = `<table><caption style="position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)">ETF 基金與股數資料狀態</caption><thead><tr><th scope="col">基金代碼</th><th scope="col">基金名稱</th><th scope="col">發行公司</th><th scope="col" class="numeric">淨值</th><th scope="col" class="numeric">漲跌</th><th scope="col">股數資料</th></tr></thead><tbody>${rows || '<tr><td colspan="6" class="empty">找不到符合條件的 ETF，請調整搜尋或篩選條件。</td></tr>'}</tbody></table>`;
             document.getElementById('result-count').textContent = `顯示 ${filtered.length} / ${fundDetails.length} 檔基金`;
@@ -304,7 +310,7 @@
         }
         function renderEtfDetails(data) {
             document.getElementById('detail-title').textContent = `${data.code} · ${data.name}`;
-            document.getElementById('detail-date').textContent = `持股快照：${detailDate(data.asof)} ｜比較基準：${detailDate(data.previous_date)}（非即時交易紀錄）`;
+            document.getElementById('detail-date').textContent = `持股快照：${detailDate(data.asof)} ｜比較基準：${detailDate(data.previous_date)}（非即時交易紀錄）${['stale','unavailable'].includes(data.data_status) ? ' ｜來源未更新，保留舊資料' : ''}`;
             document.getElementById('detail-kpis').innerHTML = `<div class="detail-kpi"><small>持股種類</small><strong>${data.holdings.length}</strong><span>以快照為準</span></div><div class="detail-kpi"><small>快照增持合計（股）</small><strong class="positive">${detailNumber(data.added_shares)}</strong><span>不是基金實際買進成交量</span></div><div class="detail-kpi"><small>快照減持合計（股）</small><strong class="negative">${detailNumber(data.reduced_shares)}</strong><span>不是基金實際賣出成交量</span></div><div class="detail-kpi"><small>ETF 盤後收盤價</small><strong id="detail-close-price">查詢中</strong><span id="detail-quote-date">非盤中即時報價</span></div>`;
             document.getElementById('detail-holdings-note').textContent = `資料日 ${detailDate(data.asof)}。股數或權重未提供時顯示「—」。此快照不代表今天的即時部位。`;
             const rows = data.holdings.map(row => `<tr><td>${escapeHtml(row.code)}</td><td>${escapeHtml(row.name)}</td><td class="numeric">${detailNumber(row.shares)}</td><td class="numeric">${row.shares !== null && row.lot_size ? detailNumber(row.shares / row.lot_size) : '—'}</td><td class="numeric">${escapeHtml(row.weight || '—')}</td></tr>`).join('');

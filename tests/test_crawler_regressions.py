@@ -109,6 +109,36 @@ class CrawlerRegressionTests(unittest.TestCase):
             self.assertEqual(self.read(path), {"sentinel": True})
         self.assertFalse(Path("stock_shares/stock_shares_summary_20260601.json").exists())
 
+    def test_cloud_partial_update_keeps_failed_etf_original_date_and_excludes_it_from_deltas(self):
+        self.config("AAA", "BBB")
+        self.previous("20260528", scope=("AAA",))
+        self.write("etf/all_stocks.json", {"date":"20260528", "etfs":{
+            "BBB":{"name":"B", "stocks":[self.stock("2000")]}}})
+        with patch.dict(os.environ, {"CRAWLER_ALLOW_PARTIAL":"1"}), \
+                patch.object(crawler, "scrape_etf", side_effect=[[self.stock()], None]):
+            self.assertEqual(self.run_main(), 0)
+        result = self.read("etf/all_stocks.json")
+        self.assertEqual(result["successful_etfs"], 1)
+        self.assertEqual(result["failed_etfs"], ["BBB"])
+        self.assertEqual(result["etfs"]["BBB"]["date"], "20260528")
+        self.assertEqual(result["etfs"]["BBB"]["status"], "stale")
+        self.assertEqual(result["etfs"]["AAA"]["date"], "20260601")
+        self.assertFalse(Path("stocks/stocks_BBB_20260601.json").exists())
+        summary = self.read("stock_shares/stock_shares_summary.json")
+        self.assertEqual(summary["included_etfs"], ["AAA"])
+        self.assertEqual(summary["stocks"][0]["總股數"], 1000)
+        diff = self.read("stock_shares/stock_shares_diff_20260601.json")
+        self.assertEqual(diff["持股異動"][0]["總股數差異"], 500)
+        self.assertEqual(diff["持股異動"][0]["ETF移除"], [])
+
+    def test_all_sources_failed_never_publish_a_new_snapshot_even_in_partial_mode(self):
+        self.config("AAA")
+        sentinel = {"date":"20260528","etfs":{}}
+        self.write("etf/all_stocks.json", sentinel)
+        with patch.dict(os.environ, {"CRAWLER_ALLOW_PARTIAL":"1"}), patch.object(crawler,"scrape_etf",return_value=None):
+            self.assertEqual(self.run_main(), 1)
+        self.assertEqual(self.read("etf/all_stocks.json"), sentinel)
+
     def test_scraper_exception_is_also_a_failed_batch(self):
         self.config("AAA")
         with patch.object(crawler, "scrape_etf", side_effect=ValueError("bad API schema")):

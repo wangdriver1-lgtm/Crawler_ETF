@@ -69,14 +69,14 @@ def get_etf_details(code, root=ROOT):
     info = payload.get("etfs", {}).get(code)
     if not info:
         raise KeyError("找不到此 ETF 的持股快照。")
-    asof = str(payload.get("date") or "")
-    if not re.fullmatch(r"\d{8}", asof):
+    asof = info.get("date", payload.get("date"))
+    if not re.fullmatch(r"\d{8}", str(asof or "")) and info.get("stocks"):
         raise ValueError("持股快照缺少有效資料日期。")
     current = normalize_holdings(info.get("stocks", []))
     candidates = []
     for path in (root / "stocks").glob(f"stocks_{code}_*.json"):
         match = re.fullmatch(rf"stocks_{re.escape(code)}_(\d{{8}})\.json", path.name)
-        if match and match[1] < asof:
+        if match and asof and match[1] < asof:
             candidates.append((match[1], path))
     previous, previous_date = None, None
     for date, path in sorted(candidates, reverse=True):
@@ -101,6 +101,7 @@ def get_etf_details(code, root=ROOT):
     changes.sort(key=lambda row: abs(row["delta_shares"]), reverse=True)
     config = etf_config(root).get(code, {})
     return {"code": code, "name": info.get("name", config.get("name", code)), "asof": asof,
+            "data_status": info.get("status", "fresh"),
             "previous_date": previous_date, "official_url": config.get("url"),
             "holdings": list(current.values()), "changes": changes, "comparable": comparable,
             "added_shares": sum(max(row["delta_shares"], 0) for row in changes) if comparable else None,
