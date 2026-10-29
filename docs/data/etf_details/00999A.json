@@ -1,10 +1,17 @@
 {
   "code": "00999A",
   "name": "主動野村臺灣高息",
-  "asof": "20261028",
+  "asof": "20261030",
   "data_status": "fresh",
-  "unchanged": false,
+  "unchanged": true,
   "history": [
+    {
+      "date": "20261030",
+      "previous_date": "20261028",
+      "status": "unchanged",
+      "comparable": false,
+      "changes": []
+    },
     {
       "date": "20261028",
       "previous_date": null,
@@ -13,7 +20,7 @@
       "changes": []
     }
   ],
-  "previous_date": null,
+  "previous_date": "20261028",
   "official_url": "https://www.nomurafunds.com.tw/ETFWEB/product-description?fundNo=00999A&tab=Shareholding",
   "holdings": [
     {
@@ -150,16 +157,16 @@
       "lot_size": 1000
     },
     {
-      "code": "2408",
-      "name": "南亞科技",
-      "shares": 392000,
+      "code": "3026",
+      "name": "禾伸堂企業",
+      "shares": 246000,
       "weight": "",
       "lot_size": 1000
     },
     {
-      "code": "3026",
-      "name": "禾伸堂企業",
-      "shares": 246000,
+      "code": "2408",
+      "name": "南亞科技",
+      "shares": 392000,
       "weight": "",
       "lot_size": 1000
     },
@@ -178,13 +185,6 @@
       "lot_size": 1000
     },
     {
-      "code": "5274",
-      "name": "信驊科技",
-      "shares": 9000,
-      "weight": "",
-      "lot_size": 1000
-    },
-    {
       "code": "2884",
       "name": "玉山金融控股",
       "shares": 3184000,
@@ -192,16 +192,9 @@
       "lot_size": 1000
     },
     {
-      "code": "6515",
-      "name": "穎崴科技",
-      "shares": 31000,
-      "weight": "",
-      "lot_size": 1000
-    },
-    {
-      "code": "3665",
-      "name": "貿聯控股（BizLink Holding In",
-      "shares": 83000,
+      "code": "5274",
+      "name": "信驊科技",
+      "shares": 9000,
       "weight": "",
       "lot_size": 1000
     },
@@ -220,6 +213,13 @@
       "lot_size": 1000
     },
     {
+      "code": "6515",
+      "name": "穎崴科技",
+      "shares": 31000,
+      "weight": "",
+      "lot_size": 1000
+    },
+    {
       "code": "2885",
       "name": "元大金融控股",
       "shares": 1958040,
@@ -234,16 +234,16 @@
       "lot_size": 1000
     },
     {
-      "code": "2451",
-      "name": "創見資訊",
-      "shares": 454000,
+      "code": "3665",
+      "name": "貿聯控股（BizLink Holding In",
+      "shares": 83000,
       "weight": "",
       "lot_size": 1000
     },
     {
-      "code": "3529",
-      "name": "力旺電子",
-      "shares": 49000,
+      "code": "2451",
+      "name": "創見資訊",
+      "shares": 454000,
       "weight": "",
       "lot_size": 1000
     },
@@ -255,9 +255,16 @@
       "lot_size": 1000
     },
     {
-      "code": "3702",
-      "name": "大聯大控股",
-      "shares": 1054000,
+      "code": "3529",
+      "name": "力旺電子",
+      "shares": 49000,
+      "weight": "",
+      "lot_size": 1000
+    },
+    {
+      "code": "5904",
+      "name": "寶雅國際",
+      "shares": 1646000,
       "weight": "",
       "lot_size": 1000
     },
@@ -276,16 +283,9 @@
       "lot_size": 1000
     },
     {
-      "code": "5904",
-      "name": "寶雅國際",
-      "shares": 1646000,
-      "weight": "",
-      "lot_size": 1000
-    },
-    {
-      "code": "2345",
-      "name": "智邦科技",
-      "shares": 64000,
+      "code": "3702",
+      "name": "大聯大控股",
+      "shares": 1054000,
       "weight": "",
       "lot_size": 1000
     },
@@ -293,6 +293,13 @@
       "code": "4904",
       "name": "遠傳電信",
       "shares": 1008000,
+      "weight": "",
+      "lot_size": 1000
+    },
+    {
+      "code": "2345",
+      "name": "智邦科技",
+      "shares": 64000,
       "weight": "",
       "lot_size": 1000
     },
@@ -332,16 +339,16 @@
       "lot_size": 1000
     },
     {
-      "code": "6138",
-      "name": "茂達電子",
-      "shares": 351000,
+      "code": "5434",
+      "name": "崇越科技",
+      "shares": 160000,
       "weight": "",
       "lot_size": 1000
     },
     {
-      "code": "5434",
-      "name": "崇越科技",
-      "shares": 160000,
+      "code": "6138",
+      "name": "茂達電子",
+      "shares": 351000,
       "weight": "",
       "lot_size": 1000
     },
