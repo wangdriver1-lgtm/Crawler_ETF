@@ -1,15 +1,21 @@
 {
   "code": "00980A",
   "quote": {
-    "date": "20261030",
-    "close": 22.91,
-    "change": -0.93,
-    "volume": 12448138,
+    "date": "20261102",
+    "close": 22.79,
+    "change": -0.12,
+    "volume": 11557846,
     "currency": "TWD",
     "source": "https://openapi.twse.com.tw/v1/exchangeReport/STOCK_DAY_ALL"
   },
   "quote_status": "ok",
   "dividends": [
+    {
+      "ex_date": "115年11月17日",
+      "record_date": "115年11月23日",
+      "pay_date": "115年12月11日",
+      "cash_per_unit": null
+    },
     {
       "ex_date": "115年08月18日",
       "record_date": "115年08月24日",
@@ -38,5 +44,5 @@
   "dividend_status": "ok",
   "dividend_source": "https://www.twse.com.tw/zh/products/securities/etf/products/div.html",
   "dividend_period": "2025/01/01–2026/12/31",
-  "retrieved_at": "2026-11-02T02:16:38.428386+08:00"
+  "retrieved_at": "2026-11-03T06:04:41.088175+08:00"
 }

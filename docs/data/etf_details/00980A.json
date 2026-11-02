@@ -1,10 +1,28 @@
 {
   "code": "00980A",
   "name": "主動野村臺灣優選",
-  "asof": "20261102",
+  "asof": "20261103",
   "data_status": "fresh",
-  "unchanged": true,
+  "unchanged": false,
   "history": [
+    {
+      "date": "20261103",
+      "previous_date": "20261102",
+      "status": "changed",
+      "comparable": true,
+      "changes": [
+        {
+          "code": "TX",
+          "name": "台灣證交所加權股價指數",
+          "shares": 60,
+          "weight": "",
+          "lot_size": null,
+          "previous_shares": 30,
+          "delta_shares": 30,
+          "delta_lots": null
+        }
+      ]
+    },
     {
       "date": "20261102",
       "previous_date": "20261030",
@@ -691,16 +709,9 @@
       "status": "unchanged",
       "comparable": false,
       "changes": []
-    },
-    {
-      "date": "20260521",
-      "previous_date": "20260520",
-      "status": "unchanged",
-      "comparable": false,
-      "changes": []
     }
   ],
-  "previous_date": "20261030",
+  "previous_date": "20261102",
   "official_url": "https://www.nomurafunds.com.tw/ETFWEB/product-description?fundNo=00980A&tab=Shareholding",
   "holdings": [
     {
@@ -795,9 +806,9 @@
       "lot_size": 1000
     },
     {
-      "code": "7769",
-      "name": "鴻勁精密",
-      "shares": 71000,
+      "code": "2368",
+      "name": "金像電子（股）公司",
+      "shares": 337000,
       "weight": "",
       "lot_size": 1000
     },
@@ -809,16 +820,9 @@
       "lot_size": 1000
     },
     {
-      "code": "2368",
-      "name": "金像電子（股）公司",
-      "shares": 337000,
-      "weight": "",
-      "lot_size": 1000
-    },
-    {
-      "code": "3443",
-      "name": "創意電子",
-      "shares": 45000,
+      "code": "7769",
+      "name": "鴻勁精密",
+      "shares": 71000,
       "weight": "",
       "lot_size": 1000
     },
@@ -826,6 +830,13 @@
       "code": "6669",
       "name": "緯穎科技服務",
       "shares": 185105,
+      "weight": "",
+      "lot_size": 1000
+    },
+    {
+      "code": "3443",
+      "name": "創意電子",
+      "shares": 45000,
       "weight": "",
       "lot_size": 1000
     },
@@ -851,6 +862,13 @@
       "lot_size": 1000
     },
     {
+      "code": "2376",
+      "name": "技嘉科技",
+      "shares": 877000,
+      "weight": "",
+      "lot_size": 1000
+    },
+    {
       "code": "8046",
       "name": "南亞電路板",
       "shares": 251000,
@@ -861,13 +879,6 @@
       "code": "2891",
       "name": "中國信託金融控股",
       "shares": 3904000,
-      "weight": "",
-      "lot_size": 1000
-    },
-    {
-      "code": "2376",
-      "name": "技嘉科技",
-      "shares": 877000,
       "weight": "",
       "lot_size": 1000
     },
@@ -900,9 +911,9 @@
       "lot_size": 1000
     },
     {
-      "code": "6213",
-      "name": "聯茂電子",
-      "shares": 356000,
+      "code": "3044",
+      "name": "健鼎科技",
+      "shares": 450000,
       "weight": "",
       "lot_size": 1000
     },
@@ -914,16 +925,16 @@
       "lot_size": 1000
     },
     {
-      "code": "3665",
-      "name": "貿聯控股（BizLink Holding In",
-      "shares": 143336,
+      "code": "6213",
+      "name": "聯茂電子",
+      "shares": 356000,
       "weight": "",
       "lot_size": 1000
     },
     {
-      "code": "3044",
-      "name": "健鼎科技",
-      "shares": 450000,
+      "code": "3665",
+      "name": "貿聯控股（BizLink Holding In",
+      "shares": 143336,
       "weight": "",
       "lot_size": 1000
     },
@@ -938,13 +949,6 @@
       "code": "6274",
       "name": "台燿科技",
       "shares": 176000,
-      "weight": "",
-      "lot_size": 1000
-    },
-    {
-      "code": "3026",
-      "name": "禾伸堂企業",
-      "shares": 286000,
       "weight": "",
       "lot_size": 1000
     },
@@ -966,6 +970,13 @@
       "code": "3036",
       "name": "文曄科技",
       "shares": 906000,
+      "weight": "",
+      "lot_size": 1000
+    },
+    {
+      "code": "3026",
+      "name": "禾伸堂企業",
+      "shares": 286000,
       "weight": "",
       "lot_size": 1000
     },
@@ -1012,16 +1023,16 @@
       "lot_size": 1000
     },
     {
-      "code": "3293",
-      "name": "鈊象電子",
-      "shares": 110000,
+      "code": "8996",
+      "name": "高力熱處理工業",
+      "shares": 58000,
       "weight": "",
       "lot_size": 1000
     },
     {
-      "code": "8996",
-      "name": "高力熱處理工業",
-      "shares": 58000,
+      "code": "3293",
+      "name": "鈊象電子",
+      "shares": 110000,
       "weight": "",
       "lot_size": 1000
     },
@@ -1033,16 +1044,16 @@
       "lot_size": 1000
     },
     {
-      "code": "6831",
-      "name": "邁科科技",
-      "shares": 129000,
+      "code": "6442",
+      "name": "光紅建聖",
+      "shares": 38000,
       "weight": "",
       "lot_size": 1000
     },
     {
-      "code": "6442",
-      "name": "光紅建聖",
-      "shares": 38000,
+      "code": "6831",
+      "name": "邁科科技",
+      "shares": 129000,
       "weight": "",
       "lot_size": 1000
     },
@@ -1056,15 +1067,26 @@
     {
       "code": "TX",
       "name": "台灣證交所加權股價指數",
-      "shares": 30,
+      "shares": 60,
       "weight": "",
       "lot_size": null
     }
   ],
-  "changes": [],
-  "comparable": false,
-  "added_shares": null,
-  "reduced_shares": null,
+  "changes": [
+    {
+      "code": "TX",
+      "name": "台灣證交所加權股價指數",
+      "shares": 60,
+      "weight": "",
+      "lot_size": null,
+      "previous_shares": 30,
+      "delta_shares": 30,
+      "delta_lots": null
+    }
+  ],
+  "comparable": true,
+  "added_shares": 30,
+  "reduced_shares": 0,
   "comparison_note": "持股快照差異不是實際成交紀錄，可能包含申贖、分割或資料修正；海外持股不換算台股張數。",
   "profit_note": "基金及成分股實際買進成本未提供，無法由持股快照計算基金目前獲利。可另外輸入個人持倉成本試算。"
 }

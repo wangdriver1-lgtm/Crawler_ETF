@@ -1,10 +1,17 @@
 {
   "code": "00999A",
   "name": "主動野村臺灣高息",
-  "asof": "20261102",
+  "asof": "20261103",
   "data_status": "fresh",
   "unchanged": true,
   "history": [
+    {
+      "date": "20261103",
+      "previous_date": "20261102",
+      "status": "unchanged",
+      "comparable": false,
+      "changes": []
+    },
     {
       "date": "20261102",
       "previous_date": "20261030",
@@ -27,7 +34,7 @@
       "changes": []
     }
   ],
-  "previous_date": "20261030",
+  "previous_date": "20261102",
   "official_url": "https://www.nomurafunds.com.tw/ETFWEB/product-description?fundNo=00999A&tab=Shareholding",
   "holdings": [
     {
@@ -38,16 +45,16 @@
       "lot_size": 1000
     },
     {
-      "code": "2059",
-      "name": "川湖科技",
-      "shares": 45000,
+      "code": "2454",
+      "name": "聯發科技",
+      "shares": 111000,
       "weight": "",
       "lot_size": 1000
     },
     {
-      "code": "2454",
-      "name": "聯發科技",
-      "shares": 111000,
+      "code": "2059",
+      "name": "川湖科技",
+      "shares": 45000,
       "weight": "",
       "lot_size": 1000
     },
@@ -171,13 +178,6 @@
       "lot_size": 1000
     },
     {
-      "code": "3026",
-      "name": "禾伸堂企業",
-      "shares": 246000,
-      "weight": "",
-      "lot_size": 1000
-    },
-    {
       "code": "3293",
       "name": "鈊象電子",
       "shares": 206000,
@@ -192,16 +192,16 @@
       "lot_size": 1000
     },
     {
-      "code": "2884",
-      "name": "玉山金融控股",
-      "shares": 3184000,
+      "code": "3026",
+      "name": "禾伸堂企業",
+      "shares": 246000,
       "weight": "",
       "lot_size": 1000
     },
     {
-      "code": "2880",
-      "name": "華南金融控股",
-      "shares": 2936388,
+      "code": "2884",
+      "name": "玉山金融控股",
+      "shares": 3184000,
       "weight": "",
       "lot_size": 1000
     },
@@ -213,9 +213,16 @@
       "lot_size": 1000
     },
     {
-      "code": "5274",
-      "name": "信驊科技",
-      "shares": 9000,
+      "code": "2880",
+      "name": "華南金融控股",
+      "shares": 2936388,
+      "weight": "",
+      "lot_size": 1000
+    },
+    {
+      "code": "2618",
+      "name": "長榮航空",
+      "shares": 3309000,
       "weight": "",
       "lot_size": 1000
     },
@@ -227,9 +234,9 @@
       "lot_size": 1000
     },
     {
-      "code": "2618",
-      "name": "長榮航空",
-      "shares": 3309000,
+      "code": "5274",
+      "name": "信驊科技",
+      "shares": 9000,
       "weight": "",
       "lot_size": 1000
     },
@@ -262,13 +269,6 @@
       "lot_size": 1000
     },
     {
-      "code": "3529",
-      "name": "力旺電子",
-      "shares": 49000,
-      "weight": "",
-      "lot_size": 1000
-    },
-    {
       "code": "5904",
       "name": "寶雅國際",
       "shares": 1646000,
@@ -279,6 +279,20 @@
       "code": "6121",
       "name": "新普科技",
       "shares": 316000,
+      "weight": "",
+      "lot_size": 1000
+    },
+    {
+      "code": "3529",
+      "name": "力旺電子",
+      "shares": 49000,
+      "weight": "",
+      "lot_size": 1000
+    },
+    {
+      "code": "3044",
+      "name": "健鼎科技",
+      "shares": 221000,
       "weight": "",
       "lot_size": 1000
     },
@@ -297,13 +311,6 @@
       "lot_size": 1000
     },
     {
-      "code": "3044",
-      "name": "健鼎科技",
-      "shares": 221000,
-      "weight": "",
-      "lot_size": 1000
-    },
-    {
       "code": "2345",
       "name": "智邦科技",
       "shares": 64000,
@@ -318,16 +325,16 @@
       "lot_size": 1000
     },
     {
-      "code": "6805",
-      "name": "富世達",
-      "shares": 42000,
+      "code": "2441",
+      "name": "超豐電子",
+      "shares": 890000,
       "weight": "",
       "lot_size": 1000
     },
     {
-      "code": "2441",
-      "name": "超豐電子",
-      "shares": 890000,
+      "code": "6805",
+      "name": "富世達",
+      "shares": 42000,
       "weight": "",
       "lot_size": 1000
     },
