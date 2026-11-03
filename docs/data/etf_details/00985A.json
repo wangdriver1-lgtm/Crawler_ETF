@@ -1,10 +1,17 @@
 {
   "code": "00985A",
   "name": "主動野村台灣50",
-  "asof": "20261103",
+  "asof": "20261104",
   "data_status": "fresh",
   "unchanged": true,
   "history": [
+    {
+      "date": "20261104",
+      "previous_date": "20261103",
+      "status": "unchanged",
+      "comparable": false,
+      "changes": []
+    },
     {
       "date": "20261103",
       "previous_date": "20261102",
@@ -1141,16 +1148,9 @@
       "status": "unchanged",
       "comparable": false,
       "changes": []
-    },
-    {
-      "date": "20260522",
-      "previous_date": "20260521",
-      "status": "unchanged",
-      "comparable": false,
-      "changes": []
     }
   ],
-  "previous_date": "20261102",
+  "previous_date": "20261103",
   "official_url": "https://www.nomurafunds.com.tw/ETFWEB/product-description?fundNo=00985A&tab=Shareholding",
   "holdings": [
     {
@@ -1189,16 +1189,16 @@
       "lot_size": 1000
     },
     {
-      "code": "7769",
-      "name": "鴻勁精密",
-      "shares": 168000,
+      "code": "2383",
+      "name": "台光電子材料",
+      "shares": 172000,
       "weight": "",
       "lot_size": 1000
     },
     {
-      "code": "2383",
-      "name": "台光電子材料",
-      "shares": 172000,
+      "code": "7769",
+      "name": "鴻勁精密",
+      "shares": 168000,
       "weight": "",
       "lot_size": 1000
     },
@@ -1238,23 +1238,9 @@
       "lot_size": 1000
     },
     {
-      "code": "3081",
-      "name": "聯亞光電工業",
-      "shares": 242000,
-      "weight": "",
-      "lot_size": 1000
-    },
-    {
       "code": "2027",
       "name": "大成不銹鋼工業",
       "shares": 11562000,
-      "weight": "",
-      "lot_size": 1000
-    },
-    {
-      "code": "2317",
-      "name": "鴻海精密工業",
-      "shares": 2225000,
       "weight": "",
       "lot_size": 1000
     },
@@ -1266,9 +1252,30 @@
       "lot_size": 1000
     },
     {
+      "code": "2317",
+      "name": "鴻海精密工業",
+      "shares": 2225000,
+      "weight": "",
+      "lot_size": 1000
+    },
+    {
+      "code": "3081",
+      "name": "聯亞光電工業",
+      "shares": 242000,
+      "weight": "",
+      "lot_size": 1000
+    },
+    {
       "code": "3037",
       "name": "欣興電子",
       "shares": 555000,
+      "weight": "",
+      "lot_size": 1000
+    },
+    {
+      "code": "2412",
+      "name": "中華電信",
+      "shares": 3080000,
       "weight": "",
       "lot_size": 1000
     },
@@ -1287,9 +1294,9 @@
       "lot_size": 1000
     },
     {
-      "code": "2412",
-      "name": "中華電信",
-      "shares": 3080000,
+      "code": "2303",
+      "name": "聯華電子",
+      "shares": 4268000,
       "weight": "",
       "lot_size": 1000
     },
@@ -1301,9 +1308,9 @@
       "lot_size": 1000
     },
     {
-      "code": "2303",
-      "name": "聯華電子",
-      "shares": 4268000,
+      "code": "2603",
+      "name": "長榮海運",
+      "shares": 1569000,
       "weight": "",
       "lot_size": 1000
     },
@@ -1311,20 +1318,6 @@
       "code": "3008",
       "name": "大立光電",
       "shares": 84000,
-      "weight": "",
-      "lot_size": 1000
-    },
-    {
-      "code": "2344",
-      "name": "華邦電子",
-      "shares": 2698000,
-      "weight": "",
-      "lot_size": 1000
-    },
-    {
-      "code": "2603",
-      "name": "長榮海運",
-      "shares": 1569000,
       "weight": "",
       "lot_size": 1000
     },
@@ -1343,23 +1336,16 @@
       "lot_size": 1000
     },
     {
-      "code": "1605",
-      "name": "華新麗華",
-      "shares": 10998000,
-      "weight": "",
-      "lot_size": 1000
-    },
-    {
-      "code": "6488",
-      "name": "環球晶圓",
-      "shares": 537000,
-      "weight": "",
-      "lot_size": 1000
-    },
-    {
       "code": "2610",
       "name": "中華航空",
       "shares": 19301000,
+      "weight": "",
+      "lot_size": 1000
+    },
+    {
+      "code": "2344",
+      "name": "華邦電子",
+      "shares": 2698000,
       "weight": "",
       "lot_size": 1000
     },
@@ -1371,9 +1357,9 @@
       "lot_size": 1000
     },
     {
-      "code": "6531",
-      "name": "愛普科技",
-      "shares": 501000,
+      "code": "1605",
+      "name": "華新麗華",
+      "shares": 10998000,
       "weight": "",
       "lot_size": 1000
     },
@@ -1381,6 +1367,20 @@
       "code": "1402",
       "name": "遠東新世紀",
       "shares": 13427000,
+      "weight": "",
+      "lot_size": 1000
+    },
+    {
+      "code": "6488",
+      "name": "環球晶圓",
+      "shares": 537000,
+      "weight": "",
+      "lot_size": 1000
+    },
+    {
+      "code": "6531",
+      "name": "愛普科技",
+      "shares": 501000,
       "weight": "",
       "lot_size": 1000
     },
@@ -1399,13 +1399,6 @@
       "lot_size": 1000
     },
     {
-      "code": "7750",
-      "name": "新代科技",
-      "shares": 183000,
-      "weight": "",
-      "lot_size": 1000
-    },
-    {
       "code": "3017",
       "name": "奇鋐科技",
       "shares": 109000,
@@ -1413,9 +1406,9 @@
       "lot_size": 1000
     },
     {
-      "code": "6442",
-      "name": "光紅建聖",
-      "shares": 229000,
+      "code": "7750",
+      "name": "新代科技",
+      "shares": 183000,
       "weight": "",
       "lot_size": 1000
     },
@@ -1423,6 +1416,13 @@
       "code": "3231",
       "name": "緯創資通",
       "shares": 1538000,
+      "weight": "",
+      "lot_size": 1000
+    },
+    {
+      "code": "6442",
+      "name": "光紅建聖",
+      "shares": 229000,
       "weight": "",
       "lot_size": 1000
     },
