@@ -70,6 +70,10 @@ def snapshot_signature(rows):
                  for code, row in sorted(holdings.items()))
 
 
+def snapshot_source(rows):
+    return tuple(sorted({row.get('_source_kind', 'official') for row in rows}))
+
+
 def compare_holdings(current, previous):
     comparable = bool(current) and previous is not None and all(
         row['shares'] is not None for row in [*current.values(), *previous.values()])
@@ -101,31 +105,36 @@ def get_etf_details(code, root=ROOT):
         match = re.fullmatch(rf"stocks_{re.escape(code)}_(\d{{8}})\.json", path.name)
         if match and asof and match[1] < asof:
             candidates.append((match[1], path))
-    snapshots = [(asof, current, snapshot_signature(info.get('stocks', [])))] if current else []
+    snapshots = [(asof, current, snapshot_signature(info.get('stocks', [])), snapshot_source(info.get('stocks', [])))] if current else []
     for date, path in sorted(candidates, reverse=True):
         try:
             rows = read_json(path)
             if isinstance(rows, list) and rows:
-                snapshots.append((date, normalize_holdings(rows), snapshot_signature(rows)))
+                snapshots.append((date, normalize_holdings(rows), snapshot_signature(rows), snapshot_source(rows)))
         except (OSError, ValueError):
             continue
     previous_date = snapshots[1][0] if len(snapshots) > 1 else None
     history = []
-    for index, (date, holdings, signature) in enumerate(snapshots[:10]):
+    for index, (date, holdings, signature, source) in enumerate(snapshots[:10]):
         baseline = snapshots[index + 1] if index + 1 < len(snapshots) else None
+        source_changed = baseline is not None and source != baseline[3]
         unchanged = baseline is not None and signature == baseline[2]
-        if unchanged:
+        if unchanged or source_changed:
             comparable, changes = False, []
         else:
             comparable, changes = compare_holdings(holdings, baseline[1] if baseline else None)
         history.append({'date': date, 'previous_date': baseline[0] if baseline else None,
-                        'status': 'unchanged' if unchanged else 'changed' if comparable else 'unavailable',
+                        'status': 'source_changed' if source_changed else 'unchanged' if unchanged else 'changed' if comparable else 'unavailable',
                         'comparable': comparable, 'changes': changes})
     latest = history[0] if history else {}
     comparable, changes = latest.get('comparable', False), latest.get('changes', [])
     config = etf_config(root).get(code, {})
     return {"code": code, "name": info.get("name", config.get("name", code)), "asof": asof,
             "data_status": info.get("status", "fresh"),
+            "source_kind": info.get('source_kind', 'official'),
+            "source_name": info.get('source_name') or '投信官方持股頁',
+            "source_url": info.get('source_url') or config.get('url'),
+            "date_basis": info.get('date_basis', 'crawl_date'),
             "unchanged": latest.get('status') == 'unchanged', "history": history,
             "previous_date": previous_date, "official_url": config.get("url") or config.get('source'),
             "holdings": list(current.values()), "changes": changes, "comparable": comparable,

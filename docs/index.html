@@ -136,7 +136,7 @@
             const dataDate = /^\d{8}$/.test(rawDate) ? `${rawDate.slice(0, 4)}/${rawDate.slice(4, 6)}/${rawDate.slice(6, 8)}` : '未提供';
             const updatedAt = data.updated_at ? new Date(data.updated_at) : null;
             fundDetails = entries.map(([code, info]) => ({ code, name: info.name || '未提供', company: info.company,
-                price: info.price, change: info.change, date: 'date' in info ? info.date : rawDate, unavailable: info.status === 'unavailable', sharesState: ['stale','unavailable'].includes(info.status) ? 'stale' : hasCoverage ? (missing.has(code) ? 'missing' : 'complete') : 'unknown' }));
+                price: info.price, change: info.change, date: 'date' in info ? info.date : rawDate, backup: info.source_kind === 'backup', unavailable: info.status === 'unavailable', sharesState: ['stale','unavailable'].includes(info.status) ? 'stale' : hasCoverage ? (missing.has(code) ? 'missing' : 'complete') : 'unknown' }));
             document.getElementById('status').innerHTML = `<div class="stats-grid">
                 <article class="metric"><div class="metric-head">監控基金數${icon('funds')}</div><div class="metric-value">${totalFunds.toString().padStart(2, '0')}<small>檔 ETF</small></div><div class="metric-note"><span class="dot"></span>來自最新來源快照</div></article>
                 <article class="metric"><div class="metric-head">網站資料整理日${icon('calendar')}</div><div class="metric-value date-value">${dataDate}</div><div class="metric-note">各基金持股日期請見清單</div></article>
@@ -177,7 +177,8 @@
                 const changeClass = numericChange > 0 ? 'positive' : numericChange < 0 ? 'negative' : '';
                 const shareBadge = fund.sharesState === 'complete' ? '<span class="pill"><i class="dot"></i>完整</span>'
                     : fund.sharesState === 'stale' ? `<span class="pill warn">${fund.unavailable ? '尚無持股資料' : '來源未更新'}</span>` : fund.sharesState === 'missing' ? '<span class="pill warn"><i class="dot"></i>待補股數</span>' : '<span class="pill neutral">未提供</span>';
-                return `<tr data-etf="${escapeHtml(fund.code)}" onclick="openEtfDetails(this.dataset.etf)"><td><button class="fund-open" type="button" aria-haspopup="dialog" aria-label="查看 ${escapeHtml(fund.code)} ${escapeHtml(fund.name)} 詳細資訊"><span class="code">${escapeHtml(fund.code)} ↗</span></button></td><td><div class="fund-name">${escapeHtml(fund.name)}</div><div class="fund-type">持股資料 ${escapeHtml(detailDate(fund.date))} · 查看詳情</div></td><td class="muted">${present(fund.company) ? escapeHtml(fund.company) : '—'}</td><td class="numeric">${present(fund.price) ? escapeHtml(fund.price) : '<span class="muted">—</span>'}</td><td class="numeric ${changeClass}">${change === null ? '<span class="muted">—</span>' : escapeHtml(change)}</td><td>${shareBadge}</td></tr>`;
+                const sourceBadge = fund.backup ? '<span class="pill neutral">公開備援</span>' : '';
+                return `<tr data-etf="${escapeHtml(fund.code)}" onclick="openEtfDetails(this.dataset.etf)"><td><button class="fund-open" type="button" aria-haspopup="dialog" aria-label="查看 ${escapeHtml(fund.code)} ${escapeHtml(fund.name)} 詳細資訊"><span class="code">${escapeHtml(fund.code)} ↗</span></button></td><td><div class="fund-name">${escapeHtml(fund.name)}</div><div class="fund-type">持股資料 ${escapeHtml(detailDate(fund.date))} · 查看詳情</div></td><td class="muted">${present(fund.company) ? escapeHtml(fund.company) : '—'}</td><td class="numeric">${present(fund.price) ? escapeHtml(fund.price) : '<span class="muted">—</span>'}</td><td class="numeric ${changeClass}">${change === null ? '<span class="muted">—</span>' : escapeHtml(change)}</td><td>${shareBadge} ${sourceBadge}</td></tr>`;
             }).join('');
             document.getElementById('etf-summary').innerHTML = `<table><caption style="position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)">ETF 基金與股數資料狀態</caption><thead><tr><th scope="col">基金代碼</th><th scope="col">基金名稱</th><th scope="col">發行公司</th><th scope="col" class="numeric">淨值</th><th scope="col" class="numeric">漲跌</th><th scope="col">股數資料</th></tr></thead><tbody>${rows || '<tr><td colspan="6" class="empty">找不到符合條件的 ETF，請調整搜尋或篩選條件。</td></tr>'}</tbody></table>`;
             document.getElementById('result-count').textContent = `顯示 ${filtered.length} / ${fundDetails.length} 檔基金`;
@@ -321,7 +322,7 @@
             if (data.history?.length) {
                 document.getElementById('detail-changes-note').textContent = `保留最近 10 個有快照的資料日；休市或重複資料不計算新增減。${data.comparison_note || ''}`;
                 document.getElementById('detail-changes-table').innerHTML = data.history.map((day, index) => {
-                    const label = day.status === 'unchanged' ? '持股無異動，略過計算' : day.status === 'changed' ? `${day.changes.length} 檔持股增減` : '缺少有效比較基準';
+                    const label = day.status === 'source_changed' ? '資料來源切換，略過增減比較' : day.status === 'unchanged' ? '持股無異動，略過計算' : day.status === 'changed' ? `${day.changes.length} 檔持股增減` : '缺少有效比較基準';
                     const body = day.changes.map(row => `<tr><td>${escapeHtml(row.code)}</td><td>${escapeHtml(row.name)}</td><td class="numeric">${detailNumber(row.previous_shares)}</td><td class="numeric">${detailNumber(row.shares)}</td><td class="numeric ${row.delta_shares > 0 ? 'positive' : 'negative'}">${row.delta_shares > 0 ? '+' : ''}${detailNumber(row.delta_shares)}</td><td class="numeric">${detailNumber(row.delta_lots)}</td></tr>`).join('');
                     return `<details ${index === 0 ? 'open' : ''} style="padding:14px 0;border-bottom:1px solid var(--border)"><summary style="cursor:pointer">${detailDate(day.date)} · ${escapeHtml(label)}</summary><p class="detail-note">比較基準：${detailDate(day.previous_date)}</p>${body ? `<table><thead><tr><th>股票代碼</th><th>名稱</th><th>前次股數</th><th>本次股數</th><th>增減股數</th><th>增減台股張數</th></tr></thead><tbody>${body}</tbody></table>` : `<p class="detail-note">${escapeHtml(label)}。${day.status === 'unchanged' ? '先前異動紀錄保留於下方。' : ''}</p>`}</details>`;
                 }).join('');
@@ -329,6 +330,7 @@
             if (data.unchanged) document.getElementById('detail-date').textContent += ' ｜本次持股與前次相同，未計算新增減';
             document.getElementById('detail-profit-note').textContent = data.profit_note;
             document.getElementById('detail-source').innerHTML = data.official_url ? `基金官方來源：${analysisLink(data.official_url, data.name + ' 持股／公告頁面')}` : '來源：本機爬蟲持股快照。';
+            if (data.source_url) document.getElementById('detail-source').innerHTML = `持股資料來源：${analysisLink(data.source_url, data.source_name || '來源頁面')}。${data.source_kind === 'backup' ? '官方抓取失敗時採公開備援，日期依來源揭露；來源切換當日不計算增減。' : '官方頁面未提供日期時，以抓取日期標示。'}`;
         }
         async function loadEtfMarket(code, request) {
             try {

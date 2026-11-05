@@ -56,6 +56,7 @@ jobs:
         env:
           CRAWLER_ALLOW_PARTIAL: '1'
           CRAWLER_RETRIES: '1'
+          CRAWLER_USE_BACKUP: '1'
         run: python Crawler_ETF.py
 
       - name: 保存執行紀錄
@@ -96,7 +97,10 @@ jobs:
                   'price': info.get('price', 'N/A'),
                   'change': info.get('change', 'N/A'),
                   'date': info.get('date', payload.get('date')),
-                  'status': info.get('status', 'fresh')
+                  'status': info.get('status', 'fresh'),
+                  'source_kind': info.get('source_kind'),
+                  'source_name': info.get('source_name'),
+                  'source_url': info.get('source_url'),
               }
 
           os.makedirs(os.path.dirname(output_path), exist_ok=True)

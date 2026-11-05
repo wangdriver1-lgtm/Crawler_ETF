@@ -20,6 +20,7 @@ from decimal import Decimal, InvalidOperation
 from pathlib import Path
 from etf_registry import cached_registry, merge_config
 from etf_details import snapshot_signature
+from holdings_fallback import fetch_holdings as fetch_backup_holdings
 
 
 def _parse_shares(value) -> Optional[int]:
@@ -2569,11 +2570,32 @@ def _run_crawler(today: str, log_path: str) -> int:
                 print(f"  {etf_config['code']} 稍後重試 ({attempt + 2}/{attempts})")
                 time.sleep(3)
 
+        backup = None
+        if not stocks and os.environ.get('CRAWLER_USE_BACKUP', '1') == '1':
+            try:
+                backup = fetch_backup_holdings(etf_config['code'], today_date)
+                old = previous_payload.get('etfs', {}).get(etf_config['code'], {})
+                if old.get('stocks') and str(old.get('date') or previous_payload.get('date') or '') > backup['date']:
+                    print(f"  備援 {backup['date']} 比既有快照舊，保留較新持股。")
+                    backup = None
+                else:
+                    stocks = backup['stocks']
+                    print(f"  公開備援成功：{etf_config['code']}，來源日 {backup['date']}，{len(stocks)} 筆")
+            except Exception as error:
+                print(f"  {etf_config['code']} 備援未取得有效資料：{error}")
         if stocks:
+            source_kind = 'backup' if backup else 'official'
+            # Store provenance with dated snapshots so history can detect source switches.
+            stocks = [{**row, '_source_kind': source_kind} for row in stocks]
             all_stocks[etf_config["code"]] = {
                 "name": etf_config["name"],
-                "date": today,
+                "date": backup['date'] if backup else today,
                 "status": "fresh",
+                "source_kind": source_kind,
+                "source_name": backup['source_name'] if backup else '投信官方持股頁',
+                "source_url": backup['source_url'] if backup else etf_config.get('url'),
+                "upstream_source": backup.get('upstream_source') if backup else None,
+                "date_basis": backup.get('date_basis') if backup else 'crawl_date',
                 "stocks": stocks
             }
         else:
@@ -2594,6 +2616,7 @@ def _run_crawler(today: str, log_path: str) -> int:
         for code in failed_etfs:
             previous = previous_payload.get("etfs", {}).get(code) or {}
             all_stocks[code] = {
+                **{key: previous.get(key) for key in ('source_kind', 'source_name', 'source_url', 'upstream_source', 'date_basis')},
                 "name": config_by_code[code]["name"], "stocks": previous.get("stocks", []),
                 "date": previous.get("date", previous_payload.get("date")) if previous else None,
                 "status": "stale" if previous.get("stocks") else "unavailable",
@@ -2614,7 +2637,8 @@ def _run_crawler(today: str, log_path: str) -> int:
         code for code, data in all_stocks.items()
         if any(_parse_shares(s.get("股數")) is None for s in data["stocks"])
     )
-    included_etfs = sorted(fresh_codes - set(missing_share_etfs))
+    included_etfs = sorted(code for code in fresh_codes - set(missing_share_etfs)
+                           if all_stocks[code]['date'] == today)
     if missing_share_etfs:
         print(f"缺少有效股數，以下 ETF 僅保留持股清單，不納入股數統計：{', '.join(missing_share_etfs)}")
 
@@ -2638,7 +2662,7 @@ def _run_crawler(today: str, log_path: str) -> int:
     for etf_code, data in all_stocks.items():
         if etf_code not in fresh_codes:
             continue
-        filename = os.path.join(stocks_dir, f"stocks_{etf_code}_{today}.json")
+        filename = os.path.join(stocks_dir, f"stocks_{etf_code}_{data['date']}.json")
         with open(filename, "w", encoding="utf-8") as f:
             json.dump(data["stocks"], f, ensure_ascii=False, indent=4)
         print(f"✓ 已保存 {filename} ({len(data['stocks'])} 筆)")
@@ -2664,6 +2688,7 @@ def _run_crawler(today: str, log_path: str) -> int:
         "successful_etfs": len(fresh_codes),
         "updated_etfs": sorted(fresh_codes),
         "failed_etfs": failed_etfs,
+        "backup_etfs": sorted(code for code, info in all_stocks.items() if info.get('source_kind') == 'backup'),
         "missing_share_etfs": missing_share_etfs,
         "updated_at": datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).isoformat(),
         "etfs": all_stocks
@@ -2734,6 +2759,10 @@ def _run_crawler(today: str, log_path: str) -> int:
         if prev_summary:
             if _summary_etf_scope(prev_summary) != included_etfs:
                 print("  前後股數統計涵蓋的 ETF 不同，略過異動比較，避免產生假增減。")
+                prev_summary = None
+            elif any(prev_summary.get('source_by_etf', {}).get(code, 'official') != all_stocks[code].get('source_kind', 'official')
+                     for code in included_etfs):
+                print('  前後持股資料來源不同，略過彙總增減比較。')
                 prev_summary = None
 
         if prev_summary:
@@ -2863,6 +2892,7 @@ def _run_crawler(today: str, log_path: str) -> int:
 
     agg_summary = {
         "date": today,
+        "source_by_etf": {code: all_stocks[code].get('source_kind', 'official') for code in included_etfs},
         "included_etfs": included_etfs,
         "missing_share_etfs": missing_share_etfs,
         "stale_etfs": failed_etfs,

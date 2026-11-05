@@ -27,6 +27,7 @@ class CrawlerRegressionTests(unittest.TestCase):
         self.addCleanup(os.chdir, original_cwd)
         for name, value in {
             "is_tw_trading_day": lambda _: True,
+            "fetch_backup_holdings": lambda *args: None,
             "_taipei_today": lambda: datetime.date(2026, 6, 1),
             "enrich_diff_with_market_values": lambda data, *a, **kw: data,
             "generate_diff_html_report": lambda *a, **kw: None,
@@ -107,6 +108,33 @@ class CrawlerRegressionTests(unittest.TestCase):
         self.assertEqual(self.read('stock_shares/stock_shares_diff.json'), {'sentinel': 'prior changes'})
         self.assertEqual(self.read('etf/all_stocks.json')['unchanged_etfs'], ['AAA'])
         self.assertFalse(Path('stock_shares/stock_shares_diff_20260601.json').exists())
+
+    def test_backup_uses_reported_date_and_is_excluded_from_other_day_aggregate(self):
+        self.config('AAA')
+        backup = {'date': '20260528', 'stocks': [self.stock()], 'source_name': '公開備援',
+                  'source_url': 'https://example.test/holdings', 'source_kind': 'backup', 'date_basis': 'issuer'}
+        with patch.object(crawler, 'scrape_etf', return_value=None), \
+                patch.object(crawler, 'fetch_backup_holdings', return_value=backup):
+            self.assertEqual(self.run_main(), 0)
+        saved = self.read('etf/all_stocks.json')['etfs']['AAA']
+        self.assertEqual(saved['date'], '20260528')
+        self.assertEqual(saved['source_kind'], 'backup')
+        self.assertTrue(Path('stocks/stocks_AAA_20260528.json').exists())
+        self.assertFalse(Path('stocks/stocks_AAA_20260601.json').exists())
+        self.assertEqual(self.read('stock_shares/stock_shares_summary.json')['included_etfs'], [])
+
+    def test_older_backup_never_replaces_newer_stored_holdings(self):
+        self.config('AAA', 'BBB')
+        self.write('etf/all_stocks.json', {'date': '20260529', 'etfs': {
+            'AAA': {'name': 'AAA', 'date': '20260529', 'stocks': [self.stock('5000')]}}})
+        backup = {'date': '20260528', 'stocks': [self.stock()], 'source_name': 'backup', 'source_url': 'https://example.test'}
+        with patch.dict(os.environ, {'CRAWLER_ALLOW_PARTIAL': '1'}), \
+                patch.object(crawler, 'scrape_etf', side_effect=[None, [self.stock()]]), \
+                patch.object(crawler, 'fetch_backup_holdings', return_value=backup):
+            self.assertEqual(self.run_main(), 0)
+        saved = self.read('etf/all_stocks.json')['etfs']['AAA']
+        self.assertEqual(saved['date'], '20260529')
+        self.assertEqual(saved['stocks'][0]['股數'], '5000')
 
     def test_partial_failure_preserves_all_previous_outputs(self):
         self.config("AAA", "BBB")

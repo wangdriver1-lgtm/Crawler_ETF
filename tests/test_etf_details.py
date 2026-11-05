@@ -67,6 +67,17 @@ class EtfDetailTests(unittest.TestCase):
         self.assertEqual(details.snapshot_signature([self.row('2330', '1,000'), self.row('2308', '500')]),
                          details.snapshot_signature([self.row('2308', 500), self.row('2330', 1000)]))
 
+    def test_source_switch_does_not_create_false_holding_changes(self):
+        payload = details.read_json(self.root / 'etf/all_stocks.json')
+        payload['etfs']['00980A']['source_kind'] = 'backup'
+        for row in payload['etfs']['00980A']['stocks']:
+            row['_source_kind'] = 'backup'
+        self.write('etf/all_stocks.json', payload)
+        result = details.get_etf_details('00980A', self.root)
+        self.assertEqual(result['history'][0]['status'], 'source_changed')
+        self.assertFalse(result['comparable'])
+        self.assertEqual(result['changes'], [])
+
     def test_stale_fund_uses_its_own_snapshot_date_not_site_update_date(self):
         payload = details.read_json(self.root / "etf/all_stocks.json")
         payload["etfs"]["00980A"].update(date="20260528", status="stale")
