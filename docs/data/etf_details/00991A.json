@@ -21,6 +21,8 @@
           "shares": 8769000,
           "weight": "1.313%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 13000000,
           "delta_shares": -4231000,
           "delta_lots": -4231.0
@@ -31,6 +33,8 @@
           "shares": 1700000,
           "weight": "0.488%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 9000,
           "delta_shares": 1691000,
           "delta_lots": 1691.0
@@ -41,6 +45,8 @@
           "shares": 1250000,
           "weight": "0.500%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 9000,
           "delta_shares": 1241000,
           "delta_lots": 1241.0
@@ -51,6 +57,8 @@
           "shares": 690000,
           "weight": "0.463%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 0,
           "delta_shares": 690000,
           "delta_lots": 690.0
@@ -61,6 +69,8 @@
           "shares": 1000,
           "weight": "0.003%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 600000,
           "delta_shares": -599000,
           "delta_lots": -599.0
@@ -71,6 +81,8 @@
           "shares": 4000000,
           "weight": "3.897%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 3600000,
           "delta_shares": 400000,
           "delta_lots": 400.0
@@ -81,6 +93,8 @@
           "shares": 1150000,
           "weight": "6.777%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 1065000,
           "delta_shares": 85000,
           "delta_lots": 85.0
@@ -91,6 +105,8 @@
           "shares": 1500000,
           "weight": "6.553%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 1480000,
           "delta_shares": 20000,
           "delta_lots": 20.0
@@ -101,6 +117,8 @@
           "shares": 495000,
           "weight": "6.740%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 485000,
           "delta_shares": 10000,
           "delta_lots": 10.0
@@ -111,6 +129,8 @@
           "shares": 0,
           "weight": "0.000%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 1253,
           "delta_shares": -1253,
           "delta_lots": -1.253
@@ -121,6 +141,8 @@
           "shares": 9311,
           "weight": "0.001%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 9000,
           "delta_shares": 311,
           "delta_lots": 0.311
@@ -139,6 +161,8 @@
           "shares": 3600000,
           "weight": "3.527%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 3100000,
           "delta_shares": 500000,
           "delta_lots": 500.0
@@ -149,6 +173,8 @@
           "shares": 11500000,
           "weight": "4.957%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 11200000,
           "delta_shares": 300000,
           "delta_lots": 300.0
@@ -159,6 +185,8 @@
           "shares": 600000,
           "weight": "2.076%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 800000,
           "delta_shares": -200000,
           "delta_lots": -200.0
@@ -169,6 +197,8 @@
           "shares": 1480000,
           "weight": "6.909%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 1450000,
           "delta_shares": 30000,
           "delta_lots": 30.0
@@ -187,6 +217,8 @@
           "shares": 11200000,
           "weight": "5.002%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 11000000,
           "delta_shares": 200000,
           "delta_lots": 200.0
@@ -197,6 +229,8 @@
           "shares": 3100000,
           "weight": "3.100%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 3000000,
           "delta_shares": 100000,
           "delta_lots": 100.0
@@ -207,6 +241,8 @@
           "shares": 5410000,
           "weight": "8.004%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 5350000,
           "delta_shares": 60000,
           "delta_lots": 60.0
@@ -217,6 +253,8 @@
           "shares": 3550000,
           "weight": "6.242%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 3500000,
           "delta_shares": 50000,
           "delta_lots": 50.0
@@ -227,6 +265,8 @@
           "shares": 1450000,
           "weight": "6.584%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 1430000,
           "delta_shares": 20000,
           "delta_lots": 20.0
@@ -237,6 +277,8 @@
           "shares": 1065000,
           "weight": "6.274%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 1050000,
           "delta_shares": 15000,
           "delta_lots": 15.0
@@ -247,6 +289,8 @@
           "shares": 375000,
           "weight": "3.517%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 365000,
           "delta_shares": 10000,
           "delta_lots": 10.0
@@ -257,6 +301,8 @@
           "shares": 115500,
           "weight": "2.678%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 110500,
           "delta_shares": 5000,
           "delta_lots": 5.0
@@ -275,6 +321,8 @@
           "shares": 11000000,
           "weight": "4.839%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 10200000,
           "delta_shares": 800000,
           "delta_lots": 800.0
@@ -285,6 +333,8 @@
           "shares": 3000000,
           "weight": "2.979%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 2400000,
           "delta_shares": 600000,
           "delta_lots": 600.0
@@ -295,6 +345,8 @@
           "shares": 1000,
           "weight": "0.008%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 170000,
           "delta_shares": -169000,
           "delta_lots": -169.0
@@ -305,6 +357,8 @@
           "shares": 3500000,
           "weight": "6.190%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 3400000,
           "delta_shares": 100000,
           "delta_lots": 100.0
@@ -315,6 +369,8 @@
           "shares": 1430000,
           "weight": "6.578%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 1400000,
           "delta_shares": 30000,
           "delta_lots": 30.0
@@ -325,6 +381,8 @@
           "shares": 4650000,
           "weight": "6.441%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 4620000,
           "delta_shares": 30000,
           "delta_lots": 30.0
@@ -335,6 +393,8 @@
           "shares": 365000,
           "weight": "3.426%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 350000,
           "delta_shares": 15000,
           "delta_lots": 15.0
@@ -345,6 +405,8 @@
           "shares": 485000,
           "weight": "6.956%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 482000,
           "delta_shares": 3000,
           "delta_lots": 3.0
@@ -370,6 +432,8 @@
           "shares": 13000000,
           "weight": "1.873%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 0,
           "delta_shares": 13000000,
           "delta_lots": 13000.0
@@ -380,6 +444,8 @@
           "shares": 10200000,
           "weight": "4.551%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 1000,
           "delta_shares": 10199000,
           "delta_lots": 10199.0
@@ -390,6 +456,8 @@
           "shares": 0,
           "weight": "1.711%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 5000000,
           "delta_shares": -5000000,
           "delta_lots": -5000.0
@@ -400,6 +468,8 @@
           "shares": 11700000,
           "weight": "7.806%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 7700000,
           "delta_shares": 4000000,
           "delta_lots": 4000.0
@@ -410,6 +480,8 @@
           "shares": 3000000,
           "weight": "3.151%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 0,
           "delta_shares": 3000000,
           "delta_lots": 3000.0
@@ -420,6 +492,8 @@
           "shares": 4620000,
           "weight": "6.688%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 2100000,
           "delta_shares": 2520000,
           "delta_lots": 2520.0
@@ -430,6 +504,8 @@
           "shares": 2400000,
           "weight": "2.333%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 9000,
           "delta_shares": 2391000,
           "delta_lots": 2391.0
@@ -440,6 +516,8 @@
           "shares": 5350000,
           "weight": "8.231%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 3200000,
           "delta_shares": 2150000,
           "delta_lots": 2150.0
@@ -450,6 +528,8 @@
           "shares": 3400000,
           "weight": "6.182%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 1750000,
           "delta_shares": 1650000,
           "delta_lots": 1650.0
@@ -460,6 +540,8 @@
           "shares": 170000,
           "weight": "0.485%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 1430000,
           "delta_shares": -1260000,
           "delta_lots": -1260.0
@@ -470,6 +552,8 @@
           "shares": 0,
           "weight": "2.239%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 1000000,
           "delta_shares": -1000000,
           "delta_lots": -1000.0
@@ -480,6 +564,8 @@
           "shares": 1000,
           "weight": "0.002%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 1000000,
           "delta_shares": -999000,
           "delta_lots": -999.0
@@ -490,6 +576,8 @@
           "shares": 1000,
           "weight": "0.002%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 920000,
           "delta_shares": -919000,
           "delta_lots": -919.0
@@ -500,6 +588,8 @@
           "shares": 0,
           "weight": "1.589%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 900000,
           "delta_shares": -900000,
           "delta_lots": -900.0
@@ -510,6 +600,8 @@
           "shares": 1000,
           "weight": "0.003%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 870000,
           "delta_shares": -869000,
           "delta_lots": -869.0
@@ -520,6 +612,8 @@
           "shares": 800000,
           "weight": "2.887%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 0,
           "delta_shares": 800000,
           "delta_lots": 800.0
@@ -530,6 +624,8 @@
           "shares": 0,
           "weight": "1.893%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 800000,
           "delta_shares": -800000,
           "delta_lots": -800.0
@@ -540,6 +636,8 @@
           "shares": 1350000,
           "weight": "9.488%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 760000,
           "delta_shares": 590000,
           "delta_lots": 590.0
@@ -550,6 +648,8 @@
           "shares": 4200000,
           "weight": "14.245%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 3650000,
           "delta_shares": 550000,
           "delta_lots": 550.0
@@ -560,6 +660,8 @@
           "shares": 1400000,
           "weight": "6.295%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 860000,
           "delta_shares": 540000,
           "delta_lots": 540.0
@@ -570,6 +672,8 @@
           "shares": 1000,
           "weight": "0.003%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 500000,
           "delta_shares": -499000,
           "delta_lots": -499.0
@@ -580,6 +684,8 @@
           "shares": 1050000,
           "weight": "6.219%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 560000,
           "delta_shares": 490000,
           "delta_lots": 490.0
@@ -590,6 +696,8 @@
           "shares": 0,
           "weight": "1.429%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 399000,
           "delta_shares": -399000,
           "delta_lots": -399.0
@@ -600,6 +708,8 @@
           "shares": 1000,
           "weight": "0.003%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 390000,
           "delta_shares": -389000,
           "delta_lots": -389.0
@@ -610,6 +720,8 @@
           "shares": 350000,
           "weight": "3.121%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 1000,
           "delta_shares": 349000,
           "delta_lots": 349.0
@@ -620,6 +732,8 @@
           "shares": 5400000,
           "weight": "4.131%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 5100000,
           "delta_shares": 300000,
           "delta_lots": 300.0
@@ -630,6 +744,8 @@
           "shares": 1000,
           "weight": "0.007%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 300000,
           "delta_shares": -299000,
           "delta_lots": -299.0
@@ -640,6 +756,8 @@
           "shares": 1000,
           "weight": "0.008%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 270000,
           "delta_shares": -269000,
           "delta_lots": -269.0
@@ -650,6 +768,8 @@
           "shares": 482000,
           "weight": "6.843%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 215000,
           "delta_shares": 267000,
           "delta_lots": 267.0
@@ -660,6 +780,8 @@
           "shares": 170000,
           "weight": "1.506%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 0,
           "delta_shares": 170000,
           "delta_lots": 170.0
@@ -670,6 +792,8 @@
           "shares": 9090,
           "weight": "0.001%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 0,
           "delta_shares": 9090,
           "delta_lots": 9.09
@@ -680,6 +804,8 @@
           "shares": 9000,
           "weight": "0.002%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 0,
           "delta_shares": 9000,
           "delta_lots": 9.0
@@ -690,6 +816,8 @@
           "shares": 0,
           "weight": "0.003%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 9000,
           "delta_shares": -9000,
           "delta_lots": -9.0
@@ -700,6 +828,8 @@
           "shares": 0,
           "weight": "0.003%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 9000,
           "delta_shares": -9000,
           "delta_lots": -9.0
@@ -710,6 +840,8 @@
           "shares": 9000,
           "weight": "0.000%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 0,
           "delta_shares": 9000,
           "delta_lots": 9.0
@@ -720,6 +852,8 @@
           "shares": 9000,
           "weight": "0.001%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 0,
           "delta_shares": 9000,
           "delta_lots": 9.0
@@ -730,6 +864,8 @@
           "shares": 9000,
           "weight": "0.001%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 0,
           "delta_shares": 9000,
           "delta_lots": 9.0
@@ -740,6 +876,8 @@
           "shares": 9000,
           "weight": "0.001%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 0,
           "delta_shares": 9000,
           "delta_lots": 9.0
@@ -750,6 +888,8 @@
           "shares": 9000,
           "weight": "0.001%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 0,
           "delta_shares": 9000,
           "delta_lots": 9.0
@@ -760,6 +900,8 @@
           "shares": 1253,
           "weight": "0.000%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 9000,
           "delta_shares": -7747,
           "delta_lots": -7.747
@@ -770,6 +912,8 @@
           "shares": 1450,
           "weight": "0.001%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 9000,
           "delta_shares": -7550,
           "delta_lots": -7.55
@@ -780,6 +924,8 @@
           "shares": 0,
           "weight": "0.001%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 1000,
           "delta_shares": -1000,
           "delta_lots": -1.0
@@ -790,6 +936,8 @@
           "shares": 1000,
           "weight": "0.001%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 0,
           "delta_shares": 1000,
           "delta_lots": 1.0
@@ -800,6 +948,8 @@
           "shares": 1000,
           "weight": "0.001%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 0,
           "delta_shares": 1000,
           "delta_lots": 1.0
@@ -810,6 +960,8 @@
           "shares": 0,
           "weight": "0.002%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 1000,
           "delta_shares": -1000,
           "delta_lots": -1.0
@@ -820,6 +972,8 @@
           "shares": 0,
           "weight": "0.000%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 1000,
           "delta_shares": -1000,
           "delta_lots": -1.0
@@ -830,6 +984,8 @@
           "shares": 0,
           "weight": "0.002%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 1000,
           "delta_shares": -1000,
           "delta_lots": -1.0
@@ -840,6 +996,8 @@
           "shares": 0,
           "weight": "0.006%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 1000,
           "delta_shares": -1000,
           "delta_lots": -1.0
@@ -850,6 +1008,8 @@
           "shares": 0,
           "weight": "0.015%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 1000,
           "delta_shares": -1000,
           "delta_lots": -1.0
@@ -860,6 +1020,8 @@
           "shares": 110500,
           "weight": "2.673%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 110000,
           "delta_shares": 500,
           "delta_lots": 0.5
@@ -870,6 +1032,8 @@
           "shares": 9360,
           "weight": "0.001%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 9000,
           "delta_shares": 360,
           "delta_lots": 0.36
@@ -888,6 +1052,8 @@
           "shares": 7700000,
           "weight": "4.964%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 7100000,
           "delta_shares": 600000,
           "delta_lots": 600.0
@@ -898,6 +1064,8 @@
           "shares": 399000,
           "weight": "1.429%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 0,
           "delta_shares": 399000,
           "delta_lots": 399.0
@@ -908,6 +1076,8 @@
           "shares": 215000,
           "weight": "1.895%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 1000,
           "delta_shares": 214000,
           "delta_lots": 214.0
@@ -918,6 +1088,8 @@
           "shares": 1000000,
           "weight": "2.881%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 900000,
           "delta_shares": 100000,
           "delta_lots": 100.0
@@ -928,6 +1100,8 @@
           "shares": 860000,
           "weight": "4.047%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 770000,
           "delta_shares": 90000,
           "delta_lots": 90.0
@@ -938,6 +1112,8 @@
           "shares": 920000,
           "weight": "3.762%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 850000,
           "delta_shares": 70000,
           "delta_lots": 70.0
@@ -948,6 +1124,8 @@
           "shares": 1430000,
           "weight": "6.694%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 1360000,
           "delta_shares": 70000,
           "delta_lots": 70.0
@@ -958,6 +1136,8 @@
           "shares": 560000,
           "weight": "4.310%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 500000,
           "delta_shares": 60000,
           "delta_lots": 60.0
@@ -968,6 +1148,8 @@
           "shares": 870000,
           "weight": "3.690%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 840000,
           "delta_shares": 30000,
           "delta_lots": 30.0
@@ -978,6 +1160,8 @@
           "shares": 390000,
           "weight": "3.635%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 360000,
           "delta_shares": 30000,
           "delta_lots": 30.0
@@ -988,6 +1172,8 @@
           "shares": 300000,
           "weight": "2.880%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 280000,
           "delta_shares": 20000,
           "delta_lots": 20.0
@@ -998,6 +1184,8 @@
           "shares": 270000,
           "weight": "3.429%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 250000,
           "delta_shares": 20000,
           "delta_lots": 20.0
@@ -1008,6 +1196,8 @@
           "shares": 110000,
           "weight": "3.439%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 100000,
           "delta_shares": 10000,
           "delta_lots": 10.0
@@ -1018,6 +1208,8 @@
           "shares": 0,
           "weight": "0.003%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 1000,
           "delta_shares": -1000,
           "delta_lots": -1.0
@@ -1036,6 +1228,8 @@
           "shares": 900000,
           "weight": "2.531%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 1000,
           "delta_shares": 899000,
           "delta_lots": 899.0
@@ -1046,6 +1240,8 @@
           "shares": 1000,
           "weight": "0.017%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 145000,
           "delta_shares": -144000,
           "delta_lots": -144.0
@@ -1056,6 +1252,8 @@
           "shares": 1000000,
           "weight": "2.383%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 1100000,
           "delta_shares": -100000,
           "delta_lots": -100.0
@@ -1066,6 +1264,8 @@
           "shares": 840000,
           "weight": "3.736%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 800000,
           "delta_shares": 40000,
           "delta_lots": 40.0
@@ -1076,6 +1276,8 @@
           "shares": 770000,
           "weight": "3.628%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 730000,
           "delta_shares": 40000,
           "delta_lots": 40.0
@@ -1086,6 +1288,8 @@
           "shares": 760000,
           "weight": "7.017%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 765000,
           "delta_shares": -5000,
           "delta_lots": -5.0
@@ -1104,6 +1308,8 @@
           "shares": 5000000,
           "weight": "1.870%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 4000000,
           "delta_shares": 1000000,
           "delta_lots": 1000.0
@@ -1114,6 +1320,8 @@
           "shares": 1100000,
           "weight": "2.857%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 1220000,
           "delta_shares": -120000,
           "delta_lots": -120.0
@@ -1124,6 +1332,8 @@
           "shares": 360000,
           "weight": "3.452%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 330000,
           "delta_shares": 30000,
           "delta_lots": 30.0
@@ -1134,6 +1344,8 @@
           "shares": 730000,
           "weight": "3.724%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 710000,
           "delta_shares": 20000,
           "delta_lots": 20.0
@@ -1152,6 +1364,8 @@
           "shares": 4000000,
           "weight": "1.569%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 0,
           "delta_shares": 4000000,
           "delta_lots": 4000.0
@@ -1162,6 +1376,8 @@
           "shares": 900000,
           "weight": "2.165%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 850000,
           "delta_shares": 50000,
           "delta_lots": 50.0
@@ -1172,6 +1388,8 @@
           "shares": 710000,
           "weight": "3.738%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 700000,
           "delta_shares": 10000,
           "delta_lots": 10.0
@@ -1182,6 +1400,8 @@
           "shares": 0,
           "weight": "0.001%",
           "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
           "previous_shares": 9000,
           "delta_shares": -9000,
           "delta_lots": -9.0
@@ -1197,350 +1417,450 @@
       "name": "台灣積體",
       "shares": 4200000,
       "weight": "16.023%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "2383",
       "name": "台光電子",
       "shares": 1350000,
       "weight": "9.427%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "3037",
       "name": "欣興電子",
       "shares": 5410000,
       "weight": "7.371%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "2408",
       "name": "南亞科技",
       "shares": 11700000,
       "weight": "7.173%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "2454",
       "name": "聯發科技",
       "shares": 1150000,
       "weight": "6.777%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "2059",
       "name": "川湖科技",
       "shares": 495000,
       "weight": "6.740%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "3017",
       "name": "奇鋐科技",
       "shares": 1500000,
       "weight": "6.553%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "8046",
       "name": "南亞電路",
       "shares": 3550000,
       "weight": "5.877%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "3189",
       "name": "景碩科技",
       "shares": 4650000,
       "weight": "5.860%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "1303",
       "name": "南亞塑膠",
       "shares": 11500000,
       "weight": "4.877%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "3711",
       "name": "日月光投",
       "shares": 4000000,
       "weight": "3.897%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "2327",
       "name": "國巨股份",
       "shares": 5400000,
       "weight": "3.720%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "3653",
       "name": "健策精密",
       "shares": 375000,
       "weight": "3.707%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "3026",
       "name": "禾伸堂企",
       "shares": 3000000,
       "weight": "2.698%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "5274",
       "name": "信驊科技",
       "shares": 115500,
       "weight": "2.485%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "6505",
       "name": "台塑石化",
       "shares": 8769000,
       "weight": "1.313%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "2317",
       "name": "鴻海精密",
       "shares": 1250000,
       "weight": "0.500%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "3231",
       "name": "緯創資通",
       "shares": 1700000,
       "weight": "0.488%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "4958",
       "name": "臻鼎-KY",
       "shares": 690000,
       "weight": "0.463%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "8299",
       "name": "群聯電子",
       "shares": 170000,
       "weight": "0.452%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "3008",
       "name": "大立光電",
       "shares": 1000,
       "weight": "0.008%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "7769",
       "name": "鴻勁精密",
       "shares": 1000,
       "weight": "0.007%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "6223",
       "name": "旺矽科技",
       "shares": 1000,
       "weight": "0.006%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "2382",
       "name": "廣達電腦",
       "shares": 9000,
       "weight": "0.005%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "2603",
       "name": "長榮海運",
       "shares": 9000,
       "weight": "0.004%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "3081",
       "name": "聯亞光電",
       "shares": 1000,
       "weight": "0.003%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "6669",
       "name": "緯穎科技",
       "shares": 1000,
       "weight": "0.003%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "3665",
       "name": "貿聯-KY",
       "shares": 1000,
       "weight": "0.003%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "2881",
       "name": "富邦金融",
       "shares": 9000,
       "weight": "0.002%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "2345",
       "name": "智邦科技",
       "shares": 1000,
       "weight": "0.002%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "2360",
       "name": "致茂電子",
       "shares": 1000,
       "weight": "0.002%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "2308",
       "name": "台達電子",
       "shares": 1000,
       "weight": "0.002%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "5347",
       "name": "世界先進",
       "shares": 9000,
       "weight": "0.002%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "6274",
       "name": "台燿科技",
       "shares": 1000,
       "weight": "0.002%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "2882",
       "name": "國泰金融",
       "shares": 9000,
       "weight": "0.002%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "2303",
       "name": "聯華電子",
       "shares": 9000,
       "weight": "0.002%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "2357",
       "name": "華碩電腦",
       "shares": 1000,
       "weight": "0.001%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "2379",
       "name": "瑞昱半導",
       "shares": 1000,
       "weight": "0.001%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "2885",
       "name": "元大金融",
       "shares": 9360,
       "weight": "0.001%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "2891",
       "name": "中國信託",
       "shares": 9000,
       "weight": "0.001%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "2886",
       "name": "兆豐金融",
       "shares": 9000,
       "weight": "0.001%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "2880",
       "name": "華南金融",
       "shares": 9090,
       "weight": "0.001%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "2884",
       "name": "玉山金融",
       "shares": 9000,
       "weight": "0.001%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "3044",
       "name": "健鼎科技",
       "shares": 1000,
       "weight": "0.001%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "2887",
       "name": "台新新光",
       "shares": 9000,
       "weight": "0.001%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "2890",
       "name": "永豐金融",
       "shares": 9311,
       "weight": "0.001%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "2883",
       "name": "凱基金融",
       "shares": 9000,
       "weight": "0.001%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "2449",
       "name": "京元電子",
       "shares": 1450,
       "weight": "0.001%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "3036",
       "name": "文曄科技",
       "shares": 1000,
       "weight": "0.000%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     },
     {
       "code": "2412",
       "name": "中華電信",
       "shares": 1000,
       "weight": "0.000%",
-      "lot_size": 1000
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
     }
   ],
   "changes": [
@@ -1550,6 +1870,8 @@
       "shares": 8769000,
       "weight": "1.313%",
       "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null,
       "previous_shares": 13000000,
       "delta_shares": -4231000,
       "delta_lots": -4231.0
@@ -1560,6 +1882,8 @@
       "shares": 1700000,
       "weight": "0.488%",
       "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null,
       "previous_shares": 9000,
       "delta_shares": 1691000,
       "delta_lots": 1691.0
@@ -1570,6 +1894,8 @@
       "shares": 1250000,
       "weight": "0.500%",
       "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null,
       "previous_shares": 9000,
       "delta_shares": 1241000,
       "delta_lots": 1241.0
@@ -1580,6 +1906,8 @@
       "shares": 690000,
       "weight": "0.463%",
       "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null,
       "previous_shares": 0,
       "delta_shares": 690000,
       "delta_lots": 690.0
@@ -1590,6 +1918,8 @@
       "shares": 1000,
       "weight": "0.003%",
       "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null,
       "previous_shares": 600000,
       "delta_shares": -599000,
       "delta_lots": -599.0
@@ -1600,6 +1930,8 @@
       "shares": 4000000,
       "weight": "3.897%",
       "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null,
       "previous_shares": 3600000,
       "delta_shares": 400000,
       "delta_lots": 400.0
@@ -1610,6 +1942,8 @@
       "shares": 1150000,
       "weight": "6.777%",
       "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null,
       "previous_shares": 1065000,
       "delta_shares": 85000,
       "delta_lots": 85.0
@@ -1620,6 +1954,8 @@
       "shares": 1500000,
       "weight": "6.553%",
       "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null,
       "previous_shares": 1480000,
       "delta_shares": 20000,
       "delta_lots": 20.0
@@ -1630,6 +1966,8 @@
       "shares": 495000,
       "weight": "6.740%",
       "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null,
       "previous_shares": 485000,
       "delta_shares": 10000,
       "delta_lots": 10.0
@@ -1640,6 +1978,8 @@
       "shares": 0,
       "weight": "0.000%",
       "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null,
       "previous_shares": 1253,
       "delta_shares": -1253,
       "delta_lots": -1.253
@@ -1650,6 +1990,8 @@
       "shares": 9311,
       "weight": "0.001%",
       "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null,
       "previous_shares": 9000,
       "delta_shares": 311,
       "delta_lots": 0.311

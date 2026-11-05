@@ -1,8 +1,9 @@
 import datetime
 import json
 import unittest
+from unittest.mock import patch, MagicMock
 
-from holdings_fallback import parse_holdings
+from holdings_fallback import parse_holdings, fetch_holdings
 
 
 def page(code='00405A', date='2026-11-04', rows=None, identity=None):
@@ -60,3 +61,17 @@ class FallbackTests(unittest.TestCase):
         row = {'code': '2330', 'name': '台積電', 'shares': 1000, 'unit': '股', 'weight': 10}
         result = self.parse(page(rows=[row, row]))
         self.assertEqual(len(result['stocks']), 1)
+
+    def test_hedged_bond_weights_can_be_negative_or_above_one_hundred(self):
+        rows = [{'code': 'US12345', 'name': '債券', 'shares': 510000, 'unit': '面額', 'weight': 110},
+                {'code': 'FUTURE', 'name': '避險期貨', 'shares': -2, 'unit': '口', 'weight': -10}]
+        result = self.parse(page(rows=rows))
+        self.assertEqual(result['stocks'][1]['持股比例'], '-10%')
+
+    def test_overview_is_retried_after_public_holdings_page_timeout(self):
+        response = MagicMock()
+        response.__enter__.return_value.read.return_value = page().encode()
+        with patch('holdings_fallback.urllib.request.urlopen', side_effect=[TimeoutError('slow'), response]) as request:
+            result = fetch_holdings('00405A', datetime.date(2026, 11, 5))
+        self.assertEqual(request.call_count, 2)
+        self.assertEqual(result['source_url'], 'https://www.etfinfo.tw/etf/00405A')

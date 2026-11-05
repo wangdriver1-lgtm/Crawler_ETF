@@ -1,16 +1,16 @@
 {
   "date": "20261105",
-  "updated_at": "2026-11-05T23:36:56.836210+08:00",
+  "updated_at": "2026-11-05T23:42:29.661398+08:00",
   "missing_share_etfs": [
     "00400A",
+    "00404A",
+    "00406A",
     "00982D",
     "00983D"
   ],
   "failed_etfs": [
     "00997A",
-    "00984D",
-    "00404A",
-    "00406A"
+    "00984D"
   ],
   "etfs": {
     "00980A": {
@@ -277,6 +277,17 @@
       "source_name": "ETF資訊網（公開持股備援）",
       "source_url": "https://www.etfinfo.tw/etf/00402A/holdings"
     },
+    "00404A": {
+      "name": "主動聯博動能50",
+      "company": "聯博證券投資信託股份有限公司",
+      "price": "N/A",
+      "change": "N/A",
+      "date": "20261105",
+      "status": "fresh",
+      "source_kind": "backup",
+      "source_name": "ETF資訊網（公開持股備援）",
+      "source_url": "https://www.etfinfo.tw/etf/00404A/holdings"
+    },
     "00405A": {
       "name": "主動富邦台灣龍耀",
       "company": "富邦證券投資信託股份有限公司",
@@ -287,6 +298,17 @@
       "source_kind": "backup",
       "source_name": "ETF資訊網（公開持股備援）",
       "source_url": "https://www.etfinfo.tw/etf/00405A/holdings"
+    },
+    "00406A": {
+      "name": "主動中信台灣收益",
+      "company": "中國信託證券投資信託股份有限公司",
+      "price": "N/A",
+      "change": "N/A",
+      "date": "20261103",
+      "status": "fresh",
+      "source_kind": "backup",
+      "source_name": "ETF資訊網（公開持股備援）",
+      "source_url": "https://www.etfinfo.tw/etf/00406A"
     },
     "00407A": {
       "name": "主動凱基台灣",
@@ -379,28 +401,6 @@
     "00984D": {
       "name": "主動聯博全球非投",
       "company": "聯博證券投資信託股份有限公司",
-      "price": "N/A",
-      "change": "N/A",
-      "date": null,
-      "status": "unavailable",
-      "source_kind": null,
-      "source_name": null,
-      "source_url": null
-    },
-    "00404A": {
-      "name": "主動聯博動能50",
-      "company": "聯博證券投資信託股份有限公司",
-      "price": "N/A",
-      "change": "N/A",
-      "date": null,
-      "status": "unavailable",
-      "source_kind": null,
-      "source_name": null,
-      "source_url": null
-    },
-    "00406A": {
-      "name": "主動中信台灣收益",
-      "company": "中國信託證券投資信託股份有限公司",
       "price": "N/A",
       "change": "N/A",
       "date": null,

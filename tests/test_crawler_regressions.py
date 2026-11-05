@@ -136,6 +136,20 @@ class CrawlerRegressionTests(unittest.TestCase):
         self.assertEqual(saved['date'], '20260529')
         self.assertEqual(saved['stocks'][0]['股數'], '5000')
 
+    def test_recover_only_reuses_successful_source_metadata_without_scraping(self):
+        self.config('AAA')
+        self.write('etf/all_stocks.json', {'date': '20260528', 'etfs': {
+            'AAA': {'name': 'AAA', 'date': '20260528', 'status': 'fresh', 'source_kind': 'backup',
+                    'source_url': 'https://example.test/source', 'stocks': [self.stock()]}}})
+        with patch.dict(os.environ, {'CRAWLER_RECOVER_ONLY': '1'}), \
+                patch.object(crawler, 'scrape_etf', side_effect=AssertionError('Do not re-fetch valid data')):
+            self.assertEqual(self.run_main(), 0)
+        result = self.read('etf/all_stocks.json')
+        self.assertEqual(result['etfs']['AAA']['date'], '20260528')
+        self.assertEqual(result['etfs']['AAA']['source_kind'], 'backup')
+        self.assertEqual(result['updated_etfs'], [])
+        self.assertEqual(result['reused_etfs'], ['AAA'])
+
     def test_partial_failure_preserves_all_previous_outputs(self):
         self.config("AAA", "BBB")
         paths = ["etf/all_stocks.json", "stocks/stocks_AAA_20260601.json",

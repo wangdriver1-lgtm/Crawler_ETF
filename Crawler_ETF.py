@@ -2536,6 +2536,8 @@ def _run_crawler(today: str, log_path: str) -> int:
     all_stocks: Dict[str, Dict] = {}
     failed_etfs: List[str] = []
     configs = merge_config(ETF_CONFIG, cached_registry(Path('.')))
+    recover_only = os.environ.get('CRAWLER_RECOVER_ONLY') == '1'
+    reused_codes = set()
     try:
         with open('etf/all_stocks.json', encoding='utf-8') as source:
             previous_payload = json.load(source)
@@ -2550,12 +2552,18 @@ def _run_crawler(today: str, log_path: str) -> int:
 
     # 交易日判斷：非交易日直接結束，不執行任何爬取
     today_date = datetime.datetime.strptime(today, "%Y%m%d").date()
-    if not is_tw_trading_day(today_date):
+    if not recover_only and not is_tw_trading_day(today_date):
         print(f"\n今日 {today_date.isoformat()} 非交易日，停止執行。")
         print(f"Log 已寫入 {log_path}")
         return 0
 
     for etf_config in configs:
+        previous = previous_payload.get('etfs', {}).get(etf_config['code'], {})
+        if recover_only and previous.get('stocks') and previous.get('status') == 'fresh':
+            all_stocks[etf_config['code']] = dict(previous)
+            reused_codes.add(etf_config['code'])
+            print(f"  補缺模式：{etf_config['code']} 已有成功快照，沿用來源日期 {previous.get('date')}。")
+            continue
         attempts = 1 + max(0, min(int(os.environ.get("CRAWLER_RETRIES", "0")), 2)) if etf_config.get('url') else 1
         stocks = None
         for attempt in range(attempts):
@@ -2686,7 +2694,8 @@ def _run_crawler(today: str, log_path: str) -> int:
         "total_etfs": len(configs),
         "unchanged_etfs": sorted(unchanged_codes),
         "successful_etfs": len(fresh_codes),
-        "updated_etfs": sorted(fresh_codes),
+        "updated_etfs": sorted(fresh_codes - reused_codes),
+        "reused_etfs": sorted(reused_codes),
         "failed_etfs": failed_etfs,
         "backup_etfs": sorted(code for code, info in all_stocks.items() if info.get('source_kind') == 'backup'),
         "missing_share_etfs": missing_share_etfs,

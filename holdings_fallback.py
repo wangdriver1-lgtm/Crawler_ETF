@@ -73,7 +73,9 @@ def parse_holdings(html, code, today=None):
         weight = item.get('weight')
         if weight is not None:
             weight = Decimal(str(weight))
-            if not weight.is_finite() or weight < 0 or weight > 100:
+            # Hedged portfolios may report negative derivative weights, and
+            # gross exposures can exceed 100%; keep the published percentage.
+            if not weight.is_finite():
                 raise ValueError('備援持股權重無效')
         seen.add(stock)
         rows.append({'股票代號': stock, '股票名稱': name, '股數': quantity,
@@ -90,10 +92,20 @@ def parse_holdings(html, code, today=None):
 def fetch_holdings(code, today=None):
     if not re.fullmatch(r'\d{5}[AD]', code):
         raise ValueError('ETF 代號無效')
-    url = f'https://www.etfinfo.tw/etf/{code}/holdings'
-    request = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0', 'Accept': 'text/html'})
-    with urllib.request.urlopen(request, timeout=15) as response:
-        html = response.read(6_000_001)
-    if len(html) > 6_000_000:
-        raise ValueError('備援回應大小異常')
-    return parse_holdings(html.decode('utf-8'), code, today)
+    # Both public pages expose the same dated holdings payload. The overview
+    # remains useful when rendering the interactive holdings page times out.
+    last_error = None
+    for path in (f'/etf/{code}/holdings', f'/etf/{code}'):
+        url = 'https://www.etfinfo.tw' + path
+        request = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0', 'Accept': 'text/html'})
+        try:
+            with urllib.request.urlopen(request, timeout=15) as response:
+                html = response.read(6_000_001)
+            if len(html) > 6_000_000:
+                raise ValueError('備援回應大小異常')
+            result = parse_holdings(html.decode('utf-8'), code, today)
+            result['source_url'] = url
+            return result
+        except (OSError, ValueError) as error:
+            last_error = error
+    raise ValueError(f'公開持股頁與總覽均未取得有效快照：{last_error}')

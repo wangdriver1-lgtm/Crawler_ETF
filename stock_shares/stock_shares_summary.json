@@ -42,14 +42,14 @@
     ],
     "missing_share_etfs": [
         "00400A",
+        "00404A",
+        "00406A",
         "00982D",
         "00983D"
     ],
     "stale_etfs": [
         "00997A",
-        "00984D",
-        "00404A",
-        "00406A"
+        "00984D"
     ],
     "total_unique_stocks": 259,
     "stocks": [

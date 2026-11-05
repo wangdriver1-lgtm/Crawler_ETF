@@ -59,7 +59,8 @@ def normalize_holdings(rows):
         # Only Taiwan stock identifiers use the 1,000-share lot convention here.
         lot_size = 1000 if re.fullmatch(r"\d{4,6}(?: TT)?", code) else None
         result[code] = {"code": code, "name": str(row.get("股票名稱") or ""),
-                        "shares": quantity, "weight": str(row.get("持股比例") or ""), "lot_size": lot_size}
+                        "shares": quantity, "weight": str(row.get("持股比例") or ""), "lot_size": lot_size,
+                        "reported_quantity": number(row.get('原始數量')), "quantity_unit": row.get('數量單位')}
     return result
 
 
