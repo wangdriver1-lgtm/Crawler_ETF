@@ -1,17 +1,15 @@
 {
   "date": "20261105",
-  "updated_at": "2026-11-05T23:42:29.661398+08:00",
+  "updated_at": "2026-11-05T23:45:11.681737+08:00",
   "missing_share_etfs": [
     "00400A",
     "00404A",
     "00406A",
     "00982D",
-    "00983D"
-  ],
-  "failed_etfs": [
-    "00997A",
+    "00983D",
     "00984D"
   ],
+  "failed_etfs": [],
   "etfs": {
     "00980A": {
       "name": "主動野村臺灣優選",
@@ -178,6 +176,17 @@
       "source_name": "投信官方持股頁",
       "source_url": "https://am.jpmorgan.com/tw/zh/asset-management/twetf/products/jpmorgan-taiwan-taiwan-equity-high-income-active-etf-tw00000401a1#/portfolio"
     },
+    "00997A": {
+      "name": "主動群益美國增長",
+      "company": "群益證券投資信託股份有限公司",
+      "price": "N/A",
+      "change": "N/A",
+      "date": "20261105",
+      "status": "fresh",
+      "source_kind": "official",
+      "source_name": "投信官方持股頁",
+      "source_url": "https://www.capitalfund.com.tw/etf/product/detail/502/portfolio"
+    },
     "00983A": {
       "name": "主動中信ARK創新",
       "company": "中國信託證券投資信託股份有限公司",
@@ -243,6 +252,17 @@
       "source_kind": "backup",
       "source_name": "ETF資訊網（公開持股備援）",
       "source_url": "https://www.etfinfo.tw/etf/00990A/holdings"
+    },
+    "00984D": {
+      "name": "主動聯博全球非投",
+      "company": "聯博證券投資信託股份有限公司",
+      "price": "N/A",
+      "change": "N/A",
+      "date": "20261104",
+      "status": "fresh",
+      "source_kind": "backup",
+      "source_name": "ETF資訊網（公開持股備援）",
+      "source_url": "https://www.etfinfo.tw/etf/00984D/holdings"
     },
     "00999A": {
       "name": "主動野村臺灣高息",
@@ -386,28 +406,6 @@
       "source_kind": "official",
       "source_name": "投信官方持股頁",
       "source_url": "https://www.tsit.com.tw/ETF/Home/ETFSeriesDetail/00416A"
-    },
-    "00997A": {
-      "name": "主動群益美國增長",
-      "company": "群益證券投資信託股份有限公司",
-      "price": "N/A",
-      "change": "N/A",
-      "date": "20261105",
-      "status": "stale",
-      "source_kind": null,
-      "source_name": null,
-      "source_url": null
-    },
-    "00984D": {
-      "name": "主動聯博全球非投",
-      "company": "聯博證券投資信託股份有限公司",
-      "price": "N/A",
-      "change": "N/A",
-      "date": null,
-      "status": "unavailable",
-      "source_kind": null,
-      "source_name": null,
-      "source_url": null
     }
   }
 }
