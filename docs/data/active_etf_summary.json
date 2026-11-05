@@ -1,33 +1,16 @@
 {
   "date": "20261105",
-  "updated_at": "2026-11-05T04:13:22.193110+08:00",
+  "updated_at": "2026-11-05T23:36:56.836210+08:00",
   "missing_share_etfs": [
-    "00400A"
+    "00400A",
+    "00982D",
+    "00983D"
   ],
   "failed_etfs": [
-    "00982A",
-    "00987A",
-    "00992A",
-    "00995A",
-    "00996A",
-    "00983A",
-    "00982D",
-    "00983D",
-    "00989A",
-    "00988A",
-    "00990A",
+    "00997A",
     "00984D",
-    "00403A",
-    "00402A",
     "00404A",
-    "00405A",
-    "00406A",
-    "00407A",
-    "00408A",
-    "00410A",
-    "00409A",
-    "00412A",
-    "00415A"
+    "00406A"
   ],
   "etfs": {
     "00980A": {
@@ -36,7 +19,21 @@
       "price": "N/A",
       "change": "N/A",
       "date": "20261105",
-      "status": "fresh"
+      "status": "fresh",
+      "source_kind": "official",
+      "source_name": "投信官方持股頁",
+      "source_url": "https://www.nomurafunds.com.tw/ETFWEB/product-description?fundNo=00980A&tab=Shareholding"
+    },
+    "00982A": {
+      "name": "主動群益台灣強棒",
+      "company": "群益證券投資信託股份有限公司",
+      "price": "N/A",
+      "change": "N/A",
+      "date": "20261105",
+      "status": "fresh",
+      "source_kind": "official",
+      "source_name": "投信官方持股頁",
+      "source_url": "https://www.capitalfund.com.tw/etf/product/detail/399/portfolio"
     },
     "00981A": {
       "name": "主動統一台股增長",
@@ -44,7 +41,10 @@
       "price": "N/A",
       "change": "N/A",
       "date": "20261105",
-      "status": "fresh"
+      "status": "fresh",
+      "source_kind": "official",
+      "source_name": "投信官方持股頁",
+      "source_url": "https://www.ezmoney.com.tw/ETF/Fund/Info?fundCode=49YTW"
     },
     "00984A": {
       "name": "主動安聯台灣高息",
@@ -52,7 +52,10 @@
       "price": "N/A",
       "change": "N/A",
       "date": "20261105",
-      "status": "fresh"
+      "status": "fresh",
+      "source_kind": "official",
+      "source_name": "投信官方持股頁",
+      "source_url": "https://etf.allianzgi.com.tw/etf-info/E0001?tab=4"
     },
     "00985A": {
       "name": "主動野村台灣50",
@@ -60,7 +63,10 @@
       "price": "N/A",
       "change": "N/A",
       "date": "20261105",
-      "status": "fresh"
+      "status": "fresh",
+      "source_kind": "official",
+      "source_name": "投信官方持股頁",
+      "source_url": "https://www.nomurafunds.com.tw/ETFWEB/product-description?fundNo=00985A&tab=Shareholding"
     },
     "00986A": {
       "name": "主動台新龍頭成長",
@@ -68,7 +74,10 @@
       "price": "N/A",
       "change": "N/A",
       "date": "20261105",
-      "status": "fresh"
+      "status": "fresh",
+      "source_kind": "official",
+      "source_name": "投信官方持股頁",
+      "source_url": "https://www.tsit.com.tw/ETF/Home/ETFSeriesDetail/00986A"
     },
     "00991A": {
       "name": "主動復華未來50",
@@ -76,7 +85,32 @@
       "price": "N/A",
       "change": "N/A",
       "date": "20261105",
-      "status": "fresh"
+      "status": "fresh",
+      "source_kind": "official",
+      "source_name": "投信官方持股頁",
+      "source_url": "https://www.fhtrust.com.tw/ETF/etf_detail/ETF23#stockhold"
+    },
+    "00987A": {
+      "name": "主動台新優勢成長",
+      "company": "台新證券投資信託股份有限公司",
+      "price": "N/A",
+      "change": "N/A",
+      "date": "20261104",
+      "status": "fresh",
+      "source_kind": "backup",
+      "source_name": "ETF資訊網（公開持股備援）",
+      "source_url": "https://www.etfinfo.tw/etf/00987A/holdings"
+    },
+    "00992A": {
+      "name": "主動群益科技創新",
+      "company": "群益證券投資信託股份有限公司",
+      "price": "N/A",
+      "change": "N/A",
+      "date": "20261105",
+      "status": "fresh",
+      "source_kind": "official",
+      "source_name": "投信官方持股頁",
+      "source_url": "https://www.capitalfund.com.tw/etf/product/detail/500/portfolio"
     },
     "00994A": {
       "name": "主動第一金台股優",
@@ -84,7 +118,21 @@
       "price": "N/A",
       "change": "N/A",
       "date": "20261105",
-      "status": "fresh"
+      "status": "fresh",
+      "source_kind": "official",
+      "source_name": "投信官方持股頁",
+      "source_url": "https://www.fsitc.com.tw/FundDetail.aspx?ID=182#TabLinkdivEditTab3"
+    },
+    "00995A": {
+      "name": "主動中信台灣卓越",
+      "company": "中國信託證券投資信託股份有限公司",
+      "price": "N/A",
+      "change": "N/A",
+      "date": "20261103",
+      "status": "fresh",
+      "source_kind": "backup",
+      "source_name": "ETF資訊網（公開持股備援）",
+      "source_url": "https://www.etfinfo.tw/etf/00995A/holdings"
     },
     "00993A": {
       "name": "主動安聯台灣",
@@ -92,7 +140,21 @@
       "price": "N/A",
       "change": "N/A",
       "date": "20261105",
-      "status": "fresh"
+      "status": "fresh",
+      "source_kind": "official",
+      "source_name": "投信官方持股頁",
+      "source_url": "https://etf.allianzgi.com.tw/etf-info/E0002?tab=4"
+    },
+    "00996A": {
+      "name": "主動兆豐台灣豐收",
+      "company": "兆豐國際證券投資信託股份有限公司",
+      "price": "N/A",
+      "change": "N/A",
+      "date": "20261105",
+      "status": "fresh",
+      "source_kind": "backup",
+      "source_name": "ETF資訊網（公開持股備援）",
+      "source_url": "https://www.etfinfo.tw/etf/00996A/holdings"
     },
     "00400A": {
       "name": "主動國泰動能高息",
@@ -100,7 +162,10 @@
       "price": "N/A",
       "change": "N/A",
       "date": "20261105",
-      "status": "fresh"
+      "status": "fresh",
+      "source_kind": "official",
+      "source_name": "投信官方持股頁",
+      "source_url": "https://www.cathaysite.com.tw/ETF/detail/EEA?tab=etf3"
     },
     "00401A": {
       "name": "主動摩根台灣鑫收",
@@ -108,15 +173,76 @@
       "price": "N/A",
       "change": "N/A",
       "date": "20261105",
-      "status": "fresh"
+      "status": "fresh",
+      "source_kind": "official",
+      "source_name": "投信官方持股頁",
+      "source_url": "https://am.jpmorgan.com/tw/zh/asset-management/twetf/products/jpmorgan-taiwan-taiwan-equity-high-income-active-etf-tw00000401a1#/portfolio"
     },
-    "00997A": {
-      "name": "主動群益美國增長",
-      "company": "群益證券投資信託股份有限公司",
+    "00983A": {
+      "name": "主動中信ARK創新",
+      "company": "中國信託證券投資信託股份有限公司",
       "price": "N/A",
       "change": "N/A",
-      "date": "20261105",
-      "status": "fresh"
+      "date": "20261102",
+      "status": "fresh",
+      "source_kind": "backup",
+      "source_name": "ETF資訊網（公開持股備援）",
+      "source_url": "https://www.etfinfo.tw/etf/00983A/holdings"
+    },
+    "00982D": {
+      "name": "主動富邦動態入息",
+      "company": "富邦證券投資信託股份有限公司",
+      "price": "N/A",
+      "change": "N/A",
+      "date": "20261104",
+      "status": "fresh",
+      "source_kind": "backup",
+      "source_name": "ETF資訊網（公開持股備援）",
+      "source_url": "https://www.etfinfo.tw/etf/00982D/holdings"
+    },
+    "00983D": {
+      "name": "主動富邦複合收益",
+      "company": "富邦證券投資信託股份有限公司",
+      "price": "N/A",
+      "change": "N/A",
+      "date": "20261104",
+      "status": "fresh",
+      "source_kind": "backup",
+      "source_name": "ETF資訊網（公開持股備援）",
+      "source_url": "https://www.etfinfo.tw/etf/00983D/holdings"
+    },
+    "00989A": {
+      "name": "主動摩根美國科技",
+      "company": "摩根證券投資信託股份有限公司",
+      "price": "N/A",
+      "change": "N/A",
+      "date": "20261104",
+      "status": "fresh",
+      "source_kind": "backup",
+      "source_name": "ETF資訊網（公開持股備援）",
+      "source_url": "https://www.etfinfo.tw/etf/00989A/holdings"
+    },
+    "00988A": {
+      "name": "主動統一全球創新",
+      "company": "統一證券投資信託股份有限公司",
+      "price": "N/A",
+      "change": "N/A",
+      "date": "20261104",
+      "status": "fresh",
+      "source_kind": "backup",
+      "source_name": "ETF資訊網（公開持股備援）",
+      "source_url": "https://www.etfinfo.tw/etf/00988A/holdings"
+    },
+    "00990A": {
+      "name": "主動元大AI新經濟",
+      "company": "元大證券投資信託股份有限公司",
+      "price": "N/A",
+      "change": "N/A",
+      "date": "20261104",
+      "status": "fresh",
+      "source_kind": "backup",
+      "source_name": "ETF資訊網（公開持股備援）",
+      "source_url": "https://www.etfinfo.tw/etf/00990A/holdings"
     },
     "00999A": {
       "name": "主動野村臺灣高息",
@@ -124,7 +250,109 @@
       "price": "N/A",
       "change": "N/A",
       "date": "20261105",
-      "status": "fresh"
+      "status": "fresh",
+      "source_kind": "official",
+      "source_name": "投信官方持股頁",
+      "source_url": "https://www.nomurafunds.com.tw/ETFWEB/product-description?fundNo=00999A&tab=Shareholding"
+    },
+    "00403A": {
+      "name": "主動統一升級50",
+      "company": "統一證券投資信託股份有限公司",
+      "price": "N/A",
+      "change": "N/A",
+      "date": "20261105",
+      "status": "fresh",
+      "source_kind": "backup",
+      "source_name": "ETF資訊網（公開持股備援）",
+      "source_url": "https://www.etfinfo.tw/etf/00403A/holdings"
+    },
+    "00402A": {
+      "name": "主動安聯美國科技",
+      "company": "安聯證券投資信託股份有限公司",
+      "price": "N/A",
+      "change": "N/A",
+      "date": "20261103",
+      "status": "fresh",
+      "source_kind": "backup",
+      "source_name": "ETF資訊網（公開持股備援）",
+      "source_url": "https://www.etfinfo.tw/etf/00402A/holdings"
+    },
+    "00405A": {
+      "name": "主動富邦台灣龍耀",
+      "company": "富邦證券投資信託股份有限公司",
+      "price": "N/A",
+      "change": "N/A",
+      "date": "20261105",
+      "status": "fresh",
+      "source_kind": "backup",
+      "source_name": "ETF資訊網（公開持股備援）",
+      "source_url": "https://www.etfinfo.tw/etf/00405A/holdings"
+    },
+    "00407A": {
+      "name": "主動凱基台灣",
+      "company": "凱基證券投資信託股份有限公司",
+      "price": "N/A",
+      "change": "N/A",
+      "date": "20261105",
+      "status": "fresh",
+      "source_kind": "backup",
+      "source_name": "ETF資訊網（公開持股備援）",
+      "source_url": "https://www.etfinfo.tw/etf/00407A/holdings"
+    },
+    "00408A": {
+      "name": "主動第一金優股息",
+      "company": "第一金證券投資信託股份有限公司",
+      "price": "N/A",
+      "change": "N/A",
+      "date": "20261104",
+      "status": "fresh",
+      "source_kind": "backup",
+      "source_name": "ETF資訊網（公開持股備援）",
+      "source_url": "https://www.etfinfo.tw/etf/00408A/holdings"
+    },
+    "00410A": {
+      "name": "主動永豐科技趨勢",
+      "company": "永豐證券投資信託股份有限公司",
+      "price": "N/A",
+      "change": "N/A",
+      "date": "20261105",
+      "status": "fresh",
+      "source_kind": "backup",
+      "source_name": "ETF資訊網（公開持股備援）",
+      "source_url": "https://www.etfinfo.tw/etf/00410A/holdings"
+    },
+    "00409A": {
+      "name": "主動復華全球50",
+      "company": "復華證券投資信託股份有限公司",
+      "price": "N/A",
+      "change": "N/A",
+      "date": "20261103",
+      "status": "fresh",
+      "source_kind": "backup",
+      "source_name": "ETF資訊網（公開持股備援）",
+      "source_url": "https://www.etfinfo.tw/etf/00409A/holdings"
+    },
+    "00412A": {
+      "name": "主動安聯亞半導體",
+      "company": "安聯證券投資信託股份有限公司",
+      "price": "N/A",
+      "change": "N/A",
+      "date": "20261103",
+      "status": "fresh",
+      "source_kind": "backup",
+      "source_name": "ETF資訊網（公開持股備援）",
+      "source_url": "https://www.etfinfo.tw/etf/00412A/holdings"
+    },
+    "00415A": {
+      "name": "主動群益核心50",
+      "company": "群益證券投資信託股份有限公司",
+      "price": "N/A",
+      "change": "N/A",
+      "date": "20261103",
+      "status": "fresh",
+      "source_kind": "backup",
+      "source_name": "ETF資訊網（公開持股備援）",
+      "source_url": "https://www.etfinfo.tw/etf/00415A/holdings"
     },
     "00416A": {
       "name": "主動台新臺灣中小",
@@ -132,95 +360,21 @@
       "price": "N/A",
       "change": "N/A",
       "date": "20261105",
-      "status": "fresh"
+      "status": "fresh",
+      "source_kind": "official",
+      "source_name": "投信官方持股頁",
+      "source_url": "https://www.tsit.com.tw/ETF/Home/ETFSeriesDetail/00416A"
     },
-    "00982A": {
-      "name": "主動群益台灣強棒",
+    "00997A": {
+      "name": "主動群益美國增長",
       "company": "群益證券投資信託股份有限公司",
       "price": "N/A",
       "change": "N/A",
-      "date": "20261103",
-      "status": "stale"
-    },
-    "00987A": {
-      "name": "主動台新優勢成長",
-      "company": "台新證券投資信託股份有限公司",
-      "price": "N/A",
-      "change": "N/A",
-      "date": "20260601",
-      "status": "stale"
-    },
-    "00992A": {
-      "name": "主動群益科技創新",
-      "company": "群益證券投資信託股份有限公司",
-      "price": "N/A",
-      "change": "N/A",
-      "date": "20261103",
-      "status": "stale"
-    },
-    "00995A": {
-      "name": "主動中信台灣卓越",
-      "company": "中國信託證券投資信託股份有限公司",
-      "price": "N/A",
-      "change": "N/A",
-      "date": "20260601",
-      "status": "stale"
-    },
-    "00996A": {
-      "name": "主動兆豐台灣豐收",
-      "company": "兆豐國際證券投資信託股份有限公司",
-      "price": "N/A",
-      "change": "N/A",
-      "date": "20260601",
-      "status": "stale"
-    },
-    "00983A": {
-      "name": "主動中信ARK創新",
-      "company": "中國信託證券投資信託股份有限公司",
-      "price": "N/A",
-      "change": "N/A",
-      "date": null,
-      "status": "unavailable"
-    },
-    "00982D": {
-      "name": "主動富邦動態入息",
-      "company": "富邦證券投資信託股份有限公司",
-      "price": "N/A",
-      "change": "N/A",
-      "date": null,
-      "status": "unavailable"
-    },
-    "00983D": {
-      "name": "主動富邦複合收益",
-      "company": "富邦證券投資信託股份有限公司",
-      "price": "N/A",
-      "change": "N/A",
-      "date": null,
-      "status": "unavailable"
-    },
-    "00989A": {
-      "name": "主動摩根美國科技",
-      "company": "摩根證券投資信託股份有限公司",
-      "price": "N/A",
-      "change": "N/A",
-      "date": null,
-      "status": "unavailable"
-    },
-    "00988A": {
-      "name": "主動統一全球創新",
-      "company": "統一證券投資信託股份有限公司",
-      "price": "N/A",
-      "change": "N/A",
-      "date": null,
-      "status": "unavailable"
-    },
-    "00990A": {
-      "name": "主動元大AI新經濟",
-      "company": "元大證券投資信託股份有限公司",
-      "price": "N/A",
-      "change": "N/A",
-      "date": null,
-      "status": "unavailable"
+      "date": "20261105",
+      "status": "stale",
+      "source_kind": null,
+      "source_name": null,
+      "source_url": null
     },
     "00984D": {
       "name": "主動聯博全球非投",
@@ -228,23 +382,10 @@
       "price": "N/A",
       "change": "N/A",
       "date": null,
-      "status": "unavailable"
-    },
-    "00403A": {
-      "name": "主動統一升級50",
-      "company": "統一證券投資信託股份有限公司",
-      "price": "N/A",
-      "change": "N/A",
-      "date": null,
-      "status": "unavailable"
-    },
-    "00402A": {
-      "name": "主動安聯美國科技",
-      "company": "安聯證券投資信託股份有限公司",
-      "price": "N/A",
-      "change": "N/A",
-      "date": null,
-      "status": "unavailable"
+      "status": "unavailable",
+      "source_kind": null,
+      "source_name": null,
+      "source_url": null
     },
     "00404A": {
       "name": "主動聯博動能50",
@@ -252,15 +393,10 @@
       "price": "N/A",
       "change": "N/A",
       "date": null,
-      "status": "unavailable"
-    },
-    "00405A": {
-      "name": "主動富邦台灣龍耀",
-      "company": "富邦證券投資信託股份有限公司",
-      "price": "N/A",
-      "change": "N/A",
-      "date": null,
-      "status": "unavailable"
+      "status": "unavailable",
+      "source_kind": null,
+      "source_name": null,
+      "source_url": null
     },
     "00406A": {
       "name": "主動中信台灣收益",
@@ -268,55 +404,10 @@
       "price": "N/A",
       "change": "N/A",
       "date": null,
-      "status": "unavailable"
-    },
-    "00407A": {
-      "name": "主動凱基台灣",
-      "company": "凱基證券投資信託股份有限公司",
-      "price": "N/A",
-      "change": "N/A",
-      "date": null,
-      "status": "unavailable"
-    },
-    "00408A": {
-      "name": "主動第一金優股息",
-      "company": "第一金證券投資信託股份有限公司",
-      "price": "N/A",
-      "change": "N/A",
-      "date": null,
-      "status": "unavailable"
-    },
-    "00410A": {
-      "name": "主動永豐科技趨勢",
-      "company": "永豐證券投資信託股份有限公司",
-      "price": "N/A",
-      "change": "N/A",
-      "date": null,
-      "status": "unavailable"
-    },
-    "00409A": {
-      "name": "主動復華全球50",
-      "company": "復華證券投資信託股份有限公司",
-      "price": "N/A",
-      "change": "N/A",
-      "date": null,
-      "status": "unavailable"
-    },
-    "00412A": {
-      "name": "主動安聯亞半導體",
-      "company": "安聯證券投資信託股份有限公司",
-      "price": "N/A",
-      "change": "N/A",
-      "date": null,
-      "status": "unavailable"
-    },
-    "00415A": {
-      "name": "主動群益核心50",
-      "company": "群益證券投資信託股份有限公司",
-      "price": "N/A",
-      "change": "N/A",
-      "date": null,
-      "status": "unavailable"
+      "status": "unavailable",
+      "source_kind": null,
+      "source_name": null,
+      "source_url": null
     }
   }
 }

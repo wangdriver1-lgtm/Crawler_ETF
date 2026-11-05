@@ -1,13 +1,474 @@
 {
   "code": "00982D",
   "name": "主動富邦動態入息",
-  "asof": null,
-  "data_status": "unavailable",
+  "asof": "20261104",
+  "data_status": "fresh",
+  "source_kind": "backup",
+  "source_name": "ETF資訊網（公開持股備援）",
+  "source_url": "https://www.etfinfo.tw/etf/00982D/holdings",
+  "date_basis": "issuer",
   "unchanged": false,
-  "history": [],
+  "history": [
+    {
+      "date": "20261104",
+      "previous_date": null,
+      "status": "unavailable",
+      "comparable": false,
+      "changes": []
+    }
+  ],
   "previous_date": null,
   "official_url": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html",
-  "holdings": [],
+  "holdings": [
+    {
+      "code": "US06738ECE32",
+      "name": "BACR 7.437 11/02/33",
+      "shares": null,
+      "weight": "3.0701%",
+      "lot_size": null
+    },
+    {
+      "code": "US172967EW71",
+      "name": "C 8 1/8 07/15/39",
+      "shares": null,
+      "weight": "3.0623%",
+      "lot_size": null
+    },
+    {
+      "code": "US260543BY86",
+      "name": "DOW 9.4 05/15/39",
+      "shares": null,
+      "weight": "3.0391%",
+      "lot_size": null
+    },
+    {
+      "code": "US13645RAD61",
+      "name": "CP 7 1/8 10/15/31",
+      "shares": null,
+      "weight": "3.0146%",
+      "lot_size": null
+    },
+    {
+      "code": "US743263AE50",
+      "name": "DUK 7 3/4 03/01/31",
+      "shares": null,
+      "weight": "2.7932%",
+      "lot_size": null
+    },
+    {
+      "code": "US03523TBF49",
+      "name": "ABIBB 8.2 01/15/39",
+      "shares": null,
+      "weight": "2.7569%",
+      "lot_size": null
+    },
+    {
+      "code": "US406216AY74",
+      "name": "HAL 7.45 09/15/39",
+      "shares": null,
+      "weight": "2.7353%",
+      "lot_size": null
+    },
+    {
+      "code": "US37045VAL45",
+      "name": "GM 6 3/4 04/01/46",
+      "shares": null,
+      "weight": "2.7243%",
+      "lot_size": null
+    },
+    {
+      "code": "US06849RAC60",
+      "name": "ABXCN 7 1/2 09/15/38",
+      "shares": null,
+      "weight": "2.6843%",
+      "lot_size": null
+    },
+    {
+      "code": "US054989AD07",
+      "name": "BATSLN 7.081 08/02/53",
+      "shares": null,
+      "weight": "2.5421%",
+      "lot_size": null
+    },
+    {
+      "code": "US25156PAD50",
+      "name": "DT 9 1/4 06/01/32",
+      "shares": null,
+      "weight": "2.4092%",
+      "lot_size": null
+    },
+    {
+      "code": "US24703TAK25",
+      "name": "DELL 8.35 07/15/46",
+      "shares": null,
+      "weight": "2.1107%",
+      "lot_size": null
+    },
+    {
+      "code": "US36962G4B75",
+      "name": "GE 6 7/8 01/10/39",
+      "shares": null,
+      "weight": "2.0461%",
+      "lot_size": null
+    },
+    {
+      "code": "US24703TAJ51",
+      "name": "DELL 8.1 07/15/36",
+      "shares": null,
+      "weight": "2.0336%",
+      "lot_size": null
+    },
+    {
+      "code": "US852060AT99",
+      "name": "S 8 3/4 03/15/32",
+      "shares": null,
+      "weight": "1.9868%",
+      "lot_size": null
+    },
+    {
+      "code": "US36962GXZ26",
+      "name": "GE 6 3/4 03/15/32",
+      "shares": null,
+      "weight": "1.8329%",
+      "lot_size": null
+    },
+    {
+      "code": "US694308KH99",
+      "name": "PCG 6 3/4 01/15/53",
+      "shares": null,
+      "weight": "1.7887%",
+      "lot_size": null
+    },
+    {
+      "code": "US013716AQ81",
+      "name": "RIOLN 7 1/4 03/15/31",
+      "shares": null,
+      "weight": "1.7412%",
+      "lot_size": null
+    },
+    {
+      "code": "US37045VAK61",
+      "name": "GM 6.6 04/01/36",
+      "shares": null,
+      "weight": "1.6693%",
+      "lot_size": null
+    },
+    {
+      "code": "US969457BM15",
+      "name": "WMB 8 3/4 03/15/32",
+      "shares": null,
+      "weight": "1.6373%",
+      "lot_size": null
+    },
+    {
+      "code": "US054989AC24",
+      "name": "BATSLN 7.079 08/02/43",
+      "shares": null,
+      "weight": "1.6284%",
+      "lot_size": null
+    },
+    {
+      "code": "US927804FG41",
+      "name": "D 8 7/8 11/15/38",
+      "shares": null,
+      "weight": "1.6018%",
+      "lot_size": null
+    },
+    {
+      "code": "US233835AQ08",
+      "name": "MBGGR 8 1/2 01/18/31",
+      "shares": null,
+      "weight": "1.5886%",
+      "lot_size": null
+    },
+    {
+      "code": "US8935268Z94",
+      "name": "TRPCN 7 5/8 01/15/39",
+      "shares": null,
+      "weight": "1.5563%",
+      "lot_size": null
+    },
+    {
+      "code": "US879385AD49",
+      "name": "TELEFO 8 1/4 09/15/30",
+      "shares": null,
+      "weight": "1.4452%",
+      "lot_size": null
+    },
+    {
+      "code": "US694308KK29",
+      "name": "PCG 6.7 04/01/53",
+      "shares": null,
+      "weight": "1.4092%",
+      "lot_size": null
+    },
+    {
+      "code": "US42824CAY57",
+      "name": "HPE 6.35 10/15/45",
+      "shares": null,
+      "weight": "1.3819%",
+      "lot_size": null
+    },
+    {
+      "code": "US67066GAU85",
+      "name": "NVDA 5.55 06/15/46",
+      "shares": null,
+      "weight": "1.2799%",
+      "lot_size": null
+    },
+    {
+      "code": "US682680BN20",
+      "name": "OKE 6 5/8 09/01/53",
+      "shares": null,
+      "weight": "1.1699%",
+      "lot_size": null
+    },
+    {
+      "code": "US251799AA02",
+      "name": "DVN 7.95 04/15/32",
+      "shares": null,
+      "weight": "1.0625%",
+      "lot_size": null
+    },
+    {
+      "code": "US30303MAK80",
+      "name": "META 6.3 05/15/56",
+      "shares": null,
+      "weight": "1.0493%",
+      "lot_size": null
+    },
+    {
+      "code": "US548661CP07",
+      "name": "LOW 6.65 09/15/37",
+      "shares": null,
+      "weight": "1.0038%",
+      "lot_size": null
+    },
+    {
+      "code": "US404280DW61",
+      "name": "HSBC 6.332 03/09/44",
+      "shares": null,
+      "weight": "0.9618%",
+      "lot_size": null
+    },
+    {
+      "code": "US260543DH36",
+      "name": "DOW 6.9 05/15/53",
+      "shares": null,
+      "weight": "0.8637%",
+      "lot_size": null
+    },
+    {
+      "code": "US90353TAQ31",
+      "name": "UBER 5.35 09/15/54",
+      "shares": null,
+      "weight": "0.8308%",
+      "lot_size": null
+    },
+    {
+      "code": "USU8531HAE00",
+      "name": "SPCX 6.65 07/15/56",
+      "shares": null,
+      "weight": "0.7975%",
+      "lot_size": null
+    },
+    {
+      "code": "US717081CY74",
+      "name": "PFE 7.2 03/15/39",
+      "shares": null,
+      "weight": "0.7507%",
+      "lot_size": null
+    },
+    {
+      "code": "US101137AL15",
+      "name": "BSX 7 3/8 01/15/40",
+      "shares": null,
+      "weight": "0.6527%",
+      "lot_size": null
+    },
+    {
+      "code": "US617446HD43",
+      "name": "MS 7 1/4 04/01/32",
+      "shares": null,
+      "weight": "0.6252%",
+      "lot_size": null
+    },
+    {
+      "code": "US02079KCT25",
+      "name": "GOOGL 6 1/4 08/15/46",
+      "shares": null,
+      "weight": "0.6136%",
+      "lot_size": null
+    },
+    {
+      "code": "US023135EF90",
+      "name": "AMZN 6 07/09/46",
+      "shares": null,
+      "weight": "0.5895%",
+      "lot_size": null
+    },
+    {
+      "code": "US50076QAR74",
+      "name": "KHC 6 7/8 01/26/39",
+      "shares": null,
+      "weight": "0.5557%",
+      "lot_size": null
+    },
+    {
+      "code": "US494550AW68",
+      "name": "KMI 6.95 01/15/38",
+      "shares": null,
+      "weight": "0.5131%",
+      "lot_size": null
+    },
+    {
+      "code": "US303901BR22",
+      "name": "FFHCN 6.35 03/22/54",
+      "shares": null,
+      "weight": "0.5071%",
+      "lot_size": null
+    },
+    {
+      "code": "US87938WAC73",
+      "name": "TELEFONICA EMISIONES SAU 7.045 06/20/36",
+      "shares": null,
+      "weight": "0.4989%",
+      "lot_size": null
+    },
+    {
+      "code": "US20030NAV38",
+      "name": "CMCSA 6.95 08/15/37",
+      "shares": null,
+      "weight": "0.4971%",
+      "lot_size": null
+    },
+    {
+      "code": "US210385AE04",
+      "name": "CEG 6 1/2 10/01/53",
+      "shares": null,
+      "weight": "0.4871%",
+      "lot_size": null
+    },
+    {
+      "code": "US68389XAE58",
+      "name": "ORCL 6 1/2 04/15/38",
+      "shares": null,
+      "weight": "0.4272%",
+      "lot_size": null
+    },
+    {
+      "code": "USU8531HAD27",
+      "name": "SPCX 6.6 07/15/46",
+      "shares": null,
+      "weight": "0.4074%",
+      "lot_size": null
+    },
+    {
+      "code": "US641423BU11",
+      "name": "BRKHEC 6 3/4 07/01/37",
+      "shares": null,
+      "weight": "0.3039%",
+      "lot_size": null
+    },
+    {
+      "code": "US00817YAF51",
+      "name": "AET 6 5/8 06/15/36",
+      "shares": null,
+      "weight": "0.2994%",
+      "lot_size": null
+    },
+    {
+      "code": "US832696AZ12",
+      "name": "SJM 6 1/2 11/15/53",
+      "shares": null,
+      "weight": "0.296%",
+      "lot_size": null
+    },
+    {
+      "code": "US832696AY47",
+      "name": "SJM 6 1/2 11/15/43",
+      "shares": null,
+      "weight": "0.2949%",
+      "lot_size": null
+    },
+    {
+      "code": "US871829BN62",
+      "name": "SYY 6.6 04/01/50",
+      "shares": null,
+      "weight": "0.2924%",
+      "lot_size": null
+    },
+    {
+      "code": "US29273RAR03",
+      "name": "ET 6 1/2 02/01/42",
+      "shares": null,
+      "weight": "0.2916%",
+      "lot_size": null
+    },
+    {
+      "code": "US87612GAD34",
+      "name": "TRGP 6 1/2 02/15/53",
+      "shares": null,
+      "weight": "0.2885%",
+      "lot_size": null
+    },
+    {
+      "code": "US92344GAM87",
+      "name": "VZ 7 3/4 12/01/30",
+      "shares": null,
+      "weight": "0.2591%",
+      "lot_size": null
+    },
+    {
+      "code": "US91324PBK75",
+      "name": "UNITEDHEALTH GROUP INC 6.875 02/15/38",
+      "shares": null,
+      "weight": "0.259%",
+      "lot_size": null
+    },
+    {
+      "code": "US209111EU37",
+      "name": "ED 6 3/4 04/01/38",
+      "shares": null,
+      "weight": "0.2565%",
+      "lot_size": null
+    },
+    {
+      "code": "US86722TAB89",
+      "name": "SUCN 6.85 06/01/39",
+      "shares": null,
+      "weight": "0.2535%",
+      "lot_size": null
+    },
+    {
+      "code": "US29250NBZ78",
+      "name": "ENBCN 6.7 11/15/53",
+      "shares": null,
+      "weight": "0.2494%",
+      "lot_size": null
+    },
+    {
+      "code": "US04686JAL52",
+      "name": "ATH 6 5/8 05/19/55",
+      "shares": null,
+      "weight": "0.2164%",
+      "lot_size": null
+    },
+    {
+      "code": "LQDW US",
+      "name": "IShares LQD Premium Income+ ETF",
+      "shares": 85000,
+      "weight": "9.1452%",
+      "lot_size": null
+    },
+    {
+      "code": "TLTW US",
+      "name": "iShares TLT Premium Income+ ETF",
+      "shares": 82000,
+      "weight": "8.1544%",
+      "lot_size": null
+    }
+  ],
   "changes": [],
   "comparable": false,
   "added_shares": null,

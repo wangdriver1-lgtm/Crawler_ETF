@@ -3,6 +3,10 @@
   "name": "主動野村臺灣優選",
   "asof": "20261105",
   "data_status": "fresh",
+  "source_kind": "official",
+  "source_name": "投信官方持股頁",
+  "source_url": "https://www.nomurafunds.com.tw/ETFWEB/product-description?fundNo=00980A&tab=Shareholding",
+  "date_basis": "crawl_date",
   "unchanged": true,
   "history": [
     {
@@ -796,6 +800,13 @@
       "lot_size": 1000
     },
     {
+      "code": "2891",
+      "name": "中國信託金融控股",
+      "shares": 3904000,
+      "weight": "",
+      "lot_size": 1000
+    },
+    {
       "code": "3443",
       "name": "創意電子",
       "shares": 45000,
@@ -817,9 +828,9 @@
       "lot_size": 1000
     },
     {
-      "code": "2891",
-      "name": "中國信託金融控股",
-      "shares": 3904000,
+      "code": "2376",
+      "name": "技嘉科技",
+      "shares": 877000,
       "weight": "",
       "lot_size": 1000
     },
@@ -827,13 +838,6 @@
       "code": "5274",
       "name": "信驊科技",
       "shares": 20300,
-      "weight": "",
-      "lot_size": 1000
-    },
-    {
-      "code": "2376",
-      "name": "技嘉科技",
-      "shares": 877000,
       "weight": "",
       "lot_size": 1000
     },
@@ -852,16 +856,16 @@
       "lot_size": 1000
     },
     {
-      "code": "3081",
-      "name": "聯亞光電工業",
-      "shares": 119600,
+      "code": "2884",
+      "name": "玉山金融控股",
+      "shares": 4850622,
       "weight": "",
       "lot_size": 1000
     },
     {
-      "code": "6515",
-      "name": "穎崴科技",
-      "shares": 61000,
+      "code": "3081",
+      "name": "聯亞光電工業",
+      "shares": 119600,
       "weight": "",
       "lot_size": 1000
     },
@@ -873,9 +877,9 @@
       "lot_size": 1000
     },
     {
-      "code": "2884",
-      "name": "玉山金融控股",
-      "shares": 4850622,
+      "code": "6515",
+      "name": "穎崴科技",
+      "shares": 61000,
       "weight": "",
       "lot_size": 1000
     },
@@ -964,16 +968,16 @@
       "lot_size": 1000
     },
     {
-      "code": "3264",
-      "name": "欣銓科技",
-      "shares": 650000,
+      "code": "5904",
+      "name": "寶雅國際",
+      "shares": 1708500,
       "weight": "",
       "lot_size": 1000
     },
     {
-      "code": "5904",
-      "name": "寶雅國際",
-      "shares": 1708500,
+      "code": "3264",
+      "name": "欣銓科技",
+      "shares": 650000,
       "weight": "",
       "lot_size": 1000
     },
@@ -1013,16 +1017,16 @@
       "lot_size": 1000
     },
     {
-      "code": "6831",
-      "name": "邁科科技",
-      "shares": 129000,
+      "code": "6442",
+      "name": "光紅建聖",
+      "shares": 38000,
       "weight": "",
       "lot_size": 1000
     },
     {
-      "code": "6442",
-      "name": "光紅建聖",
-      "shares": 38000,
+      "code": "6831",
+      "name": "邁科科技",
+      "shares": 129000,
       "weight": "",
       "lot_size": 1000
     },

@@ -1,13 +1,334 @@
 {
   "code": "00983A",
   "name": "主動中信ARK創新",
-  "asof": null,
-  "data_status": "unavailable",
+  "asof": "20261102",
+  "data_status": "fresh",
+  "source_kind": "backup",
+  "source_name": "ETF資訊網（公開持股備援）",
+  "source_url": "https://www.etfinfo.tw/etf/00983A/holdings",
+  "date_basis": "issuer",
   "unchanged": false,
-  "history": [],
+  "history": [
+    {
+      "date": "20261102",
+      "previous_date": null,
+      "status": "unavailable",
+      "comparable": false,
+      "changes": []
+    }
+  ],
   "previous_date": null,
   "official_url": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html",
-  "holdings": [],
+  "holdings": [
+    {
+      "code": "TSLA US",
+      "name": "特斯拉公司",
+      "shares": 5913,
+      "weight": "9.26%",
+      "lot_size": null
+    },
+    {
+      "code": "TEM US",
+      "name": "Tempus AI Inc",
+      "shares": 22116,
+      "weight": "6.75%",
+      "lot_size": null
+    },
+    {
+      "code": "SPCX US",
+      "name": "太空探索科技公司",
+      "shares": 12688,
+      "weight": "6.72%",
+      "lot_size": null
+    },
+    {
+      "code": "SHOP US",
+      "name": "Shopify公司",
+      "shares": 8253,
+      "weight": "5.01%",
+      "lot_size": null
+    },
+    {
+      "code": "CRCL US",
+      "name": "Circle Internet Group Inc",
+      "shares": 14479,
+      "weight": "4.06%",
+      "lot_size": null
+    },
+    {
+      "code": "AMZN US",
+      "name": "亞馬遜公司",
+      "shares": 4214,
+      "weight": "4.02%",
+      "lot_size": null
+    },
+    {
+      "code": "CRSP US",
+      "name": "CRISPR治療公司",
+      "shares": 20609,
+      "weight": "4%",
+      "lot_size": null
+    },
+    {
+      "code": "NVDA US",
+      "name": "輝達",
+      "shares": 4788,
+      "weight": "3.76%",
+      "lot_size": null
+    },
+    {
+      "code": "TWST US",
+      "name": "Twist Bioscience Corp",
+      "shares": 7089,
+      "weight": "3.56%",
+      "lot_size": null
+    },
+    {
+      "code": "PLTR US",
+      "name": "帕蘭提爾科技公司",
+      "shares": 4704,
+      "weight": "3.26%",
+      "lot_size": null
+    },
+    {
+      "code": "COIN US",
+      "name": "比特幣基地全球公司",
+      "shares": 5855,
+      "weight": "3.14%",
+      "lot_size": null
+    },
+    {
+      "code": "AMD US",
+      "name": "超微半導體公司",
+      "shares": 1683,
+      "weight": "3.05%",
+      "lot_size": null
+    },
+    {
+      "code": "META US",
+      "name": "Meta平台公司",
+      "shares": 1283,
+      "weight": "3.03%",
+      "lot_size": null
+    },
+    {
+      "code": "TXG US",
+      "name": "10X Genomics Inc",
+      "shares": 12592,
+      "weight": "3.02%",
+      "lot_size": null
+    },
+    {
+      "code": "TSM US",
+      "name": "台積電",
+      "shares": 1765,
+      "weight": "2.73%",
+      "lot_size": null
+    },
+    {
+      "code": "HOOD US",
+      "name": "羅賓漢市場公司",
+      "shares": 7732,
+      "weight": "2.52%",
+      "lot_size": null
+    },
+    {
+      "code": "BEAM US",
+      "name": "光束治療公司",
+      "shares": 24523,
+      "weight": "2.47%",
+      "lot_size": null
+    },
+    {
+      "code": "GOOG US",
+      "name": "Alphabet公司 Class C",
+      "shares": 2096,
+      "weight": "2.26%",
+      "lot_size": null
+    },
+    {
+      "code": "LLY US",
+      "name": "禮來公司",
+      "shares": 358,
+      "weight": "1.96%",
+      "lot_size": null
+    },
+    {
+      "code": "AVGO US",
+      "name": "博通公司",
+      "shares": 1475,
+      "weight": "1.85%",
+      "lot_size": null
+    },
+    {
+      "code": "NTRA US",
+      "name": "那提拉公司",
+      "shares": 1150,
+      "weight": "1.69%",
+      "lot_size": null
+    },
+    {
+      "code": "NTLA US",
+      "name": "英特利亞治療公司",
+      "shares": 36556,
+      "weight": "1.66%",
+      "lot_size": null
+    },
+    {
+      "code": "ILMN US",
+      "name": "伊魯米納公司",
+      "shares": 1823,
+      "weight": "1.61%",
+      "lot_size": null
+    },
+    {
+      "code": "GOOGL US",
+      "name": "Alphabet公司 Class A",
+      "shares": 1389,
+      "weight": "1.51%",
+      "lot_size": null
+    },
+    {
+      "code": "XYZ US",
+      "name": "布洛克公司",
+      "shares": 4669,
+      "weight": "1.4%",
+      "lot_size": null
+    },
+    {
+      "code": "BMNR US",
+      "name": "BitMine Immersion Technologi",
+      "shares": 18161,
+      "weight": "1.38%",
+      "lot_size": null
+    },
+    {
+      "code": "RKLB US",
+      "name": "火箭實驗室美國公司",
+      "shares": 6452,
+      "weight": "1.31%",
+      "lot_size": null
+    },
+    {
+      "code": "NET US",
+      "name": "Cloudflare公司",
+      "shares": 1229,
+      "weight": "1.27%",
+      "lot_size": null
+    },
+    {
+      "code": "BLSH US",
+      "name": "Bullish",
+      "shares": 14333,
+      "weight": "1.26%",
+      "lot_size": null
+    },
+    {
+      "code": "MSFT US",
+      "name": "微軟",
+      "shares": 529,
+      "weight": "1.04%",
+      "lot_size": null
+    },
+    {
+      "code": "RXRX US",
+      "name": "利可迅生技公司",
+      "shares": 65926,
+      "weight": "0.98%",
+      "lot_size": null
+    },
+    {
+      "code": "SNOW US",
+      "name": "Snowflake公司",
+      "shares": 476,
+      "weight": "0.54%",
+      "lot_size": null
+    },
+    {
+      "code": "VCYT US",
+      "name": "Veracyte公司",
+      "shares": 2714,
+      "weight": "0.52%",
+      "lot_size": null
+    },
+    {
+      "code": "WGS US",
+      "name": "GeneDx控股公司",
+      "shares": 2064,
+      "weight": "0.51%",
+      "lot_size": null
+    },
+    {
+      "code": "TER US",
+      "name": "泰瑞達公司",
+      "shares": 491,
+      "weight": "0.5%",
+      "lot_size": null
+    },
+    {
+      "code": "DE US",
+      "name": "迪爾",
+      "shares": 181,
+      "weight": "0.47%",
+      "lot_size": null
+    },
+    {
+      "code": "CRWV US",
+      "name": "CoreWeave Inc",
+      "shares": 1401,
+      "weight": "0.27%",
+      "lot_size": null
+    },
+    {
+      "code": "FTNT US",
+      "name": "防特網公司",
+      "shares": 446,
+      "weight": "0.22%",
+      "lot_size": null
+    },
+    {
+      "code": "SOFI US",
+      "name": "SoFi Technologies Inc",
+      "shares": 2775,
+      "weight": "0.18%",
+      "lot_size": null
+    },
+    {
+      "code": "KTOS US",
+      "name": "克瑞拓斯安全防衛公司",
+      "shares": 682,
+      "weight": "0.11%",
+      "lot_size": null
+    },
+    {
+      "code": "PACB US",
+      "name": "加州太平洋生技科技公司",
+      "shares": 7908,
+      "weight": "0.07%",
+      "lot_size": null
+    },
+    {
+      "code": "ACHR US",
+      "name": "阿徹航空公司",
+      "shares": 3283,
+      "weight": "0.05%",
+      "lot_size": null
+    },
+    {
+      "code": "CERS US",
+      "name": "Cerus公司",
+      "shares": 1209,
+      "weight": "0.01%",
+      "lot_size": null
+    },
+    {
+      "code": "BWXT US",
+      "name": "BWX科技股份有限公司",
+      "shares": 8,
+      "weight": "0%",
+      "lot_size": null
+    }
+  ],
   "changes": [],
   "comparable": false,
   "added_shares": null,

@@ -3,6 +3,10 @@
   "name": "主動野村台灣50",
   "asof": "20261105",
   "data_status": "fresh",
+  "source_kind": "official",
+  "source_name": "投信官方持股頁",
+  "source_url": "https://www.nomurafunds.com.tw/ETFWEB/product-description?fundNo=00985A&tab=Shareholding",
+  "date_basis": "crawl_date",
   "unchanged": false,
   "history": [
     {
@@ -1318,6 +1322,13 @@
       "lot_size": 1000
     },
     {
+      "code": "2345",
+      "name": "智邦科技",
+      "shares": 424000,
+      "weight": "",
+      "lot_size": 1000
+    },
+    {
       "code": "2059",
       "name": "川湖科技",
       "shares": 73000,
@@ -1325,9 +1336,9 @@
       "lot_size": 1000
     },
     {
-      "code": "2345",
-      "name": "智邦科技",
-      "shares": 424000,
+      "code": "1216",
+      "name": "統一企業",
+      "shares": 6932000,
       "weight": "",
       "lot_size": 1000
     },
@@ -1346,9 +1357,16 @@
       "lot_size": 1000
     },
     {
-      "code": "1216",
-      "name": "統一企業",
-      "shares": 6932000,
+      "code": "2317",
+      "name": "鴻海精密工業",
+      "shares": 2225000,
+      "weight": "",
+      "lot_size": 1000
+    },
+    {
+      "code": "2412",
+      "name": "中華電信",
+      "shares": 3080000,
       "weight": "",
       "lot_size": 1000
     },
@@ -1367,20 +1385,6 @@
       "lot_size": 1000
     },
     {
-      "code": "2317",
-      "name": "鴻海精密工業",
-      "shares": 2225000,
-      "weight": "",
-      "lot_size": 1000
-    },
-    {
-      "code": "2412",
-      "name": "中華電信",
-      "shares": 3080000,
-      "weight": "",
-      "lot_size": 1000
-    },
-    {
       "code": "2454",
       "name": "聯發科技",
       "shares": 126000,
@@ -1391,6 +1395,20 @@
       "code": "2303",
       "name": "聯華電子",
       "shares": 4268000,
+      "weight": "",
+      "lot_size": 1000
+    },
+    {
+      "code": "2610",
+      "name": "中華航空",
+      "shares": 19301000,
+      "weight": "",
+      "lot_size": 1000
+    },
+    {
+      "code": "2603",
+      "name": "長榮海運",
+      "shares": 1569000,
       "weight": "",
       "lot_size": 1000
     },
@@ -1409,44 +1427,9 @@
       "lot_size": 1000
     },
     {
-      "code": "2344",
-      "name": "華邦電子",
-      "shares": 2981000,
-      "weight": "",
-      "lot_size": 1000
-    },
-    {
-      "code": "2603",
-      "name": "長榮海運",
-      "shares": 1569000,
-      "weight": "",
-      "lot_size": 1000
-    },
-    {
-      "code": "3008",
-      "name": "大立光電",
-      "shares": 84000,
-      "weight": "",
-      "lot_size": 1000
-    },
-    {
       "code": "2609",
       "name": "陽明海運",
       "shares": 6482000,
-      "weight": "",
-      "lot_size": 1000
-    },
-    {
-      "code": "3665",
-      "name": "貿聯控股（BizLink Holding In",
-      "shares": 258000,
-      "weight": "",
-      "lot_size": 1000
-    },
-    {
-      "code": "2610",
-      "name": "中華航空",
-      "shares": 19301000,
       "weight": "",
       "lot_size": 1000
     },
@@ -1458,9 +1441,16 @@
       "lot_size": 1000
     },
     {
-      "code": "1605",
-      "name": "華新麗華",
-      "shares": 10998000,
+      "code": "2344",
+      "name": "華邦電子",
+      "shares": 2981000,
+      "weight": "",
+      "lot_size": 1000
+    },
+    {
+      "code": "3008",
+      "name": "大立光電",
+      "shares": 84000,
       "weight": "",
       "lot_size": 1000
     },
@@ -1468,6 +1458,20 @@
       "code": "1402",
       "name": "遠東新世紀",
       "shares": 13427000,
+      "weight": "",
+      "lot_size": 1000
+    },
+    {
+      "code": "3665",
+      "name": "貿聯控股（BizLink Holding In",
+      "shares": 258000,
+      "weight": "",
+      "lot_size": 1000
+    },
+    {
+      "code": "1605",
+      "name": "華新麗華",
+      "shares": 10998000,
       "weight": "",
       "lot_size": 1000
     },
@@ -1493,6 +1497,13 @@
       "lot_size": 1000
     },
     {
+      "code": "7750",
+      "name": "新代科技",
+      "shares": 209000,
+      "weight": "",
+      "lot_size": 1000
+    },
+    {
       "code": "2408",
       "name": "南亞科技",
       "shares": 833000,
@@ -1503,13 +1514,6 @@
       "code": "2368",
       "name": "金像電子（股）公司",
       "shares": 344000,
-      "weight": "",
-      "lot_size": 1000
-    },
-    {
-      "code": "7750",
-      "name": "新代科技",
-      "shares": 209000,
       "weight": "",
       "lot_size": 1000
     },
@@ -1563,16 +1567,16 @@
       "lot_size": 1000
     },
     {
-      "code": "3189",
-      "name": "景碩科技",
-      "shares": 149000,
+      "code": "1301",
+      "name": "台灣塑膠工業",
+      "shares": 1724000,
       "weight": "",
       "lot_size": 1000
     },
     {
-      "code": "1301",
-      "name": "台灣塑膠工業",
-      "shares": 1724000,
+      "code": "3189",
+      "name": "景碩科技",
+      "shares": 149000,
       "weight": "",
       "lot_size": 1000
     },

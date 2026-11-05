@@ -2,7 +2,11 @@
   "code": "00997A",
   "name": "主動群益美國增長",
   "asof": "20261105",
-  "data_status": "fresh",
+  "data_status": "stale",
+  "source_kind": null,
+  "source_name": "投信官方持股頁",
+  "source_url": "https://www.capitalfund.com.tw/etf/product/detail/502/portfolio",
+  "date_basis": null,
   "unchanged": false,
   "history": [
     {

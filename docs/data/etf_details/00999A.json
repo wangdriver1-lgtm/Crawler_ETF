@@ -3,6 +3,10 @@
   "name": "主動野村臺灣高息",
   "asof": "20261105",
   "data_status": "fresh",
+  "source_kind": "official",
+  "source_name": "投信官方持股頁",
+  "source_url": "https://www.nomurafunds.com.tw/ETFWEB/product-description?fundNo=00999A&tab=Shareholding",
+  "date_basis": "crawl_date",
   "unchanged": false,
   "history": [
     {
@@ -105,16 +109,16 @@
       "lot_size": 1000
     },
     {
-      "code": "3037",
-      "name": "欣興電子",
-      "shares": 334000,
+      "code": "2382",
+      "name": "廣達電腦",
+      "shares": 942500,
       "weight": "",
       "lot_size": 1000
     },
     {
-      "code": "2382",
-      "name": "廣達電腦",
-      "shares": 942500,
+      "code": "3037",
+      "name": "欣興電子",
+      "shares": 334000,
       "weight": "",
       "lot_size": 1000
     },
@@ -133,9 +137,23 @@
       "lot_size": 1000
     },
     {
+      "code": "2357",
+      "name": "華碩電腦",
+      "shares": 238000,
+      "weight": "",
+      "lot_size": 1000
+    },
+    {
       "code": "2368",
       "name": "金像電子（股）公司",
       "shares": 234000,
+      "weight": "",
+      "lot_size": 1000
+    },
+    {
+      "code": "2603",
+      "name": "長榮海運",
+      "shares": 770000,
       "weight": "",
       "lot_size": 1000
     },
@@ -147,16 +165,9 @@
       "lot_size": 1000
     },
     {
-      "code": "2357",
-      "name": "華碩電腦",
-      "shares": 238000,
-      "weight": "",
-      "lot_size": 1000
-    },
-    {
-      "code": "2603",
-      "name": "長榮海運",
-      "shares": 770000,
+      "code": "2887",
+      "name": "台新新光金融控股",
+      "shares": 4627360,
       "weight": "",
       "lot_size": 1000
     },
@@ -182,13 +193,6 @@
       "lot_size": 1000
     },
     {
-      "code": "2887",
-      "name": "台新新光金融控股",
-      "shares": 4627360,
-      "weight": "",
-      "lot_size": 1000
-    },
-    {
       "code": "3081",
       "name": "聯亞光電工業",
       "shares": 84700,
@@ -199,13 +203,6 @@
       "code": "3293",
       "name": "鈊象電子",
       "shares": 206000,
-      "weight": "",
-      "lot_size": 1000
-    },
-    {
-      "code": "2408",
-      "name": "南亞科技",
-      "shares": 392000,
       "weight": "",
       "lot_size": 1000
     },
@@ -245,9 +242,9 @@
       "lot_size": 1000
     },
     {
-      "code": "3026",
-      "name": "禾伸堂企業",
-      "shares": 246000,
+      "code": "2408",
+      "name": "南亞科技",
+      "shares": 392000,
       "weight": "",
       "lot_size": 1000
     },
@@ -259,23 +256,16 @@
       "lot_size": 1000
     },
     {
+      "code": "3026",
+      "name": "禾伸堂企業",
+      "shares": 246000,
+      "weight": "",
+      "lot_size": 1000
+    },
+    {
       "code": "3665",
       "name": "貿聯控股（BizLink Holding In",
       "shares": 83000,
-      "weight": "",
-      "lot_size": 1000
-    },
-    {
-      "code": "5274",
-      "name": "信驊科技",
-      "shares": 9000,
-      "weight": "",
-      "lot_size": 1000
-    },
-    {
-      "code": "6515",
-      "name": "穎崴科技",
-      "shares": 31000,
       "weight": "",
       "lot_size": 1000
     },
@@ -301,13 +291,6 @@
       "lot_size": 1000
     },
     {
-      "code": "6121",
-      "name": "新普科技",
-      "shares": 316000,
-      "weight": "",
-      "lot_size": 1000
-    },
-    {
       "code": "4904",
       "name": "遠傳電信",
       "shares": 1008000,
@@ -315,9 +298,23 @@
       "lot_size": 1000
     },
     {
-      "code": "3044",
-      "name": "健鼎科技",
-      "shares": 221000,
+      "code": "5274",
+      "name": "信驊科技",
+      "shares": 9000,
+      "weight": "",
+      "lot_size": 1000
+    },
+    {
+      "code": "6121",
+      "name": "新普科技",
+      "shares": 316000,
+      "weight": "",
+      "lot_size": 1000
+    },
+    {
+      "code": "6515",
+      "name": "穎崴科技",
+      "shares": 31000,
       "weight": "",
       "lot_size": 1000
     },
@@ -336,9 +333,9 @@
       "lot_size": 1000
     },
     {
-      "code": "2441",
-      "name": "超豐電子",
-      "shares": 890000,
+      "code": "3044",
+      "name": "健鼎科技",
+      "shares": 221000,
       "weight": "",
       "lot_size": 1000
     },
@@ -346,6 +343,13 @@
       "code": "3706",
       "name": "神達控股",
       "shares": 1322400,
+      "weight": "",
+      "lot_size": 1000
+    },
+    {
+      "code": "2441",
+      "name": "超豐電子",
+      "shares": 890000,
       "weight": "",
       "lot_size": 1000
     },
@@ -406,16 +410,16 @@
       "lot_size": 1000
     },
     {
-      "code": "6274",
-      "name": "台燿科技",
-      "shares": 52000,
+      "code": "4551",
+      "name": "智伸科技",
+      "shares": 405000,
       "weight": "",
       "lot_size": 1000
     },
     {
-      "code": "4551",
-      "name": "智伸科技",
-      "shares": 405000,
+      "code": "6274",
+      "name": "台燿科技",
+      "shares": 52000,
       "weight": "",
       "lot_size": 1000
     },

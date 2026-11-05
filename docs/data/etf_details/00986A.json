@@ -3,6 +3,10 @@
   "name": "主動台新龍頭成長",
   "asof": "20261105",
   "data_status": "fresh",
+  "source_kind": "official",
+  "source_name": "投信官方持股頁",
+  "source_url": "https://www.tsit.com.tw/ETF/Home/ETFSeriesDetail/00986A",
+  "date_basis": "crawl_date",
   "unchanged": false,
   "history": [
     {
@@ -579,196 +583,196 @@
       "code": "2330 TT",
       "name": "台積電",
       "shares": 18000,
-      "weight": "8.4275%",
+      "weight": "8.4019%",
       "lot_size": 1000
     },
     {
       "code": "NVDA US",
       "name": "輝達",
       "shares": 5000,
-      "weight": "6.9237%",
+      "weight": "6.7933%",
       "lot_size": null
     },
     {
       "code": "GOOGL US",
       "name": "Alphabet 公司",
       "shares": 3000,
-      "weight": "5.6282%",
-      "lot_size": null
-    },
-    {
-      "code": "CRWD US",
-      "name": "Crowdstrike控股公司",
-      "shares": 3000,
-      "weight": "4.9177%",
+      "weight": "5.8845%",
       "lot_size": null
     },
     {
       "code": "AMZN US",
       "name": "AMAZON. COM INC",
       "shares": 2800,
-      "weight": "4.7026%",
+      "weight": "5.0569%",
       "lot_size": null
     },
     {
-      "code": "MU US",
-      "name": "美光科技公司",
-      "shares": 800,
-      "weight": "4.5830%",
+      "code": "CRWD US",
+      "name": "Crowdstrike控股公司",
+      "shares": 3000,
+      "weight": "4.9083%",
       "lot_size": null
     },
     {
       "code": "AMD US",
       "name": "超微半導體公司",
       "shares": 1400,
-      "weight": "4.5387%",
+      "weight": "4.6456%",
       "lot_size": null
     },
     {
       "code": "LLY US",
       "name": "禮來公司",
       "shares": 450,
-      "weight": "4.2490%",
+      "weight": "4.3319%",
+      "lot_size": null
+    },
+    {
+      "code": "MU US",
+      "name": "美光科技公司",
+      "shares": 800,
+      "weight": "4.3190%",
       "lot_size": null
     },
     {
       "code": "AVGO US",
       "name": "博通公司",
       "shares": 1800,
-      "weight": "4.0052%",
-      "lot_size": null
-    },
-    {
-      "code": "LITE US",
-      "name": "魯門特姆控股公司",
-      "shares": 780,
-      "weight": "3.5543%",
+      "weight": "3.9774%",
       "lot_size": null
     },
     {
       "code": "MSFT US",
       "name": "Microsoft Corp",
       "shares": 1000,
-      "weight": "3.4904%",
+      "weight": "3.7733%",
       "lot_size": null
     },
     {
-      "code": "GEV US",
-      "name": "奇異維諾瓦公司",
-      "shares": 500,
-      "weight": "3.0758%",
+      "code": "LITE US",
+      "name": "魯門特姆控股公司",
+      "shares": 780,
+      "weight": "3.3188%",
       "lot_size": null
     },
     {
       "code": "AAPL US",
       "name": "蘋果公司",
       "shares": 1250,
-      "weight": "2.7795%",
+      "weight": "2.9660%",
       "lot_size": null
     },
     {
-      "code": "ETN US",
-      "name": "伊頓公開有限公司",
-      "shares": 1000,
-      "weight": "2.6242%",
+      "code": "GEV US",
+      "name": "奇異維諾瓦公司",
+      "shares": 500,
+      "weight": "2.8270%",
       "lot_size": null
     },
     {
       "code": "JPM US",
       "name": "摩根大通銀行",
       "shares": 1100,
-      "weight": "2.4908%",
+      "weight": "2.6295%",
+      "lot_size": null
+    },
+    {
+      "code": "ETN US",
+      "name": "伊頓公開有限公司",
+      "shares": 1000,
+      "weight": "2.3970%",
       "lot_size": null
     },
     {
       "code": "NET US",
       "name": "Cloudflare公司",
       "shares": 1200,
-      "weight": "2.1998%",
+      "weight": "2.1717%",
       "lot_size": null
     },
     {
       "code": "SNOW US",
       "name": "Snowflake公司",
       "shares": 1100,
-      "weight": "2.1743%",
+      "weight": "2.1701%",
       "lot_size": null
     },
     {
       "code": "BE US",
       "name": "布魯姆能源公司",
       "shares": 1500,
-      "weight": "2.1507%",
+      "weight": "2.0407%",
       "lot_size": null
     },
     {
       "code": "MA US",
       "name": "萬事達卡",
       "shares": 350,
-      "weight": "1.5175%",
+      "weight": "1.5984%",
       "lot_size": null
     },
     {
       "code": "2454 TT",
       "name": "聯發科",
       "shares": 2000,
-      "weight": "1.4994%",
+      "weight": "1.5346%",
       "lot_size": 1000
     },
     {
       "code": "PLTR US",
       "name": "帕蘭提爾科技公司",
       "shares": 1200,
-      "weight": "1.4101%",
+      "weight": "1.3988%",
       "lot_size": null
     },
     {
       "code": "GS US",
       "name": "高盛集團",
       "shares": 200,
-      "weight": "1.2007%",
-      "lot_size": null
-    },
-    {
-      "code": "DDOG US",
-      "name": "數據狗公司",
-      "shares": 700,
-      "weight": "1.0342%",
+      "weight": "1.2600%",
       "lot_size": null
     },
     {
       "code": "RBRK US",
       "name": "Rubrik Inc",
       "shares": 1300,
-      "weight": "1.0147%",
+      "weight": "1.0501%",
       "lot_size": null
     },
     {
       "code": "SKHY US",
       "name": "愛思開海力士公司",
       "shares": 1000,
-      "weight": "1.0102%",
+      "weight": "0.9713%",
+      "lot_size": null
+    },
+    {
+      "code": "DDOG US",
+      "name": "數據狗公司",
+      "shares": 700,
+      "weight": "0.8968%",
       "lot_size": null
     },
     {
       "code": "TSEM US",
       "name": "塔爾半導體有限公司",
       "shares": 850,
-      "weight": "0.9286%",
+      "weight": "0.8587%",
       "lot_size": null
     },
     {
       "code": "DELL US",
       "name": "戴爾科技公司",
       "shares": 300,
-      "weight": "0.8208%",
+      "weight": "0.7584%",
       "lot_size": null
     },
     {
       "code": "ILMN US",
       "name": "伊魯米納公司",
       "shares": 401,
-      "weight": "0.6400%",
+      "weight": "0.6167%",
       "lot_size": null
     }
   ],
