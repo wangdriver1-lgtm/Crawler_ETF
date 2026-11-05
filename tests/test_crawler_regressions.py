@@ -150,6 +150,18 @@ class CrawlerRegressionTests(unittest.TestCase):
         self.assertEqual(result['updated_etfs'], [])
         self.assertEqual(result['reused_etfs'], ['AAA'])
 
+    def test_official_api_uses_issuer_date_and_provenance(self):
+        self.config('AAA')
+        result = {'stocks': [self.stock()], 'date': '20260528', 'source_kind': 'official',
+                  'source_name': '投信官方 API', 'source_url': 'https://example.test/official', 'date_basis': 'issuer'}
+        with patch.object(crawler, 'scrape_etf', return_value=result):
+            self.assertEqual(self.run_main(), 0)
+        saved = self.read('etf/all_stocks.json')['etfs']['AAA']
+        self.assertEqual(saved['date'], '20260528')
+        self.assertEqual(saved['source_name'], '投信官方 API')
+        self.assertEqual(saved['source_kind'], 'official')
+        self.assertTrue(Path('stocks/stocks_AAA_20260528.json').exists())
+
     def test_partial_failure_preserves_all_previous_outputs(self):
         self.config("AAA", "BBB")
         paths = ["etf/all_stocks.json", "stocks/stocks_AAA_20260601.json",

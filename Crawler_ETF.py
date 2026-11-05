@@ -21,6 +21,7 @@ from pathlib import Path
 from etf_registry import cached_registry, merge_config
 from etf_details import snapshot_signature
 from holdings_fallback import fetch_holdings as fetch_backup_holdings
+from issuer_holdings import fetch_ab_holdings
 
 
 def _parse_shares(value) -> Optional[int]:
@@ -179,6 +180,8 @@ def detect_site_type(url: str) -> str:
         return "cathaysite"
     elif "jpmorgan" in domain:
         return "jpmorgan"
+    elif domain == 'www.abfunds.com.tw':
+        return 'abfunds'
     else:
         return "unknown"
 
@@ -2386,6 +2389,8 @@ def scrape_etf(etf_config: Dict[str, str]) -> Optional[List[Dict[str, str]]]:
     print(f"  URL: {etf_url}")
 
     # 純 API 路徑：免開瀏覽器
+    if site_type == 'abfunds':
+        return fetch_ab_holdings(etf_code)
     if site_type == "cathaysite":
         stocks = scrape_cathaysite_api(etf_code, etf_url)
         if stocks:
@@ -2566,9 +2571,17 @@ def _run_crawler(today: str, log_path: str) -> int:
             continue
         attempts = 1 + max(0, min(int(os.environ.get("CRAWLER_RETRIES", "0")), 2)) if etf_config.get('url') else 1
         stocks = None
+        official_snapshot = None
         for attempt in range(attempts):
             try:
                 stocks = scrape_etf(etf_config)
+                if isinstance(stocks, dict):
+                    official_snapshot = stocks
+                    stocks = official_snapshot['stocks']
+                    old_date = previous.get('date') or previous_payload.get('date') or ''
+                    if previous.get('stocks') and old_date > official_snapshot['date']:
+                        print('  官方來源日期較舊，保留較新快照並嘗試備援。')
+                        stocks, official_snapshot = None, None
             except Exception as e:
                 print(f"  {etf_config['code']} 爬取失敗: {e}")
                 stocks = None
@@ -2592,18 +2605,19 @@ def _run_crawler(today: str, log_path: str) -> int:
             except Exception as error:
                 print(f"  {etf_config['code']} 備援未取得有效資料：{error}")
         if stocks:
+            dated_source = backup or official_snapshot or {}
             source_kind = 'backup' if backup else 'official'
             # Store provenance with dated snapshots so history can detect source switches.
             stocks = [{**row, '_source_kind': source_kind} for row in stocks]
             all_stocks[etf_config["code"]] = {
                 "name": etf_config["name"],
-                "date": backup['date'] if backup else today,
+                "date": dated_source.get('date', today),
                 "status": "fresh",
                 "source_kind": source_kind,
-                "source_name": backup['source_name'] if backup else '投信官方持股頁',
-                "source_url": backup['source_url'] if backup else etf_config.get('url'),
+                "source_name": dated_source.get('source_name', '投信官方持股頁'),
+                "source_url": dated_source.get('source_url') or etf_config.get('url'),
                 "upstream_source": backup.get('upstream_source') if backup else None,
-                "date_basis": backup.get('date_basis') if backup else 'crawl_date',
+                "date_basis": dated_source.get('date_basis', 'crawl_date'),
                 "stocks": stocks
             }
         else:

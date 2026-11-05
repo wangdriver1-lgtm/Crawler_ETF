@@ -3,9 +3,9 @@
   "name": "主動聯博全球非投",
   "asof": "20261104",
   "data_status": "fresh",
-  "source_kind": "backup",
-  "source_name": "ETF資訊網（公開持股備援）",
-  "source_url": "https://www.etfinfo.tw/etf/00984D/holdings",
+  "source_kind": "official",
+  "source_name": "聯博投信官方每日持有明細",
+  "source_url": "https://www.abfunds.com.tw/zh-tw/etfs/pcf.TW00000984D0.html",
   "date_basis": "issuer",
   "unchanged": false,
   "history": [
@@ -18,7 +18,7 @@
     }
   ],
   "previous_date": null,
-  "official_url": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html",
+  "official_url": "https://www.abfunds.com.tw/zh-tw/etfs/pcf.TW00000984D0.html",
   "holdings": [
     {
       "code": "USC33203AD93",
@@ -1201,7 +1201,7 @@
     },
     {
       "code": "USU3190CAA28",
-      "name": "GALAXY HELIOS DATA 9.875 % 01-AUG-2031",
+      "name": "GALAXY HELIOS DATA  9.875 % 01-AUG-2031",
       "shares": null,
       "weight": "0.299090741%",
       "lot_size": null,
@@ -1471,7 +1471,7 @@
     },
     {
       "code": "USU2781AAA35",
-      "name": "EDGED COMPUTE LLC SER REGS REG S 7.5% 30APR2031",
+      "name": "EDGED COMPUTE LLC SER REGS REG S  7.5% 30APR2031",
       "shares": null,
       "weight": "0.142307626%",
       "lot_size": null,
@@ -2677,7 +2677,7 @@
     },
     {
       "code": "US75026JAH32",
-      "name": "RADIATE HOLDCO / FINANCE (SER 144A) (REG) FRN 25MAR2030",
+      "name": "RADIATE HOLDCO / FINANCE (SER 144A) (REG)  FRN 25MAR2030",
       "shares": null,
       "weight": "0.270242277%",
       "lot_size": null,
@@ -3531,7 +3531,7 @@
       "quantity_unit": "面額"
     },
     {
-      "code": "FUTURE_f45f03d5bfc0ae31",
+      "code": "未提供代碼：US 10YR ULTRA FUT DEC26 21-DEC-2026",
       "name": "US 10YR ULTRA FUT DEC26 21-DEC-2026",
       "shares": null,
       "weight": "0.636528291%",
@@ -3540,7 +3540,7 @@
       "quantity_unit": "口"
     },
     {
-      "code": "FUTURE_6efeef8a3206e82a",
+      "code": "未提供代碼：US ULTRA BOND CBT DEC26 21-DEC-2026",
       "name": "US ULTRA BOND CBT DEC26 21-DEC-2026",
       "shares": null,
       "weight": "-0.153214031%",
@@ -3549,7 +3549,7 @@
       "quantity_unit": "口"
     },
     {
-      "code": "FUTURE_7f956d54d9f58a70",
+      "code": "未提供代碼：US LONG BOND(CBT) DEC26 21-DEC-2026",
       "name": "US LONG BOND(CBT) DEC26 21-DEC-2026",
       "shares": null,
       "weight": "-0.453614849%",
@@ -3558,7 +3558,7 @@
       "quantity_unit": "口"
     },
     {
-      "code": "FUTURE_92faf2bcf1b61239",
+      "code": "未提供代碼：US 5YR NOTE (CBT) DEC26 31-DEC-2026",
       "name": "US 5YR NOTE (CBT) DEC26 31-DEC-2026",
       "shares": null,
       "weight": "3.14138547%",
@@ -3567,7 +3567,7 @@
       "quantity_unit": "口"
     },
     {
-      "code": "FUTURE_f2a51adaae96184e",
+      "code": "未提供代碼：US 10YR NOTE (CBT)DEC26 21-DEC-2026",
       "name": "US 10YR NOTE (CBT)DEC26 21-DEC-2026",
       "shares": null,
       "weight": "2.718941899%",
@@ -3576,7 +3576,7 @@
       "quantity_unit": "口"
     },
     {
-      "code": "FUTURE_91f9c0381d1bcf99",
+      "code": "未提供代碼：US 2YR NOTE (CBT) DEC26 31-DEC-2026",
       "name": "US 2YR NOTE (CBT) DEC26 31-DEC-2026",
       "shares": null,
       "weight": "-0.400230157%",

@@ -1,6 +1,6 @@
 {
   "date": "20261105",
-  "updated_at": "2026-11-05T23:45:11.681737+08:00",
+  "updated_at": "2026-11-05T23:50:05.709428+08:00",
   "missing_share_etfs": [
     "00400A",
     "00404A",
@@ -260,9 +260,9 @@
       "change": "N/A",
       "date": "20261104",
       "status": "fresh",
-      "source_kind": "backup",
-      "source_name": "ETF資訊網（公開持股備援）",
-      "source_url": "https://www.etfinfo.tw/etf/00984D/holdings"
+      "source_kind": "official",
+      "source_name": "聯博投信官方每日持有明細",
+      "source_url": "https://www.abfunds.com.tw/zh-tw/etfs/pcf.TW00000984D0.html"
     },
     "00999A": {
       "name": "主動野村臺灣高息",

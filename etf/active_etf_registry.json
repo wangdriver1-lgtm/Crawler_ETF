@@ -175,7 +175,8 @@
       "category": "bfIncome",
       "listed_date": "20260204",
       "discovered_at": "20261028",
-      "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html"
+      "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html",
+      "url": "https://www.abfunds.com.tw/zh-tw/etfs/pcf.TW00000984D0.html"
     },
     "00996A": {
       "code": "00996A",
@@ -248,7 +249,8 @@
       "category": "domestic",
       "listed_date": "20260609",
       "discovered_at": "20261028",
-      "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html"
+      "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html",
+      "url": "https://www.abfunds.com.tw/zh-tw/etfs/pcf.TW00000404A5.html"
     },
     "00405A": {
       "code": "00405A",
