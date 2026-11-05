@@ -1,14 +1,21 @@
 {
   "code": "00994A",
   "name": "主動第一金台股優",
-  "asof": "20261105",
+  "asof": "20261106",
   "data_status": "fresh",
   "source_kind": "official",
   "source_name": "投信官方持股頁",
   "source_url": "https://www.fsitc.com.tw/FundDetail.aspx?ID=182#TabLinkdivEditTab3",
   "date_basis": "crawl_date",
-  "unchanged": false,
+  "unchanged": true,
   "history": [
+    {
+      "date": "20261106",
+      "previous_date": "20261105",
+      "status": "unchanged",
+      "comparable": false,
+      "changes": []
+    },
     {
       "date": "20261105",
       "previous_date": "20261104",
@@ -1448,77 +1455,9 @@
           "delta_lots": -2.0
         }
       ]
-    },
-    {
-      "date": "20260526",
-      "previous_date": "20260525",
-      "status": "changed",
-      "comparable": true,
-      "changes": [
-        {
-          "code": "2303",
-          "name": "聯電",
-          "shares": 870000,
-          "weight": "1.97",
-          "lot_size": 1000,
-          "reported_quantity": null,
-          "quantity_unit": null,
-          "previous_shares": 770000,
-          "delta_shares": 100000,
-          "delta_lots": 100.0
-        },
-        {
-          "code": "2455",
-          "name": "全新",
-          "shares": 0,
-          "weight": "0.47",
-          "lot_size": 1000,
-          "reported_quantity": null,
-          "quantity_unit": null,
-          "previous_shares": 60000,
-          "delta_shares": -60000,
-          "delta_lots": -60.0
-        },
-        {
-          "code": "6669",
-          "name": "緯穎",
-          "shares": 30000,
-          "weight": "2.75",
-          "lot_size": 1000,
-          "reported_quantity": null,
-          "quantity_unit": null,
-          "previous_shares": 46000,
-          "delta_shares": -16000,
-          "delta_lots": -16.0
-        },
-        {
-          "code": "2308",
-          "name": "台達電",
-          "shares": 130499,
-          "weight": "5.33",
-          "lot_size": 1000,
-          "reported_quantity": null,
-          "quantity_unit": null,
-          "previous_shares": 120499,
-          "delta_shares": 10000,
-          "delta_lots": 10.0
-        },
-        {
-          "code": "3017",
-          "name": "奇鋐",
-          "shares": 83500,
-          "weight": "3.95",
-          "lot_size": 1000,
-          "reported_quantity": null,
-          "quantity_unit": null,
-          "previous_shares": 77500,
-          "delta_shares": 6000,
-          "delta_lots": 6.0
-        }
-      ]
     }
   ],
-  "previous_date": "20261104",
+  "previous_date": "20261105",
   "official_url": "https://www.fsitc.com.tw/FundDetail.aspx?ID=182#TabLinkdivEditTab3",
   "holdings": [
     {
@@ -1855,95 +1794,10 @@
       "quantity_unit": null
     }
   ],
-  "changes": [
-    {
-      "code": "2891",
-      "name": "中信金",
-      "shares": 201000,
-      "weight": "0.48",
-      "lot_size": 1000,
-      "reported_quantity": null,
-      "quantity_unit": null,
-      "previous_shares": 101000,
-      "delta_shares": 100000,
-      "delta_lots": 100.0
-    },
-    {
-      "code": "8046",
-      "name": "南電",
-      "shares": 37000,
-      "weight": "1.14",
-      "lot_size": 1000,
-      "reported_quantity": null,
-      "quantity_unit": null,
-      "previous_shares": 73000,
-      "delta_shares": -36000,
-      "delta_lots": -36.0
-    },
-    {
-      "code": "2408",
-      "name": "南亞科",
-      "shares": 0,
-      "weight": "0.30",
-      "lot_size": 1000,
-      "reported_quantity": null,
-      "quantity_unit": null,
-      "previous_shares": 25000,
-      "delta_shares": -25000,
-      "delta_lots": -25.0
-    },
-    {
-      "code": "3026",
-      "name": "禾伸堂",
-      "shares": 59000,
-      "weight": "0.99",
-      "lot_size": 1000,
-      "reported_quantity": null,
-      "quantity_unit": null,
-      "previous_shares": 34000,
-      "delta_shares": 25000,
-      "delta_lots": 25.0
-    },
-    {
-      "code": "2327",
-      "name": "國巨*",
-      "shares": 20000,
-      "weight": "0.26",
-      "lot_size": 1000,
-      "reported_quantity": null,
-      "quantity_unit": null,
-      "previous_shares": 0,
-      "delta_shares": 20000,
-      "delta_lots": 20.0
-    },
-    {
-      "code": "6488",
-      "name": "環球晶",
-      "shares": 0,
-      "weight": "0.30",
-      "lot_size": 1000,
-      "reported_quantity": null,
-      "quantity_unit": null,
-      "previous_shares": 15000,
-      "delta_shares": -15000,
-      "delta_lots": -15.0
-    },
-    {
-      "code": "4904",
-      "name": "遠傳",
-      "shares": 1000,
-      "weight": "0.00",
-      "lot_size": 1000,
-      "reported_quantity": null,
-      "quantity_unit": null,
-      "previous_shares": 0,
-      "delta_shares": 1000,
-      "delta_lots": 1.0
-    }
-  ],
-  "comparable": true,
-  "added_shares": 146000,
-  "reduced_shares": 76000,
+  "changes": [],
+  "comparable": false,
+  "added_shares": null,
+  "reduced_shares": null,
   "comparison_note": "持股快照差異不是實際成交紀錄，可能包含申贖、分割或資料修正；海外持股不換算台股張數。",
   "profit_note": "基金及成分股實際買進成本未提供，無法由持股快照計算基金目前獲利。可另外輸入個人持倉成本試算。"
 }

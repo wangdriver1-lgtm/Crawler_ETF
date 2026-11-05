@@ -1,14 +1,21 @@
 {
   "code": "00416A",
   "name": "主動台新臺灣中小",
-  "asof": "20261105",
+  "asof": "20261106",
   "data_status": "fresh",
   "source_kind": "official",
   "source_name": "投信官方持股頁",
   "source_url": "https://www.tsit.com.tw/ETF/Home/ETFSeriesDetail/00416A",
   "date_basis": "crawl_date",
-  "unchanged": false,
+  "unchanged": true,
   "history": [
+    {
+      "date": "20261106",
+      "previous_date": "20261105",
+      "status": "unchanged",
+      "comparable": false,
+      "changes": []
+    },
     {
       "date": "20261105",
       "previous_date": "20261104",
@@ -129,7 +136,7 @@
       "changes": []
     }
   ],
-  "previous_date": "20261104",
+  "previous_date": "20261105",
   "official_url": "https://www.tsit.com.tw/ETF/Home/ETFSeriesDetail/00416A",
   "holdings": [
     {
@@ -394,35 +401,10 @@
       "quantity_unit": null
     }
   ],
-  "changes": [
-    {
-      "code": "5274 TT",
-      "name": "信驊",
-      "shares": 16000,
-      "weight": "2.8657%",
-      "lot_size": 1000,
-      "reported_quantity": null,
-      "quantity_unit": null,
-      "previous_shares": 12000,
-      "delta_shares": 4000,
-      "delta_lots": 4.0
-    },
-    {
-      "code": "2059 TT",
-      "name": "川湖",
-      "shares": 20000,
-      "weight": "2.2666%",
-      "lot_size": 1000,
-      "reported_quantity": null,
-      "quantity_unit": null,
-      "previous_shares": 18000,
-      "delta_shares": 2000,
-      "delta_lots": 2.0
-    }
-  ],
-  "comparable": true,
-  "added_shares": 6000,
-  "reduced_shares": 0,
+  "changes": [],
+  "comparable": false,
+  "added_shares": null,
+  "reduced_shares": null,
   "comparison_note": "持股快照差異不是實際成交紀錄，可能包含申贖、分割或資料修正；海外持股不換算台股張數。",
   "profit_note": "基金及成分股實際買進成本未提供，無法由持股快照計算基金目前獲利。可另外輸入個人持倉成本試算。"
 }

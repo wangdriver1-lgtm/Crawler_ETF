@@ -1,6 +1,6 @@
 {
-  "date": "20261105",
-  "updated_at": "2026-11-05T23:50:05.709428+08:00",
+  "date": "20261106",
+  "updated_at": "2026-11-06T04:28:26.706440+08:00",
   "missing_share_etfs": [
     "00400A",
     "00404A",
@@ -9,36 +9,28 @@
     "00983D",
     "00984D"
   ],
-  "failed_etfs": [],
+  "failed_etfs": [
+    "00982A",
+    "00997A"
+  ],
   "etfs": {
     "00980A": {
       "name": "主動野村臺灣優選",
       "company": "野村證券投資信託股份有限公司",
       "price": "N/A",
       "change": "N/A",
-      "date": "20261105",
+      "date": "20261106",
       "status": "fresh",
       "source_kind": "official",
       "source_name": "投信官方持股頁",
       "source_url": "https://www.nomurafunds.com.tw/ETFWEB/product-description?fundNo=00980A&tab=Shareholding"
-    },
-    "00982A": {
-      "name": "主動群益台灣強棒",
-      "company": "群益證券投資信託股份有限公司",
-      "price": "N/A",
-      "change": "N/A",
-      "date": "20261105",
-      "status": "fresh",
-      "source_kind": "official",
-      "source_name": "投信官方持股頁",
-      "source_url": "https://www.capitalfund.com.tw/etf/product/detail/399/portfolio"
     },
     "00981A": {
       "name": "主動統一台股增長",
       "company": "統一證券投資信託股份有限公司",
       "price": "N/A",
       "change": "N/A",
-      "date": "20261105",
+      "date": "20261106",
       "status": "fresh",
       "source_kind": "official",
       "source_name": "投信官方持股頁",
@@ -49,7 +41,7 @@
       "company": "安聯證券投資信託股份有限公司",
       "price": "N/A",
       "change": "N/A",
-      "date": "20261105",
+      "date": "20261106",
       "status": "fresh",
       "source_kind": "official",
       "source_name": "投信官方持股頁",
@@ -60,7 +52,7 @@
       "company": "野村證券投資信託股份有限公司",
       "price": "N/A",
       "change": "N/A",
-      "date": "20261105",
+      "date": "20261106",
       "status": "fresh",
       "source_kind": "official",
       "source_name": "投信官方持股頁",
@@ -71,7 +63,7 @@
       "company": "台新證券投資信託股份有限公司",
       "price": "N/A",
       "change": "N/A",
-      "date": "20261105",
+      "date": "20261106",
       "status": "fresh",
       "source_kind": "official",
       "source_name": "投信官方持股頁",
@@ -82,7 +74,7 @@
       "company": "復華證券投資信託股份有限公司",
       "price": "N/A",
       "change": "N/A",
-      "date": "20261105",
+      "date": "20261106",
       "status": "fresh",
       "source_kind": "official",
       "source_name": "投信官方持股頁",
@@ -104,7 +96,7 @@
       "company": "群益證券投資信託股份有限公司",
       "price": "N/A",
       "change": "N/A",
-      "date": "20261105",
+      "date": "20261106",
       "status": "fresh",
       "source_kind": "official",
       "source_name": "投信官方持股頁",
@@ -115,7 +107,7 @@
       "company": "第一金證券投資信託股份有限公司",
       "price": "N/A",
       "change": "N/A",
-      "date": "20261105",
+      "date": "20261106",
       "status": "fresh",
       "source_kind": "official",
       "source_name": "投信官方持股頁",
@@ -137,7 +129,7 @@
       "company": "安聯證券投資信託股份有限公司",
       "price": "N/A",
       "change": "N/A",
-      "date": "20261105",
+      "date": "20261106",
       "status": "fresh",
       "source_kind": "official",
       "source_name": "投信官方持股頁",
@@ -159,7 +151,7 @@
       "company": "國泰證券投資信託股份有限公司",
       "price": "N/A",
       "change": "N/A",
-      "date": "20261105",
+      "date": "20261106",
       "status": "fresh",
       "source_kind": "official",
       "source_name": "投信官方持股頁",
@@ -170,22 +162,11 @@
       "company": "摩根證券投資信託股份有限公司",
       "price": "N/A",
       "change": "N/A",
-      "date": "20261105",
+      "date": "20261106",
       "status": "fresh",
       "source_kind": "official",
       "source_name": "投信官方持股頁",
       "source_url": "https://am.jpmorgan.com/tw/zh/asset-management/twetf/products/jpmorgan-taiwan-taiwan-equity-high-income-active-etf-tw00000401a1#/portfolio"
-    },
-    "00997A": {
-      "name": "主動群益美國增長",
-      "company": "群益證券投資信託股份有限公司",
-      "price": "N/A",
-      "change": "N/A",
-      "date": "20261105",
-      "status": "fresh",
-      "source_kind": "official",
-      "source_name": "投信官方持股頁",
-      "source_url": "https://www.capitalfund.com.tw/etf/product/detail/502/portfolio"
     },
     "00983A": {
       "name": "主動中信ARK創新",
@@ -269,7 +250,7 @@
       "company": "野村證券投資信託股份有限公司",
       "price": "N/A",
       "change": "N/A",
-      "date": "20261105",
+      "date": "20261106",
       "status": "fresh",
       "source_kind": "official",
       "source_name": "投信官方持股頁",
@@ -304,9 +285,9 @@
       "change": "N/A",
       "date": "20261105",
       "status": "fresh",
-      "source_kind": "backup",
-      "source_name": "ETF資訊網（公開持股備援）",
-      "source_url": "https://www.etfinfo.tw/etf/00404A/holdings"
+      "source_kind": "official",
+      "source_name": "聯博投信官方每日持有明細",
+      "source_url": "https://www.abfunds.com.tw/zh-tw/etfs/pcf.TW00000404A5.html"
     },
     "00405A": {
       "name": "主動富邦台灣龍耀",
@@ -328,7 +309,7 @@
       "status": "fresh",
       "source_kind": "backup",
       "source_name": "ETF資訊網（公開持股備援）",
-      "source_url": "https://www.etfinfo.tw/etf/00406A"
+      "source_url": "https://www.etfinfo.tw/etf/00406A/holdings"
     },
     "00407A": {
       "name": "主動凱基台灣",
@@ -401,11 +382,33 @@
       "company": "台新證券投資信託股份有限公司",
       "price": "N/A",
       "change": "N/A",
-      "date": "20261105",
+      "date": "20261106",
       "status": "fresh",
       "source_kind": "official",
       "source_name": "投信官方持股頁",
       "source_url": "https://www.tsit.com.tw/ETF/Home/ETFSeriesDetail/00416A"
+    },
+    "00982A": {
+      "name": "主動群益台灣強棒",
+      "company": "群益證券投資信託股份有限公司",
+      "price": "N/A",
+      "change": "N/A",
+      "date": "20261105",
+      "status": "stale",
+      "source_kind": "official",
+      "source_name": "投信官方持股頁",
+      "source_url": "https://www.capitalfund.com.tw/etf/product/detail/399/portfolio"
+    },
+    "00997A": {
+      "name": "主動群益美國增長",
+      "company": "群益證券投資信託股份有限公司",
+      "price": "N/A",
+      "change": "N/A",
+      "date": "20261105",
+      "status": "stale",
+      "source_kind": "official",
+      "source_name": "投信官方持股頁",
+      "source_url": "https://www.capitalfund.com.tw/etf/product/detail/502/portfolio"
     }
   }
 }

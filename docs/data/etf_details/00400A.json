@@ -1,14 +1,21 @@
 {
   "code": "00400A",
   "name": "主動國泰動能高息",
-  "asof": "20261105",
+  "asof": "20261106",
   "data_status": "fresh",
   "source_kind": "official",
   "source_name": "投信官方持股頁",
   "source_url": "https://www.cathaysite.com.tw/ETF/detail/EEA?tab=etf3",
   "date_basis": "crawl_date",
-  "unchanged": false,
+  "unchanged": true,
   "history": [
+    {
+      "date": "20261106",
+      "previous_date": "20261105",
+      "status": "unchanged",
+      "comparable": false,
+      "changes": []
+    },
     {
       "date": "20261105",
       "previous_date": "20261104",
@@ -71,16 +78,9 @@
       "status": "unavailable",
       "comparable": false,
       "changes": []
-    },
-    {
-      "date": "20260526",
-      "previous_date": "20260525",
-      "status": "unavailable",
-      "comparable": false,
-      "changes": []
     }
   ],
-  "previous_date": "20261104",
+  "previous_date": "20261105",
   "official_url": "https://www.cathaysite.com.tw/ETF/detail/EEA?tab=etf3",
   "holdings": [
     {

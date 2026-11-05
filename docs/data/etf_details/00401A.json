@@ -1,14 +1,21 @@
 {
   "code": "00401A",
   "name": "主動摩根台灣鑫收",
-  "asof": "20261105",
+  "asof": "20261106",
   "data_status": "fresh",
   "source_kind": "official",
   "source_name": "投信官方持股頁",
   "source_url": "https://am.jpmorgan.com/tw/zh/asset-management/twetf/products/jpmorgan-taiwan-taiwan-equity-high-income-active-etf-tw00000401a1#/portfolio",
   "date_basis": "crawl_date",
-  "unchanged": false,
+  "unchanged": true,
   "history": [
+    {
+      "date": "20261106",
+      "previous_date": "20261105",
+      "status": "unchanged",
+      "comparable": false,
+      "changes": []
+    },
     {
       "date": "20261105",
       "previous_date": "20261104",
@@ -1399,16 +1406,9 @@
           "delta_lots": 30.0
         }
       ]
-    },
-    {
-      "date": "20260526",
-      "previous_date": "20260525",
-      "status": "changed",
-      "comparable": true,
-      "changes": []
     }
   ],
-  "previous_date": "20261104",
+  "previous_date": "20261105",
   "official_url": "https://am.jpmorgan.com/tw/zh/asset-management/twetf/products/jpmorgan-taiwan-taiwan-equity-high-income-active-etf-tw00000401a1#/portfolio",
   "holdings": [
     {
@@ -1934,143 +1934,10 @@
       "quantity_unit": null
     }
   ],
-  "changes": [
-    {
-      "code": "2890",
-      "name": "永豐金融控股",
-      "shares": 1443000,
-      "weight": "1.6251%",
-      "lot_size": 1000,
-      "reported_quantity": null,
-      "quantity_unit": null,
-      "previous_shares": 1195000,
-      "delta_shares": 248000,
-      "delta_lots": 248.0
-    },
-    {
-      "code": "2891",
-      "name": "中國信託金融控股",
-      "shares": 1257000,
-      "weight": "2.4716%",
-      "lot_size": 1000,
-      "reported_quantity": null,
-      "quantity_unit": null,
-      "previous_shares": 1114000,
-      "delta_shares": 143000,
-      "delta_lots": 143.0
-    },
-    {
-      "code": "2303",
-      "name": "聯華電子",
-      "shares": 956000,
-      "weight": "2.4695%",
-      "lot_size": 1000,
-      "reported_quantity": null,
-      "quantity_unit": null,
-      "previous_shares": 818000,
-      "delta_shares": 138000,
-      "delta_lots": 138.0
-    },
-    {
-      "code": "3231",
-      "name": "緯創",
-      "shares": 453000,
-      "weight": "2.0038%",
-      "lot_size": 1000,
-      "reported_quantity": null,
-      "quantity_unit": null,
-      "previous_shares": 353000,
-      "delta_shares": 100000,
-      "delta_lots": 100.0
-    },
-    {
-      "code": "1476",
-      "name": "儒鴻企業",
-      "shares": 214000,
-      "weight": "1.9073%",
-      "lot_size": 1000,
-      "reported_quantity": null,
-      "quantity_unit": null,
-      "previous_shares": 157000,
-      "delta_shares": 57000,
-      "delta_lots": 57.0
-    },
-    {
-      "code": "3711",
-      "name": "日月光",
-      "shares": 273000,
-      "weight": "4.0994%",
-      "lot_size": 1000,
-      "reported_quantity": null,
-      "quantity_unit": null,
-      "previous_shares": 244000,
-      "delta_shares": 29000,
-      "delta_lots": 29.0
-    },
-    {
-      "code": "6187",
-      "name": "萬潤科技",
-      "shares": 43000,
-      "weight": "1.0825%",
-      "lot_size": 1000,
-      "reported_quantity": null,
-      "quantity_unit": null,
-      "previous_shares": 26665,
-      "delta_shares": 16335,
-      "delta_lots": 16.335
-    },
-    {
-      "code": "2330",
-      "name": "台灣積體電路製造",
-      "shares": 345400,
-      "weight": "20.3108%",
-      "lot_size": 1000,
-      "reported_quantity": null,
-      "quantity_unit": null,
-      "previous_shares": 332400,
-      "delta_shares": 13000,
-      "delta_lots": 13.0
-    },
-    {
-      "code": "3443",
-      "name": "創意電子",
-      "shares": 5000,
-      "weight": "0.8407%",
-      "lot_size": 1000,
-      "reported_quantity": null,
-      "quantity_unit": null,
-      "previous_shares": 0,
-      "delta_shares": 5000,
-      "delta_lots": 5.0
-    },
-    {
-      "code": "7856",
-      "name": "漢測",
-      "shares": 11700,
-      "weight": "0.774%",
-      "lot_size": 1000,
-      "reported_quantity": null,
-      "quantity_unit": null,
-      "previous_shares": 8030,
-      "delta_shares": 3670,
-      "delta_lots": 3.67
-    },
-    {
-      "code": "3008",
-      "name": "大立光電",
-      "shares": 17500,
-      "weight": "2.0788%",
-      "lot_size": 1000,
-      "reported_quantity": null,
-      "quantity_unit": null,
-      "previous_shares": 13964,
-      "delta_shares": 3536,
-      "delta_lots": 3.536
-    }
-  ],
-  "comparable": true,
-  "added_shares": 756541,
-  "reduced_shares": 0,
+  "changes": [],
+  "comparable": false,
+  "added_shares": null,
+  "reduced_shares": null,
   "comparison_note": "持股快照差異不是實際成交紀錄，可能包含申贖、分割或資料修正；海外持股不換算台股張數。",
   "profit_note": "基金及成分股實際買進成本未提供，無法由持股快照計算基金目前獲利。可另外輸入個人持倉成本試算。"
 }

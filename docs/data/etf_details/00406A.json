@@ -5,7 +5,7 @@
   "data_status": "fresh",
   "source_kind": "backup",
   "source_name": "ETF資訊網（公開持股備援）",
-  "source_url": "https://www.etfinfo.tw/etf/00406A",
+  "source_url": "https://www.etfinfo.tw/etf/00406A/holdings",
   "date_basis": "issuer",
   "unchanged": false,
   "history": [

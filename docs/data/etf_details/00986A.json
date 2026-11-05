@@ -1,14 +1,21 @@
 {
   "code": "00986A",
   "name": "主動台新龍頭成長",
-  "asof": "20261105",
+  "asof": "20261106",
   "data_status": "fresh",
   "source_kind": "official",
   "source_name": "投信官方持股頁",
   "source_url": "https://www.tsit.com.tw/ETF/Home/ETFSeriesDetail/00986A",
   "date_basis": "crawl_date",
-  "unchanged": false,
+  "unchanged": true,
   "history": [
+    {
+      "date": "20261106",
+      "previous_date": "20261105",
+      "status": "unchanged",
+      "comparable": false,
+      "changes": []
+    },
     {
       "date": "20261105",
       "previous_date": "20261104",
@@ -665,16 +672,9 @@
       "status": "changed",
       "comparable": true,
       "changes": []
-    },
-    {
-      "date": "20260526",
-      "previous_date": "20260525",
-      "status": "unchanged",
-      "comparable": false,
-      "changes": []
     }
   ],
-  "previous_date": "20261104",
+  "previous_date": "20261105",
   "official_url": "https://www.tsit.com.tw/ETF/Home/ETFSeriesDetail/00986A",
   "holdings": [
     {
@@ -930,35 +930,10 @@
       "quantity_unit": null
     }
   ],
-  "changes": [
-    {
-      "code": "HOOD US",
-      "name": "羅賓漢市場公司",
-      "shares": 0,
-      "weight": "0.6543%",
-      "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null,
-      "previous_shares": 1200,
-      "delta_shares": -1200,
-      "delta_lots": null
-    },
-    {
-      "code": "NTRA US",
-      "name": "那提拉公司",
-      "shares": 0,
-      "weight": "0.9857%",
-      "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null,
-      "previous_shares": 400,
-      "delta_shares": -400,
-      "delta_lots": null
-    }
-  ],
-  "comparable": true,
-  "added_shares": 0,
-  "reduced_shares": 1600,
+  "changes": [],
+  "comparable": false,
+  "added_shares": null,
+  "reduced_shares": null,
   "comparison_note": "持股快照差異不是實際成交紀錄，可能包含申贖、分割或資料修正；海外持股不換算台股張數。",
   "profit_note": "基金及成分股實際買進成本未提供，無法由持股快照計算基金目前獲利。可另外輸入個人持倉成本試算。"
 }

@@ -1,7 +1,7 @@
 {
   "code": "00980A",
   "name": "主動野村臺灣優選",
-  "asof": "20261105",
+  "asof": "20261106",
   "data_status": "fresh",
   "source_kind": "official",
   "source_name": "投信官方持股頁",
@@ -9,6 +9,13 @@
   "date_basis": "crawl_date",
   "unchanged": true,
   "history": [
+    {
+      "date": "20261106",
+      "previous_date": "20261105",
+      "status": "unchanged",
+      "comparable": false,
+      "changes": []
+    },
     {
       "date": "20261105",
       "previous_date": "20261104",
@@ -782,29 +789,9 @@
           "delta_lots": 53.0
         }
       ]
-    },
-    {
-      "date": "20260526",
-      "previous_date": "20260525",
-      "status": "changed",
-      "comparable": true,
-      "changes": [
-        {
-          "code": "TX",
-          "name": "台灣證交所加權股價指數",
-          "shares": 100,
-          "weight": "",
-          "lot_size": null,
-          "reported_quantity": null,
-          "quantity_unit": null,
-          "previous_shares": 115,
-          "delta_shares": -15,
-          "delta_lots": null
-        }
-      ]
     }
   ],
-  "previous_date": "20261104",
+  "previous_date": "20261105",
   "official_url": "https://www.nomurafunds.com.tw/ETFWEB/product-description?fundNo=00980A&tab=Shareholding",
   "holdings": [
     {
