@@ -1,14 +1,130 @@
 {
   "code": "00994A",
   "name": "主動第一金台股優",
-  "asof": "20261106",
+  "asof": "20261109",
   "data_status": "fresh",
   "source_kind": "official",
   "source_name": "投信官方持股頁",
   "source_url": "https://www.fsitc.com.tw/FundDetail.aspx?ID=182#TabLinkdivEditTab3",
   "date_basis": "crawl_date",
-  "unchanged": true,
+  "unchanged": false,
   "history": [
+    {
+      "date": "20261109",
+      "previous_date": "20261106",
+      "status": "changed",
+      "comparable": true,
+      "changes": [
+        {
+          "code": "2455",
+          "name": "全新",
+          "shares": 0,
+          "weight": "0.55",
+          "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
+          "previous_shares": 50000,
+          "delta_shares": -50000,
+          "delta_lots": -50.0
+        },
+        {
+          "code": "6187",
+          "name": "萬潤",
+          "shares": 0,
+          "weight": "0.76",
+          "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
+          "previous_shares": 25000,
+          "delta_shares": -25000,
+          "delta_lots": -25.0
+        },
+        {
+          "code": "6691",
+          "name": "洋基工程",
+          "shares": 0,
+          "weight": "0.37",
+          "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
+          "previous_shares": 20000,
+          "delta_shares": -20000,
+          "delta_lots": -20.0
+        },
+        {
+          "code": "3081",
+          "name": "聯亞",
+          "shares": 0,
+          "weight": "1.02",
+          "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
+          "previous_shares": 17000,
+          "delta_shares": -17000,
+          "delta_lots": -17.0
+        },
+        {
+          "code": "3044",
+          "name": "健鼎",
+          "shares": 34000,
+          "weight": "0.49",
+          "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
+          "previous_shares": 22000,
+          "delta_shares": 12000,
+          "delta_lots": 12.0
+        },
+        {
+          "code": "2330",
+          "name": "台積電",
+          "shares": 249000,
+          "weight": "18.34",
+          "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
+          "previous_shares": 244000,
+          "delta_shares": 5000,
+          "delta_lots": 5.0
+        },
+        {
+          "code": "2891",
+          "name": "中信金",
+          "shares": 202000,
+          "weight": "0.51",
+          "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
+          "previous_shares": 201000,
+          "delta_shares": 1000,
+          "delta_lots": 1.0
+        },
+        {
+          "code": "3045",
+          "name": "台灣大",
+          "shares": 6000,
+          "weight": "0.03",
+          "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
+          "previous_shares": 5000,
+          "delta_shares": 1000,
+          "delta_lots": 1.0
+        },
+        {
+          "code": "4904",
+          "name": "遠傳",
+          "shares": 1001,
+          "weight": "0.00",
+          "lot_size": 1000,
+          "reported_quantity": null,
+          "quantity_unit": null,
+          "previous_shares": 1000,
+          "delta_shares": 1,
+          "delta_lots": 0.001
+        }
+      ]
+    },
     {
       "date": "20261106",
       "previous_date": "20261105",
@@ -1363,108 +1479,16 @@
           "delta_lots": -11.0
         }
       ]
-    },
-    {
-      "date": "20260527",
-      "previous_date": "20260526",
-      "status": "changed",
-      "comparable": true,
-      "changes": [
-        {
-          "code": "2344",
-          "name": "華邦電",
-          "shares": 200000,
-          "weight": "0.53",
-          "lot_size": 1000,
-          "reported_quantity": null,
-          "quantity_unit": null,
-          "previous_shares": 0,
-          "delta_shares": 200000,
-          "delta_lots": 200.0
-        },
-        {
-          "code": "2330",
-          "name": "台積電",
-          "shares": 292999,
-          "weight": "11.59",
-          "lot_size": 1000,
-          "reported_quantity": null,
-          "quantity_unit": null,
-          "previous_shares": 305999,
-          "delta_shares": -13000,
-          "delta_lots": -13.0
-        },
-        {
-          "code": "6669",
-          "name": "緯穎",
-          "shares": 20000,
-          "weight": "1.74",
-          "lot_size": 1000,
-          "reported_quantity": null,
-          "quantity_unit": null,
-          "previous_shares": 30000,
-          "delta_shares": -10000,
-          "delta_lots": -10.0
-        },
-        {
-          "code": "3711",
-          "name": "日月光投控",
-          "shares": 297002,
-          "weight": "3.27",
-          "lot_size": 1000,
-          "reported_quantity": null,
-          "quantity_unit": null,
-          "previous_shares": 288002,
-          "delta_shares": 9000,
-          "delta_lots": 9.0
-        },
-        {
-          "code": "2360",
-          "name": "致茂",
-          "shares": 73000,
-          "weight": "3.29",
-          "lot_size": 1000,
-          "reported_quantity": null,
-          "quantity_unit": null,
-          "previous_shares": 66000,
-          "delta_shares": 7000,
-          "delta_lots": 7.0
-        },
-        {
-          "code": "2383",
-          "name": "台光電",
-          "shares": 72000,
-          "weight": "6.55",
-          "lot_size": 1000,
-          "reported_quantity": null,
-          "quantity_unit": null,
-          "previous_shares": 79000,
-          "delta_shares": -7000,
-          "delta_lots": -7.0
-        },
-        {
-          "code": "6187",
-          "name": "萬潤",
-          "shares": 14000,
-          "weight": "0.27",
-          "lot_size": 1000,
-          "reported_quantity": null,
-          "quantity_unit": null,
-          "previous_shares": 16000,
-          "delta_shares": -2000,
-          "delta_lots": -2.0
-        }
-      ]
     }
   ],
-  "previous_date": "20261105",
+  "previous_date": "20261106",
   "official_url": "https://www.fsitc.com.tw/FundDetail.aspx?ID=182#TabLinkdivEditTab3",
   "holdings": [
     {
       "code": "2330",
       "name": "台積電",
-      "shares": 244000,
-      "weight": "17.31",
+      "shares": 249000,
+      "weight": "18.34",
       "lot_size": 1000,
       "reported_quantity": null,
       "quantity_unit": null
@@ -1473,16 +1497,7 @@
       "code": "2383",
       "name": "台光電",
       "shares": 51002,
-      "weight": "6.63",
-      "lot_size": 1000,
-      "reported_quantity": null,
-      "quantity_unit": null
-    },
-    {
-      "code": "3017",
-      "name": "奇鋐",
-      "shares": 75500,
-      "weight": "6.14",
+      "weight": "6.72",
       "lot_size": 1000,
       "reported_quantity": null,
       "quantity_unit": null
@@ -1491,7 +1506,16 @@
       "code": "2454",
       "name": "聯發科",
       "shares": 55101,
-      "weight": "6.04",
+      "weight": "6.45",
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
+    },
+    {
+      "code": "3017",
+      "name": "奇鋐",
+      "shares": 75500,
+      "weight": "6.02",
       "lot_size": 1000,
       "reported_quantity": null,
       "quantity_unit": null
@@ -1500,7 +1524,7 @@
       "code": "3037",
       "name": "欣興",
       "shares": 208001,
-      "weight": "5.27",
+      "weight": "5.22",
       "lot_size": 1000,
       "reported_quantity": null,
       "quantity_unit": null
@@ -1509,7 +1533,7 @@
       "code": "3653",
       "name": "健策",
       "shares": 27000,
-      "weight": "4.97",
+      "weight": "4.87",
       "lot_size": 1000,
       "reported_quantity": null,
       "quantity_unit": null
@@ -1518,7 +1542,7 @@
       "code": "6223",
       "name": "旺矽",
       "shares": 31901,
-      "weight": "3.77",
+      "weight": "3.79",
       "lot_size": 1000,
       "reported_quantity": null,
       "quantity_unit": null
@@ -1527,16 +1551,7 @@
       "code": "2059",
       "name": "川湖",
       "shares": 13001,
-      "weight": "3.29",
-      "lot_size": 1000,
-      "reported_quantity": null,
-      "quantity_unit": null
-    },
-    {
-      "code": "6274",
-      "name": "台燿",
-      "shares": 100002,
-      "weight": "3.19",
+      "weight": "3.39",
       "lot_size": 1000,
       "reported_quantity": null,
       "quantity_unit": null
@@ -1545,25 +1560,16 @@
       "code": "3443",
       "name": "創意",
       "shares": 15050,
-      "weight": "3.06",
+      "weight": "3.22",
       "lot_size": 1000,
       "reported_quantity": null,
       "quantity_unit": null
     },
     {
-      "code": "3189",
-      "name": "景碩",
-      "shares": 120000,
-      "weight": "2.81",
-      "lot_size": 1000,
-      "reported_quantity": null,
-      "quantity_unit": null
-    },
-    {
-      "code": "6805",
-      "name": "富世達",
-      "shares": 47000,
-      "weight": "2.79",
+      "code": "6274",
+      "name": "台燿",
+      "shares": 100002,
+      "weight": "3.13",
       "lot_size": 1000,
       "reported_quantity": null,
       "quantity_unit": null
@@ -1572,6 +1578,24 @@
       "code": "1303",
       "name": "南亞",
       "shares": 347000,
+      "weight": "2.87",
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
+    },
+    {
+      "code": "3189",
+      "name": "景碩",
+      "shares": 120000,
+      "weight": "2.78",
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
+    },
+    {
+      "code": "6805",
+      "name": "富世達",
+      "shares": 47000,
       "weight": "2.74",
       "lot_size": 1000,
       "reported_quantity": null,
@@ -1581,7 +1605,7 @@
       "code": "3711",
       "name": "日月光投控",
       "shares": 147002,
-      "weight": "2.66",
+      "weight": "2.67",
       "lot_size": 1000,
       "reported_quantity": null,
       "quantity_unit": null
@@ -1590,7 +1614,7 @@
       "code": "5274",
       "name": "信驊",
       "shares": 6420,
-      "weight": "2.57",
+      "weight": "2.52",
       "lot_size": 1000,
       "reported_quantity": null,
       "quantity_unit": null
@@ -1599,7 +1623,7 @@
       "code": "2368",
       "name": "金像電",
       "shares": 72000,
-      "weight": "1.98",
+      "weight": "2.02",
       "lot_size": 1000,
       "reported_quantity": null,
       "quantity_unit": null
@@ -1608,7 +1632,7 @@
       "code": "6669",
       "name": "緯穎",
       "shares": 37518,
-      "weight": "1.96",
+      "weight": "2.01",
       "lot_size": 1000,
       "reported_quantity": null,
       "quantity_unit": null
@@ -1617,7 +1641,7 @@
       "code": "8996",
       "name": "高力",
       "shares": 45000,
-      "weight": "1.84",
+      "weight": "1.83",
       "lot_size": 1000,
       "reported_quantity": null,
       "quantity_unit": null
@@ -1626,16 +1650,7 @@
       "code": "8046",
       "name": "南電",
       "shares": 37000,
-      "weight": "1.14",
-      "lot_size": 1000,
-      "reported_quantity": null,
-      "quantity_unit": null
-    },
-    {
-      "code": "2360",
-      "name": "致茂",
-      "shares": 25000,
-      "weight": "1.06",
+      "weight": "1.12",
       "lot_size": 1000,
       "reported_quantity": null,
       "quantity_unit": null
@@ -1644,16 +1659,16 @@
       "code": "2603",
       "name": "長榮",
       "shares": 129000,
-      "weight": "1.06",
+      "weight": "1.10",
       "lot_size": 1000,
       "reported_quantity": null,
       "quantity_unit": null
     },
     {
-      "code": "3081",
-      "name": "聯亞",
-      "shares": 17000,
-      "weight": "1.02",
+      "code": "2360",
+      "name": "致茂",
+      "shares": 25000,
+      "weight": "1.04",
       "lot_size": 1000,
       "reported_quantity": null,
       "quantity_unit": null
@@ -1662,16 +1677,7 @@
       "code": "3026",
       "name": "禾伸堂",
       "shares": 59000,
-      "weight": "0.99",
-      "lot_size": 1000,
-      "reported_quantity": null,
-      "quantity_unit": null
-    },
-    {
-      "code": "6187",
-      "name": "萬潤",
-      "shares": 25000,
-      "weight": "0.76",
+      "weight": "0.97",
       "lot_size": 1000,
       "reported_quantity": null,
       "quantity_unit": null
@@ -1686,19 +1692,19 @@
       "quantity_unit": null
     },
     {
-      "code": "2455",
-      "name": "全新",
-      "shares": 50000,
-      "weight": "0.55",
+      "code": "2891",
+      "name": "中信金",
+      "shares": 202000,
+      "weight": "0.51",
       "lot_size": 1000,
       "reported_quantity": null,
       "quantity_unit": null
     },
     {
-      "code": "2891",
-      "name": "中信金",
-      "shares": 201000,
-      "weight": "0.48",
+      "code": "3044",
+      "name": "健鼎",
+      "shares": 34000,
+      "weight": "0.49",
       "lot_size": 1000,
       "reported_quantity": null,
       "quantity_unit": null
@@ -1707,7 +1713,7 @@
       "code": "3231",
       "name": "緯創",
       "shares": 81000,
-      "weight": "0.43",
+      "weight": "0.45",
       "lot_size": 1000,
       "reported_quantity": null,
       "quantity_unit": null
@@ -1716,16 +1722,16 @@
       "code": "1560",
       "name": "中砂",
       "shares": 17000,
-      "weight": "0.38",
+      "weight": "0.39",
       "lot_size": 1000,
       "reported_quantity": null,
       "quantity_unit": null
     },
     {
-      "code": "6691",
-      "name": "洋基工程",
-      "shares": 20000,
-      "weight": "0.37",
+      "code": "2880",
+      "name": "華南金",
+      "shares": 210000,
+      "weight": "0.35",
       "lot_size": 1000,
       "reported_quantity": null,
       "quantity_unit": null
@@ -1740,28 +1746,10 @@
       "quantity_unit": null
     },
     {
-      "code": "2880",
-      "name": "華南金",
-      "shares": 210000,
-      "weight": "0.33",
-      "lot_size": 1000,
-      "reported_quantity": null,
-      "quantity_unit": null
-    },
-    {
       "code": "6510",
       "name": "精測",
       "shares": 4000,
       "weight": "0.32",
-      "lot_size": 1000,
-      "reported_quantity": null,
-      "quantity_unit": null
-    },
-    {
-      "code": "3044",
-      "name": "健鼎",
-      "shares": 22000,
-      "weight": "0.31",
       "lot_size": 1000,
       "reported_quantity": null,
       "quantity_unit": null
@@ -1778,8 +1766,8 @@
     {
       "code": "3045",
       "name": "台灣大",
-      "shares": 5000,
-      "weight": "0.02",
+      "shares": 6000,
+      "weight": "0.03",
       "lot_size": 1000,
       "reported_quantity": null,
       "quantity_unit": null
@@ -1787,17 +1775,126 @@
     {
       "code": "4904",
       "name": "遠傳",
-      "shares": 1000,
+      "shares": 1001,
       "weight": "0.00",
       "lot_size": 1000,
       "reported_quantity": null,
       "quantity_unit": null
     }
   ],
-  "changes": [],
-  "comparable": false,
-  "added_shares": null,
-  "reduced_shares": null,
+  "changes": [
+    {
+      "code": "2455",
+      "name": "全新",
+      "shares": 0,
+      "weight": "0.55",
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null,
+      "previous_shares": 50000,
+      "delta_shares": -50000,
+      "delta_lots": -50.0
+    },
+    {
+      "code": "6187",
+      "name": "萬潤",
+      "shares": 0,
+      "weight": "0.76",
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null,
+      "previous_shares": 25000,
+      "delta_shares": -25000,
+      "delta_lots": -25.0
+    },
+    {
+      "code": "6691",
+      "name": "洋基工程",
+      "shares": 0,
+      "weight": "0.37",
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null,
+      "previous_shares": 20000,
+      "delta_shares": -20000,
+      "delta_lots": -20.0
+    },
+    {
+      "code": "3081",
+      "name": "聯亞",
+      "shares": 0,
+      "weight": "1.02",
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null,
+      "previous_shares": 17000,
+      "delta_shares": -17000,
+      "delta_lots": -17.0
+    },
+    {
+      "code": "3044",
+      "name": "健鼎",
+      "shares": 34000,
+      "weight": "0.49",
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null,
+      "previous_shares": 22000,
+      "delta_shares": 12000,
+      "delta_lots": 12.0
+    },
+    {
+      "code": "2330",
+      "name": "台積電",
+      "shares": 249000,
+      "weight": "18.34",
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null,
+      "previous_shares": 244000,
+      "delta_shares": 5000,
+      "delta_lots": 5.0
+    },
+    {
+      "code": "2891",
+      "name": "中信金",
+      "shares": 202000,
+      "weight": "0.51",
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null,
+      "previous_shares": 201000,
+      "delta_shares": 1000,
+      "delta_lots": 1.0
+    },
+    {
+      "code": "3045",
+      "name": "台灣大",
+      "shares": 6000,
+      "weight": "0.03",
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null,
+      "previous_shares": 5000,
+      "delta_shares": 1000,
+      "delta_lots": 1.0
+    },
+    {
+      "code": "4904",
+      "name": "遠傳",
+      "shares": 1001,
+      "weight": "0.00",
+      "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null,
+      "previous_shares": 1000,
+      "delta_shares": 1,
+      "delta_lots": 0.001
+    }
+  ],
+  "comparable": true,
+  "added_shares": 19001,
+  "reduced_shares": 112000,
   "comparison_note": "持股快照差異不是實際成交紀錄，可能包含申贖、分割或資料修正；海外持股不換算台股張數。",
   "profit_note": "基金及成分股實際買進成本未提供，無法由持股快照計算基金目前獲利。可另外輸入個人持倉成本試算。"
 }

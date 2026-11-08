@@ -1,0 +1,3892 @@
+[
+    {
+        "股票代號": "USU9338EAA83",
+        "股票名稱": "VOYAGER PARENT LLC SER REGS 9.250000 % 01JUL2032",
+        "股數": null,
+        "持股比例": "0.56655707%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1907000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU8603YAA48",
+        "股票名稱": "STONEBRIAR ABF LLC SER REGS 8.125000 % 15-DEC-2030",
+        "股數": null,
+        "持股比例": "0.335663694%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1177000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU3133WAA81",
+        "股票名稱": "FREEDOM MORTGAGE HOLD SER REGS (REG S) 9.25% 01FEB2029",
+        "股數": null,
+        "持股比例": "0.155740038%",
+        "ETF股票代號": "00984D",
+        "原始數量": 542000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU18915AA31",
+        "股票名稱": "CLOUD SOFTWARE GROUP HOL SER REGS (REG S) 10% 31MAR2034",
+        "股數": null,
+        "持股比例": "0.754733468%",
+        "ETF股票代號": "00984D",
+        "原始數量": 2632000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USF8500RAC63",
+        "股票名稱": "SOCIETE GENERALE SER REGS (REG) (REG S) VAR PERP 31DEC2049",
+        "股數": null,
+        "持股比例": "0.443620713%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1535000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US33834YAC21",
+        "股票名稱": "FIVE POINT OPERATING CO SER 144A 8.000000 % 01-OCT-2030",
+        "股數": null,
+        "持股比例": "0.043012748%",
+        "ETF股票代號": "00984D",
+        "原始數量": 153000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU69871AA69",
+        "股票名稱": "PARADIGM PRNT/CO-ISSUER SER REGS (REG S) 8.75% 17APR2032",
+        "股數": null,
+        "持股比例": "0.383891988%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1442000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US69354NAG16",
+        "股票名稱": "PRA GROUP INC SER 144A (REG) 8.5% 15OCT2033",
+        "股數": null,
+        "持股比例": "0.389511852%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1369000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU1638HAD99",
+        "股票名稱": "CIVITAS RESOURCES INC SER REGS (REG) (REG S) 9.625% 15JUN2033",
+        "股數": null,
+        "持股比例": "0.827977238%",
+        "ETF股票代號": "00984D",
+        "原始數量": 2704999.9999999995,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU1911CAB29",
+        "股票名稱": "COBRA ACQUISITIONCO LLC SER REGS (REG S) 12.25% 01NOV2029",
+        "股數": null,
+        "持股比例": "0.138534595%",
+        "ETF股票代號": "00984D",
+        "原始數量": 493000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US71654QDP46",
+        "股票名稱": "PETROLEOS MEXICANOS (REG) 10% 07FEB2033",
+        "股數": null,
+        "持股比例": "0.316241067%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1000000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US909214BX53",
+        "股票名稱": "UNISYS CORP SER 144A 10.625000 % 15JAN2031",
+        "股數": null,
+        "持股比例": "0.1308559%",
+        "ETF股票代號": "00984D",
+        "原始數量": 469000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US04302XAA28",
+        "股票名稱": "ARTERA SERVICES LLC SER 144A 8.500000 % 15FEB2031",
+        "股數": null,
+        "持股比例": "0.047296232%",
+        "ETF股票代號": "00984D",
+        "原始數量": 231000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US83056PAA12",
+        "股票名稱": "SKEENA RESOURCES LIMITED SER 144A 8.5% 01APR2031",
+        "股數": null,
+        "持股比例": "0.190211425%",
+        "ETF股票代號": "00984D",
+        "原始數量": 648000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US00791GAC15",
+        "股票名稱": "OSAIC HOLDINGS INC SER 144A 8.000000 % 01AUG2033",
+        "股數": null,
+        "持股比例": "0.167211205%",
+        "ETF股票代號": "00984D",
+        "原始數量": 604000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU00962AA56",
+        "股票名稱": "AP CORE HOLDINGS II LLC SER REGS (REG S) 11% 15MAY2031",
+        "股數": null,
+        "持股比例": "0.303044326%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1053000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU53039AL44",
+        "股票名稱": "LIFEPOINT HEALTH INC SER REGS 10.000000 % 01-JUN-2032",
+        "股數": null,
+        "持股比例": "0.531123345%",
+        "ETF股票代號": "00984D",
+        "原始數量": 2177000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US62922LAD01",
+        "股票名稱": "NGL ENERGY PARTNERS LP SER 144A 8.375% 15FEB2032",
+        "股數": null,
+        "持股比例": "0.176692311%",
+        "ETF股票代號": "00984D",
+        "原始數量": 610000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU5286JAC37",
+        "股票名稱": "LGI HOMES INC SER REGS (REG S) 8.75% 15DEC2028",
+        "股數": null,
+        "持股比例": "0.35710315%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1240000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU7501MAB38",
+        "股票名稱": "RAIN CARBON INC SER REGS (REG S) 12.25% 01SEP2029",
+        "股數": null,
+        "持股比例": "0.051804495%",
+        "ETF股票代號": "00984D",
+        "原始數量": 176000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US071734AQ04",
+        "股票名稱": "BAUSCH HEALTH COS INC SER 144A (REG) 11% 30SEP2028",
+        "股數": null,
+        "持股比例": "0.508762223%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1693000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US963320AX45",
+        "股票名稱": "WHIRLPOOL CORP (REG) 4.6% 15MAY2050",
+        "股數": null,
+        "持股比例": "0.352200157%",
+        "ETF股票代號": "00984D",
+        "原始數量": 2376999.9999999995,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU4526LAL19",
+        "股票名稱": "CRESCENT ENERGY FINANCE SER REGS (REG S) 8.375% 15JAN2034",
+        "股數": null,
+        "持股比例": "0.342739088%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1177000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US553283AF90",
+        "股票名稱": "MPH ACQUISITION HOLDINGS 11.5% 31DEC2030",
+        "股數": null,
+        "持股比例": "0.394327834%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1584000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US0641598S88",
+        "股票名稱": "BANK OF NOVA SCOTIA (REG) VAR 27OCT2082",
+        "股數": null,
+        "持股比例": "0.462892377%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1600000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US75041VAE48",
+        "股票名稱": "RADIOLOGY PARTNERS INC SER 144A 8.500000 % 15JUL2032",
+        "股數": null,
+        "持股比例": "0.010001577%",
+        "ETF股票代號": "00984D",
+        "原始數量": 36000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US63938CAP32",
+        "股票名稱": "NAVIENT CORP (REG) 11.5% 15MAR2031",
+        "股數": null,
+        "持股比例": "0.808010978%",
+        "ETF股票代號": "00984D",
+        "原始數量": 2876999.9999999995,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US00202DAA54",
+        "股票名稱": "APLD COMPUTECO LLC SER 144A 9.250000 % 15-DEC-2030",
+        "股數": null,
+        "持股比例": "0.118801037%",
+        "ETF股票代號": "00984D",
+        "原始數量": 412000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU60731AA19",
+        "股票名稱": "MOHEGAN TRIBAL / MS DIG SER REGS 8.250000 % 15APR2030",
+        "股數": null,
+        "持股比例": "0.30338313%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1044000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU2781AAA35",
+        "股票名稱": "EDGED COMPUTE LLC SER REGS REG S  7.5% 30APR2031",
+        "股數": null,
+        "持股比例": "0.141957482%",
+        "ETF股票代號": "00984D",
+        "原始數量": 614000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU2548TAA61",
+        "股票名稱": "ECLIPSE ACQUISITIONS MER SER REGS (REG S) 10% 15JAN2032",
+        "股數": null,
+        "持股比例": "0.177139173%",
+        "ETF股票代號": "00984D",
+        "原始數量": 611000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU0423UAA70",
+        "股票名稱": "ARTERA SERVICES LLC SER REGS 8.500000 % 15FEB2031",
+        "股數": null,
+        "持股比例": "0.249632576%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1219233.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU9220NAC57",
+        "股票名稱": "VENTURE GLOBAL LNG INC SER REGS (REG S) 9.5% 01FEB2029",
+        "股數": null,
+        "持股比例": "1.189362301%",
+        "ETF股票代號": "00984D",
+        "原始數量": 3968999.9999999995,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US63938CAR97",
+        "股票名稱": "NAVIENT CORP (REG) 9.375000% 15OCT2031",
+        "股數": null,
+        "持股比例": "0.202887118%",
+        "ETF股票代號": "00984D",
+        "原始數量": 782000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US254945AA66",
+        "股票名稱": "DIRECTV FINANCING LLC SER 144A 8.875000 % 01-FEB-2030",
+        "股數": null,
+        "持股比例": "0.02939713%",
+        "ETF股票代號": "00984D",
+        "原始數量": 103000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USC6900QAA51",
+        "股票名稱": "1261229 BC LTD SER REGS 10.000000 % 15APR2032",
+        "股數": null,
+        "持股比例": "0.188301307%",
+        "ETF股票代號": "00984D",
+        "原始數量": 636000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "XS2761357594",
+        "股票名稱": "ING GROEP NV (REG S) (BR) VAR PERP 31DEC2049",
+        "股數": null,
+        "持股比例": "0.454953382%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1562000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USC6908MAA65",
+        "股票名稱": "ONT GAMING GTA/OTG CO-IS SER REGS 8 % 01-AUG-2030",
+        "股數": null,
+        "持股比例": "0.08557417%",
+        "ETF股票代號": "00984D",
+        "原始數量": 350000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU0449HAB43",
+        "股票名稱": "JEFFERSON CAPITAL HOLDIN SER REGS (REG S) 9.5% 15FEB2029",
+        "股數": null,
+        "持股比例": "0.158913843%",
+        "ETF股票代號": "00984D",
+        "原始數量": 545000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US29450YAA73",
+        "股票名稱": "EQUIPMENTSHARE.COM INC SER 144A 9% 15MAY2028",
+        "股數": null,
+        "持股比例": "0.110712599%",
+        "ETF股票代號": "00984D",
+        "原始數量": 396000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US28002AAA43",
+        "股票名稱": "EDGED COMPUTE LLC SER 144A 7.5% 30APR2031",
+        "股數": null,
+        "持股比例": "0.062886701%",
+        "ETF股票代號": "00984D",
+        "原始數量": 272000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU1056LAF86",
+        "股票名稱": "BURFORD CAPITAL GLBL FIN SER REGS 8.5 % 15-JAN-2034",
+        "股數": null,
+        "持股比例": "0.159789996%",
+        "ETF股票代號": "00984D",
+        "原始數量": 634000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU6415RAE37",
+        "股票名稱": "NEWELL BRANDS INC SER REGS 8.500000 % 01JUN2028",
+        "股數": null,
+        "持股比例": "0.631858059%",
+        "ETF股票代號": "00984D",
+        "原始數量": 2167000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU9700AAA61",
+        "股票名稱": "WINDSOR HOLDINGS III LLC SER REGS 8.500000 % 15JUN2030",
+        "股數": null,
+        "持股比例": "0.091433432%",
+        "ETF股票代號": "00984D",
+        "原始數量": 313000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US00623PAB76",
+        "股票名稱": "ADAMS HOMES INC SER 144A 9.25% 15OCT2028",
+        "股數": null,
+        "持股比例": "0.116190823%",
+        "ETF股票代號": "00984D",
+        "原始數量": 406000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU6536LAC47",
+        "股票名稱": "NGL ENERGY PARTNERS LP SER REGS (REG S) 8.375% 15FEB2032",
+        "股數": null,
+        "持股比例": "0.206816896%",
+        "ETF股票代號": "00984D",
+        "原始數量": 714000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US53944YAV56",
+        "股票名稱": "LLOYDS BANKING GROUP PLC VAR PERP 31DEC2049",
+        "股數": null,
+        "持股比例": "0.457757678%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1565000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU3190CAA28",
+        "股票名稱": "GALAXY HELIOS DATA  9.875 % 01-AUG-2031",
+        "股數": null,
+        "持股比例": "0.296576149%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1176000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU92559AA86",
+        "股票名稱": "VELOCITY COM CAP LLC SER REGS (REG) (REG S) 9.375% 15FEB2031",
+        "股數": null,
+        "持股比例": "0.123698751%",
+        "ETF股票代號": "00984D",
+        "原始數量": 446000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US77314EAB48",
+        "股票名稱": "ROCKET SOFTWARE INC SER 144A 9% 28NOV2028",
+        "股數": null,
+        "持股比例": "0.225626951%",
+        "ETF股票代號": "00984D",
+        "原始數量": 790000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU16309AK94",
+        "股票名稱": "CHEMOURS CO SER REGS (REG) (REG S) 8% 15JAN2033",
+        "股數": null,
+        "持股比例": "0.40413218%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1502000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU0813WAA19",
+        "股票名稱": "BENDING SPOONS US INC SER REGs (REG) (REG S) 9.625% 31JAN2032",
+        "股數": null,
+        "持股比例": "0.059006428%",
+        "ETF股票代號": "00984D",
+        "原始數量": 204000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US380355AH08",
+        "股票名稱": "GOEASY LTD SER 144A 9.25% 01DEC2028",
+        "股數": null,
+        "持股比例": "0.066884647%",
+        "ETF股票代號": "00984D",
+        "原始數量": 240000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU90921AG93",
+        "股票名稱": "UNISYS CORP SER REGS 10.625000 % 15JAN2031",
+        "股數": null,
+        "持股比例": "0.251109411%",
+        "ETF股票代號": "00984D",
+        "原始數量": 900000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US87165BBA08",
+        "股票名稱": "SYNCHRONY FINANCIAL SER C VAR PERP 31-DEC-2049",
+        "股數": null,
+        "持股比例": "0.153241264%",
+        "ETF股票代號": "00984D",
+        "原始數量": 571000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU6837GAB33",
+        "股票名稱": "OSAIC HOLDINGS INC SER REGS 8.000000 % 01AUG2033",
+        "股數": null,
+        "持股比例": "0.140634588%",
+        "ETF股票代號": "00984D",
+        "原始數量": 508000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US345370CX67",
+        "股票名稱": "FORD MOTOR COMPANY (REG) 9.625% 22APR2030",
+        "股數": null,
+        "持股比例": "0.397282776%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1273000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US25461LAB80",
+        "股票名稱": "DIRECTV FINANCING LLC SER 144A 8.875% 01FEB2030",
+        "股數": null,
+        "持股比例": "0.068641578%",
+        "ETF股票代號": "00984D",
+        "原始數量": 241000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US097751CA78",
+        "股票名稱": "BOMBARDIER INC SER 144A (REG) 8.75% 15NOV2030",
+        "股數": null,
+        "持股比例": "0.342233784%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1155000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US84749AAC18",
+        "股票名稱": "SPECIALTY BUILDING PRODU SER 144A 7.750000 % 15OCT2029",
+        "股數": null,
+        "持股比例": "0.122411911%",
+        "ETF股票代號": "00984D",
+        "原始數量": 511000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US093645AK51",
+        "股票名稱": "BLOCK COMMUNICATIONS INC SER 144A 10.25% 01MAR2031",
+        "股數": null,
+        "持股比例": "0.088333751%",
+        "ETF股票代號": "00984D",
+        "原始數量": 355000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US389925AA64",
+        "股票名稱": "GREAT CANADIAN GAMING CO SER 144A 8.750000 % 15NOV2029",
+        "股數": null,
+        "持股比例": "0.150739682%",
+        "ETF股票代號": "00984D",
+        "原始數量": 616000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US72702AAA51",
+        "股票名稱": "PLANET FINANCIAL GROUP SER 144A 10.500000 % 15DEC2029",
+        "股數": null,
+        "持股比例": "0.04966007%",
+        "ETF股票代號": "00984D",
+        "原始數量": 202000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU20608AH57",
+        "股票名稱": "COOPER-STANDARD AUTOMOTI SER REGS (REG) (REG S) 9.25% 01MAR2031",
+        "股數": null,
+        "持股比例": "0.034372977%",
+        "ETF股票代號": "00984D",
+        "原始數量": 137000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USC4901QAB70",
+        "股票名稱": "JONES DESLAURIERS INSURA SER REGS 8.500000 % 15MAR2030",
+        "股數": null,
+        "持股比例": "0.635244119%",
+        "ETF股票代號": "00984D",
+        "原始數量": 2214000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU7410WAD75",
+        "股票名稱": "PRIME HEALTHCARE SERVICE SER REGS (REG S) 9.375% 01SEP2029",
+        "股數": null,
+        "持股比例": "0.580445899%",
+        "ETF股票代號": "00984D",
+        "原始數量": 2011000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU3377HAA69",
+        "股票名稱": "GARDEN SPINCO CORP SER REGS (REG) (REG S) 8.625% 20JUL2030",
+        "股數": null,
+        "持股比例": "0.256310569%",
+        "ETF股票代號": "00984D",
+        "原始數量": 873000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US12543DBN93",
+        "股票名稱": "CHS/COMMUNITY HEALTH SYS SER 144A 10.875% 15JAN2032",
+        "股數": null,
+        "持股比例": "0.251759085%",
+        "ETF股票代號": "00984D",
+        "原始數量": 966000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US68288AAA51",
+        "股票名稱": "1261229 BC LTD SER 144A 10.000000 % 15APR2032",
+        "股數": null,
+        "持股比例": "0.22856699%",
+        "ETF股票代號": "00984D",
+        "原始數量": 772000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US71677KAD00",
+        "股票名稱": "PETSMART INC/PETSMART FI 10.000000 % 15SEP2033",
+        "股數": null,
+        "持股比例": "1.003496742%",
+        "ETF股票代號": "00984D",
+        "原始數量": 3696000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USC97643AA57",
+        "股票名稱": "WESTJET AIRLINES LTD SER REGS (REG S) 8% 14FEB2031",
+        "股數": null,
+        "持股比例": "0.501226242%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1992873.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US61965RAC97",
+        "股票名稱": "MOSS CREEK RESOURCES HLD SER 144A 8.25% 01SEP2031",
+        "股數": null,
+        "持股比例": "0.296188725%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1050000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US68389XCK90",
+        "股票名稱": "ORACLE CORP 6.9% 09NOV2052",
+        "股數": null,
+        "持股比例": "0.497909912%",
+        "ETF股票代號": "00984D",
+        "原始數量": 2123000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU5933QAB69",
+        "股票名稱": "MICHAELS COS INC/THE SER REGS (REG S) 8.5% 15MAR2033",
+        "股數": null,
+        "持股比例": "0.434838083%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1557000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US124857AN39",
+        "股票名稱": "PARAMOUNT GLOBAL 4.600000 15JAN2045",
+        "股數": null,
+        "持股比例": "0.356246192%",
+        "ETF股票代號": "00984D",
+        "原始數量": 2404999.9999999995,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US83003AAA88",
+        "股票名稱": "SIX FLAGS/CAN WON/MILLEN SER 144A 8.625% 15JAN2032",
+        "股數": null,
+        "持股比例": "0.435939614%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1853000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USG47914AA71",
+        "股票名稱": "INEOS ENERGY FINANCE PLC SER REGS (REG) (REG S) 9.125% 01NOV2031",
+        "股數": null,
+        "持股比例": "0.092968872%",
+        "ETF股票代號": "00984D",
+        "原始數量": 332000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US359678AC31",
+        "股票名稱": "FULL HOUSE RESORTS INC SER 144A 8.25% 15FEB2028",
+        "股數": null,
+        "持股比例": "0.00768333%",
+        "ETF股票代號": "00984D",
+        "原始數量": 39000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU2069EAE06",
+        "股票名稱": "COREWEAVE INC SER REGS (REG) (REG S) 9.625% 15JUL2032",
+        "股數": null,
+        "持股比例": "0.077946938%",
+        "ETF股票代號": "00984D",
+        "原始數量": 362000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US06738ECN31",
+        "股票名稱": "BARCLAYS PLC VAR PERP 31DEC2049",
+        "股數": null,
+        "持股比例": "0.456054339%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1497000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU17127AX63",
+        "股票名稱": "CHS/COMMUNITY HEALTH SYS SER REGS 10.875000 % 15JAN2032",
+        "股數": null,
+        "持股比例": "0.578316154%",
+        "ETF股票代號": "00984D",
+        "原始數量": 2219000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU74337AE30",
+        "股票名稱": "PROVIDENT FDG/PFG FIN SER REGS (REG S) 9.75% 15SEP2029",
+        "股數": null,
+        "持股比例": "0.258466892%",
+        "ETF股票代號": "00984D",
+        "原始數量": 890000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU59366AF83",
+        "股票名稱": "MIDCONTINENT COMMUNICATIONS (SER REGS REG S) 8% 15AUG2032",
+        "股數": null,
+        "持股比例": "0.110480069%",
+        "ETF股票代號": "00984D",
+        "原始數量": 536000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US63688RAF47",
+        "股票名稱": "NATIONAL MENTOR HOLDINGS SER 144A 10.5 % 15-DEC-2030",
+        "股數": null,
+        "持股比例": "0.038888528%",
+        "ETF股票代號": "00984D",
+        "原始數量": 133000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US476920AA15",
+        "股票名稱": "JETBLUE AIRWAYS/LOYALTY 9.875% 20SEP2031",
+        "股數": null,
+        "持股比例": "0.092401187%",
+        "ETF股票代號": "00984D",
+        "原始數量": 573000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USC36025AL50",
+        "股票名稱": "GARDA WORLD SECURITY SER REGS 8.375000 % 15NOV2032",
+        "股數": null,
+        "持股比例": "0.643387668%",
+        "ETF股票代號": "00984D",
+        "原始數量": 2272000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US579063AB46",
+        "股票名稱": "CONDOR MERGER SUB INC SER 144A (REG) 7.375% 15FEB2030",
+        "股數": null,
+        "持股比例": "0.047785208%",
+        "ETF股票代號": "00984D",
+        "原始數量": 201000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU29298AE31",
+        "股票名稱": "ENOVA INTERNATIONAL INC SER REGS (REG S) 9.125% 01AUG2029",
+        "股數": null,
+        "持股比例": "0.326819919%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1120000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US00033YAA47",
+        "股票名稱": "GLOBAL AUTO HO/AAG FH UK SER 144A (REG) 11.500000 % 15AUG2029",
+        "股數": null,
+        "持股比例": "0.146843726%",
+        "ETF股票代號": "00984D",
+        "原始數量": 515000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US05971KAP49",
+        "股票名稱": "BANCO SANTANDER SA SER * VAR PERP 31DEC2049",
+        "股數": null,
+        "持股比例": "0.419880702%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1400000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU04010AF89",
+        "股票名稱": "ARCHES BUYER INC SER REGS (REG) (REG S) 9% 15AUG2031",
+        "股數": null,
+        "持股比例": "0.410123682%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1417000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USG90073AK68",
+        "股票名稱": "TRANSOCEAN INC 8.75% 15FEB2030",
+        "股數": null,
+        "持股比例": "0.528028943%",
+        "ETF股票代號": "00984D",
+        "原始數量": 2795000.0000000005,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US855170AA41",
+        "股票名稱": "STAR PARENT INC SER 144A 9% 01OCT2030",
+        "股數": null,
+        "持股比例": "0.141647805%",
+        "ETF股票代號": "00984D",
+        "原始數量": 485000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US45174HBJ59",
+        "股票名稱": "IHEARTCOMMUNICATIONS INC 9.125000 % 01MAY2029",
+        "股數": null,
+        "持股比例": "0.005042015%",
+        "ETF股票代號": "00984D",
+        "原始數量": 22000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US71601VAA35",
+        "股票名稱": "PETCO HEALTH & WELLNESS SER 144A (REG) 8.25% 01FEB2031",
+        "股數": null,
+        "持股比例": "0.293951745%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1024000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US75079LAB71",
+        "股票名稱": "RAIN CARBON INC SER 144A 12.25% 01SEP2029",
+        "股數": null,
+        "持股比例": "0.057102681%",
+        "ETF股票代號": "00984D",
+        "原始數量": 194000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU2285XAZ97",
+        "股票名稱": "CSC HOLDINGS LLC SER REGS (REG S) 11.25% 15MAY2028",
+        "股數": null,
+        "持股比例": "0.086509476%",
+        "ETF股票代號": "00984D",
+        "原始數量": 629000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US811054AH89",
+        "股票名稱": "EW SCRIPPS CO SER 144A 9.875000 % 15AUG2030",
+        "股數": null,
+        "持股比例": "0.150779007%",
+        "ETF股票代號": "00984D",
+        "原始數量": 692000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU3232FAB32",
+        "股票名稱": "FULL HOUSE RESORTS INC SER REGS (REG) (REG S) 8.25% 15FEB2028",
+        "股數": null,
+        "持股比例": "0.03841666%",
+        "ETF股票代號": "00984D",
+        "原始數量": 195000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US716964AA94",
+        "股票名稱": "PHH ESCROW ISS LCC/PHH C SER 144A 9.875000 % 01NOV2029",
+        "股數": null,
+        "持股比例": "0.098188409%",
+        "ETF股票代號": "00984D",
+        "原始數量": 389000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU7010QAQ56",
+        "股票名稱": "PARAMOUNT SKYDANCE CORP SER REGS (REG) (REG S) 9.125% 15OCT2036",
+        "股數": null,
+        "持股比例": "0.14432987%",
+        "ETF股票代號": "00984D",
+        "原始數量": 527000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU7504EAA02",
+        "股票名稱": "RADPAR ESCROW ISSUER SER REGS (REG S) 9.75% 15JUL2032",
+        "股數": null,
+        "持股比例": "0.04778617%",
+        "ETF股票代號": "00984D",
+        "原始數量": 169000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU0666HAA24",
+        "股票名稱": "BCPE FLAVOR DEBT/ISSUER SER REGS 9.500000 % 01-JUL-2032",
+        "股數": null,
+        "持股比例": "0.261642852%",
+        "ETF股票代號": "00984D",
+        "原始數量": 970000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US04625HAJ86",
+        "股票名稱": "ASTON MARTIN CAPITAL HOL SER 144A 10% 31MAR2029",
+        "股數": null,
+        "持股比例": "0.038941913%",
+        "ETF股票代號": "00984D",
+        "原始數量": 264000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "XS3344488864",
+        "股票名稱": "SOFTBANK GROUP CORP 8.25 % 22-OCT-2031",
+        "股數": null,
+        "持股比例": "0.287921528%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1055000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU04553AA87",
+        "股票名稱": "JETBLUE AIRWAYS/LOYALTY SER REGS (REG S) 9.875% 20SEP2031",
+        "股數": null,
+        "持股比例": "0.124330397%",
+        "ETF股票代號": "00984D",
+        "原始數量": 771000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USD1RA09AB94",
+        "股票名稱": "CERDIA FINANZ GMBH SER REGS (REG S) 9.375% 03OCT2031",
+        "股數": null,
+        "持股比例": "0.298135883%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1040000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU7501WAA37",
+        "股票名稱": "RACKSPACE FINANCE LLC SER REGS (REG) (REG S) 3.5% 15MAY2028",
+        "股數": null,
+        "持股比例": "0.073647462%",
+        "ETF股票代號": "00984D",
+        "原始數量": 329000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU86042AB17",
+        "股票名稱": "SABRE FINANCIAL BORROWER SER REGS (REG S) 9.875% 15OCT2032",
+        "股數": null,
+        "持股比例": "0.111555212%",
+        "ETF股票代號": "00984D",
+        "原始數量": 396000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU9633LAB28",
+        "股票名稱": "WHIRLPOOL CORP SER REGS (REG) (REG S) 7.875% 01JUL2034",
+        "股數": null,
+        "持股比例": "0.301972676%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1221000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US36485MAP41",
+        "股票名稱": "GARDA WORLD SECURITY SER 144A (REG) 8.375000 % 15NOV2032",
+        "股數": null,
+        "持股比例": "0.14244014%",
+        "ETF股票代號": "00984D",
+        "原始數量": 503000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU4609CAB38",
+        "股票名稱": "ION PLAT FIN US/SARL SER REGS 9.500000 % 30-MAY-2029",
+        "股數": null,
+        "持股比例": "0.187196548%",
+        "ETF股票代號": "00984D",
+        "原始數量": 673000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US92553PAP71",
+        "股票名稱": "VIACOM INC (REG) 4.375% 15MAR2043",
+        "股數": null,
+        "持股比例": "0.110811163%",
+        "ETF股票代號": "00984D",
+        "原始數量": 741000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USL2000XAB66",
+        "股票名稱": "CONNECT FINCO SARL 9.000000% 15SEP2029",
+        "股數": null,
+        "持股比例": "0.340630657%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1161000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU30249AC72",
+        "股票名稱": "FMC CORP SER REGS (REG) (REG S) 8% 01JUN2031",
+        "股數": null,
+        "持股比例": "0.171311699%",
+        "ETF股票代號": "00984D",
+        "原始數量": 699000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU3828QAA14",
+        "股票名稱": "CLUE OPCO LLC SER REGS 9.500000 % 15OCT2031",
+        "股數": null,
+        "持股比例": "0.05646924%",
+        "ETF股票代號": "00984D",
+        "原始數量": 195000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU7500MAA63",
+        "股票名稱": "RAILWORKS HOLDINGS LP/R SER REGS (REG) (REG S) 8.25% 15NOV2028",
+        "股數": null,
+        "持股比例": "0.236595588%",
+        "ETF股票代號": "00984D",
+        "原始數量": 842000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU12501BT57",
+        "股票名稱": "CCO HLDGS LLC/CAP CORP SER REGS (REG) (REG S) 7.375% 01FEB2036",
+        "股數": null,
+        "持股比例": "0.654851016%",
+        "ETF股票代號": "00984D",
+        "原始數量": 2592999.9999999995,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US46206AAB89",
+        "股票名稱": "ION PLAT FIN US/SARL SER 144A 9.5 % 30-MAY-2029",
+        "股數": null,
+        "持股比例": "0.043391769%",
+        "ETF股票代號": "00984D",
+        "原始數量": 156000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU7260AAA26",
+        "股票名稱": "PLANET FINANCIAL GROUP SER REGS 10.500000 % 15DEC2029",
+        "股數": null,
+        "持股比例": "0.266738475%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1085000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US29357KAK97",
+        "股票名稱": "ENOVA INTERNATIONAL INC SER 144A 9.125000 % 01AUG2029",
+        "股數": null,
+        "持股比例": "0.011672142%",
+        "ETF股票代號": "00984D",
+        "原始數量": 40000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU9220NAD31",
+        "股票名稱": "VENTURE GLOBAL LNG INC SER REGS (REG S) 9.875% 01FEB2032",
+        "股數": null,
+        "持股比例": "0.202767917%",
+        "ETF股票代號": "00984D",
+        "原始數量": 680000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU1056LAC55",
+        "股票名稱": "BURFORD CAPITAL GLBL FIN SER REGS (REG) (REG S) 9.25% 01JUL2031",
+        "股數": null,
+        "持股比例": "0.058620884%",
+        "ETF股票代號": "00984D",
+        "原始數量": 211000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU71500AA72",
+        "股票名稱": "PETCO HEALTH & WELLNESS 8.25% 01FEB2031",
+        "股數": null,
+        "持股比例": "0.365717305%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1274000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US92332YAD31",
+        "股票名稱": "VENTURE GLOBAL LNG INC SER 144A 9.875% 01FEB2032",
+        "股數": null,
+        "持股比例": "0.014313029%",
+        "ETF股票代號": "00984D",
+        "原始數量": 48000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US55342UAQ76",
+        "股票名稱": "MPT OPER PARTNERSP/FINL SER 144A 8.500000 % 15FEB2032",
+        "股數": null,
+        "持股比例": "0.14221173%",
+        "ETF股票代號": "00984D",
+        "原始數量": 586000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU59020AA29",
+        "股票名稱": "MERLIN ENTERTAINMENTS GR SER REGS (REG S) 7.375% 15FEB2031",
+        "股數": null,
+        "持股比例": "0.121409621%",
+        "ETF股票代號": "00984D",
+        "原始數量": 682000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU7493RAD80",
+        "股票名稱": "RADIOLOGY PARTNERS INC SER REGS 8.500000 % 15-JUL-2032",
+        "股數": null,
+        "持股比例": "0.106683527%",
+        "ETF股票代號": "00984D",
+        "原始數量": 384000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU85974AD27",
+        "股票名稱": "SPECIALTY BUILDING PRODU SER REGS 7.750000 % 15OCT2029",
+        "股數": null,
+        "持股比例": "0.346873669%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1448000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU9840YAB30",
+        "股票名稱": "XPLR INFRAST OPERATING SER REGS (REG) (REG S) 8.625% 15MAR2033",
+        "股數": null,
+        "持股比例": "0.129459826%",
+        "ETF股票代號": "00984D",
+        "原始數量": 443000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US717265AL61",
+        "股票名稱": "FREEPORT MINERALS CORP (REG) 9.5% 01JUN2031",
+        "股數": null,
+        "持股比例": "0.65242683%",
+        "ETF股票代號": "00984D",
+        "原始數量": 2000000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU8681CAA72",
+        "股票名稱": "SWORD PURCHASER LLC(SER REGS)(REG)(REG S)10.5% 15APR2034",
+        "股數": null,
+        "持股比例": "0.480974959%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1633000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU22033AC53",
+        "股票名稱": "CP ATLAS BUYER INC SER REGS 9.750000 % 15JUL2030",
+        "股數": null,
+        "持股比例": "0.376863945%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1621000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU09265AF31",
+        "股票名稱": "BLOCK COMMUNICATIONS INC SER REGS (REG S) 10.25% 01MAR2031",
+        "股數": null,
+        "持股比例": "0.244099756%",
+        "ETF股票代號": "00984D",
+        "原始數量": 981000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU1468GAK05",
+        "股票名稱": "CARVANA CO VAR PERP 01JUN2031",
+        "股數": null,
+        "持股比例": "0.828141454%",
+        "ETF股票代號": "00984D",
+        "原始數量": 2702000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU75082AB03",
+        "股票名稱": "ROCKET SOFTWARE INC SER REGS (REG S) 9% 28NOV2028",
+        "股數": null,
+        "持股比例": "0.40070204%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1403000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USC33203AD93",
+        "股票名稱": "EMPIRE COMMUNITIES CORP SER REGS (REG S) 9.75% 01MAY2029",
+        "股數": null,
+        "持股比例": "0.128297749%",
+        "ETF股票代號": "00984D",
+        "原始數量": 451000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USF0270BAA01",
+        "股票名稱": "ALTICE FRAN LUX 3/HOLD 1 SER REGS 9.500000 % 01-NOV-2029",
+        "股數": null,
+        "持股比例": "0.632758015%",
+        "ETF股票代號": "00984D",
+        "原始數量": 2312000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US111021AE12",
+        "股票名稱": "BRITISH TELECOMMUNICATIO (BR) 9.625% 15DEC2030",
+        "股數": null,
+        "持股比例": "0.43766608%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1351000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USC2374BAA47",
+        "股票名稱": "CHAMPION IRON CANADA INC SER REGS 7.875000 % 15JUL2032",
+        "股數": null,
+        "持股比例": "0.134906562%",
+        "ETF股票代號": "00984D",
+        "原始數量": 602000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU71907AA48",
+        "股票名稱": "PHH ESCROW ISS LCC/PHH C SER REGS (REG S) 9.875% 01NOV2029",
+        "股數": null,
+        "持股比例": "0.227928365%",
+        "ETF股票代號": "00984D",
+        "原始數量": 903000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU92573AA96",
+        "股票名稱": "VELOCITY VEHICLE GROUP SER REGS (REG S) 8% 01JUN2029",
+        "股數": null,
+        "持股比例": "0.103657868%",
+        "ETF股票代號": "00984D",
+        "原始數量": 370000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US257867BL44",
+        "股票名稱": "RR DONNELLEY & SONS CO (SER 144A) FRN 01-JUN-2031",
+        "股數": null,
+        "持股比例": "0.02923742%",
+        "ETF股票代號": "00984D",
+        "原始數量": 112000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USF1067PAD80",
+        "股票名稱": "BNP PARIBAS SER REGS (REG S) VAR PERP 31DEC2049",
+        "股數": null,
+        "持股比例": "0.447464434%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1547000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU24028AA74",
+        "股票名稱": "DDC 01 PROPCO LLC SER REGS 8.875 % 30-SEP-2031",
+        "股數": null,
+        "持股比例": "0.284430722%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1106000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USJ7600PAC70",
+        "股票名稱": "SOFTBANK GROUP CORP SER REGS (REG) (REG S) 9.75% 01APR2034",
+        "股數": null,
+        "持股比例": "0.445975203%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1619000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU18898AA16",
+        "股票名稱": "CLOUD SOFTWARE GRP INC SER REGS 9.000000 % 30SEP2029",
+        "股數": null,
+        "持股比例": "0.135200848%",
+        "ETF股票代號": "00984D",
+        "原始數量": 471000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU41365AA20",
+        "股票名稱": "GRANT THORNTON ADVISORS SER REGS (REG S) 10.5% 01NOV2031",
+        "股數": null,
+        "持股比例": "0.082184891%",
+        "ETF股票代號": "00984D",
+        "原始數量": 282000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US001874AA41",
+        "股票名稱": "AP CORE HOLDINGS II LLC SER 144A 11% 15MAY2031",
+        "股數": null,
+        "持股比例": "0.065040852%",
+        "ETF股票代號": "00984D",
+        "原始數量": 226000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USC8T10XAA23",
+        "股票名稱": "SKEENA RESOURCES LIMITED 8.5% 01APR2031",
+        "股數": null,
+        "持股比例": "0.263301923%",
+        "ETF股票代號": "00984D",
+        "原始數量": 897000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US83408KAC36",
+        "股票名稱": "SOFTBANK GROUP CORP SER 144A (REG) 9.75% 01APR2034",
+        "股數": null,
+        "持股比例": "0.601061086%",
+        "ETF股票代號": "00984D",
+        "原始數量": 2182000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US83408KAB52",
+        "股票名稱": "SOFTBANK GROUP CORP SER 144A 9.25% 01APR2032",
+        "股數": null,
+        "持股比例": "0.161942189%",
+        "ETF股票代號": "00984D",
+        "原始數量": 581000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US87817AAB35",
+        "股票名稱": "TEAM HEALTH HOLDINGS INC (SER 144A) FRN 03JUN2028",
+        "股數": null,
+        "持股比例": "0.175268269%",
+        "ETF股票代號": "00984D",
+        "原始數量": 619635.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US69902PAA66",
+        "股票名稱": "PARADIGM PRNT/CO-ISSUER 8.750000 % 17APR2032",
+        "股數": null,
+        "持股比例": "0.296571205%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1114000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU57363AF72",
+        "股票名稱": "MRT MID PART/MRT MID FIN SER REGS (REG) (REG S) 11.5% 15FEB2028",
+        "股數": null,
+        "持股比例": "0.144640517%",
+        "ETF股票代號": "00984D",
+        "原始數量": 511000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU18898AB98",
+        "股票名稱": "CLOUD SOFTWARE GRP INC SER REGS (REG) (REG S) 8.25% 30JUN2032",
+        "股數": null,
+        "持股比例": "0.361886392%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1317000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US12597YAC30",
+        "股票名稱": "CP ATLAS BUYER INC SER 144A 9.750000 % 15JUL2030",
+        "股數": null,
+        "持股比例": "0.401972707%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1729000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US92921EAA01",
+        "股票名稱": "VOYAGER PARENT LLC SER 144A 9.250000 % 01JUL2032",
+        "股數": null,
+        "持股比例": "0.147655411%",
+        "ETF股票代號": "00984D",
+        "原始數量": 497000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US45674GAB05",
+        "股票名稱": "INEOS QUATTRO FINANCE 2 SER 144A 9.625% 15MAR2029",
+        "股數": null,
+        "持股比例": "0.09426094%",
+        "ETF股票代號": "00984D",
+        "原始數量": 430000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US146869AM47",
+        "股票名稱": "CARVANA CO 9% 01JUN2031",
+        "股數": null,
+        "持股比例": "0.031568681%",
+        "ETF股票代號": "00984D",
+        "原始數量": 103000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US21874LAA08",
+        "股票名稱": "CORE SCIENTIFIC FINANCE SER 144A 7.75% 15MAY2031",
+        "股數": null,
+        "持股比例": "0.216228135%",
+        "ETF股票代號": "00984D",
+        "原始數量": 840000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US92332YAC57",
+        "股票名稱": "VENTURE GLOBAL LNG INC SER 144A 9.5% 01FEB2029",
+        "股數": null,
+        "持股比例": "0.077313042%",
+        "ETF股票代號": "00984D",
+        "原始數量": 258000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU81257AA27",
+        "股票名稱": "SE COSMOS LLC SER REGS (REG) (REG S) 8.875% 01MAY2031",
+        "股數": null,
+        "持股比例": "0.153296151%",
+        "ETF股票代號": "00984D",
+        "原始數量": 567000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU82775AA28",
+        "股票名稱": "SIX FLAGS/CAN WON/MILLE SER REGS (REG S) 8.625% 15JAN2032",
+        "股數": null,
+        "持股比例": "0.284431186%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1209000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US83283WAE30",
+        "股票名稱": "SMYRNA READY MIX CONCRET SER 144A 8.875% 15NOV2031",
+        "股數": null,
+        "持股比例": "0.136040869%",
+        "ETF股票代號": "00984D",
+        "原始數量": 471000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US21871DAH61",
+        "股票名稱": "CORELOGIC INC SER 144A (REG) 12% 01FEB2032",
+        "股數": null,
+        "持股比例": "0.126958888%",
+        "ETF股票代號": "00984D",
+        "原始數量": 519000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU1900QAB42",
+        "股票名稱": "CLYDESDALE ACQUISITION SER REGS (REG) (REG S) 8.75% 15APR2030",
+        "股數": null,
+        "持股比例": "0.360687034%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1348000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USG4772GAC99",
+        "股票名稱": "INEOS QUATTRO FINANCE 2 SER REGS (REG S) 9.625% 15MAR2029",
+        "股數": null,
+        "持股比例": "0.331447769%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1512000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US71910DAA90",
+        "股票名稱": "PHOENIX AVIATION 9.250000 % 15JUL2030",
+        "股數": null,
+        "持股比例": "0.092878583%",
+        "ETF股票代號": "00984D",
+        "原始數量": 321000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US606950AA10",
+        "股票名稱": "MOBIUS MERGER SUB SER 144A 9% 01JUN2030",
+        "股數": null,
+        "持股比例": "0.115381138%",
+        "ETF股票代號": "00984D",
+        "原始數量": 571000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU02400AC01",
+        "股票名稱": "AMC GLOBAL MEDIA INC SER REGS (REG) (REG S) 10.5% 15JUL2032",
+        "股數": null,
+        "持股比例": "0.112627798%",
+        "ETF股票代號": "00984D",
+        "原始數量": 408000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US21873SAK42",
+        "股票名稱": "COREWEAVE INC SER 144a (REG) 9.625% 15JUL2032",
+        "股數": null,
+        "持股比例": "0.3815524%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1772000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US30700WAA71",
+        "股票名稱": "FAMILY DOLLAR STORES LLC SER 144A (REG) 10% 31JUL2031",
+        "股數": null,
+        "持股比例": "0.353966291%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1262000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US02090DAA63",
+        "股票名稱": "ALTICE FRAN LUX 3/HOLD 1 SER 144A 9.500000 % 01-NOV-2029",
+        "股數": null,
+        "持股比例": "0.15659557%",
+        "ETF股票代號": "00984D",
+        "原始數量": 572176.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US76954LAD10",
+        "股票名稱": "RIVIAN HLD/AUTO LLC SER 144A 10.000000 % 15JAN2031",
+        "股數": null,
+        "持股比例": "0.040522095%",
+        "ETF股票代號": "00984D",
+        "原始數量": 150000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US69354NAF33",
+        "股票名稱": "PRA GROUP INC SER 144A 8.875% 31JAN2030",
+        "股數": null,
+        "持股比例": "0.027595964%",
+        "ETF股票代號": "00984D",
+        "原始數量": 96000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USX9816MAA81",
+        "股票名稱": "VISTAJET MALTA/VM HOLDS SER REGS (REG S) 9.5% 01JUN2028",
+        "股數": null,
+        "持股比例": "0.11635722%",
+        "ETF股票代號": "00984D",
+        "原始數量": 410000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US81761LAE20",
+        "股票名稱": "SERVICE PROPERTIES TRUST (REG) 8.875% 15JUN2032",
+        "股數": null,
+        "持股比例": "0.339180312%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1197000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU97907AA43",
+        "股票名稱": "YONDR JK 2 LLC SER REGS 6.875 % 30-JUN-2031",
+        "股數": null,
+        "持股比例": "0.16900395%",
+        "ETF股票代號": "00984D",
+        "原始數量": 671000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US690732AL65",
+        "股票名稱": "ACCENDRA HEALTH INC SER 144A 9.75 % 15-JUN-2033",
+        "股數": null,
+        "持股比例": "0.092194847%",
+        "ETF股票代號": "00984D",
+        "原始數量": 911785.9999999999,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USG05891AL32",
+        "股票名稱": "ASTON MARTIN CAPITAL HOL SER REGS (REG S) 10% 31MAR2029",
+        "股數": null,
+        "持股比例": "0.184974084%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1254000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US053773BH95",
+        "股票名稱": "AVIS BUDGET CAR/FINANCE SER 144A 8% 15FEB2031",
+        "股數": null,
+        "持股比例": "0.022776857%",
+        "ETF股票代號": "00984D",
+        "原始數量": 83000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU60712AA12",
+        "股票名稱": "MOBIUS MERGER SUB SER REGS 9.000000 % 01JUN2030",
+        "股數": null,
+        "持股比例": "0.222275408%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1100000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US04288BAC46",
+        "股票名稱": "ARSENAL AIC PARENT LLC SER 144A 11.500000 % 01OCT2031",
+        "股數": null,
+        "持股比例": "0.449316461%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1500000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU0380GAA95",
+        "股票名稱": "APEX ESCROW ISSUER SER REGS (REG) (REG S) 8.875% 15OCT2033",
+        "股數": null,
+        "持股比例": "0.161141389%",
+        "ETF股票代號": "00984D",
+        "原始數量": 548000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US914906BA95",
+        "股票名稱": "UNIVISION COMMUNICATIONS SER 144A 9.375000 % 01AUG2032",
+        "股數": null,
+        "持股比例": "0.514741974%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1874000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU03030AC49",
+        "股票名稱": "AMERIGAS PART/FIN CORP SER REGS 9.500000 % 01-JUN-2030",
+        "股數": null,
+        "持股比例": "0.464759204%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1567000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US24906PAB58",
+        "股票名稱": "DENTSPLY SIRONA INC VAR 12SEP2055",
+        "股數": null,
+        "持股比例": "0.228091629%",
+        "ETF股票代號": "00984D",
+        "原始數量": 847000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US59408QAB23",
+        "股票名稱": "MICHAELS COS INC/THE SER 144A 8.5% 15MAR2033",
+        "股數": null,
+        "持股比例": "0.32228847%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1154000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU0461RAA78",
+        "股票名稱": "ARMOR HOLDCO INC SER REGS (REG) (REG S) 8.5% 15NOV2029",
+        "股數": null,
+        "持股比例": "0.337109249%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1207000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU5140LAB63",
+        "股票名稱": "LBM ACQUISITION LLC SER REGS 9.500000 % 15JUN2031",
+        "股數": null,
+        "持股比例": "0.08294725%",
+        "ETF股票代號": "00984D",
+        "原始數量": 416000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US19106CAB28",
+        "股票名稱": "COBRA ACQUISITIONCO LLC SER 144A 12.250000 % 01-NOV-2029",
+        "股數": null,
+        "持股比例": "0.029224337%",
+        "ETF股票代號": "00984D",
+        "原始數量": 104000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU0055LAH79",
+        "股票名稱": "ACRISURE LLC / FIN INC SER REGS (REG S) 7.5% 06NOV2030",
+        "股數": null,
+        "持股比例": "0.617952267%",
+        "ETF股票代號": "00984D",
+        "原始數量": 2527000.0000000005,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US29163VAG86",
+        "股票名稱": "EMPIRE COMMUNITIES CORP SER 144A 9.75% 01MAY2029",
+        "股數": null,
+        "持股比例": "0.059455059%",
+        "ETF股票代號": "00984D",
+        "原始數量": 209000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US40010PAC23",
+        "股票名稱": "GRUBHUB HOLDINGS INC (SER 144A) (REG) FRN 31JUL2030",
+        "股數": null,
+        "持股比例": "0.197461679%",
+        "ETF股票代號": "00984D",
+        "原始數量": 805460.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US78573NAM48",
+        "股票名稱": "SABRE GLBL INC SER 144A 11.125000 % 15JUL2030",
+        "股數": null,
+        "持股比例": "0.12816641%",
+        "ETF股票代號": "00984D",
+        "原始數量": 504000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US60832QAB68",
+        "股票名稱": "MOHEGAN TRIBAL / MS DIG SER 144A 11.875000 % 15APR2031",
+        "股數": null,
+        "持股比例": "0.43108393%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1431000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USC0787WAA39",
+        "股票名稱": "BAUSCH & LOMB ESCROW COR SER REGS (REG S) 8.375% 01OCT2028",
+        "股數": null,
+        "持股比例": "0.380108211%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1318000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU24039AA48",
+        "股票名稱": "DEALER TIRE FINANCIAL LL SER REGS (REG S) 10.375% 01OCT2031",
+        "股數": null,
+        "持股比例": "0.691225275%",
+        "ETF股票代號": "00984D",
+        "原始數量": 2668999.9999999995,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US74984AAA07",
+        "股票名稱": "RFNA LP SER 144A 7.875000 % 15FEB2030",
+        "股數": null,
+        "持股比例": "0.304800408%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1105000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US67124CAB90",
+        "股票名稱": "OAK-EAGLE ACQUIRECO INC SER 144A (REG) 8.75% 01JUL2034",
+        "股數": null,
+        "持股比例": "0.188416276%",
+        "ETF股票代號": "00984D",
+        "原始數量": 661000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU2069EAA83",
+        "股票名稱": "COREWEAVE INC SER REGS (REG S) 9.25% 01JUN2030",
+        "股數": null,
+        "持股比例": "0.107924776%",
+        "ETF股票代號": "00984D",
+        "原始數量": 470000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU04907AB48",
+        "股票名稱": "ASURION LLC/ASURION CO 8.375% 01FEB2034",
+        "股數": null,
+        "持股比例": "0.385826227%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1876000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU83037AD01",
+        "股票名稱": "TALOS PRODUCTION INC SER REGS (REG S) 9.375% 01FEB2031",
+        "股數": null,
+        "持股比例": "0.315610468%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1073000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USG84228FJ22",
+        "股票名稱": "STANDARD CHARTERED PLC SER REGs (REG) (REG S) VAR PERP 31DEC2049",
+        "股數": null,
+        "持股比例": "0.441457952%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1542000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US00489LAL71",
+        "股票名稱": "ACRISURE LLC / FIN INC SER 144A 7.5% 06NOV2030",
+        "股數": null,
+        "持股比例": "0.056977788%",
+        "ETF股票代號": "00984D",
+        "原始數量": 233000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US225310AQ40",
+        "股票名稱": "CREDIT ACCEPTANC 9.25% 15DEC2028",
+        "股數": null,
+        "持股比例": "0.171126682%",
+        "ETF股票代號": "00984D",
+        "原始數量": 593000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US71924PAA66",
+        "股票名稱": "PHOTO HOLDINGS LLC SER 144A (REG) 12% 01JUL2031",
+        "股數": null,
+        "持股比例": "0.233812108%",
+        "ETF股票代號": "00984D",
+        "原始數量": 926000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU52845AB75",
+        "股票名稱": "LFS TOPCO LLC SER REGS 8.750000 % 15JUL2030",
+        "股數": null,
+        "持股比例": "0.17401004%",
+        "ETF股票代號": "00984D",
+        "原始數量": 634000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US382550BT77",
+        "股票名稱": "GOODYEAR TIRE & RUBBER (REG) 8.875% 15JUL2032",
+        "股數": null,
+        "持股比例": "0.756752485%",
+        "ETF股票代號": "00984D",
+        "原始數量": 3084999.9999999995,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US651229BG06",
+        "股票名稱": "NEWELL BRANDS INC SER 144A 8.500000 % 01JUN2028",
+        "股數": null,
+        "持股比例": "0.012246446%",
+        "ETF股票代號": "00984D",
+        "原始數量": 42000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU71896AA90",
+        "股票名稱": "PHOTO HOLDINGS LLC SER REGS (REG) (REG S) 12% 01JUL2031",
+        "股數": null,
+        "持股比例": "0.105796189%",
+        "ETF股票代號": "00984D",
+        "原始數量": 419000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USG00045AA56",
+        "股票名稱": "GLOBAL AUTO HO/AAG FH UK SER REGS (REG S) 11.5% 15AUG2029",
+        "股數": null,
+        "持股比例": "0.560002097%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1964000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US92841HAA05",
+        "股票名稱": "VISTAJET MALTA/VM HOLDS SER 144A 9.5% 01JUN2028",
+        "股數": null,
+        "持股比例": "0.039447938%",
+        "ETF股票代號": "00984D",
+        "原始數量": 139000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USG6436QAX46",
+        "股票名稱": "NCL CORPORATION LTD SER REGS 8.75 % 15-OCT-2031",
+        "股數": null,
+        "持股比例": "0.190315311%",
+        "ETF股票代號": "00984D",
+        "原始數量": 645000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US04625PAA93",
+        "股票名稱": "ASTEROID PRIVATE MERGER SER 144A (REG) 8.5% 15NOV2029",
+        "股數": null,
+        "持股比例": "0.670308378%",
+        "ETF股票代號": "00984D",
+        "原始數量": 2400000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU0055LAJ36",
+        "股票名稱": "ACRISURE LLC / FIN INC SER REGS (REG S) 8.5% 15JUN2029",
+        "股數": null,
+        "持股比例": "0.113977981%",
+        "ETF股票代號": "00984D",
+        "原始數量": 489000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU33825AD93",
+        "股票名稱": "FIVE POINT OPERATING CO SER REGS 8.000000 % 01-OCT-2030",
+        "股數": null,
+        "持股比例": "0.278598913%",
+        "ETF股票代號": "00984D",
+        "原始數量": 991000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US451102CK14",
+        "股票名稱": "ICAHN ENTERPRISES/FIN SER 144A (REG) 10.000000 % 15NOV2029",
+        "股數": null,
+        "持股比例": "0.100312841%",
+        "ETF股票代號": "00984D",
+        "原始數量": 383000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU9229LAA45",
+        "股票名稱": "VERDE PURCHASER LLC SER REGS (REG) (REG S) 10.5% 30NOV2030",
+        "股數": null,
+        "持股比例": "0.32282757%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1097000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU7300PAA13",
+        "股票名稱": "PODS LLC (SER REGS) (REGS) 8.75% 15MAY2031",
+        "股數": null,
+        "持股比例": "0.494476226%",
+        "ETF股票代號": "00984D",
+        "原始數量": 2047000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US97360AAA51",
+        "股票名稱": "WINDSOR HOLDINGS III LLC SER 144A 8.5% 15JUN2030",
+        "股數": null,
+        "持股比例": "0.26728943%",
+        "ETF股票代號": "00984D",
+        "原始數量": 915000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US216762AK06",
+        "股票名稱": "COOPER-STANDARD AUTOMOTI 9.25% 01MAR2031",
+        "股數": null,
+        "持股比例": "0.156560143%",
+        "ETF股票代號": "00984D",
+        "原始數量": 624000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US92556HAB33",
+        "股票名稱": "VIACOMCBS INC (REG) 4.95% 15JAN2031",
+        "股數": null,
+        "持股比例": "0.122103804%",
+        "ETF股票代號": "00984D",
+        "原始數量": 510000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU24570AC41",
+        "股票名稱": "DELEK LOG PART/FINANCE SER REGS (REG) (REG S) 8.625% 15MAR2029",
+        "股數": null,
+        "持股比例": "0.390679362%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1350000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US29281RAA77",
+        "股票名稱": "ENDO FINANCE HOLDINGS SER 144A 8.5% 15APR2031",
+        "股數": null,
+        "持股比例": "0.28454261%",
+        "ETF股票代號": "00984D",
+        "原始數量": 961000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US25461LAD47",
+        "股票名稱": "DIRECTV FIN LLC/COINC SER 144A 10.000000 % 15FEB2031",
+        "股數": null,
+        "持股比例": "0.561527829%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1919000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US87110CAA53",
+        "股票名稱": "SWORD PURCHASER LLC SER 144A (REG) 10.5% 15APR2034",
+        "股數": null,
+        "持股比例": "0.265375656%",
+        "ETF股票代號": "00984D",
+        "原始數量": 901000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USG7088KAA63",
+        "股票名稱": "PHOENIX AVIATION CAPITAL SER REGS 9.250000 % 15JUL2030",
+        "股數": null,
+        "持股比例": "0.594017823%",
+        "ETF股票代號": "00984D",
+        "原始數量": 2053000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US73943NAA46",
+        "股票名稱": "PRAIRIE ACQUIROR LP SER 144A 9% 01AUG2029",
+        "股數": null,
+        "持股比例": "0.338670596%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1171000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US039524AF08",
+        "股票名稱": "ARCHES BUYER INC SER 144A (REG) 9% 15AUG2031",
+        "股數": null,
+        "持股比例": "0.101300837%",
+        "ETF股票代號": "00984D",
+        "原始數量": 350000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU2286QAA86",
+        "股票名稱": "CSDC FINANCE I LLC (SER REGS) (REG S) 7.875000% 01-OCT-2031",
+        "股數": null,
+        "持股比例": "0.222387553%",
+        "ETF股票代號": "00984D",
+        "原始數量": 813000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US74387UAK79",
+        "股票名稱": "PROVIDENT FDG/PFG FIN SER 144A 9.75% 15SEP2029",
+        "股數": null,
+        "持股比例": "0.052855027%",
+        "ETF股票代號": "00984D",
+        "原始數量": 182000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US57767XAB64",
+        "股票名稱": "MAV ACQUISITION CORP SER 144A (REG) 8% 01AUG2029",
+        "股數": null,
+        "持股比例": "0.041542934%",
+        "ETF股票代號": "00984D",
+        "原始數量": 147000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU8768RAA06",
+        "股票名稱": "TEAM SERVICES HLDG INC SER REGS (REG S) 9% 15FEB2033",
+        "股數": null,
+        "持股比例": "0.122420692%",
+        "ETF股票代號": "00984D",
+        "原始數量": 429000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USL1957QAJ96",
+        "股票名稱": "CONSOLIDATED ENERGY FIN SER REGS 12.000000 % 15FEB2031",
+        "股數": null,
+        "持股比例": "0.373642592%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1270000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU2542MAA72",
+        "股票名稱": "DIRECTV FINANCING LLC SER REGS 8.875000 % 01-FEB-2030",
+        "股數": null,
+        "持股比例": "0.025972218%",
+        "ETF股票代號": "00984D",
+        "原始數量": 91000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU5003PAC15",
+        "股票名稱": "KOHL'S CORPORATION 10% 01JUN2030",
+        "股數": null,
+        "持股比例": "0.178340797%",
+        "ETF股票代號": "00984D",
+        "原始數量": 590000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "XS2806383159",
+        "股票名稱": "FIBERCOP SPA SER REGS 7.721000 % 04JUN2038",
+        "股數": null,
+        "持股比例": "0.23863501%",
+        "ETF股票代號": "00984D",
+        "原始數量": 910000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US030981AP92",
+        "股票名稱": "AMERIGAS PART/FIN CORP SER 144A 9.500000 % 01JUN2030",
+        "股數": null,
+        "持股比例": "0.344936159%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1163000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU3702PAA40",
+        "股票名稱": "GB AIT BUYER SER REGS 8.75 % 30-APR-2034",
+        "股數": null,
+        "持股比例": "0.103195391%",
+        "ETF股票代號": "00984D",
+        "原始數量": 370000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US35641AAA60",
+        "股票名稱": "FREEDOM MORTGAGE HOLD 9.25% 01FEB2029",
+        "股數": null,
+        "持股比例": "0.026148238%",
+        "ETF股票代號": "00984D",
+        "原始數量": 91000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US87485LAE48",
+        "股票名稱": "TALOS PRODUCTION INC SER 144A 9.375% 01FEB2031",
+        "股數": null,
+        "持股比例": "0.257959347%",
+        "ETF股票代號": "00984D",
+        "原始數量": 877000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU6302XAB20",
+        "股票名稱": "OAK-EAGLE ACQUIRECO INC 8.75% 01JUL2034",
+        "股數": null,
+        "持股比例": "0.692950032%",
+        "ETF股票代號": "00984D",
+        "原始數量": 2431000.0000000005,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US78438PAA03",
+        "股票名稱": "SE COSMOS LLC SER 144A (REG) 8.875% 01MAY2031",
+        "股數": null,
+        "持股比例": "0.065698354%",
+        "ETF股票代號": "00984D",
+        "原始數量": 243000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US07337JAC18",
+        "股票名稱": "BEACH ACQUISITION BIDCO SER 144a 10% 15JUL2033",
+        "股數": null,
+        "持股比例": "0.333732563%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1099000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USC39555AE44",
+        "股票名稱": "GOEASY LTD SER REGS (REG S) 9.25% 01DEC2028",
+        "股數": null,
+        "持股比例": "0.706469103%",
+        "ETF股票代號": "00984D",
+        "原始數量": 2535000.0000000005,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU7024LAD92",
+        "股票名稱": "PARK RIVER HOLDINGS INC SER REGS (REG S) 8.75% 31DEC2030",
+        "股數": null,
+        "持股比例": "0.153512148%",
+        "ETF股票代號": "00984D",
+        "原始數量": 618207.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU31538AH18",
+        "股票名稱": "FERRELLGAS LP/FERRELLGAS SER REGS (REG S) 9.25% 15JAN2031",
+        "股數": null,
+        "持股比例": "0.731074072%",
+        "ETF股票代號": "00984D",
+        "原始數量": 2500000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US92339LAA08",
+        "股票名稱": "VERDE PURCHASER LLC SER 144A (REG) 10.5% 30NOV2030",
+        "股數": null,
+        "持股比例": "0.07180486%",
+        "ETF股票代號": "00984D",
+        "原始數量": 244000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU85543AA14",
+        "股票名稱": "STAR PARENT INC SER REGS 9.000000 % 01-OCT-2030",
+        "股數": null,
+        "持股比例": "0.133762255%",
+        "ETF股票代號": "00984D",
+        "原始數量": 458000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US23317XAA54",
+        "股票名稱": "DDC 01 PROPCO LLC SER 144A 8.875 % 30-SEP-2031",
+        "股數": null,
+        "持股比例": "0.271315017%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1055000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU2285XBA38",
+        "股票名稱": "CSC HOLDINGS LLC SER REGS (REG S) 11.75% 31JAN2029",
+        "股數": null,
+        "持股比例": "0.158352175%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1163000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU02436AG54",
+        "股票名稱": "AMERICAN AXLE & MFG INC SER REGS (REG) (REG S) 7.75% 15OCT2033",
+        "股數": null,
+        "持股比例": "0.02214448%",
+        "ETF股票代號": "00984D",
+        "原始數量": 82000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU0900PAD43",
+        "股票名稱": "JB POINDEXTER & CO INC SER REGS (REG S) 8.75% 15DEC2031",
+        "股數": null,
+        "持股比例": "0.086564021%",
+        "ETF股票代號": "00984D",
+        "原始數量": 304000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US05946KAM36",
+        "股票名稱": "BANCO BILBAO VIZCAYA ARG VAR PERP 31DEC2049",
+        "股數": null,
+        "持股比例": "0.438724879%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1461000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US36267QAA22",
+        "股票名稱": "FORWARD AIR CORP SER 144A (REG) 9.5% 15OCT2031",
+        "股數": null,
+        "持股比例": "0.016216811%",
+        "ETF股票代號": "00984D",
+        "原始數量": 56000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU45709AD15",
+        "股票名稱": "INNOPHOS HOLDINGS INC SER REGS (REG S) 11.5% 15JUN2029",
+        "股數": null,
+        "持股比例": "0.242365487%",
+        "ETF股票代號": "00984D",
+        "原始數量": 940433.9999999999,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU86057AA10",
+        "股票名稱": "SUMMIT MIDSTREAM HOLDING SER REGS (REG S) 8.625% 31OCT2029",
+        "股數": null,
+        "持股比例": "0.526994566%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1818000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU05375AX59",
+        "股票名稱": "AVIS BUDGET CAR/FINANCE SER REGS 8.375000 % 15JUN2032",
+        "股數": null,
+        "持股比例": "0.758223303%",
+        "ETF股票代號": "00984D",
+        "原始數量": 2718000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USG9460GAC53",
+        "股票名稱": "VALARIS LTD SER REGS (REG S) 8.375% 30APR2030",
+        "股數": null,
+        "持股比例": "0.183319597%",
+        "ETF股票代號": "00984D",
+        "原始數量": 631000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US89377AAA34",
+        "股票名稱": "TRANSMONTAIGNE PARTNERS SER 144A 8.500000 % 15JUN2030",
+        "股數": null,
+        "持股比例": "0.385251871%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1354000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU4232PAC78",
+        "股票名稱": "HELIX ENERGY SOLUTIONS SER REGS (REG) (REG S) 9.75% 01MAR2029",
+        "股數": null,
+        "持股比例": "0.238041348%",
+        "ETF股票代號": "00984D",
+        "原始數量": 820000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US40518JAA79",
+        "股票名稱": "HAH GROUP HOLDING CO LLC SER 144A 9.75% 01OCT2031",
+        "股數": null,
+        "持股比例": "0.52544946%",
+        "ETF股票代號": "00984D",
+        "原始數量": 2032000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USG04584AA97",
+        "股票名稱": "ARDONAGH FINCO LTD SER REGS (REG S) 7.75% 15FEB2031",
+        "股數": null,
+        "持股比例": "0.05710711%",
+        "ETF股票代號": "00984D",
+        "原始數量": 200000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "XS2580715147",
+        "股票名稱": "SWEDBANK AB (REG S) (BR) VAR PERP 31DEC2049",
+        "股數": null,
+        "持股比例": "0.459286938%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1600000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US045941AB79",
+        "股票名稱": "ASURION LLC/ASURION CO SER 144A 8.375% 01FEB2034",
+        "股數": null,
+        "持股比例": "0.303149175%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1474000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USC4R906AA53",
+        "股票名稱": "GREAT CANADIAN GAMING CO SER REGS (REG S) 8.75% 15NOV2029",
+        "股數": null,
+        "持股比例": "0.43264247%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1768000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU8729AAA52",
+        "股票名稱": "TRANSMONTAIGNE PARTNERS SER REGS 8.500000 % 15JUN2030",
+        "股數": null,
+        "持股比例": "0.237865998%",
+        "ETF股票代號": "00984D",
+        "原始數量": 836000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US925524AH30",
+        "股票名稱": "PARAMOUNT GLOBAL (REG) 7.875% 30JUL2030",
+        "股數": null,
+        "持股比例": "0.104947773%",
+        "ETF股票代號": "00984D",
+        "原始數量": 387000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU45057AN37",
+        "股票名稱": "IHEARTCOMMUNICATIONS INC SER REGS 9.125000 % 01MAY2029",
+        "股數": null,
+        "持股比例": "0.26054423%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1136842.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU62024AA94",
+        "股票名稱": "MPT OPER PARTNERSP/FINL SER REGS 8.500000 % 15FEB2032",
+        "股數": null,
+        "持股比例": "0.207007862%",
+        "ETF股票代號": "00984D",
+        "原始數量": 853000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US70082LAD91",
+        "股票名稱": "PARK RIVER HOLDINGS INC SER 144A 8.750000 % 31-DEC-2030",
+        "股數": null,
+        "持股比例": "0.147234164%",
+        "ETF股票代號": "00984D",
+        "原始數量": 592925.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US1248EPCV30",
+        "股票名稱": "CCO HOLDINGS LLC / CCO HOLDINGS CAPITAL CORP SER 144A 7.375% 01FEB2036",
+        "股數": null,
+        "持股比例": "0.063388975%",
+        "ETF股票代號": "00984D",
+        "原始數量": 251000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US15853BAA98",
+        "股票名稱": "CHAMPION IRON CANADA INC SER 144A 7.875000 % 15JUL2032",
+        "股數": null,
+        "持股比例": "0.03114952%",
+        "ETF股票代號": "00984D",
+        "原始數量": 139000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US90367UAD37",
+        "股票名稱": "US ACUTE CARE SOLUTIONS SER 144A 9.75% 15MAY2029",
+        "股數": null,
+        "持股比例": "0.074591713%",
+        "ETF股票代號": "00984D",
+        "原始數量": 284000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US750098AA35",
+        "股票名稱": "RACKSPACE TECHNOLOGY 5.375% 01DEC2028",
+        "股數": null,
+        "持股比例": "0.019111757%",
+        "ETF股票代號": "00984D",
+        "原始數量": 100000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USG315APAM05",
+        "股票名稱": "ENQUEST PLC SER REGS 9.875 % 30-APR-2031",
+        "股數": null,
+        "持股比例": "0.32176932%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1098000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US690732AJ10",
+        "股票名稱": "ACCENDRA HEALTH INC SER 144A 9 % 15-JUN-2032",
+        "股數": null,
+        "持股比例": "0.24933793%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1027000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US563571AN82",
+        "股票名稱": "MANITOWOC COMPANY INC SER 144A 9.25% 01OCT2031",
+        "股數": null,
+        "持股比例": "0.12939953%",
+        "ETF股票代號": "00984D",
+        "原始數量": 428000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU2541MAE04",
+        "股票名稱": "DIRECTV FIN LLC/COINC SER REGS 10.000000 % 15FEB2031",
+        "股數": null,
+        "持股比例": "0.507101479%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1733000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US624943AC03",
+        "股票名稱": "MULTI COLOR CORP (REG) 8.5% 11MAY2033",
+        "股數": null,
+        "持股比例": "0.136854107%",
+        "ETF股票代號": "00984D",
+        "原始數量": 550671.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU25783AK41",
+        "股票名稱": "RR DONNELLEY & SONS CO SER REGS (REG S) 10.875% 01AUG2029",
+        "股數": null,
+        "持股比例": "0.136480829%",
+        "ETF股票代號": "00984D",
+        "原始數量": 481000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU60731AB91",
+        "股票名稱": "MOHEGAN TRIBAL / MS DIG SER REGS 11.875000 % 15APR2031",
+        "股數": null,
+        "持股比例": "0.154840768%",
+        "ETF股票代號": "00984D",
+        "原始數量": 514000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU3133WAB64",
+        "股票名稱": "FREEDOM MORTGAGE HOLD SER REGS (REG S) 9.125% 15MAY2031",
+        "股數": null,
+        "持股比例": "0.057315999%",
+        "ETF股票代號": "00984D",
+        "原始數量": 202000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US257867BK60",
+        "股票名稱": "RR DONNELLEY & SONS CO SER 144A 10.875000 % 01-AUG-2029",
+        "股數": null,
+        "持股比例": "0.047668978%",
+        "ETF股票代號": "00984D",
+        "原始數量": 168000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "XS2818827169",
+        "股票名稱": "TRIDENT ENERGY FINANCE SER REGS (REG S) 12.5% 30NOV2029",
+        "股數": null,
+        "持股比例": "0.188487148%",
+        "ETF股票代號": "00984D",
+        "原始數量": 634000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US50201DAA19",
+        "股票名稱": "LCPR SR SECURED FIN DAC SER 144A (REG) 6.75% 15OCT2027",
+        "股數": null,
+        "持股比例": "0.171025294%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1358000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US00033GAB14",
+        "股票名稱": "GLOBAL AUTO HO/AAG FH UK SER 144A 8.75% 15JAN2032",
+        "股數": null,
+        "持股比例": "0.053184277%",
+        "ETF股票代號": "00984D",
+        "原始數量": 208000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU91505AY02",
+        "股票名稱": "UNIVISION COMMUNICATIONS SER REGS (REG S) 9.375% 01AUG2032",
+        "股數": null,
+        "持股比例": "0.620492065%",
+        "ETF股票代號": "00984D",
+        "原始數量": 2259000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US00164VAK98",
+        "股票名稱": "AMC NETWORKS INC SER 144A 10.500000 % 15-JUL-2032",
+        "股數": null,
+        "持股比例": "0.129742806%",
+        "ETF股票代號": "00984D",
+        "原始數量": 470000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU74922AA01",
+        "股票名稱": "RAND PARENT LLC SER REGS 8.500000 % 15FEB2030",
+        "股數": null,
+        "持股比例": "0.156754877%",
+        "ETF股票代號": "00984D",
+        "原始數量": 543000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US87821TAA88",
+        "股票名稱": "TEAM SERVICES HLDG INC (SER 144A) 9% 15FEB2033",
+        "股數": null,
+        "持股比例": "0.018263229%",
+        "ETF股票代號": "00984D",
+        "原始數量": 64000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US640695AC66",
+        "股票名稱": "NEPTUNE BIDCO US INC SER 144A 10.375000 % 15-MAY-2031",
+        "股數": null,
+        "持股比例": "0.453331387%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1583000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU64228AA45",
+        "股票名稱": "NEW FLYER HOLDINGS SER REGS 9.250000 % 01JUL2030",
+        "股數": null,
+        "持股比例": "0.19330962%",
+        "ETF股票代號": "00984D",
+        "原始數量": 644000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU72644AA28",
+        "股票名稱": "PM GENERAL PURCHASER LLC SER REGS (REG) (REG S) 9.5% 01OCT2028",
+        "股數": null,
+        "持股比例": "0.086250515%",
+        "ETF股票代號": "00984D",
+        "原始數量": 544000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU04080AA22",
+        "股票名稱": "ARETEC ESCROW ISSUER 2 SER REGS (REG) (REG S) 10% 15AUG2030",
+        "股數": null,
+        "持股比例": "0.717365306%",
+        "ETF股票代號": "00984D",
+        "原始數量": 2439000.0000000005,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US674599EA94",
+        "股票名稱": "OCCIDENTAL PETROLEUM COR 8.875% 15JUL2030",
+        "股數": null,
+        "持股比例": "0.398896496%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1282000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US75026JAH32",
+        "股票名稱": "RADIATE HOLDCO / FINANCE (SER 144A) (REG)  FRN 25MAR2030",
+        "股數": null,
+        "持股比例": "0.278559314%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1531859.9999999998,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU44927BD96",
+        "股票名稱": "ICAHN ENTERPRISES/FIN SER REGS 10.000000 % 15NOV2029",
+        "股數": null,
+        "持股比例": "0.395227344%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1509000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU5324YAA83",
+        "股票名稱": "ELK GROVE VILLAGE PROPER SER REGS (REG S) 7.5% 15JUN2031",
+        "股數": null,
+        "持股比例": "0.148002498%",
+        "ETF股票代號": "00984D",
+        "原始數量": 560000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USG53431AA32",
+        "股票名稱": "LCPR SR SECURED FIN DAC SER REGS (REG) (REG S) 6.75% 15OCT2027",
+        "股數": null,
+        "持股比例": "0.178581637%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1418000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US465965AC53",
+        "股票名稱": "JB POINDEXTER & CO INC SER 144A 8.750000 % 15DEC2031",
+        "股數": null,
+        "持股比例": "0.027620755%",
+        "ETF股票代號": "00984D",
+        "原始數量": 97000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US389375AN64",
+        "股票名稱": "GRAY MEDIA INC SER 144A 9.625000 % 15JUL2032",
+        "股數": null,
+        "持股比例": "0.307821242%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1118000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU55288AB72",
+        "股票名稱": "MCAFEE CORP SER REGS 7.375000 % 15FEB2030",
+        "股數": null,
+        "持股比例": "0.032094544%",
+        "ETF股票代號": "00984D",
+        "原始數量": 135000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US431318BC74",
+        "股票名稱": "HILCORP ENERGY I/HILCORP SER 144A 8.375% 01NOV2033",
+        "股數": null,
+        "持股比例": "0.017854919%",
+        "ETF股票代號": "00984D",
+        "原始數量": 61000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU85254AH08",
+        "股票名稱": "W & T OFFSHORE INC SER REGS (REG) (REG S) 10.75% 01FEB2029",
+        "股數": null,
+        "持股比例": "0.258783367%",
+        "ETF股票代號": "00984D",
+        "原始數量": 892000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USJ64264AK09",
+        "股票名稱": "RAKUTEN GROUP INC SER REGS (REG S) 9.75% 15APR2029",
+        "股數": null,
+        "持股比例": "0.205492208%",
+        "ETF股票代號": "00984D",
+        "原始數量": 682000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USL2000TAA71",
+        "股票名稱": "BREAKWATER ENRGY HOLD SER REGS 9.25 % 15-NOV-2030",
+        "股數": null,
+        "持股比例": "0.073484807%",
+        "ETF股票代號": "00984D",
+        "原始數量": 250000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US02406PBD15",
+        "股票名稱": "AMERICAN AXLE & MFG INC SER 144A 7.750000 % 15-OCT-2033",
+        "股數": null,
+        "持股比例": "0.306782075%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1136000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU6203KAG95",
+        "股票名稱": "MPH ACQUISITION HOLDINGS 11.5% 31DEC2030",
+        "股數": null,
+        "持股比例": "0.411042704%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1651143.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US74165HAC25",
+        "股票名稱": "PRIME HEALTHCARE SERVICE SER 144A 9.375% 01SEP2029",
+        "股數": null,
+        "持股比例": "0.136235937%",
+        "ETF股票代號": "00984D",
+        "原始數量": 472000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US87183XAK90",
+        "股票名稱": "SYSCO HOLD/SYSC CORP SER ... VAR 06-OCT-2056",
+        "股數": null,
+        "持股比例": "0.258807455%",
+        "ETF股票代號": "00984D",
+        "原始數量": 900000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USL0178WAJ10",
+        "股票名稱": "ALTICE FINANCING SA SER REGs (REG S) 5.75% 15AUG2029",
+        "股數": null,
+        "持股比例": "0.148321%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1140000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US124857AJ27",
+        "股票名稱": "VIACOMCBS INC (REG) 4.85% 01JUL2042",
+        "股數": null,
+        "持股比例": "0.116166572%",
+        "ETF股票代號": "00984D",
+        "原始數量": 754000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU42804AY78",
+        "股票名稱": "HERTZ CORP/THE SER REGS (REG S) 12.625% 15JUL2029",
+        "股數": null,
+        "持股比例": "0.342165445%",
+        "ETF股票代號": "00984D",
+        "原始數量": 2077000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US28734DAA37",
+        "股票名稱": "ELK GROVE VILLAGE PROPER 7.5% 15JUN2031",
+        "股數": null,
+        "持股比例": "0.05708668%",
+        "ETF股票代號": "00984D",
+        "原始數量": 216000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU01797AM85",
+        "股票名稱": "BREAD FINANCIAL HLDGS SER REGS VAR 15JUN2035",
+        "股數": null,
+        "持股比例": "0.265083851%",
+        "ETF股票代號": "00984D",
+        "原始數量": 916000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU0080UAC72",
+        "股票名稱": "ADVANTAGE SALES & MARKET SER REGS 9 % 15-NOV-2030",
+        "股數": null,
+        "持股比例": "0.150957568%",
+        "ETF股票代號": "00984D",
+        "原始數量": 690183.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US98380MAB19",
+        "股票名稱": "XPLR INFRAST OPERATING SER 144A 8.625000 % 15MAR2033",
+        "股數": null,
+        "持股比例": "0.008182565%",
+        "ETF股票代號": "00984D",
+        "原始數量": 28000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU7010QAP73",
+        "股票名稱": "PARAMOUNT SKYDANCE CORP SER REGS (REG) (REG S) 8.875% 15OCT2034",
+        "股數": null,
+        "持股比例": "0.215294511%",
+        "ETF股票代號": "00984D",
+        "原始數量": 776000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU17127BA51",
+        "股票名稱": "CHS/COMMUNITY HEALTH SYS SER REGS 9.750000 % 15JAN2034",
+        "股數": null,
+        "持股比例": "0.408123018%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1691000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU4053JAA17",
+        "股票名稱": "HAH GROUP HOLDING CO LLC SER REGS (REG S) 9.75% 01OCT2031",
+        "股數": null,
+        "持股比例": "0.212300202%",
+        "ETF股票代號": "00984D",
+        "原始數量": 821000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU62000AC58",
+        "股票名稱": "MOSS CREEK RESOURCES HLD SER REGS (REG S) 8.25% 01SEP2031",
+        "股數": null,
+        "持股比例": "0.342450579%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1214000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU35924AA42",
+        "股票名稱": "GAINWELL ACQUISITION COR SER REGS (REG) (REG S) 9% 01SEP2031",
+        "股數": null,
+        "持股比例": "0.434800518%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1491000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU0735JAB36",
+        "股票名稱": "BEACH ACQUISITION BIDCO 10% 15JUL2033",
+        "股數": null,
+        "持股比例": "0.429525355%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1414451.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU63661AA74",
+        "股票名稱": "NATIONAL MENTOR HOLDINGS SER REGS (REG) (REG S) 10.5% 15DEC2030",
+        "股數": null,
+        "持股比例": "0.331283449%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1133000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU4324PAB86",
+        "股票名稱": "HIGHTOWER HOLDING LLC SER REGS (REG S) 9.125% 31JAN2030",
+        "股數": null,
+        "持股比例": "0.345176467%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1200000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US29078EAA38",
+        "股票名稱": "EMBARQ CORP (REG) 7.995% 01JUN2036",
+        "股數": null,
+        "持股比例": "0.008188539%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1128000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US69413FAA03",
+        "股票名稱": "PODS LLC SER 144A 8.75% 15MAY2031",
+        "股數": null,
+        "持股比例": "0.292772439%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1212000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU83252AD58",
+        "股票名稱": "SMYRNA READY MIX CONCRET SER REGS (REG S) 8.875% 15NOV2031",
+        "股數": null,
+        "持股比例": "0.189475179%",
+        "ETF股票代號": "00984D",
+        "原始數量": 656000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU2919QAA32",
+        "股票名稱": "ENDO FINANCE HOLDINGS SER REGS (REG S) 8.5% 15APR2031",
+        "股數": null,
+        "持股比例": "0.015396688%",
+        "ETF股票代號": "00984D",
+        "原始數量": 52000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU58717AB28",
+        "股票名稱": "THE MEN'S WEARHOUSE LLC SER REGS (REG S) 9% 01FEB2031",
+        "股數": null,
+        "持股比例": "0.093893723%",
+        "ETF股票代號": "00984D",
+        "原始數量": 318000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US21873SAB43",
+        "股票名稱": "COREWEAVE INC SER 144A 9.250000 % 01JUN2030",
+        "股數": null,
+        "持股比例": "0.007577701%",
+        "ETF股票代號": "00984D",
+        "原始數量": 33000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU0203LAB19",
+        "股票名稱": "ALTA EQUIPMENT GROUP SER REGS (REG) (REG S) 9% 01JUN2029",
+        "股數": null,
+        "持股比例": "0.134025319%",
+        "ETF股票代號": "00984D",
+        "原始數量": 493000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU85440AF96",
+        "股票名稱": "STAPLES INC SER REGS (REG S) 10.75% 01SEP2029",
+        "股數": null,
+        "持股比例": "0.486073012%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1764000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USG0003GAB08",
+        "股票名稱": "GLOBAL AUTO HO/AAG FH UK SER REGS (REG S) 8.75% 15JAN2032",
+        "股數": null,
+        "持股比例": "0.10355593%",
+        "ETF股票代號": "00984D",
+        "原始數量": 405000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US92553PAU66",
+        "股票名稱": "VIACOM INC (REG) 5.85% 01SEP2043",
+        "股數": null,
+        "持股比例": "0.391972692%",
+        "ETF股票代號": "00984D",
+        "原始數量": 2306000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU9033UAE20",
+        "股票名稱": "US ACUTE CARE SOLUTIONS SER REGS (REG S) 9.75% 15MAY2029",
+        "股數": null,
+        "持股比例": "0.126595791%",
+        "ETF股票代號": "00984D",
+        "原始數量": 482000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU25783AL24",
+        "股票名稱": "RR DONNELLEY & SONS CO (REGS) (REG S) FRN 01JUN2031",
+        "股數": null,
+        "持股比例": "0.252955902%",
+        "ETF股票代號": "00984D",
+        "原始數量": 969000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU6830PAA22",
+        "股票名稱": "ONESKY FLIGHT LLC SER REGS 8.875000 % 15DEC2029",
+        "股數": null,
+        "持股比例": "0.148233226%",
+        "ETF股票代號": "00984D",
+        "原始數量": 504000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USG9444PAG75",
+        "股票名稱": "VMED O2 UK FINANCING I SER REGS (REG S) 7.75% 15APR2032",
+        "股數": null,
+        "持股比例": "0.20738726%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1010000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USG4648GAA51",
+        "股票名稱": "HOWDEN UK REFINANCE / US SER REGS (REG S) 8.125% 15FEB2032",
+        "股數": null,
+        "持股比例": "0.529486138%",
+        "ETF股票代號": "00984D",
+        "原始數量": 2040000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US163851AJ70",
+        "股票名稱": "CHEMOURS CO SER 144A (REG) 8.000000 % 15JAN2033",
+        "股數": null,
+        "持股比例": "0.335521196%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1247000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU0237LAP05",
+        "股票名稱": "AMC ENTERTAINMENT HLDGS SER REGS (REG) (REG S) 8.875% 15OCT2031",
+        "股數": null,
+        "持股比例": "0.320372575%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1100000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU04907AA64",
+        "股票名稱": "ASURION LLC/ASURION CO SER REGS 8 % 31-DEC-2032",
+        "股數": null,
+        "持股比例": "0.237710494%",
+        "ETF股票代號": "00984D",
+        "原始數量": 901000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US404280DT33",
+        "股票名稱": "HSBC HOLDINGS PLC (REG) VAR PERP 31DEC2049",
+        "股數": null,
+        "持股比例": "0.460655535%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1597000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US072933AA25",
+        "股票名稱": "BCPE FLAVOR DEBT 9.500000 % 01JUL2032",
+        "股數": null,
+        "持股比例": "0.025085344%",
+        "ETF股票代號": "00984D",
+        "原始數量": 93000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU6295YAN32",
+        "股票名稱": "NABORS INDUSTRIES INC SER REGS (REG S) 9.125% 31JAN2030",
+        "股數": null,
+        "持股比例": "0.37076326%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1264000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU86043AK98",
+        "股票名稱": "SABRE GLBL INC SER REGS 11.125000 % 15JUL2030",
+        "股數": null,
+        "持股比例": "0.171142846%",
+        "ETF股票代號": "00984D",
+        "原始數量": 673000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US651229AY21",
+        "股票名稱": "NEWELL RUBBERMAID INC 6% 01APR2046",
+        "股數": null,
+        "持股比例": "0.160664542%",
+        "ETF股票代號": "00984D",
+        "原始數量": 621000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU64059AD79",
+        "股票名稱": "NEPTUNE BIDCO US INC SER REGS 10.375000 % 15-MAY-2031",
+        "股數": null,
+        "持股比例": "0.719660007%",
+        "ETF股票代號": "00984D",
+        "原始數量": 2512999.9999999995,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US45344LAG86",
+        "股票名稱": "CRESCENT ENERGY FINANCE SER 144A 8.375000 % 15JAN2034",
+        "股數": null,
+        "持股比例": "0.081535209%",
+        "ETF股票代號": "00984D",
+        "原始數量": 280000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US48020RAB15",
+        "股票名稱": "JONES DESLAURIERS INSURA SER 144A 8.500000 % 15-MAR-2030",
+        "股數": null,
+        "持股比例": "0.025822929%",
+        "ETF股票代號": "00984D",
+        "原始數量": 90000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US01879NAC92",
+        "股票名稱": "ALLIANCE RES OP/FINANCE SER 144A 8.625000 % 15-JUN-2029",
+        "股數": null,
+        "持股比例": "0.250023674%",
+        "ETF股票代號": "00984D",
+        "原始數量": 852000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US17888HAD52",
+        "股票名稱": "CIVITAS RESOURCES INC SER 144A 9.625000 % 15JUN2033",
+        "股數": null,
+        "持股比例": "0.224977183%",
+        "ETF股票代號": "00984D",
+        "原始數量": 735000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "XS2831061796",
+        "股票名稱": "DNB BANK ASA SER EMTN (REG) (REG S) VAR PERP 31DEC2049",
+        "股數": null,
+        "持股比例": "0.460153716%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1601000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU26947AA69",
+        "股票名稱": "EQUIPMENTSHARE.COM INC SER REGS (REG S) 9% 15MAY2028",
+        "股數": null,
+        "持股比例": "0.012580975%",
+        "ETF股票代號": "00984D",
+        "原始數量": 45000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US855030AQ50",
+        "股票名稱": "STAPLES INC SER 144A 10.75% 01SEP2029",
+        "股數": null,
+        "持股比例": "0.561849704%",
+        "ETF股票代號": "00984D",
+        "原始數量": 2039000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US037389AK90",
+        "股票名稱": "AON CORP SER * (REG) 8.205000 % 01JAN2027",
+        "股數": null,
+        "持股比例": "0.404019348%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1424000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USC07885AL76",
+        "股票名稱": "BAUSCH HEALTH COS INC SER REGS (REG) (REG S) 11% 30SEP2028",
+        "股數": null,
+        "持股比例": "0.678249467%",
+        "ETF股票代號": "00984D",
+        "原始數量": 2257000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USC7030NAA30",
+        "股票名稱": "OSISKO GOLD GROUP INC SER REGS (REG) (REG S) 9.25% 01OCT2031",
+        "股數": null,
+        "持股比例": "0.308963875%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1100000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US53219LAX73",
+        "股票名稱": "LIFEPOINT HEALTH INC SER 144A 10% 01JUN2032",
+        "股數": null,
+        "持股比例": "0.421336712%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1727000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USH42097ES26",
+        "股票名稱": "UBS GROUP AG SER REGs (REG) (REG S) VAR PERP 31DEC2049",
+        "股數": null,
+        "持股比例": "0.448908709%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1510000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU6949NAD94",
+        "股票名稱": "PRA GROUP INC SER REGS 8.875000 % 31JAN2030",
+        "股數": null,
+        "持股比例": "0.107221828%",
+        "ETF股票代號": "00984D",
+        "原始數量": 373000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US04020JAA43",
+        "股票名稱": "ARETEC ESCROW ISSUER 2 SER 144A (REG) 10% 15AUG2030",
+        "股數": null,
+        "持股比例": "0.163532233%",
+        "ETF股票代號": "00984D",
+        "原始數量": 556000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US69932AAQ85",
+        "股票名稱": "PARAMOUNT SKYDANCE CORP SER 144A (REG) 9.125% 15OCT2036",
+        "股數": null,
+        "持股比例": "0.051487693%",
+        "ETF股票代號": "00984D",
+        "原始數量": 188000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US69932AAP03",
+        "股票名稱": "PARAMOUNT SKYDANCE CORP SER 144A (REG) 8.875% 15OCT2034",
+        "股數": null,
+        "持股比例": "0.078793354%",
+        "ETF股票代號": "00984D",
+        "原始數量": 284000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US18972EAB11",
+        "股票名稱": "CLYDESDALE ACQUISITION SER 144A (REG) 8.75% 15APR2030",
+        "股數": null,
+        "持股比例": "0.189173399%",
+        "ETF股票代號": "00984D",
+        "原始數量": 707000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU17185AH96",
+        "股票名稱": "CITGO PETROLEUM CORP SER REGS (REG S) 8.375% 15JAN2029",
+        "股數": null,
+        "持股比例": "0.153808451%",
+        "ETF股票代號": "00984D",
+        "原始數量": 535000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US45774NAD03",
+        "股票名稱": "INNOPHOS HOLDINGS INC SER 144A 11.500000 % 15JUN2029",
+        "股數": null,
+        "持股比例": "0.085304213%",
+        "ETF股票代號": "00984D",
+        "原始數量": 331000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US36322DAA46",
+        "股票名稱": "GALAXY HELIOS DATA CNTR SER 144A 9.875% 01AUG2031",
+        "股數": null,
+        "持股比例": "0.671583577%",
+        "ETF股票代號": "00984D",
+        "原始數量": 2663000.0000000005,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USJ57160CZ41",
+        "股票名稱": "NISSAN MOTOR CO SER REGS 8.125000 % 17JUL2035",
+        "股數": null,
+        "持股比例": "0.328193237%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1167000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US68389XEF87",
+        "股票名稱": "ORACLE CORP (REG) 8% 04FEB2037",
+        "股數": null,
+        "持股比例": "0.256074631%",
+        "ETF股票代號": "00984D",
+        "原始數量": 904000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU7010QAM43",
+        "股票名稱": "SKYDANCE CORP SER REGS 5.141 % 15-MAR-2052",
+        "股數": null,
+        "持股比例": "0.036399222%",
+        "ETF股票代號": "00984D",
+        "原始數量": 214000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US00440FAA21",
+        "股票名稱": "ACE CAPITAL TRUST II (REG) 9.7% 01APR2030",
+        "股數": null,
+        "持股比例": "0.434306219%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1372000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USJ64264AG96",
+        "股票名稱": "RAKUTEN GROUP INC SER REGS (REG S) 11.25% 15FEB2027",
+        "股數": null,
+        "持股比例": "0.3243236%",
+        "ETF股票代號": "00984D",
+        "原始數量": 1132000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU2915CAG51",
+        "股票名稱": "ENCORE CAPITAL GROUP INC SER REGS 8.500000 % 15MAY2030",
+        "股數": null,
+        "持股比例": "0.137786125%",
+        "ETF股票代號": "00984D",
+        "原始數量": 465000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU0379NAA73",
+        "股票名稱": "APLD COMPUTECO LLC SER REGS 9.250000 % 15-DEC-2030",
+        "股數": null,
+        "持股比例": "0.215398964%",
+        "ETF股票代號": "00984D",
+        "原始數量": 747000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU7667LAB54",
+        "股票名稱": "RIVIAN HLD/AUTO LLC SER REGS (REG) (REG S) 10% 15JAN2031",
+        "股數": null,
+        "持股比例": "0.125078189%",
+        "ETF股票代號": "00984D",
+        "原始數量": 463000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USG04916AA39",
+        "股票名稱": "ARDONAGH GROUP FINANCE SER REGS (REG S) 8.875% 15FEB2032",
+        "股數": null,
+        "持股比例": "0.139776505%",
+        "ETF股票代號": "00984D",
+        "原始數量": 501000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "USU7536YAA83",
+        "股票名稱": "RD MICHIGAN PROP OWNER I SER REGS (REG S) 7.5% 30MAR2045",
+        "股數": null,
+        "持股比例": "0.653122971%",
+        "ETF股票代號": "00984D",
+        "原始數量": 2631000.0000000005,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "US428040DC08",
+        "股票名稱": "HERTZ CORP/THE SER 144A 12.625% 15JUL2029",
+        "股數": null,
+        "持股比例": "0.081875892%",
+        "ETF股票代號": "00984D",
+        "原始數量": 497000.0,
+        "數量單位": "面額",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "未提供代碼：US 2YR NOTE (CBT) DEC26 31-DEC-2026",
+        "股票名稱": "US 2YR NOTE (CBT) DEC26 31-DEC-2026",
+        "股數": null,
+        "持股比例": "-0.404887371%",
+        "ETF股票代號": "00984D",
+        "原始數量": -7.0,
+        "數量單位": "口",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "未提供代碼：US 10YR NOTE (CBT)DEC26 21-DEC-2026",
+        "股票名稱": "US 10YR NOTE (CBT)DEC26 21-DEC-2026",
+        "股數": null,
+        "持股比例": "2.756364297%",
+        "ETF股票代號": "00984D",
+        "原始數量": 91.0,
+        "數量單位": "口",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "未提供代碼：US 10YR ULTRA FUT DEC26 21-DEC-2026",
+        "股票名稱": "US 10YR ULTRA FUT DEC26 21-DEC-2026",
+        "股數": null,
+        "持股比例": "0.645714689%",
+        "ETF股票代號": "00984D",
+        "原始數量": 21.0,
+        "數量單位": "口",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "未提供代碼：US ULTRA BOND CBT DEC26 21-DEC-2026",
+        "股票名稱": "US ULTRA BOND CBT DEC26 21-DEC-2026",
+        "股數": null,
+        "持股比例": "-0.155439288%",
+        "ETF股票代號": "00984D",
+        "原始數量": -5.0,
+        "數量單位": "口",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "未提供代碼：US 5YR NOTE (CBT) DEC26 31-DEC-2026",
+        "股票名稱": "US 5YR NOTE (CBT) DEC26 31-DEC-2026",
+        "股數": null,
+        "持股比例": "3.182256726%",
+        "ETF股票代號": "00984D",
+        "原始數量": 107.0,
+        "數量單位": "口",
+        "_source_kind": "official"
+    },
+    {
+        "股票代號": "未提供代碼：US LONG BOND(CBT) DEC26 21-DEC-2026",
+        "股票名稱": "US LONG BOND(CBT) DEC26 21-DEC-2026",
+        "股數": null,
+        "持股比例": "-0.459968013%",
+        "ETF股票代號": "00984D",
+        "原始數量": -15.0,
+        "數量單位": "口",
+        "_source_kind": "official"
+    }
+]
