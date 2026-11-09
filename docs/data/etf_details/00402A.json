@@ -1,7 +1,7 @@
 {
   "code": "00402A",
   "name": "主動安聯美國科技",
-  "asof": "20261104",
+  "asof": "20261105",
   "data_status": "fresh",
   "source_kind": "backup",
   "source_name": "ETF資訊網（公開持股備援）",
@@ -9,6 +9,13 @@
   "date_basis": "issuer",
   "unchanged": false,
   "history": [
+    {
+      "date": "20261105",
+      "previous_date": "20261104",
+      "status": "changed",
+      "comparable": true,
+      "changes": []
+    },
     {
       "date": "20261104",
       "previous_date": "20261103",
@@ -24,14 +31,14 @@
       "changes": []
     }
   ],
-  "previous_date": "20261103",
+  "previous_date": "20261104",
   "official_url": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html",
   "holdings": [
     {
       "code": "AAPL US",
       "name": "Apple Inc",
       "shares": 39400,
-      "weight": "8.83%",
+      "weight": "9.53%",
       "lot_size": null,
       "reported_quantity": 39400.0,
       "quantity_unit": "股"
@@ -40,7 +47,7 @@
       "code": "NVDA US",
       "name": "NVIDIA Corp",
       "shares": 67700,
-      "weight": "8.7%",
+      "weight": "8.63%",
       "lot_size": null,
       "reported_quantity": 67700.0,
       "quantity_unit": "股"
@@ -49,16 +56,25 @@
       "code": "MSFT US",
       "name": "Microsoft Corp",
       "shares": 17400,
-      "weight": "6.21%",
+      "weight": "6.55%",
       "lot_size": null,
       "reported_quantity": 17400.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "AMZN US",
+      "name": "Amazon.com Inc",
+      "shares": 29400,
+      "weight": "5.37%",
+      "lot_size": null,
+      "reported_quantity": 29400.0,
       "quantity_unit": "股"
     },
     {
       "code": "AMD US",
       "name": "Advanced Micro Devices Inc",
       "shares": 18000,
-      "weight": "5.65%",
+      "weight": "5.11%",
       "lot_size": null,
       "reported_quantity": 18000.0,
       "quantity_unit": "股"
@@ -67,25 +83,16 @@
       "code": "MU US",
       "name": "Micron Technology Inc",
       "shares": 10500,
-      "weight": "5.36%",
+      "weight": "4.84%",
       "lot_size": null,
       "reported_quantity": 10500.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "AMZN US",
-      "name": "Amazon.com Inc",
-      "shares": 29400,
-      "weight": "5.02%",
-      "lot_size": null,
-      "reported_quantity": 29400.0,
       "quantity_unit": "股"
     },
     {
       "code": "META US",
       "name": "Meta Platforms Inc",
       "shares": 9100,
-      "weight": "3.68%",
+      "weight": "3.87%",
       "lot_size": null,
       "reported_quantity": 9100.0,
       "quantity_unit": "股"
@@ -94,7 +101,7 @@
       "code": "GOOG US",
       "name": "Alphabet Inc",
       "shares": 17100,
-      "weight": "3.16%",
+      "weight": "3.38%",
       "lot_size": null,
       "reported_quantity": 17100.0,
       "quantity_unit": "股"
@@ -103,7 +110,7 @@
       "code": "GOOGL US",
       "name": "Alphabet Inc",
       "shares": 17000,
-      "weight": "3.16%",
+      "weight": "3.37%",
       "lot_size": null,
       "reported_quantity": 17000.0,
       "quantity_unit": "股"
@@ -112,7 +119,7 @@
       "code": "PANW US",
       "name": "Palo Alto Networks Inc",
       "shares": 13200,
-      "weight": "2.95%",
+      "weight": "2.92%",
       "lot_size": null,
       "reported_quantity": 13200.0,
       "quantity_unit": "股"
@@ -121,7 +128,7 @@
       "code": "TXN US",
       "name": "Texas Instruments Inc",
       "shares": 14600,
-      "weight": "2.92%",
+      "weight": "2.85%",
       "lot_size": null,
       "reported_quantity": 14600.0,
       "quantity_unit": "股"
@@ -130,7 +137,7 @@
       "code": "AVGO US",
       "name": "Broadcom Inc",
       "shares": 10900,
-      "weight": "2.28%",
+      "weight": "2.23%",
       "lot_size": null,
       "reported_quantity": 10900.0,
       "quantity_unit": "股"
@@ -139,7 +146,7 @@
       "code": "ADI US",
       "name": "Analog Devices Inc",
       "shares": 8300,
-      "weight": "2.17%",
+      "weight": "2.1%",
       "lot_size": null,
       "reported_quantity": 8300.0,
       "quantity_unit": "股"
@@ -148,7 +155,7 @@
       "code": "PLTR US",
       "name": "Palantir Technologies Inc",
       "shares": 19000,
-      "weight": "2.1%",
+      "weight": "2.07%",
       "lot_size": null,
       "reported_quantity": 19000.0,
       "quantity_unit": "股"
@@ -157,7 +164,7 @@
       "code": "LRCX US",
       "name": "Lam Research Corp",
       "shares": 14600,
-      "weight": "2.08%",
+      "weight": "1.9%",
       "lot_size": null,
       "reported_quantity": 14600.0,
       "quantity_unit": "股"
@@ -166,34 +173,43 @@
       "code": "CRWD US",
       "name": "Crowdstrike Holdings Inc",
       "shares": 12100,
-      "weight": "1.87%",
+      "weight": "1.85%",
       "lot_size": null,
       "reported_quantity": 12100.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "WDC US",
-      "name": "Western Digital Corp",
-      "shares": 8400,
-      "weight": "1.75%",
-      "lot_size": null,
-      "reported_quantity": 8400.0,
       "quantity_unit": "股"
     },
     {
       "code": "CDNS US",
       "name": "Cadence Design Systems Inc",
       "shares": 7800,
-      "weight": "1.65%",
+      "weight": "1.71%",
       "lot_size": null,
       "reported_quantity": 7800.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "WDC US",
+      "name": "Western Digital Corp",
+      "shares": 8400,
+      "weight": "1.58%",
+      "lot_size": null,
+      "reported_quantity": 8400.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "V US",
+      "name": "Visa Inc",
+      "shares": 5200,
+      "weight": "1.54%",
+      "lot_size": null,
+      "reported_quantity": 5200.0,
       "quantity_unit": "股"
     },
     {
       "code": "TSM US",
       "name": "Taiwan Semiconductor Manufacturing Co Ltd",
       "shares": 6000,
-      "weight": "1.53%",
+      "weight": "1.49%",
       "lot_size": null,
       "reported_quantity": 6000.0,
       "quantity_unit": "股"
@@ -202,61 +218,43 @@
       "code": "MCHP US",
       "name": "Microchip Technology Inc",
       "shares": 30500,
-      "weight": "1.48%",
+      "weight": "1.39%",
       "lot_size": null,
       "reported_quantity": 30500.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "V US",
-      "name": "Visa Inc",
-      "shares": 5200,
-      "weight": "1.46%",
-      "lot_size": null,
-      "reported_quantity": 5200.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "LITE US",
-      "name": "Lumentum Holdings Inc",
-      "shares": 3400,
-      "weight": "1.37%",
-      "lot_size": null,
-      "reported_quantity": 3400.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "KLAC US",
-      "name": "KLA Corp",
-      "shares": 14000,
-      "weight": "1.35%",
-      "lot_size": null,
-      "reported_quantity": 14000.0,
       "quantity_unit": "股"
     },
     {
       "code": "SNOW US",
       "name": "Snowflake Inc",
       "shares": 6900,
-      "weight": "1.29%",
+      "weight": "1.31%",
       "lot_size": null,
       "reported_quantity": 6900.0,
       "quantity_unit": "股"
     },
     {
-      "code": "MRVL US",
-      "name": "Marvell Technology Inc",
-      "shares": 11600,
-      "weight": "1.19%",
+      "code": "KLAC US",
+      "name": "KLA Corp",
+      "shares": 14000,
+      "weight": "1.28%",
       "lot_size": null,
-      "reported_quantity": 11600.0,
+      "reported_quantity": 14000.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "LITE US",
+      "name": "Lumentum Holdings Inc",
+      "shares": 3400,
+      "weight": "1.22%",
+      "lot_size": null,
+      "reported_quantity": 3400.0,
       "quantity_unit": "股"
     },
     {
       "code": "SHOP US",
       "name": "Shopify Inc",
       "shares": 12100,
-      "weight": "1.19%",
+      "weight": "1.22%",
       "lot_size": null,
       "reported_quantity": 12100.0,
       "quantity_unit": "股"
@@ -265,16 +263,34 @@
       "code": "ASML US",
       "name": "ASML Holding NV",
       "shares": 1200,
-      "weight": "1.15%",
+      "weight": "1.14%",
       "lot_size": null,
       "reported_quantity": 1200.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "NFLX US",
+      "name": "Netflix Inc",
+      "shares": 24100,
+      "weight": "1.11%",
+      "lot_size": null,
+      "reported_quantity": 24100.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "MRVL US",
+      "name": "Marvell Technology Inc",
+      "shares": 11600,
+      "weight": "1.09%",
+      "lot_size": null,
+      "reported_quantity": 11600.0,
       "quantity_unit": "股"
     },
     {
       "code": "CLS US",
       "name": "Celestica Inc",
       "shares": 6800,
-      "weight": "1.03%",
+      "weight": "0.98%",
       "lot_size": null,
       "reported_quantity": 6800.0,
       "quantity_unit": "股"
@@ -283,81 +299,63 @@
       "code": "COHR US",
       "name": "Coherent Corp",
       "shares": 8200,
-      "weight": "1.03%",
+      "weight": "0.98%",
       "lot_size": null,
       "reported_quantity": 8200.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "NFLX US",
-      "name": "Netflix Inc",
-      "shares": 24100,
-      "weight": "1.03%",
-      "lot_size": null,
-      "reported_quantity": 24100.0,
       "quantity_unit": "股"
     },
     {
       "code": "INTC US",
       "name": "Intel Corp",
       "shares": 26200,
-      "weight": "0.98%",
-      "lot_size": null,
-      "reported_quantity": 26200.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "CIEN US",
-      "name": "Ciena Corp",
-      "shares": 5500,
       "weight": "0.96%",
       "lot_size": null,
-      "reported_quantity": 5500.0,
+      "reported_quantity": 26200.0,
       "quantity_unit": "股"
     },
     {
       "code": "NOW US",
       "name": "ServiceNow Inc",
       "shares": 13300,
-      "weight": "0.93%",
+      "weight": "0.96%",
       "lot_size": null,
       "reported_quantity": 13300.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "CIEN US",
+      "name": "Ciena Corp",
+      "shares": 5500,
+      "weight": "0.89%",
+      "lot_size": null,
+      "reported_quantity": 5500.0,
       "quantity_unit": "股"
     },
     {
       "code": "STX US",
       "name": "Seagate Technology Holdings PLC",
       "shares": 2600,
-      "weight": "0.93%",
-      "lot_size": null,
-      "reported_quantity": 2600.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "SKHY US",
-      "name": "SK hynix Inc",
-      "shares": 9200,
       "weight": "0.85%",
       "lot_size": null,
-      "reported_quantity": 9200.0,
+      "reported_quantity": 2600.0,
       "quantity_unit": "股"
     },
     {
       "code": "ANET US",
       "name": "Arista Networks Inc",
       "shares": 7300,
-      "weight": "0.84%",
+      "weight": "0.82%",
       "lot_size": null,
       "reported_quantity": 7300.0,
       "quantity_unit": "股"
     },
     {
-      "code": "ARM US",
-      "name": "ARM Holdings PLC",
-      "shares": 6000,
-      "weight": "0.74%",
+      "code": "SKHY US",
+      "name": "SK hynix Inc",
+      "shares": 9200,
+      "weight": "0.8%",
       "lot_size": null,
-      "reported_quantity": 6000.0,
+      "reported_quantity": 9200.0,
       "quantity_unit": "股"
     },
     {
@@ -373,25 +371,25 @@
       "code": "TTWO US",
       "name": "Take-Two Interactive Software Inc",
       "shares": 4900,
-      "weight": "0.66%",
+      "weight": "0.73%",
       "lot_size": null,
       "reported_quantity": 4900.0,
       "quantity_unit": "股"
     },
     {
-      "code": "AXON US",
-      "name": "Axon Enterprise Inc",
-      "shares": 2400,
-      "weight": "0.65%",
+      "code": "ARM US",
+      "name": "ARM Holdings PLC",
+      "shares": 6000,
+      "weight": "0.7%",
       "lot_size": null,
-      "reported_quantity": 2400.0,
+      "reported_quantity": 6000.0,
       "quantity_unit": "股"
     },
     {
       "code": "BKNG US",
       "name": "Booking Holdings Inc",
       "shares": 5600,
-      "weight": "0.62%",
+      "weight": "0.66%",
       "lot_size": null,
       "reported_quantity": 5600.0,
       "quantity_unit": "股"
@@ -400,34 +398,43 @@
       "code": "IOT US",
       "name": "Samsara Inc",
       "shares": 22600,
-      "weight": "0.62%",
+      "weight": "0.65%",
       "lot_size": null,
       "reported_quantity": 22600.0,
       "quantity_unit": "股"
     },
     {
-      "code": "TER US",
-      "name": "Teradyne Inc",
-      "shares": 3800,
-      "weight": "0.61%",
+      "code": "AXON US",
+      "name": "Axon Enterprise Inc",
+      "shares": 2400,
+      "weight": "0.64%",
       "lot_size": null,
-      "reported_quantity": 3800.0,
+      "reported_quantity": 2400.0,
       "quantity_unit": "股"
     },
     {
       "code": "BABA US",
       "name": "Alibaba Group Holding Ltd",
       "shares": 7700,
-      "weight": "0.52%",
+      "weight": "0.58%",
       "lot_size": null,
       "reported_quantity": 7700.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "TER US",
+      "name": "Teradyne Inc",
+      "shares": 3800,
+      "weight": "0.57%",
+      "lot_size": null,
+      "reported_quantity": 3800.0,
       "quantity_unit": "股"
     },
     {
       "code": "SPOT US",
       "name": "Spotify Technology SA",
       "shares": 1200,
-      "weight": "0.48%",
+      "weight": "0.52%",
       "lot_size": null,
       "reported_quantity": 1200.0,
       "quantity_unit": "股"
@@ -436,7 +443,7 @@
       "code": "SIMO US",
       "name": "Silicon Motion Technology Corp",
       "shares": 3800,
-      "weight": "0.45%",
+      "weight": "0.42%",
       "lot_size": null,
       "reported_quantity": 3800.0,
       "quantity_unit": "股"
@@ -445,7 +452,7 @@
       "code": "MDB US",
       "name": "MongoDB Inc",
       "shares": 1800,
-      "weight": "0.38%",
+      "weight": "0.39%",
       "lot_size": null,
       "reported_quantity": 1800.0,
       "quantity_unit": "股"
@@ -454,7 +461,7 @@
       "code": "UBER US",
       "name": "Uber Technologies Inc",
       "shares": 7700,
-      "weight": "0.35%",
+      "weight": "0.37%",
       "lot_size": null,
       "reported_quantity": 7700.0,
       "quantity_unit": "股"
@@ -463,7 +470,7 @@
       "code": "FSLY US",
       "name": "Fastly Inc",
       "shares": 25100,
-      "weight": "0.34%",
+      "weight": "0.27%",
       "lot_size": null,
       "reported_quantity": 25100.0,
       "quantity_unit": "股"
