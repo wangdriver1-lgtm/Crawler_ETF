@@ -1,5 +1,5 @@
 {
-  "checked_at": "20261110",
+  "checked_at": "20261111",
   "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html",
   "etfs": {
     "00980A": {
@@ -333,6 +333,24 @@
       "discovered_at": "20261103",
       "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html",
       "url": "https://www.tsit.com.tw/ETF/Home/ETFSeriesDetail/00416A"
+    },
+    "00413A": {
+      "code": "00413A",
+      "name": "主動玉山關鍵科技",
+      "company": "玉山證券投資信託股份有限公司",
+      "category": "domestic",
+      "listed_date": "20261111",
+      "discovered_at": "20261111",
+      "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html"
+    },
+    "00418A": {
+      "code": "00418A",
+      "name": "主動復華台灣新星",
+      "company": "復華證券投資信託股份有限公司",
+      "category": "domestic",
+      "listed_date": "20261111",
+      "discovered_at": "20261111",
+      "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html"
     }
   }
 }
