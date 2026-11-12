@@ -2,152 +2,19 @@
   "code": "00997A",
   "name": "主動群益美國增長",
   "asof": "20261110",
-  "data_status": "stale",
-  "source_kind": "official",
-  "source_name": "投信官方持股頁",
-  "source_url": "https://www.capitalfund.com.tw/etf/product/detail/502/portfolio",
-  "date_basis": "crawl_date",
+  "data_status": "fresh",
+  "source_kind": "backup",
+  "source_name": "ETF資訊網（公開持股備援）",
+  "source_url": "https://www.etfinfo.tw/etf/00997A/holdings",
+  "date_basis": "issuer",
   "unchanged": false,
   "history": [
     {
       "date": "20261110",
       "previous_date": "20261109",
-      "status": "changed",
-      "comparable": true,
-      "changes": [
-        {
-          "code": "U US",
-          "name": "UNITY",
-          "shares": 66793,
-          "weight": "1.22%",
-          "lot_size": null,
-          "reported_quantity": null,
-          "quantity_unit": null,
-          "previous_shares": 0,
-          "delta_shares": 66793,
-          "delta_lots": null
-        },
-        {
-          "code": "2454",
-          "name": "聯發科",
-          "shares": 0,
-          "weight": "0.94%",
-          "lot_size": 1000,
-          "reported_quantity": null,
-          "quantity_unit": null,
-          "previous_shares": 25000,
-          "delta_shares": -25000,
-          "delta_lots": -25.0
-        },
-        {
-          "code": "NTRA US",
-          "name": "那提拉公司",
-          "shares": 18668,
-          "weight": "2.06%",
-          "lot_size": null,
-          "reported_quantity": null,
-          "quantity_unit": null,
-          "previous_shares": 23060,
-          "delta_shares": -4392,
-          "delta_lots": null
-        },
-        {
-          "code": "MSFT US",
-          "name": "微軟公司",
-          "shares": 25341,
-          "weight": "4.78%",
-          "lot_size": null,
-          "reported_quantity": null,
-          "quantity_unit": null,
-          "previous_shares": 21042,
-          "delta_shares": 4299,
-          "delta_lots": null
-        },
-        {
-          "code": "AMD US",
-          "name": "ADVANCED MICRO DEVICES",
-          "shares": 9806,
-          "weight": "1.57%",
-          "lot_size": null,
-          "reported_quantity": null,
-          "quantity_unit": null,
-          "previous_shares": 13959,
-          "delta_shares": -4153,
-          "delta_lots": null
-        },
-        {
-          "code": "ADI US",
-          "name": "亞德諾公司",
-          "shares": 6019,
-          "weight": "0.78%",
-          "lot_size": null,
-          "reported_quantity": null,
-          "quantity_unit": null,
-          "previous_shares": 8777,
-          "delta_shares": -2758,
-          "delta_lots": null
-        },
-        {
-          "code": "LITE US",
-          "name": "魯門特姆控股公司",
-          "shares": 6395,
-          "weight": "1.23%",
-          "lot_size": null,
-          "reported_quantity": null,
-          "quantity_unit": null,
-          "previous_shares": 9152,
-          "delta_shares": -2757,
-          "delta_lots": null
-        },
-        {
-          "code": "MRVL US",
-          "name": "Marvell Technology Inc",
-          "shares": 20339,
-          "weight": "1.02%",
-          "lot_size": null,
-          "reported_quantity": null,
-          "quantity_unit": null,
-          "previous_shares": 22124,
-          "delta_shares": -1785,
-          "delta_lots": null
-        },
-        {
-          "code": "AMAT US",
-          "name": "應用材料",
-          "shares": 14039,
-          "weight": "1.66%",
-          "lot_size": null,
-          "reported_quantity": null,
-          "quantity_unit": null,
-          "previous_shares": 15656,
-          "delta_shares": -1617,
-          "delta_lots": null
-        },
-        {
-          "code": "ABBV US",
-          "name": "艾伯維公司",
-          "shares": 1200,
-          "weight": "0.12%",
-          "lot_size": null,
-          "reported_quantity": null,
-          "quantity_unit": null,
-          "previous_shares": 0,
-          "delta_shares": 1200,
-          "delta_lots": null
-        },
-        {
-          "code": "MU US",
-          "name": "美光科技公司",
-          "shares": 10345,
-          "weight": "2.54%",
-          "lot_size": null,
-          "reported_quantity": null,
-          "quantity_unit": null,
-          "previous_shares": 11372,
-          "delta_shares": -1027,
-          "delta_lots": null
-        }
-      ]
+      "status": "source_changed",
+      "comparable": false,
+      "changes": []
     },
     {
       "date": "20261109",
@@ -1449,566 +1316,424 @@
   "official_url": "https://www.capitalfund.com.tw/etf/product/detail/502/portfolio",
   "holdings": [
     {
+      "code": "MSFT US",
+      "name": "微軟公司",
+      "shares": 28556,
+      "weight": "5.2144%",
+      "lot_size": null,
+      "reported_quantity": 28556.0,
+      "quantity_unit": "股"
+    },
+    {
       "code": "AAPL US",
       "name": "蘋果公司",
       "shares": 41772,
-      "weight": "5.09%",
+      "weight": "4.986%",
       "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
+      "reported_quantity": 41772.0,
+      "quantity_unit": "股"
     },
     {
       "code": "CRWD US",
       "name": "Crowdstrike控股公司",
       "shares": 63557,
-      "weight": "4.9%",
+      "weight": "4.9143%",
       "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
+      "reported_quantity": 63557.0,
+      "quantity_unit": "股"
     },
     {
-      "code": "MSFT US",
-      "name": "微軟公司",
-      "shares": 25341,
-      "weight": "4.78%",
+      "code": "MU US",
+      "name": "美光科技公司",
+      "shares": 19630,
+      "weight": "4.875%",
       "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
-    },
-    {
-      "code": "NVDA US",
-      "name": "輝達公司",
-      "shares": 58576,
-      "weight": "3.89%",
-      "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
+      "reported_quantity": 19630.0,
+      "quantity_unit": "股"
     },
     {
       "code": "SPCX US",
       "name": "太空探索科技公司",
       "shares": 72940,
-      "weight": "3.48%",
+      "weight": "3.5746%",
       "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
+      "reported_quantity": 72940.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "NVDA US",
+      "name": "輝達公司",
+      "shares": 58576,
+      "weight": "3.3882%",
+      "lot_size": null,
+      "reported_quantity": 58576.0,
+      "quantity_unit": "股"
     },
     {
       "code": "2330",
       "name": "台積電",
       "shares": 132000,
-      "weight": "3.06%",
+      "weight": "3.1338%",
       "lot_size": 1000,
-      "reported_quantity": null,
-      "quantity_unit": null
-    },
-    {
-      "code": "DT US",
-      "name": "Dynatrace公司",
-      "shares": 191966,
-      "weight": "2.97%",
-      "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
-    },
-    {
-      "code": "PANW US",
-      "name": "Palo Alto Networks Inc",
-      "shares": 25679,
-      "weight": "2.87%",
-      "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
+      "reported_quantity": 132000.0,
+      "quantity_unit": "股"
     },
     {
       "code": "3037",
       "name": "欣興",
       "shares": 360000,
-      "weight": "2.85%",
+      "weight": "3.097%",
       "lot_size": 1000,
-      "reported_quantity": null,
-      "quantity_unit": null
+      "reported_quantity": 360000.0,
+      "quantity_unit": "股"
     },
     {
-      "code": "OKTA US",
-      "name": "Okta公司",
-      "shares": 45747,
-      "weight": "2.74%",
+      "code": "SNDK US",
+      "name": "晟碟公司（德拉瓦州）",
+      "shares": 10130,
+      "weight": "2.9837%",
       "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
+      "reported_quantity": 10130.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "PANW US",
+      "name": "Palo Alto Networks Inc",
+      "shares": 25679,
+      "weight": "2.8703%",
+      "lot_size": null,
+      "reported_quantity": 25679.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "AMD US",
+      "name": "ADVANCED MICRO DEVICES",
+      "shares": 15848,
+      "weight": "2.7965%",
+      "lot_size": null,
+      "reported_quantity": 15848.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "WDC US",
+      "name": "WESTERN DIGITAL CORP",
+      "shares": 27614,
+      "weight": "2.7351%",
+      "lot_size": null,
+      "reported_quantity": 27614.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "ABBV US",
+      "name": "艾伯維公司",
+      "shares": 27170,
+      "weight": "2.7348%",
+      "lot_size": null,
+      "reported_quantity": 27170.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "STX US",
+      "name": "希捷科技控股公開有限公司",
+      "shares": 15810,
+      "weight": "2.7162%",
+      "lot_size": null,
+      "reported_quantity": 15810.0,
+      "quantity_unit": "股"
     },
     {
       "code": "GOOGL US",
       "name": "ALPHABET INC-CL A",
       "shares": 26903,
-      "weight": "2.72%",
+      "weight": "2.6479%",
       "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
-    },
-    {
-      "code": "MU US",
-      "name": "美光科技公司",
-      "shares": 10345,
-      "weight": "2.54%",
-      "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
+      "reported_quantity": 26903.0,
+      "quantity_unit": "股"
     },
     {
       "code": "CRL US",
       "name": "查爾斯河實驗室國際公司",
-      "shares": 18695,
-      "weight": "2.24%",
+      "shares": 21222,
+      "weight": "2.5134%",
       "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
+      "reported_quantity": 21222.0,
+      "quantity_unit": "股"
     },
     {
       "code": "NTRA US",
       "name": "那提拉公司",
       "shares": 18668,
-      "weight": "2.06%",
+      "weight": "1.9947%",
       "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
+      "reported_quantity": 18668.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "FTNT US",
+      "name": "防特網公司",
+      "shares": 47007,
+      "weight": "1.9894%",
+      "lot_size": null,
+      "reported_quantity": 47007.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "LRCX US",
+      "name": "科林研發股份有限公司",
+      "shares": 26011,
+      "weight": "1.9812%",
+      "lot_size": null,
+      "reported_quantity": 26011.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "OKTA US",
+      "name": "Okta公司",
+      "shares": 32418,
+      "weight": "1.9803%",
+      "lot_size": null,
+      "reported_quantity": 32418.0,
+      "quantity_unit": "股"
     },
     {
       "code": "DELL US",
       "name": "戴爾科技公司",
       "shares": 17000,
-      "weight": "1.99%",
+      "weight": "1.9469%",
       "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
+      "reported_quantity": 17000.0,
+      "quantity_unit": "股"
     },
     {
       "code": "BE US",
       "name": "布魯姆能源公司",
       "shares": 30260,
-      "weight": "1.86%",
+      "weight": "1.9216%",
       "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
+      "reported_quantity": 30260.0,
+      "quantity_unit": "股"
     },
     {
       "code": "ANET US",
       "name": "Arista網路公司",
       "shares": 29673,
-      "weight": "1.8%",
+      "weight": "1.8803%",
       "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
-    },
-    {
-      "code": "SNDK US",
-      "name": "晟碟公司（德拉瓦州）",
-      "shares": 6008,
-      "weight": "1.78%",
-      "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
-    },
-    {
-      "code": "TXN US",
-      "name": "德州儀器公司",
-      "shares": 17765,
-      "weight": "1.75%",
-      "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
+      "reported_quantity": 29673.0,
+      "quantity_unit": "股"
     },
     {
       "code": "2383",
       "name": "台光電",
       "shares": 41000,
-      "weight": "1.7%",
+      "weight": "1.8594%",
       "lot_size": 1000,
-      "reported_quantity": null,
-      "quantity_unit": null
+      "reported_quantity": 41000.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "TXN US",
+      "name": "德州儀器公司",
+      "shares": 17765,
+      "weight": "1.8285%",
+      "lot_size": null,
+      "reported_quantity": 17765.0,
+      "quantity_unit": "股"
     },
     {
       "code": "AMAT US",
       "name": "應用材料",
       "shares": 14039,
-      "weight": "1.66%",
+      "weight": "1.7912%",
       "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
+      "reported_quantity": 14039.0,
+      "quantity_unit": "股"
     },
     {
-      "code": "LRCX US",
-      "name": "科林研發股份有限公司",
-      "shares": 22071,
-      "weight": "1.57%",
+      "code": "CSCO US",
+      "name": "CISCO SYSTEMS INC",
+      "shares": 46687,
+      "weight": "1.5694%",
       "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
-    },
-    {
-      "code": "AMD US",
-      "name": "ADVANCED MICRO DEVICES",
-      "shares": 9806,
-      "weight": "1.57%",
-      "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
+      "reported_quantity": 46687.0,
+      "quantity_unit": "股"
     },
     {
       "code": "APH US",
       "name": "安費諾",
       "shares": 52516,
-      "weight": "1.39%",
+      "weight": "1.438%",
       "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
+      "reported_quantity": 52516.0,
+      "quantity_unit": "股"
     },
     {
       "code": "PLTR US",
       "name": "帕蘭提爾科技公司",
       "shares": 23556,
-      "weight": "1.34%",
+      "weight": "1.362%",
       "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
+      "reported_quantity": 23556.0,
+      "quantity_unit": "股"
     },
     {
       "code": "GE US",
       "name": "奇異公司",
       "shares": 10935,
-      "weight": "1.26%",
+      "weight": "1.2655%",
       "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
-    },
-    {
-      "code": "STX US",
-      "name": "希捷科技控股公開有限公司",
-      "shares": 7559,
-      "weight": "1.24%",
-      "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
-    },
-    {
-      "code": "LITE US",
-      "name": "魯門特姆控股公司",
-      "shares": 6395,
-      "weight": "1.23%",
-      "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
-    },
-    {
-      "code": "U US",
-      "name": "UNITY",
-      "shares": 66793,
-      "weight": "1.22%",
-      "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
-    },
-    {
-      "code": "VEEV US",
-      "name": "Veeva系統公司",
-      "shares": 10800,
-      "weight": "1.17%",
-      "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
+      "reported_quantity": 10935.0,
+      "quantity_unit": "股"
     },
     {
       "code": "AVGO US",
       "name": "博通公司",
       "shares": 11017,
-      "weight": "1.15%",
+      "weight": "1.2526%",
       "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
+      "reported_quantity": 11017.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "INTC US",
+      "name": "英特爾",
+      "shares": 58181,
+      "weight": "1.1583%",
+      "lot_size": null,
+      "reported_quantity": 58181.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "U US",
+      "name": "UNITY",
+      "shares": 66793,
+      "weight": "1.1515%",
+      "lot_size": null,
+      "reported_quantity": 66793.0,
+      "quantity_unit": "股"
     },
     {
       "code": "HWM US",
       "name": "Howmet航太公司",
       "shares": 15147,
-      "weight": "1.11%",
+      "weight": "1.1363%",
       "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
+      "reported_quantity": 15147.0,
+      "quantity_unit": "股"
     },
     {
-      "code": "WDC US",
-      "name": "WESTERN DIGITAL CORP",
-      "shares": 11727,
-      "weight": "1.1%",
+      "code": "VEEV US",
+      "name": "Veeva系統公司",
+      "shares": 10800,
+      "weight": "1.1302%",
       "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
-    },
-    {
-      "code": "CSCO US",
-      "name": "CISCO SYSTEMS INC",
-      "shares": 31992,
-      "weight": "1.07%",
-      "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
+      "reported_quantity": 10800.0,
+      "quantity_unit": "股"
     },
     {
       "code": "MRVL US",
       "name": "Marvell Technology Inc",
       "shares": 20339,
-      "weight": "1.02%",
+      "weight": "1.0754%",
       "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
-    },
-    {
-      "code": "LMT US",
-      "name": "洛克希德馬丁",
-      "shares": 4854,
-      "weight": "0.98%",
-      "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
+      "reported_quantity": 20339.0,
+      "quantity_unit": "股"
     },
     {
       "code": "MPWR US",
       "name": "芯源系統有限公司",
       "shares": 2200,
-      "weight": "0.93%",
+      "weight": "1.0229%",
       "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
+      "reported_quantity": 2200.0,
+      "quantity_unit": "股"
     },
     {
-      "code": "FTNT US",
-      "name": "防特網公司",
-      "shares": 20346,
-      "weight": "0.86%",
+      "code": "LMT US",
+      "name": "洛克希德馬丁",
+      "shares": 4854,
+      "weight": "1.0026%",
       "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
+      "reported_quantity": 4854.0,
+      "quantity_unit": "股"
     },
     {
-      "code": "INTC US",
-      "name": "英特爾",
-      "shares": 41040,
-      "weight": "0.82%",
+      "code": "SN US",
+      "name": "SharkNinja公司",
+      "shares": 12357,
+      "weight": "0.9586%",
       "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
+      "reported_quantity": 12357.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "LITE US",
+      "name": "魯門特姆控股公司",
+      "shares": 4263,
+      "weight": "0.8549%",
+      "lot_size": null,
+      "reported_quantity": 4263.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "ADI US",
+      "name": "亞德諾公司",
+      "shares": 6019,
+      "weight": "0.8107%",
+      "lot_size": null,
+      "reported_quantity": 6019.0,
+      "quantity_unit": "股"
     },
     {
       "code": "VRT US",
       "name": "維諦控股公司",
       "shares": 12136,
-      "weight": "0.79%",
+      "weight": "0.8072%",
       "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
-    },
-    {
-      "code": "ADI US",
-      "name": "亞德諾公司",
-      "shares": 6019,
-      "weight": "0.78%",
-      "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
+      "reported_quantity": 12136.0,
+      "quantity_unit": "股"
     },
     {
       "code": "DDOG US",
       "name": "數據狗公司",
       "shares": 11884,
-      "weight": "0.76%",
+      "weight": "0.7261%",
       "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
+      "reported_quantity": 11884.0,
+      "quantity_unit": "股"
     },
     {
       "code": "ARM US",
       "name": "安謀控股公開有限公司",
       "shares": 10410,
-      "weight": "0.65%",
+      "weight": "0.647%",
       "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
-    },
-    {
-      "code": "SNOW US",
-      "name": "Snowflake公司",
-      "shares": 5963,
-      "weight": "0.59%",
-      "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
+      "reported_quantity": 10410.0,
+      "quantity_unit": "股"
     },
     {
       "code": "KLAC US",
       "name": "KLA CORP",
       "shares": 11245,
-      "weight": "0.55%",
+      "weight": "0.5892%",
       "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
+      "reported_quantity": 11245.0,
+      "quantity_unit": "股"
     },
     {
       "code": "CDNS US",
       "name": "Cadence設計系統公司",
       "shares": 4405,
-      "weight": "0.5%",
+      "weight": "0.5003%",
       "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
-    },
-    {
-      "code": "ABBV US",
-      "name": "艾伯維公司",
-      "shares": 1200,
-      "weight": "0.12%",
-      "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
+      "reported_quantity": 4405.0,
+      "quantity_unit": "股"
     }
   ],
-  "changes": [
-    {
-      "code": "U US",
-      "name": "UNITY",
-      "shares": 66793,
-      "weight": "1.22%",
-      "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null,
-      "previous_shares": 0,
-      "delta_shares": 66793,
-      "delta_lots": null
-    },
-    {
-      "code": "2454",
-      "name": "聯發科",
-      "shares": 0,
-      "weight": "0.94%",
-      "lot_size": 1000,
-      "reported_quantity": null,
-      "quantity_unit": null,
-      "previous_shares": 25000,
-      "delta_shares": -25000,
-      "delta_lots": -25.0
-    },
-    {
-      "code": "NTRA US",
-      "name": "那提拉公司",
-      "shares": 18668,
-      "weight": "2.06%",
-      "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null,
-      "previous_shares": 23060,
-      "delta_shares": -4392,
-      "delta_lots": null
-    },
-    {
-      "code": "MSFT US",
-      "name": "微軟公司",
-      "shares": 25341,
-      "weight": "4.78%",
-      "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null,
-      "previous_shares": 21042,
-      "delta_shares": 4299,
-      "delta_lots": null
-    },
-    {
-      "code": "AMD US",
-      "name": "ADVANCED MICRO DEVICES",
-      "shares": 9806,
-      "weight": "1.57%",
-      "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null,
-      "previous_shares": 13959,
-      "delta_shares": -4153,
-      "delta_lots": null
-    },
-    {
-      "code": "ADI US",
-      "name": "亞德諾公司",
-      "shares": 6019,
-      "weight": "0.78%",
-      "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null,
-      "previous_shares": 8777,
-      "delta_shares": -2758,
-      "delta_lots": null
-    },
-    {
-      "code": "LITE US",
-      "name": "魯門特姆控股公司",
-      "shares": 6395,
-      "weight": "1.23%",
-      "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null,
-      "previous_shares": 9152,
-      "delta_shares": -2757,
-      "delta_lots": null
-    },
-    {
-      "code": "MRVL US",
-      "name": "Marvell Technology Inc",
-      "shares": 20339,
-      "weight": "1.02%",
-      "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null,
-      "previous_shares": 22124,
-      "delta_shares": -1785,
-      "delta_lots": null
-    },
-    {
-      "code": "AMAT US",
-      "name": "應用材料",
-      "shares": 14039,
-      "weight": "1.66%",
-      "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null,
-      "previous_shares": 15656,
-      "delta_shares": -1617,
-      "delta_lots": null
-    },
-    {
-      "code": "ABBV US",
-      "name": "艾伯維公司",
-      "shares": 1200,
-      "weight": "0.12%",
-      "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null,
-      "previous_shares": 0,
-      "delta_shares": 1200,
-      "delta_lots": null
-    },
-    {
-      "code": "MU US",
-      "name": "美光科技公司",
-      "shares": 10345,
-      "weight": "2.54%",
-      "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null,
-      "previous_shares": 11372,
-      "delta_shares": -1027,
-      "delta_lots": null
-    }
-  ],
-  "comparable": true,
-  "added_shares": 72292,
-  "reduced_shares": 43489,
+  "changes": [],
+  "comparable": false,
+  "added_shares": null,
+  "reduced_shares": null,
   "comparison_note": "持股快照差異不是實際成交紀錄，可能包含申贖、分割或資料修正；海外持股不換算台股張數。",
   "profit_note": "基金及成分股實際買進成本未提供，無法由持股快照計算基金目前獲利。可另外輸入個人持倉成本試算。"
 }
