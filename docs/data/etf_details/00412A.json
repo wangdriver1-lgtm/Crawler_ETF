@@ -1,7 +1,7 @@
 {
   "code": "00412A",
   "name": "主動安聯亞半導體",
-  "asof": "20261110",
+  "asof": "20261111",
   "data_status": "fresh",
   "source_kind": "backup",
   "source_name": "ETF資訊網（公開持股備援）",
@@ -9,6 +9,50 @@
   "date_basis": "issuer",
   "unchanged": false,
   "history": [
+    {
+      "date": "20261111",
+      "previous_date": "20261110",
+      "status": "changed",
+      "comparable": true,
+      "changes": [
+        {
+          "code": "1303",
+          "name": "南亞",
+          "shares": 678000,
+          "weight": "2.79%",
+          "lot_size": 1000,
+          "reported_quantity": 678000.0,
+          "quantity_unit": "股",
+          "previous_shares": 565000,
+          "delta_shares": 113000,
+          "delta_lots": 113.0
+        },
+        {
+          "code": "6715",
+          "name": "嘉基",
+          "shares": 120000,
+          "weight": "0.72%",
+          "lot_size": 1000,
+          "reported_quantity": 120000.0,
+          "quantity_unit": "股",
+          "previous_shares": 73000,
+          "delta_shares": 47000,
+          "delta_lots": 47.0
+        },
+        {
+          "code": "2345",
+          "name": "智邦",
+          "shares": 60000,
+          "weight": "1.24%",
+          "lot_size": 1000,
+          "reported_quantity": 60000.0,
+          "quantity_unit": "股",
+          "previous_shares": 48000,
+          "delta_shares": 12000,
+          "delta_lots": 12.0
+        }
+      ]
+    },
     {
       "date": "20261110",
       "previous_date": "20261109",
@@ -150,14 +194,14 @@
       "changes": []
     }
   ],
-  "previous_date": "20261109",
+  "previous_date": "20261110",
   "official_url": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html",
   "holdings": [
     {
       "code": "2330",
       "name": "台積電",
       "shares": 277000,
-      "weight": "8.74%",
+      "weight": "8.73%",
       "lot_size": 1000,
       "reported_quantity": 277000.0,
       "quantity_unit": "股"
@@ -166,7 +210,7 @@
       "code": "3443",
       "name": "創意",
       "shares": 43000,
-      "weight": "4.26%",
+      "weight": "4.46%",
       "lot_size": 1000,
       "reported_quantity": 43000.0,
       "quantity_unit": "股"
@@ -181,73 +225,82 @@
       "quantity_unit": "股"
     },
     {
-      "code": "6857 JP",
-      "name": "Advantest Corp",
-      "shares": 37100,
-      "weight": "3.15%",
-      "lot_size": null,
-      "reported_quantity": 37100.0,
-      "quantity_unit": "股"
-    },
-    {
       "code": "3017",
       "name": "奇鋐",
       "shares": 81000,
-      "weight": "3.12%",
+      "weight": "3.24%",
       "lot_size": 1000,
       "reported_quantity": 81000.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "6857 JP",
+      "name": "Advantest Corp",
+      "shares": 37100,
+      "weight": "3.16%",
+      "lot_size": null,
+      "reported_quantity": 37100.0,
       "quantity_unit": "股"
     },
     {
       "code": "2383",
       "name": "台光電",
       "shares": 49000,
-      "weight": "2.96%",
+      "weight": "2.9%",
       "lot_size": 1000,
       "reported_quantity": 49000.0,
       "quantity_unit": "股"
     },
     {
-      "code": "2454",
-      "name": "聯發科",
-      "shares": 45000,
-      "weight": "2.38%",
+      "code": "1303",
+      "name": "南亞",
+      "shares": 678000,
+      "weight": "2.79%",
       "lot_size": 1000,
-      "reported_quantity": 45000.0,
+      "reported_quantity": 678000.0,
       "quantity_unit": "股"
     },
     {
       "code": "3653",
       "name": "健策",
       "shares": 29000,
-      "weight": "2.32%",
+      "weight": "2.38%",
       "lot_size": 1000,
       "reported_quantity": 29000.0,
       "quantity_unit": "股"
     },
     {
-      "code": "1303",
-      "name": "南亞",
-      "shares": 565000,
-      "weight": "2.26%",
+      "code": "2454",
+      "name": "聯發科",
+      "shares": 45000,
+      "weight": "2.36%",
       "lot_size": 1000,
-      "reported_quantity": 565000.0,
+      "reported_quantity": 45000.0,
       "quantity_unit": "股"
     },
     {
       "code": "6805",
       "name": "富世達",
       "shares": 78000,
-      "weight": "2.14%",
+      "weight": "2.1%",
       "lot_size": 1000,
       "reported_quantity": 78000.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "3406",
+      "name": "玉晶光",
+      "shares": 150000,
+      "weight": "1.96%",
+      "lot_size": 1000,
+      "reported_quantity": 150000.0,
       "quantity_unit": "股"
     },
     {
       "code": "AVGO US",
       "name": "Broadcom Inc",
       "shares": 13000,
-      "weight": "1.96%",
+      "weight": "1.94%",
       "lot_size": null,
       "reported_quantity": 13000.0,
       "quantity_unit": "股"
@@ -256,25 +309,16 @@
       "code": "2308",
       "name": "台達電",
       "shares": 109000,
-      "weight": "1.92%",
+      "weight": "1.86%",
       "lot_size": 1000,
       "reported_quantity": 109000.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "3406",
-      "name": "玉晶光",
-      "shares": 150000,
-      "weight": "1.88%",
-      "lot_size": 1000,
-      "reported_quantity": 150000.0,
       "quantity_unit": "股"
     },
     {
       "code": "8996",
       "name": "高力",
       "shares": 97000,
-      "weight": "1.88%",
+      "weight": "1.86%",
       "lot_size": 1000,
       "reported_quantity": 97000.0,
       "quantity_unit": "股"
@@ -283,7 +327,7 @@
       "code": "6187",
       "name": "萬潤",
       "shares": 127000,
-      "weight": "1.8%",
+      "weight": "1.7%",
       "lot_size": 1000,
       "reported_quantity": 127000.0,
       "quantity_unit": "股"
@@ -292,7 +336,7 @@
       "code": "002463 C2",
       "name": "WUS Printed Circuit Kunshan Co Ltd",
       "shares": 287300,
-      "weight": "1.59%",
+      "weight": "1.67%",
       "lot_size": null,
       "reported_quantity": 287300.0,
       "quantity_unit": "股"
@@ -301,16 +345,25 @@
       "code": "AMD US",
       "name": "Advanced Micro Devices Inc",
       "shares": 6500,
-      "weight": "1.52%",
+      "weight": "1.55%",
       "lot_size": null,
       "reported_quantity": 6500.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "3374",
+      "name": "精材",
+      "shares": 250000,
+      "weight": "1.54%",
+      "lot_size": 1000,
+      "reported_quantity": 250000.0,
       "quantity_unit": "股"
     },
     {
       "code": "4958",
       "name": "臻鼎-KY",
       "shares": 250000,
-      "weight": "1.49%",
+      "weight": "1.52%",
       "lot_size": 1000,
       "reported_quantity": 250000.0,
       "quantity_unit": "股"
@@ -319,34 +372,52 @@
       "code": "5274",
       "name": "信驊",
       "shares": 9000,
-      "weight": "1.48%",
+      "weight": "1.49%",
       "lot_size": 1000,
       "reported_quantity": 9000.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "3374",
-      "name": "精材",
-      "shares": 250000,
-      "weight": "1.47%",
-      "lot_size": 1000,
-      "reported_quantity": 250000.0,
       "quantity_unit": "股"
     },
     {
       "code": "8046",
       "name": "南電",
       "shares": 104000,
-      "weight": "1.44%",
+      "weight": "1.48%",
       "lot_size": 1000,
       "reported_quantity": 104000.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "4062 JP",
+      "name": "Ibiden Co Ltd",
+      "shares": 67000,
+      "weight": "1.26%",
+      "lot_size": null,
+      "reported_quantity": 67000.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "2345",
+      "name": "智邦",
+      "shares": 60000,
+      "weight": "1.24%",
+      "lot_size": 1000,
+      "reported_quantity": 60000.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "000660 KS",
+      "name": "SK Hynix Inc",
+      "shares": 2954,
+      "weight": "1.22%",
+      "lot_size": null,
+      "reported_quantity": 2954.0,
       "quantity_unit": "股"
     },
     {
       "code": "3711",
       "name": "日月光投控",
       "shares": 150000,
-      "weight": "1.25%",
+      "weight": "1.22%",
       "lot_size": 1000,
       "reported_quantity": 150000.0,
       "quantity_unit": "股"
@@ -355,34 +426,16 @@
       "code": "NVDA US",
       "name": "NVIDIA Corp",
       "shares": 16300,
-      "weight": "1.25%",
+      "weight": "1.22%",
       "lot_size": null,
       "reported_quantity": 16300.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "4062 JP",
-      "name": "Ibiden Co Ltd",
-      "shares": 67000,
-      "weight": "1.23%",
-      "lot_size": null,
-      "reported_quantity": 67000.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "000660 KS",
-      "name": "SK Hynix Inc",
-      "shares": 2954,
-      "weight": "1.21%",
-      "lot_size": null,
-      "reported_quantity": 2954.0,
       "quantity_unit": "股"
     },
     {
       "code": "6976 JP",
       "name": "Taiyo Yuden Co Ltd",
       "shares": 59100,
-      "weight": "1.18%",
+      "weight": "1.2%",
       "lot_size": null,
       "reported_quantity": 59100.0,
       "quantity_unit": "股"
@@ -391,7 +444,7 @@
       "code": "6415",
       "name": "矽力*-KY",
       "shares": 185000,
-      "weight": "1.13%",
+      "weight": "1.14%",
       "lot_size": 1000,
       "reported_quantity": 185000.0,
       "quantity_unit": "股"
@@ -406,10 +459,19 @@
       "quantity_unit": "股"
     },
     {
+      "code": "6223",
+      "name": "旺矽",
+      "shares": 18000,
+      "weight": "1.06%",
+      "lot_size": 1000,
+      "reported_quantity": 18000.0,
+      "quantity_unit": "股"
+    },
+    {
       "code": "3189",
       "name": "景碩",
       "shares": 108000,
-      "weight": "1.11%",
+      "weight": "1.05%",
       "lot_size": 1000,
       "reported_quantity": 108000.0,
       "quantity_unit": "股"
@@ -418,61 +480,43 @@
       "code": "6981 JP",
       "name": "Murata Manufacturing Co Ltd",
       "shares": 69600,
-      "weight": "1.05%",
+      "weight": "1.03%",
       "lot_size": null,
       "reported_quantity": 69600.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "2345",
-      "name": "智邦",
-      "shares": 48000,
-      "weight": "1.02%",
-      "lot_size": 1000,
-      "reported_quantity": 48000.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "6223",
-      "name": "旺矽",
-      "shares": 18000,
-      "weight": "1.01%",
-      "lot_size": 1000,
-      "reported_quantity": 18000.0,
       "quantity_unit": "股"
     },
     {
       "code": "005930 KS",
       "name": "Samsung Electronics Co Ltd",
       "shares": 14362,
-      "weight": "0.97%",
+      "weight": "0.96%",
       "lot_size": null,
       "reported_quantity": 14362.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "GLW US",
-      "name": "Corning Inc",
-      "shares": 18200,
-      "weight": "0.93%",
-      "lot_size": null,
-      "reported_quantity": 18200.0,
       "quantity_unit": "股"
     },
     {
       "code": "3436 JP",
       "name": "SUMCO Corp",
       "shares": 168100,
-      "weight": "0.92%",
+      "weight": "0.95%",
       "lot_size": null,
       "reported_quantity": 168100.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "GLW US",
+      "name": "Corning Inc",
+      "shares": 18200,
+      "weight": "0.95%",
+      "lot_size": null,
+      "reported_quantity": 18200.0,
       "quantity_unit": "股"
     },
     {
       "code": "LITE US",
       "name": "Lumentum Holdings Inc",
       "shares": 3400,
-      "weight": "0.9%",
+      "weight": "0.95%",
       "lot_size": null,
       "reported_quantity": 3400.0,
       "quantity_unit": "股"
@@ -481,7 +525,7 @@
       "code": "TXN US",
       "name": "Texas Instruments Inc",
       "shares": 6400,
-      "weight": "0.87%",
+      "weight": "0.86%",
       "lot_size": null,
       "reported_quantity": 6400.0,
       "quantity_unit": "股"
@@ -490,9 +534,27 @@
       "code": "3529",
       "name": "力旺",
       "shares": 27000,
-      "weight": "0.83%",
+      "weight": "0.81%",
       "lot_size": 1000,
       "reported_quantity": 27000.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "LSCC US",
+      "name": "Lattice Semiconductor Corp",
+      "shares": 15100,
+      "weight": "0.8%",
+      "lot_size": null,
+      "reported_quantity": 15100.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "SMTC US",
+      "name": "Semtech Corp",
+      "shares": 14700,
+      "weight": "0.8%",
+      "lot_size": null,
+      "reported_quantity": 14700.0,
       "quantity_unit": "股"
     },
     {
@@ -505,39 +567,30 @@
       "quantity_unit": "股"
     },
     {
-      "code": "LSCC US",
-      "name": "Lattice Semiconductor Corp",
-      "shares": 15100,
-      "weight": "0.76%",
-      "lot_size": null,
-      "reported_quantity": 15100.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "SMTC US",
-      "name": "Semtech Corp",
-      "shares": 14700,
-      "weight": "0.76%",
-      "lot_size": null,
-      "reported_quantity": 14700.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "2303",
-      "name": "聯電",
-      "shares": 483000,
-      "weight": "0.67%",
+      "code": "6715",
+      "name": "嘉基",
+      "shares": 120000,
+      "weight": "0.72%",
       "lot_size": 1000,
-      "reported_quantity": 483000.0,
+      "reported_quantity": 120000.0,
       "quantity_unit": "股"
     },
     {
       "code": "SITM US",
       "name": "SiTime Corp",
       "shares": 3280,
-      "weight": "0.66%",
+      "weight": "0.67%",
       "lot_size": null,
       "reported_quantity": 3280.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "2303",
+      "name": "聯電",
+      "shares": 483000,
+      "weight": "0.66%",
+      "lot_size": 1000,
+      "reported_quantity": 483000.0,
       "quantity_unit": "股"
     },
     {
@@ -553,16 +606,25 @@
       "code": "6146 JP",
       "name": "Disco Corp",
       "shares": 4900,
-      "weight": "0.64%",
+      "weight": "0.63%",
       "lot_size": null,
       "reported_quantity": 4900.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "3324",
+      "name": "雙鴻",
+      "shares": 36000,
+      "weight": "0.62%",
+      "lot_size": 1000,
+      "reported_quantity": 36000.0,
       "quantity_unit": "股"
     },
     {
       "code": "2059",
       "name": "川湖",
       "shares": 5275,
-      "weight": "0.62%",
+      "weight": "0.61%",
       "lot_size": 1000,
       "reported_quantity": 5275.0,
       "quantity_unit": "股"
@@ -571,99 +633,81 @@
       "code": "2360",
       "name": "致茂",
       "shares": 34000,
-      "weight": "0.62%",
-      "lot_size": 1000,
-      "reported_quantity": 34000.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "3324",
-      "name": "雙鴻",
-      "shares": 36000,
       "weight": "0.61%",
       "lot_size": 1000,
-      "reported_quantity": 36000.0,
+      "reported_quantity": 34000.0,
       "quantity_unit": "股"
     },
     {
       "code": "300476 C2",
       "name": "Victory Giant Technology Huizhou Co Ltd",
       "shares": 64000,
-      "weight": "0.58%",
+      "weight": "0.61%",
       "lot_size": null,
       "reported_quantity": 64000.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "5706 JP",
-      "name": "Mitsui Mining & Smelting Co Ltd",
-      "shares": 113000,
-      "weight": "0.57%",
-      "lot_size": null,
-      "reported_quantity": 113000.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "6669",
-      "name": "緯穎",
-      "shares": 24000,
-      "weight": "0.56%",
-      "lot_size": 1000,
-      "reported_quantity": 24000.0,
       "quantity_unit": "股"
     },
     {
       "code": "3264",
       "name": "欣銓",
       "shares": 207000,
-      "weight": "0.55%",
+      "weight": "0.54%",
       "lot_size": 1000,
       "reported_quantity": 207000.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "6669",
+      "name": "緯穎",
+      "shares": 24000,
+      "weight": "0.53%",
+      "lot_size": 1000,
+      "reported_quantity": 24000.0,
       "quantity_unit": "股"
     },
     {
       "code": "CRDO US",
       "name": "Credo Technology Group Holding Ltd",
       "shares": 8700,
-      "weight": "0.51%",
+      "weight": "0.53%",
       "lot_size": null,
       "reported_quantity": 8700.0,
       "quantity_unit": "股"
     },
     {
-      "code": "6274",
-      "name": "台燿",
-      "shares": 36000,
-      "weight": "0.49%",
-      "lot_size": 1000,
-      "reported_quantity": 36000.0,
+      "code": "5706 JP",
+      "name": "Mitsui Mining & Smelting Co Ltd",
+      "shares": 113000,
+      "weight": "0.51%",
+      "lot_size": null,
+      "reported_quantity": 113000.0,
       "quantity_unit": "股"
     },
     {
       "code": "MXL US",
       "name": "MaxLinear Inc",
       "shares": 19800,
-      "weight": "0.48%",
+      "weight": "0.51%",
       "lot_size": null,
       "reported_quantity": 19800.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "6274",
+      "name": "台燿",
+      "shares": 36000,
+      "weight": "0.5%",
+      "lot_size": 1000,
+      "reported_quantity": 36000.0,
       "quantity_unit": "股"
     },
     {
       "code": "5801 JP",
       "name": "Furukawa Electric Co Ltd",
       "shares": 67000,
-      "weight": "0.42%",
+      "weight": "0.43%",
       "lot_size": null,
       "reported_quantity": 67000.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "6715",
-      "name": "嘉基",
-      "shares": 73000,
-      "weight": "0.42%",
-      "lot_size": 1000,
-      "reported_quantity": 73000.0,
       "quantity_unit": "股"
     },
     {
@@ -678,69 +722,45 @@
   ],
   "changes": [
     {
-      "code": "600183 C1",
-      "name": "Shengyi Technology Co Ltd",
-      "shares": 0,
-      "weight": "1.31%",
-      "lot_size": null,
-      "reported_quantity": 261400.0,
-      "quantity_unit": "股",
-      "previous_shares": 261400,
-      "delta_shares": -261400,
-      "delta_lots": null
-    },
-    {
       "code": "1303",
       "name": "南亞",
-      "shares": 565000,
-      "weight": "2.26%",
+      "shares": 678000,
+      "weight": "2.79%",
       "lot_size": 1000,
-      "reported_quantity": 565000.0,
+      "reported_quantity": 678000.0,
       "quantity_unit": "股",
-      "previous_shares": 445000,
-      "delta_shares": 120000,
-      "delta_lots": 120.0
+      "previous_shares": 565000,
+      "delta_shares": 113000,
+      "delta_lots": 113.0
     },
     {
       "code": "6715",
       "name": "嘉基",
-      "shares": 73000,
-      "weight": "0.42%",
+      "shares": 120000,
+      "weight": "0.72%",
       "lot_size": 1000,
-      "reported_quantity": 73000.0,
+      "reported_quantity": 120000.0,
       "quantity_unit": "股",
-      "previous_shares": 0,
-      "delta_shares": 73000,
-      "delta_lots": 73.0
+      "previous_shares": 73000,
+      "delta_shares": 47000,
+      "delta_lots": 47.0
     },
     {
-      "code": "3017",
-      "name": "奇鋐",
-      "shares": 81000,
-      "weight": "3.12%",
+      "code": "2345",
+      "name": "智邦",
+      "shares": 60000,
+      "weight": "1.24%",
       "lot_size": 1000,
-      "reported_quantity": 81000.0,
+      "reported_quantity": 60000.0,
       "quantity_unit": "股",
-      "previous_shares": 69000,
+      "previous_shares": 48000,
       "delta_shares": 12000,
       "delta_lots": 12.0
-    },
-    {
-      "code": "2383",
-      "name": "台光電",
-      "shares": 49000,
-      "weight": "2.96%",
-      "lot_size": 1000,
-      "reported_quantity": 49000.0,
-      "quantity_unit": "股",
-      "previous_shares": 42000,
-      "delta_shares": 7000,
-      "delta_lots": 7.0
     }
   ],
   "comparable": true,
-  "added_shares": 212000,
-  "reduced_shares": 261400,
+  "added_shares": 172000,
+  "reduced_shares": 0,
   "comparison_note": "持股快照差異不是實際成交紀錄，可能包含申贖、分割或資料修正；海外持股不換算台股張數。",
   "profit_note": "基金及成分股實際買進成本未提供，無法由持股快照計算基金目前獲利。可另外輸入個人持倉成本試算。"
 }

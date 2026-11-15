@@ -2,7 +2,7 @@
   "code": "00985A",
   "name": "主動野村台灣50",
   "asof": "20261113",
-  "data_status": "fresh",
+  "data_status": "stale",
   "source_kind": "official",
   "source_name": "投信官方持股頁",
   "source_url": "https://www.nomurafunds.com.tw/ETFWEB/product-description?fundNo=00985A&tab=Shareholding",
