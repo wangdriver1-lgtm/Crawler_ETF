@@ -1,7 +1,7 @@
 {
   "code": "00983D",
   "name": "主動富邦複合收益",
-  "asof": "20261112",
+  "asof": "20261113",
   "data_status": "fresh",
   "source_kind": "backup",
   "source_name": "ETF資訊網（公開持股備援）",
@@ -9,6 +9,13 @@
   "date_basis": "issuer",
   "unchanged": false,
   "history": [
+    {
+      "date": "20261113",
+      "previous_date": "20261112",
+      "status": "unavailable",
+      "comparable": false,
+      "changes": []
+    },
     {
       "date": "20261112",
       "previous_date": "20261110",
@@ -52,14 +59,14 @@
       "changes": []
     }
   ],
-  "previous_date": "20261110",
+  "previous_date": "20261112",
   "official_url": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html",
   "holdings": [
     {
       "code": "USC07885AL76",
       "name": "BHCCN 11 09/30/28",
       "shares": null,
-      "weight": "2.2026%",
+      "weight": "2.2152%",
       "lot_size": null,
       "reported_quantity": 570000.0,
       "quantity_unit": "面額"
@@ -68,7 +75,7 @@
       "code": "USJ64264AG96",
       "name": "RAKUTN 11 1/4 02/15/27",
       "shares": null,
-      "weight": "2.069%",
+      "weight": "2.0761%",
       "lot_size": null,
       "reported_quantity": 560000.0,
       "quantity_unit": "面額"
@@ -77,7 +84,7 @@
       "code": "USU2541MAC48",
       "name": "DTV 8 7/8 02/01/30",
       "shares": null,
-      "weight": "1.8416%",
+      "weight": "1.8465%",
       "lot_size": null,
       "reported_quantity": 500000.0,
       "quantity_unit": "面額"
@@ -86,7 +93,7 @@
       "code": "USU02400AC01",
       "name": "AMCX 10 1/2 07/15/32",
       "shares": null,
-      "weight": "1.7892%",
+      "weight": "1.8025%",
       "lot_size": null,
       "reported_quantity": 500000.0,
       "quantity_unit": "面額"
@@ -95,7 +102,7 @@
       "code": "US03523TBF49",
       "name": "ABIBB 8.2 01/15/39",
       "shares": null,
-      "weight": "1.688%",
+      "weight": "1.6884%",
       "lot_size": null,
       "reported_quantity": 390000.0,
       "quantity_unit": "面額"
@@ -104,7 +111,7 @@
       "code": "US172967EW71",
       "name": "C 8 1/8 07/15/39",
       "shares": null,
-      "weight": "1.6649%",
+      "weight": "1.6641%",
       "lot_size": null,
       "reported_quantity": 390000.0,
       "quantity_unit": "面額"
@@ -113,7 +120,7 @@
       "code": "US260543BY86",
       "name": "DOW 9.4 05/15/39",
       "shares": null,
-      "weight": "1.6398%",
+      "weight": "1.6414%",
       "lot_size": null,
       "reported_quantity": 360000.0,
       "quantity_unit": "面額"
@@ -122,7 +129,7 @@
       "code": "USU9220NAC57",
       "name": "VENLNG 9 1/2 02/01/29",
       "shares": null,
-      "weight": "1.6219%",
+      "weight": "1.6273%",
       "lot_size": null,
       "reported_quantity": 420000.0,
       "quantity_unit": "面額"
@@ -131,7 +138,7 @@
       "code": "US743263AE50",
       "name": "DUK 7 3/4 03/01/31",
       "shares": null,
-      "weight": "1.5703%",
+      "weight": "1.574%",
       "lot_size": null,
       "reported_quantity": 400000.0,
       "quantity_unit": "面額"
@@ -140,7 +147,7 @@
       "code": "US406216AY74",
       "name": "HAL 7.45 09/15/39",
       "shares": null,
-      "weight": "1.5693%",
+      "weight": "1.5702%",
       "lot_size": null,
       "reported_quantity": 390000.0,
       "quantity_unit": "面額"
@@ -149,7 +156,7 @@
       "code": "USU60731AB91",
       "name": "MOHEGN 11 7/8 04/15/31",
       "shares": null,
-      "weight": "1.5572%",
+      "weight": "1.561%",
       "lot_size": null,
       "reported_quantity": 400000.0,
       "quantity_unit": "面額"
@@ -158,7 +165,7 @@
       "code": "US87938WAC73",
       "name": "TELEFONICA EMISIONES SAU 7.045 06/20/36",
       "shares": null,
-      "weight": "1.5518%",
+      "weight": "1.5542%",
       "lot_size": null,
       "reported_quantity": 410000.0,
       "quantity_unit": "面額"
@@ -167,25 +174,16 @@
       "code": "US24703TAK25",
       "name": "DELL 8.35 07/15/46",
       "shares": null,
-      "weight": "1.5454%",
+      "weight": "1.5461%",
       "lot_size": null,
       "reported_quantity": 370000.0,
-      "quantity_unit": "面額"
-    },
-    {
-      "code": "USU44927BD96",
-      "name": "IEP 10 11/15/29",
-      "shares": null,
-      "weight": "1.5334%",
-      "lot_size": null,
-      "reported_quantity": 490000.0,
       "quantity_unit": "面額"
     },
     {
       "code": "US111021AE12",
       "name": "BRITEL 9 5/8 12/15/30",
       "shares": null,
-      "weight": "1.5293%",
+      "weight": "1.5325%",
       "lot_size": null,
       "reported_quantity": 370000.0,
       "quantity_unit": "面額"
@@ -194,7 +192,7 @@
       "code": "US8935268Z94",
       "name": "TRPCN 7 5/8 01/15/39",
       "shares": null,
-      "weight": "1.4963%",
+      "weight": "1.4955%",
       "lot_size": null,
       "reported_quantity": 370000.0,
       "quantity_unit": "面額"
@@ -203,7 +201,7 @@
       "code": "US24703TAJ51",
       "name": "DELL 8.1 07/15/36",
       "shares": null,
-      "weight": "1.495%",
+      "weight": "1.4954%",
       "lot_size": null,
       "reported_quantity": 370000.0,
       "quantity_unit": "面額"
@@ -212,7 +210,7 @@
       "code": "US25156PAD50",
       "name": "DT 9 1/4 06/01/32",
       "shares": null,
-      "weight": "1.4886%",
+      "weight": "1.4917%",
       "lot_size": null,
       "reported_quantity": 350000.0,
       "quantity_unit": "面額"
@@ -221,7 +219,7 @@
       "code": "US233835AQ08",
       "name": "MBGGR 8 1/2 01/18/31",
       "shares": null,
-      "weight": "1.486%",
+      "weight": "1.4894%",
       "lot_size": null,
       "reported_quantity": 370000.0,
       "quantity_unit": "面額"
@@ -230,7 +228,7 @@
       "code": "US852060AT99",
       "name": "S 8 3/4 03/15/32",
       "shares": null,
-      "weight": "1.4665%",
+      "weight": "1.47%",
       "lot_size": null,
       "reported_quantity": 360000.0,
       "quantity_unit": "面額"
@@ -239,7 +237,7 @@
       "code": "US617446HD43",
       "name": "MS 7 1/4 04/01/32",
       "shares": null,
-      "weight": "1.4614%",
+      "weight": "1.4647%",
       "lot_size": null,
       "reported_quantity": 370000.0,
       "quantity_unit": "面額"
@@ -248,7 +246,7 @@
       "code": "USU17127AX63",
       "name": "CYH 10 7/8 01/15/32",
       "shares": null,
-      "weight": "1.4593%",
+      "weight": "1.4625%",
       "lot_size": null,
       "reported_quantity": 450000.0,
       "quantity_unit": "面額"
@@ -257,43 +255,52 @@
       "code": "US06738ECE32",
       "name": "BACR 7.437 11/02/33",
       "shares": null,
-      "weight": "1.437%",
+      "weight": "1.4405%",
       "lot_size": null,
       "reported_quantity": 370000.0,
+      "quantity_unit": "面額"
+    },
+    {
+      "code": "USU44927BD96",
+      "name": "IEP 10 11/15/29",
+      "shares": null,
+      "weight": "1.3997%",
+      "lot_size": null,
+      "reported_quantity": 490000.0,
       "quantity_unit": "面額"
     },
     {
       "code": "US370425RZ53",
       "name": "ALLY 8 11/01/31",
       "shares": null,
-      "weight": "1.3597%",
+      "weight": "1.3635%",
       "lot_size": null,
       "reported_quantity": 350000.0,
-      "quantity_unit": "面額"
-    },
-    {
-      "code": "US054989AD07",
-      "name": "BATSLN 7.081 08/02/53",
-      "shares": null,
-      "weight": "1.3022%",
-      "lot_size": null,
-      "reported_quantity": 340000.0,
       "quantity_unit": "面額"
     },
     {
       "code": "US92344GAM87",
       "name": "VZ 7 3/4 12/01/30",
       "shares": null,
-      "weight": "1.3%",
+      "weight": "1.3031%",
       "lot_size": null,
       "reported_quantity": 330000.0,
+      "quantity_unit": "面額"
+    },
+    {
+      "code": "US054989AD07",
+      "name": "BATSLN 7.081 08/02/53",
+      "shares": null,
+      "weight": "1.3009%",
+      "lot_size": null,
+      "reported_quantity": 340000.0,
       "quantity_unit": "面額"
     },
     {
       "code": "US67066GAU85",
       "name": "NVDA 5.55 06/15/46",
       "shares": null,
-      "weight": "1.2722%",
+      "weight": "1.2831%",
       "lot_size": null,
       "reported_quantity": 400000.0,
       "quantity_unit": "面額"
@@ -302,7 +309,7 @@
       "code": "US10549PAG63",
       "name": "BNCN 7 3/8 03/01/33",
       "shares": null,
-      "weight": "1.251%",
+      "weight": "1.2533%",
       "lot_size": null,
       "reported_quantity": 320000.0,
       "quantity_unit": "面額"
@@ -311,7 +318,7 @@
       "code": "USU8531HAD27",
       "name": "SPCX 6.6 07/15/46",
       "shares": null,
-      "weight": "1.2346%",
+      "weight": "1.239%",
       "lot_size": null,
       "reported_quantity": 400000.0,
       "quantity_unit": "面額"
@@ -320,7 +327,7 @@
       "code": "US054989AC24",
       "name": "BATSLN 7.079 08/02/43",
       "shares": null,
-      "weight": "1.2258%",
+      "weight": "1.2264%",
       "lot_size": null,
       "reported_quantity": 320000.0,
       "quantity_unit": "面額"
@@ -329,7 +336,7 @@
       "code": "US494550AW68",
       "name": "KMI 6.95 01/15/38",
       "shares": null,
-      "weight": "1.1941%",
+      "weight": "1.1945%",
       "lot_size": null,
       "reported_quantity": 310000.0,
       "quantity_unit": "面額"
@@ -338,7 +345,7 @@
       "code": "US50076QAR74",
       "name": "KHC 6 7/8 01/26/39",
       "shares": null,
-      "weight": "1.1445%",
+      "weight": "1.1457%",
       "lot_size": null,
       "reported_quantity": 300000.0,
       "quantity_unit": "面額"
@@ -347,7 +354,7 @@
       "code": "US879385AD49",
       "name": "TELEFO 8 1/4 09/15/30",
       "shares": null,
-      "weight": "1.1413%",
+      "weight": "1.1441%",
       "lot_size": null,
       "reported_quantity": 290000.0,
       "quantity_unit": "面額"
@@ -356,7 +363,7 @@
       "code": "US694308KK29",
       "name": "PCG 6.7 04/01/53",
       "shares": null,
-      "weight": "1.067%",
+      "weight": "1.0658%",
       "lot_size": null,
       "reported_quantity": 300000.0,
       "quantity_unit": "面額"
@@ -365,7 +372,7 @@
       "code": "USQ60976AD18",
       "name": "MINAU 9 1/4 10/01/28",
       "shares": null,
-      "weight": "1.0188%",
+      "weight": "1.0235%",
       "lot_size": null,
       "reported_quantity": 273000.0,
       "quantity_unit": "面額"
@@ -374,7 +381,7 @@
       "code": "US717081CY74",
       "name": "PFE 7.2 03/15/39",
       "shares": null,
-      "weight": "1.0082%",
+      "weight": "1.0086%",
       "lot_size": null,
       "reported_quantity": 250000.0,
       "quantity_unit": "面額"
@@ -383,7 +390,7 @@
       "code": "US91324PBK75",
       "name": "UNITEDHEALTH GROUP INC 6.875 02/15/38",
       "shares": null,
-      "weight": "0.9768%",
+      "weight": "0.9786%",
       "lot_size": null,
       "reported_quantity": 250000.0,
       "quantity_unit": "面額"
@@ -392,7 +399,7 @@
       "code": "US86722TAB89",
       "name": "SUCN 6.85 06/01/39",
       "shares": null,
-      "weight": "0.9539%",
+      "weight": "0.9529%",
       "lot_size": null,
       "reported_quantity": 250000.0,
       "quantity_unit": "面額"
@@ -401,7 +408,7 @@
       "code": "US36962G4B75",
       "name": "GE 6 7/8 01/10/39",
       "shares": null,
-      "weight": "0.9505%",
+      "weight": "0.9511%",
       "lot_size": null,
       "reported_quantity": 240000.0,
       "quantity_unit": "面額"
@@ -410,7 +417,7 @@
       "code": "US04686JAL52",
       "name": "ATH 6 5/8 05/19/55",
       "shares": null,
-      "weight": "0.9487%",
+      "weight": "0.9491%",
       "lot_size": null,
       "reported_quantity": 290000.0,
       "quantity_unit": "面額"
@@ -419,7 +426,7 @@
       "code": "US13645RAD61",
       "name": "CP 7 1/8 10/15/31",
       "shares": null,
-      "weight": "0.9303%",
+      "weight": "0.9323%",
       "lot_size": null,
       "reported_quantity": 240000.0,
       "quantity_unit": "面額"
@@ -428,7 +435,7 @@
       "code": "US694308KH99",
       "name": "PCG 6 3/4 01/15/53",
       "shares": null,
-      "weight": "0.9287%",
+      "weight": "0.927%",
       "lot_size": null,
       "reported_quantity": 260000.0,
       "quantity_unit": "面額"
@@ -437,7 +444,7 @@
       "code": "USU2069EAB66",
       "name": "CRWV 9 02/01/31",
       "shares": null,
-      "weight": "0.9123%",
+      "weight": "0.9033%",
       "lot_size": null,
       "reported_quantity": 300000.0,
       "quantity_unit": "面額"
@@ -455,7 +462,7 @@
       "code": "US260543DH36",
       "name": "DOW 6.9 05/15/53",
       "shares": null,
-      "weight": "0.8556%",
+      "weight": "0.8557%",
       "lot_size": null,
       "reported_quantity": 230000.0,
       "quantity_unit": "面額"
@@ -464,7 +471,7 @@
       "code": "US674599DL68",
       "name": "OXY 6.6 03/15/46",
       "shares": null,
-      "weight": "0.8427%",
+      "weight": "0.843%",
       "lot_size": null,
       "reported_quantity": 230000.0,
       "quantity_unit": "面額"
@@ -473,7 +480,7 @@
       "code": "US91913YAL48",
       "name": "VLO 6 5/8 06/15/37",
       "shares": null,
-      "weight": "0.8332%",
+      "weight": "0.8336%",
       "lot_size": null,
       "reported_quantity": 220000.0,
       "quantity_unit": "面額"
@@ -482,7 +489,7 @@
       "code": "US00817YAF51",
       "name": "AET 6 5/8 06/15/36",
       "shares": null,
-      "weight": "0.8306%",
+      "weight": "0.8314%",
       "lot_size": null,
       "reported_quantity": 220000.0,
       "quantity_unit": "面額"
@@ -491,34 +498,34 @@
       "code": "US37045VAL45",
       "name": "GM 6 3/4 04/01/46",
       "shares": null,
-      "weight": "0.8289%",
+      "weight": "0.8295%",
       "lot_size": null,
       "reported_quantity": 230000.0,
-      "quantity_unit": "面額"
-    },
-    {
-      "code": "US682680BN20",
-      "name": "OKE 6 5/8 09/01/53",
-      "shares": null,
-      "weight": "0.8022%",
-      "lot_size": null,
-      "reported_quantity": 220000.0,
       "quantity_unit": "面額"
     },
     {
       "code": "US03040WAD74",
       "name": "AWK 6.593 10/15/37",
       "shares": null,
-      "weight": "0.8014%",
+      "weight": "0.8015%",
       "lot_size": null,
       "reported_quantity": 210000.0,
+      "quantity_unit": "面額"
+    },
+    {
+      "code": "US682680BN20",
+      "name": "OKE 6 5/8 09/01/53",
+      "shares": null,
+      "weight": "0.8007%",
+      "lot_size": null,
+      "reported_quantity": 220000.0,
       "quantity_unit": "面額"
     },
     {
       "code": "US303901BR22",
       "name": "FFHCN 6.35 03/22/54",
       "shares": null,
-      "weight": "0.7968%",
+      "weight": "0.795%",
       "lot_size": null,
       "reported_quantity": 230000.0,
       "quantity_unit": "面額"
@@ -527,7 +534,7 @@
       "code": "US209111EU37",
       "name": "ED 6 3/4 04/01/38",
       "shares": null,
-      "weight": "0.6953%",
+      "weight": "0.6955%",
       "lot_size": null,
       "reported_quantity": 180000.0,
       "quantity_unit": "面額"
@@ -536,7 +543,7 @@
       "code": "US42824CAY57",
       "name": "HPE 6.35 10/15/45",
       "shares": null,
-      "weight": "0.6917%",
+      "weight": "0.6915%",
       "lot_size": null,
       "reported_quantity": 200000.0,
       "quantity_unit": "面額"
@@ -545,7 +552,7 @@
       "code": "US254687EZ57",
       "name": "DIS 7 3/4 12/01/45",
       "shares": null,
-      "weight": "0.6791%",
+      "weight": "0.6795%",
       "lot_size": null,
       "reported_quantity": 160000.0,
       "quantity_unit": "面額"
@@ -554,7 +561,7 @@
       "code": "US29250NBZ78",
       "name": "ENBCN 6.7 11/15/53",
       "shares": null,
-      "weight": "0.6736%",
+      "weight": "0.6722%",
       "lot_size": null,
       "reported_quantity": 180000.0,
       "quantity_unit": "面額"
@@ -563,7 +570,7 @@
       "code": "US36962GXZ26",
       "name": "GE 6 3/4 03/15/32",
       "shares": null,
-      "weight": "0.6563%",
+      "weight": "0.6579%",
       "lot_size": null,
       "reported_quantity": 170000.0,
       "quantity_unit": "面額"
@@ -572,7 +579,7 @@
       "code": "US67077MAP32",
       "name": "NTRCN 7 1/8 05/23/36",
       "shares": null,
-      "weight": "0.6198%",
+      "weight": "0.6197%",
       "lot_size": null,
       "reported_quantity": 160000.0,
       "quantity_unit": "面額"
@@ -581,7 +588,7 @@
       "code": "US06849RAC60",
       "name": "ABXCN 7 1/2 09/15/38",
       "shares": null,
-      "weight": "0.6028%",
+      "weight": "0.603%",
       "lot_size": null,
       "reported_quantity": 150000.0,
       "quantity_unit": "面額"
@@ -590,7 +597,7 @@
       "code": "US013716AQ81",
       "name": "RIOLN 7 1/4 03/15/31",
       "shares": null,
-      "weight": "0.5832%",
+      "weight": "0.5847%",
       "lot_size": null,
       "reported_quantity": 150000.0,
       "quantity_unit": "面額"
@@ -599,7 +606,7 @@
       "code": "US548661CP07",
       "name": "LOW 6.65 09/15/37",
       "shares": null,
-      "weight": "0.566%",
+      "weight": "0.5662%",
       "lot_size": null,
       "reported_quantity": 150000.0,
       "quantity_unit": "面額"
@@ -608,7 +615,7 @@
       "code": "US20030NAV38",
       "name": "CMCSA 6.95 08/15/37",
       "shares": null,
-      "weight": "0.5632%",
+      "weight": "0.5634%",
       "lot_size": null,
       "reported_quantity": 150000.0,
       "quantity_unit": "面額"
@@ -617,7 +624,7 @@
       "code": "US81761LAE20",
       "name": "SVC 8 7/8 06/15/32",
       "shares": null,
-      "weight": "0.5478%",
+      "weight": "0.5521%",
       "lot_size": null,
       "reported_quantity": 150000.0,
       "quantity_unit": "面額"
@@ -626,7 +633,7 @@
       "code": "US88732JAN81",
       "name": "TIME WARNER CABLE INC 7.300 07/01/38",
       "shares": null,
-      "weight": "0.545%",
+      "weight": "0.5457%",
       "lot_size": null,
       "reported_quantity": 160000.0,
       "quantity_unit": "面額"
@@ -635,7 +642,7 @@
       "code": "US641423BU11",
       "name": "BRKHEC 6 3/4 07/01/37",
       "shares": null,
-      "weight": "0.535%",
+      "weight": "0.5364%",
       "lot_size": null,
       "reported_quantity": 140000.0,
       "quantity_unit": "面額"
@@ -644,7 +651,7 @@
       "code": "US210385AE04",
       "name": "CEG 6 1/2 10/01/53",
       "shares": null,
-      "weight": "0.5127%",
+      "weight": "0.5118%",
       "lot_size": null,
       "reported_quantity": 140000.0,
       "quantity_unit": "面額"
@@ -653,7 +660,7 @@
       "code": "US58013MEF77",
       "name": "MCD 6.3 03/01/38",
       "shares": null,
-      "weight": "0.4491%",
+      "weight": "0.4492%",
       "lot_size": null,
       "reported_quantity": 120000.0,
       "quantity_unit": "面額"
@@ -662,7 +669,7 @@
       "code": "US37045VAK61",
       "name": "GM 6.6 04/01/36",
       "shares": null,
-      "weight": "0.4465%",
+      "weight": "0.447%",
       "lot_size": null,
       "reported_quantity": 120000.0,
       "quantity_unit": "面額"
@@ -671,7 +678,7 @@
       "code": "US68389XAE58",
       "name": "ORCL 6 1/2 04/15/38",
       "shares": null,
-      "weight": "0.4151%",
+      "weight": "0.4141%",
       "lot_size": null,
       "reported_quantity": 130000.0,
       "quantity_unit": "面額"
@@ -680,7 +687,7 @@
       "code": "USU42511AJ14",
       "name": "GTN 10 1/2 07/15/29",
       "shares": null,
-      "weight": "0.3841%",
+      "weight": "0.3852%",
       "lot_size": null,
       "reported_quantity": 100000.0,
       "quantity_unit": "面額"
@@ -698,7 +705,7 @@
       "code": "US68389XCK90",
       "name": "ORCL 6.9 11/09/52",
       "shares": null,
-      "weight": "0.2371%",
+      "weight": "0.2363%",
       "lot_size": null,
       "reported_quantity": 80000.0,
       "quantity_unit": "面額"
@@ -716,7 +723,7 @@
       "code": "US832696AY47",
       "name": "SJM 6 1/2 11/15/43",
       "shares": null,
-      "weight": "0.2222%",
+      "weight": "0.2221%",
       "lot_size": null,
       "reported_quantity": 60000.0,
       "quantity_unit": "面額"
@@ -725,7 +732,7 @@
       "code": "US871829BN62",
       "name": "SYY 6.6 04/01/50",
       "shares": null,
-      "weight": "0.2201%",
+      "weight": "0.22%",
       "lot_size": null,
       "reported_quantity": 60000.0,
       "quantity_unit": "面額"
@@ -734,7 +741,7 @@
       "code": "US00206RAS13",
       "name": "T 6.55 02/15/39",
       "shares": null,
-      "weight": "0.2198%",
+      "weight": "0.2199%",
       "lot_size": null,
       "reported_quantity": 60000.0,
       "quantity_unit": "面額"
@@ -752,7 +759,7 @@
       "code": "US29273RAR03",
       "name": "ET 6 1/2 02/01/42",
       "shares": null,
-      "weight": "0.1826%",
+      "weight": "0.1827%",
       "lot_size": null,
       "reported_quantity": 50000.0,
       "quantity_unit": "面額"
@@ -770,7 +777,7 @@
       "code": "USU86043AJ26",
       "name": "SABHLD 10 3/4 11/15/29",
       "shares": null,
-      "weight": "0.1128%",
+      "weight": "0.1131%",
       "lot_size": null,
       "reported_quantity": 32000.0,
       "quantity_unit": "面額"
@@ -779,7 +786,7 @@
       "code": "TLTW US",
       "name": "iShares TLT Premium Income+ ETF",
       "shares": 120000,
-      "weight": "8.9851%",
+      "weight": "8.9726%",
       "lot_size": null,
       "reported_quantity": 120000.0,
       "quantity_unit": "股"
@@ -788,7 +795,7 @@
       "code": "LQDW US",
       "name": "IShares LQD Premium Income+ ETF",
       "shares": 93000,
-      "weight": "7.6377%",
+      "weight": "7.6509%",
       "lot_size": null,
       "reported_quantity": 93000.0,
       "quantity_unit": "股"

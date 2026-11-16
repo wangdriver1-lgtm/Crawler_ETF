@@ -1,7 +1,7 @@
 {
   "code": "00988A",
   "name": "主動統一全球創新",
-  "asof": "20261112",
+  "asof": "20261113",
   "data_status": "fresh",
   "source_kind": "backup",
   "source_name": "ETF資訊網（公開持股備援）",
@@ -9,6 +9,74 @@
   "date_basis": "issuer",
   "unchanged": false,
   "history": [
+    {
+      "date": "20261113",
+      "previous_date": "20261112",
+      "status": "changed",
+      "comparable": true,
+      "changes": [
+        {
+          "code": "1303",
+          "name": "南亞",
+          "shares": 4800000,
+          "weight": "3.64%",
+          "lot_size": 1000,
+          "reported_quantity": 4800000.0,
+          "quantity_unit": "股",
+          "previous_shares": 4150000,
+          "delta_shares": 650000,
+          "delta_lots": 650.0
+        },
+        {
+          "code": "3017",
+          "name": "奇鋐",
+          "shares": 645000,
+          "weight": "4.9%",
+          "lot_size": 1000,
+          "reported_quantity": 645000.0,
+          "quantity_unit": "股",
+          "previous_shares": 600000,
+          "delta_shares": 45000,
+          "delta_lots": 45.0
+        },
+        {
+          "code": "MRNA US",
+          "name": "MODERNA INC",
+          "shares": 60000,
+          "weight": "1.1%",
+          "lot_size": null,
+          "reported_quantity": 60000.0,
+          "quantity_unit": "股",
+          "previous_shares": 30000,
+          "delta_shares": 30000,
+          "delta_lots": null
+        },
+        {
+          "code": "TWLO US",
+          "name": "TWILIO INC - A",
+          "shares": 30000,
+          "weight": "0.52%",
+          "lot_size": null,
+          "reported_quantity": 30000.0,
+          "quantity_unit": "股",
+          "previous_shares": 60000,
+          "delta_shares": -30000,
+          "delta_lots": null
+        },
+        {
+          "code": "NET US",
+          "name": "CLOUDFLARE INC - CLASS A",
+          "shares": 120000,
+          "weight": "3.01%",
+          "lot_size": null,
+          "reported_quantity": 120000.0,
+          "quantity_unit": "股",
+          "previous_shares": 100000,
+          "delta_shares": 20000,
+          "delta_lots": null
+        }
+      ]
+    },
     {
       "date": "20261112",
       "previous_date": "20261111",
@@ -545,32 +613,32 @@
       "changes": []
     }
   ],
-  "previous_date": "20261111",
+  "previous_date": "20261112",
   "official_url": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html",
   "holdings": [
-    {
-      "code": "AMD US",
-      "name": "ADVANCED MICRO DEVICES.amd us(超微半導體公司)",
-      "shares": 160000,
-      "weight": "7.65%",
-      "lot_size": null,
-      "reported_quantity": 160000.0,
-      "quantity_unit": "股"
-    },
     {
       "code": "BE US",
       "name": "BLOOM ENERGY CORP- A",
       "shares": 450000,
-      "weight": "7.42%",
+      "weight": "7.09%",
       "lot_size": null,
       "reported_quantity": 450000.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "AMD US",
+      "name": "ADVANCED MICRO DEVICES.amd us(超微半導體公司)",
+      "shares": 160000,
+      "weight": "7.01%",
+      "lot_size": null,
+      "reported_quantity": 160000.0,
       "quantity_unit": "股"
     },
     {
       "code": "MSFT US",
       "name": "MICROSOFT CORP(微軟公司)",
       "shares": 160000,
-      "weight": "6.84%",
+      "weight": "6.88%",
       "lot_size": null,
       "reported_quantity": 160000.0,
       "quantity_unit": "股"
@@ -579,7 +647,7 @@
       "code": "SPCX US",
       "name": "SPACE EXPLORATION TECHN-CL A",
       "shares": 580000,
-      "weight": "6.63%",
+      "weight": "6.62%",
       "lot_size": null,
       "reported_quantity": 580000.0,
       "quantity_unit": "股"
@@ -588,9 +656,18 @@
       "code": "AAPL US",
       "name": "APPLE INC(蘋果公司)",
       "shares": 180000,
-      "weight": "5.22%",
+      "weight": "5.26%",
       "lot_size": null,
       "reported_quantity": 180000.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "3443",
+      "name": "創意",
+      "shares": 240000,
+      "weight": "5.16%",
+      "lot_size": 1000,
+      "reported_quantity": 240000.0,
       "quantity_unit": "股"
     },
     {
@@ -603,48 +680,48 @@
       "quantity_unit": "股"
     },
     {
-      "code": "PLTR US",
-      "name": "PALANTIR TECHNOLOGIES INC-A",
-      "shares": 350000,
-      "weight": "4.91%",
-      "lot_size": null,
-      "reported_quantity": 350000.0,
+      "code": "3017",
+      "name": "奇鋐",
+      "shares": 645000,
+      "weight": "4.9%",
+      "lot_size": 1000,
+      "reported_quantity": 645000.0,
       "quantity_unit": "股"
     },
     {
-      "code": "3443",
-      "name": "創意",
-      "shares": 240000,
-      "weight": "4.67%",
-      "lot_size": 1000,
-      "reported_quantity": 240000.0,
+      "code": "PLTR US",
+      "name": "PALANTIR TECHNOLOGIES INC-A",
+      "shares": 350000,
+      "weight": "4.82%",
+      "lot_size": null,
+      "reported_quantity": 350000.0,
       "quantity_unit": "股"
     },
     {
       "code": "CRWD US",
       "name": "CROWDSTRIKE HOLDINGS INC - A",
       "shares": 220754,
-      "weight": "4.15%",
+      "weight": "4.1%",
       "lot_size": null,
       "reported_quantity": 220754.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "3017",
-      "name": "奇鋐",
-      "shares": 600000,
-      "weight": "4.13%",
-      "lot_size": 1000,
-      "reported_quantity": 600000.0,
       "quantity_unit": "股"
     },
     {
       "code": "PANW US",
       "name": "PALO ALTO NETWORKS INC",
       "shares": 150000,
-      "weight": "3.95%",
+      "weight": "3.97%",
       "lot_size": null,
       "reported_quantity": 150000.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "1303",
+      "name": "南亞",
+      "shares": 4800000,
+      "weight": "3.64%",
+      "lot_size": 1000,
+      "reported_quantity": 4800000.0,
       "quantity_unit": "股"
     },
     {
@@ -657,19 +734,19 @@
       "quantity_unit": "股"
     },
     {
-      "code": "1303",
-      "name": "南亞",
-      "shares": 4150000,
+      "code": "NET US",
+      "name": "CLOUDFLARE INC - CLASS A",
+      "shares": 120000,
       "weight": "3.01%",
-      "lot_size": 1000,
-      "reported_quantity": 4150000.0,
+      "lot_size": null,
+      "reported_quantity": 120000.0,
       "quantity_unit": "股"
     },
     {
       "code": "OKTA US",
       "name": "OKTA INC",
       "shares": 200000,
-      "weight": "2.98%",
+      "weight": "3%",
       "lot_size": null,
       "reported_quantity": 200000.0,
       "quantity_unit": "股"
@@ -678,25 +755,16 @@
       "code": "2330",
       "name": "台積電",
       "shares": 480000,
-      "weight": "2.78%",
+      "weight": "2.82%",
       "lot_size": 1000,
       "reported_quantity": 480000.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "NET US",
-      "name": "CLOUDFLARE INC - CLASS A",
-      "shares": 100000,
-      "weight": "2.6%",
-      "lot_size": null,
-      "reported_quantity": 100000.0,
       "quantity_unit": "股"
     },
     {
       "code": "2383",
       "name": "台光電",
       "shares": 250000,
-      "weight": "2.54%",
+      "weight": "2.63%",
       "lot_size": 1000,
       "reported_quantity": 250000.0,
       "quantity_unit": "股"
@@ -705,7 +773,7 @@
       "code": "SNOW US",
       "name": "SNOWFLAKE INC-CLASS A(Snowflake公司)",
       "shares": 100000,
-      "weight": "2.44%",
+      "weight": "2.39%",
       "lot_size": null,
       "reported_quantity": 100000.0,
       "quantity_unit": "股"
@@ -714,7 +782,7 @@
       "code": "009150 KS",
       "name": "Samsung Electro-Mechanics co(009150 ks)",
       "shares": 40000,
-      "weight": "2.17%",
+      "weight": "2.1%",
       "lot_size": null,
       "reported_quantity": 40000.0,
       "quantity_unit": "股"
@@ -723,7 +791,7 @@
       "code": "3711",
       "name": "日月光投控",
       "shares": 1270000,
-      "weight": "1.84%",
+      "weight": "1.9%",
       "lot_size": 1000,
       "reported_quantity": 1270000.0,
       "quantity_unit": "股"
@@ -741,34 +809,34 @@
       "code": "NTSK US",
       "name": "NETSKOPE INC-CL A",
       "shares": 800000,
-      "weight": "1.46%",
+      "weight": "1.43%",
       "lot_size": null,
       "reported_quantity": 800000.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "6223",
-      "name": "旺矽",
-      "shares": 110000,
-      "weight": "1.27%",
-      "lot_size": 1000,
-      "reported_quantity": 110000.0,
       "quantity_unit": "股"
     },
     {
       "code": "META US",
       "name": "META PLATFORMS INC(Meta平台公司)",
       "shares": 25000,
-      "weight": "1.27%",
+      "weight": "1.32%",
       "lot_size": null,
       "reported_quantity": 25000.0,
       "quantity_unit": "股"
     },
     {
-      "code": "TWLO US",
-      "name": "TWILIO INC - A",
+      "code": "6223",
+      "name": "旺矽",
+      "shares": 110000,
+      "weight": "1.28%",
+      "lot_size": 1000,
+      "reported_quantity": 110000.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "MRNA US",
+      "name": "MODERNA INC",
       "shares": 60000,
-      "weight": "1.04%",
+      "weight": "1.1%",
       "lot_size": null,
       "reported_quantity": 60000.0,
       "quantity_unit": "股"
@@ -777,7 +845,7 @@
       "code": "MU US",
       "name": "MICRON TECHNOLOGY INC",
       "shares": 15131,
-      "weight": "0.99%",
+      "weight": "0.97%",
       "lot_size": null,
       "reported_quantity": 15131.0,
       "quantity_unit": "股"
@@ -786,36 +854,36 @@
       "code": "2454",
       "name": "聯發科",
       "shares": 80000,
-      "weight": "0.76%",
+      "weight": "0.82%",
       "lot_size": 1000,
       "reported_quantity": 80000.0,
       "quantity_unit": "股"
     },
     {
-      "code": "MRNA US",
-      "name": "MODERNA INC",
+      "code": "TWLO US",
+      "name": "TWILIO INC - A",
       "shares": 30000,
-      "weight": "0.57%",
+      "weight": "0.52%",
       "lot_size": null,
       "reported_quantity": 30000.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "IFX GY",
-      "name": "INFINEON TECHNOLOGIES AG",
-      "shares": 100000,
-      "weight": "0.47%",
-      "lot_size": null,
-      "reported_quantity": 100000.0,
       "quantity_unit": "股"
     },
     {
       "code": "3697 JP",
       "name": "SHIFT INC",
       "shares": 800000,
-      "weight": "0.45%",
+      "weight": "0.46%",
       "lot_size": null,
       "reported_quantity": 800000.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "IFX GY",
+      "name": "INFINEON TECHNOLOGIES AG",
+      "shares": 100000,
+      "weight": "0.45%",
+      "lot_size": null,
+      "reported_quantity": 100000.0,
       "quantity_unit": "股"
     }
   ],
@@ -823,55 +891,67 @@
     {
       "code": "1303",
       "name": "南亞",
-      "shares": 4150000,
-      "weight": "3.01%",
+      "shares": 4800000,
+      "weight": "3.64%",
       "lot_size": 1000,
-      "reported_quantity": 4150000.0,
+      "reported_quantity": 4800000.0,
       "quantity_unit": "股",
-      "previous_shares": 3450000,
-      "delta_shares": 700000,
-      "delta_lots": 700.0
+      "previous_shares": 4150000,
+      "delta_shares": 650000,
+      "delta_lots": 650.0
     },
     {
-      "code": "NVDA US",
-      "name": "NVIDIA CORP(輝達公司)",
-      "shares": 0,
-      "weight": "2.79%",
-      "lot_size": null,
-      "reported_quantity": 200000.0,
+      "code": "3017",
+      "name": "奇鋐",
+      "shares": 645000,
+      "weight": "4.9%",
+      "lot_size": 1000,
+      "reported_quantity": 645000.0,
       "quantity_unit": "股",
-      "previous_shares": 200000,
-      "delta_shares": -200000,
+      "previous_shares": 600000,
+      "delta_shares": 45000,
+      "delta_lots": 45.0
+    },
+    {
+      "code": "MRNA US",
+      "name": "MODERNA INC",
+      "shares": 60000,
+      "weight": "1.1%",
+      "lot_size": null,
+      "reported_quantity": 60000.0,
+      "quantity_unit": "股",
+      "previous_shares": 30000,
+      "delta_shares": 30000,
       "delta_lots": null
     },
     {
-      "code": "3443",
-      "name": "創意",
-      "shares": 240000,
-      "weight": "4.67%",
-      "lot_size": 1000,
-      "reported_quantity": 240000.0,
+      "code": "TWLO US",
+      "name": "TWILIO INC - A",
+      "shares": 30000,
+      "weight": "0.52%",
+      "lot_size": null,
+      "reported_quantity": 30000.0,
       "quantity_unit": "股",
-      "previous_shares": 229000,
-      "delta_shares": 11000,
-      "delta_lots": 11.0
+      "previous_shares": 60000,
+      "delta_shares": -30000,
+      "delta_lots": null
     },
     {
-      "code": "AMD US",
-      "name": "ADVANCED MICRO DEVICES.amd us(超微半導體公司)",
-      "shares": 160000,
-      "weight": "7.65%",
+      "code": "NET US",
+      "name": "CLOUDFLARE INC - CLASS A",
+      "shares": 120000,
+      "weight": "3.01%",
       "lot_size": null,
-      "reported_quantity": 160000.0,
+      "reported_quantity": 120000.0,
       "quantity_unit": "股",
-      "previous_shares": 150000,
-      "delta_shares": 10000,
+      "previous_shares": 100000,
+      "delta_shares": 20000,
       "delta_lots": null
     }
   ],
   "comparable": true,
-  "added_shares": 721000,
-  "reduced_shares": 200000,
+  "added_shares": 745000,
+  "reduced_shares": 30000,
   "comparison_note": "持股快照差異不是實際成交紀錄，可能包含申贖、分割或資料修正；海外持股不換算台股張數。",
   "profit_note": "基金及成分股實際買進成本未提供，無法由持股快照計算基金目前獲利。可另外輸入個人持倉成本試算。"
 }
