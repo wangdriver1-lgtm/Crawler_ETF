@@ -1,7 +1,7 @@
 {
   "code": "00989A",
   "name": "主動摩根美國科技",
-  "asof": "20261113",
+  "asof": "20261116",
   "data_status": "fresh",
   "source_kind": "backup",
   "source_name": "ETF資訊網（公開持股備援）",
@@ -9,6 +9,13 @@
   "date_basis": "issuer",
   "unchanged": false,
   "history": [
+    {
+      "date": "20261116",
+      "previous_date": "20261113",
+      "status": "changed",
+      "comparable": true,
+      "changes": []
+    },
     {
       "date": "20261113",
       "previous_date": "20261112",
@@ -323,14 +330,14 @@
       "changes": []
     }
   ],
-  "previous_date": "20261112",
+  "previous_date": "20261113",
   "official_url": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html",
   "holdings": [
     {
       "code": "META",
       "name": "META PLATFORMS INC-CLASS A",
       "shares": 2034,
-      "weight": "4.4333%",
+      "weight": "4.5136%",
       "lot_size": null,
       "reported_quantity": 2034.0,
       "quantity_unit": "股"
@@ -339,34 +346,34 @@
       "code": "AMD",
       "name": "ADVANCED MICRO DEVICES",
       "shares": 2105,
-      "weight": "3.8185%",
+      "weight": "3.7604%",
       "lot_size": null,
       "reported_quantity": 2105.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "CRWD",
-      "name": "CROWDSTRIKE HOLDINGS INC - A",
-      "shares": 4690,
-      "weight": "3.61%",
-      "lot_size": null,
-      "reported_quantity": 4690.0,
       "quantity_unit": "股"
     },
     {
       "code": "MSFT",
       "name": "MICROSOFT CORP",
       "shares": 2022,
-      "weight": "3.598%",
+      "weight": "3.7104%",
       "lot_size": null,
       "reported_quantity": 2022.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "CRWD",
+      "name": "CROWDSTRIKE HOLDINGS INC - A",
+      "shares": 4690,
+      "weight": "3.7085%",
+      "lot_size": null,
+      "reported_quantity": 4690.0,
       "quantity_unit": "股"
     },
     {
       "code": "TTWO",
       "name": "TAKE-TWO INTERACTIVE SOFTWRE",
       "shares": 4602,
-      "weight": "3.5612%",
+      "weight": "3.4801%",
       "lot_size": null,
       "reported_quantity": 4602.0,
       "quantity_unit": "股"
@@ -375,7 +382,7 @@
       "code": "AVGO",
       "name": "BROADCOM INC",
       "shares": 2888,
-      "weight": "3.404%",
+      "weight": "3.411%",
       "lot_size": null,
       "reported_quantity": 2888.0,
       "quantity_unit": "股"
@@ -384,7 +391,7 @@
       "code": "PANW",
       "name": "PALO ALTO NETWORKS INC",
       "shares": 3000,
-      "weight": "3.2836%",
+      "weight": "3.3593%",
       "lot_size": null,
       "reported_quantity": 3000.0,
       "quantity_unit": "股"
@@ -393,43 +400,43 @@
       "code": "CRM",
       "name": "SALESFORCE INC",
       "shares": 4392,
-      "weight": "3.2498%",
+      "weight": "3.3425%",
       "lot_size": null,
       "reported_quantity": 4392.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "NET",
-      "name": "CLOUDFLARE INC - CLASS A",
-      "shares": 3013,
-      "weight": "3.1297%",
-      "lot_size": null,
-      "reported_quantity": 3013.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "TSLA",
-      "name": "TESLA INC",
-      "shares": 2331,
-      "weight": "3.0896%",
-      "lot_size": null,
-      "reported_quantity": 2331.0,
       "quantity_unit": "股"
     },
     {
       "code": "SHOP",
       "name": "SHOPIFY INC - CLASS A",
       "shares": 6103,
-      "weight": "3.0492%",
+      "weight": "3.1957%",
       "lot_size": null,
       "reported_quantity": 6103.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "TSLA",
+      "name": "TESLA INC",
+      "shares": 2331,
+      "weight": "3.1358%",
+      "lot_size": null,
+      "reported_quantity": 2331.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "NET",
+      "name": "CLOUDFLARE INC - CLASS A",
+      "shares": 3013,
+      "weight": "3.1337%",
+      "lot_size": null,
+      "reported_quantity": 3013.0,
       "quantity_unit": "股"
     },
     {
       "code": "SNOW",
       "name": "SNOWFLAKE INC-CLASS A",
       "shares": 2881,
-      "weight": "2.8477%",
+      "weight": "2.8632%",
       "lot_size": null,
       "reported_quantity": 2881.0,
       "quantity_unit": "股"
@@ -438,7 +445,7 @@
       "code": "GOOG",
       "name": "ALPHABET INC-CL C",
       "shares": 2256,
-      "weight": "2.2415%",
+      "weight": "2.2478%",
       "lot_size": null,
       "reported_quantity": 2256.0,
       "quantity_unit": "股"
@@ -447,7 +454,7 @@
       "code": "AMZN",
       "name": "AMAZON.COM INC",
       "shares": 2437,
-      "weight": "2.2073%",
+      "weight": "2.2252%",
       "lot_size": null,
       "reported_quantity": 2437.0,
       "quantity_unit": "股"
@@ -456,16 +463,25 @@
       "code": "ASML",
       "name": "ASML HOLDING NV-NY REG SHS",
       "shares": 430,
-      "weight": "2.1838%",
+      "weight": "2.1429%",
       "lot_size": null,
       "reported_quantity": 430.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "HUBS",
+      "name": "HUBSPOT INC",
+      "shares": 2599,
+      "weight": "2.1358%",
+      "lot_size": null,
+      "reported_quantity": 2599.0,
       "quantity_unit": "股"
     },
     {
       "code": "TWLO",
       "name": "TWILIO INC - A",
       "shares": 2842,
-      "weight": "2.0389%",
+      "weight": "2.0077%",
       "lot_size": null,
       "reported_quantity": 2842.0,
       "quantity_unit": "股"
@@ -474,7 +490,7 @@
       "code": "LRCX",
       "name": "LAM RESEARCH CORP",
       "shares": 2604,
-      "weight": "1.9982%",
+      "weight": "1.9449%",
       "lot_size": null,
       "reported_quantity": 2604.0,
       "quantity_unit": "股"
@@ -483,34 +499,34 @@
       "code": "ZM",
       "name": "ZOOM COMMUNICATIONS INC",
       "shares": 5670,
-      "weight": "1.9221%",
+      "weight": "1.9319%",
       "lot_size": null,
       "reported_quantity": 5670.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "HUBS",
-      "name": "HUBSPOT INC",
-      "shares": 2599,
-      "weight": "1.9179%",
-      "lot_size": null,
-      "reported_quantity": 2599.0,
       "quantity_unit": "股"
     },
     {
       "code": "TXN",
       "name": "TEXAS INSTRUMENTS INC",
       "shares": 1731,
-      "weight": "1.7851%",
+      "weight": "1.8041%",
       "lot_size": null,
       "reported_quantity": 1731.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "U",
+      "name": "UNITY SOFTWARE INC",
+      "shares": 9095,
+      "weight": "1.6715%",
+      "lot_size": null,
+      "reported_quantity": 9095.0,
       "quantity_unit": "股"
     },
     {
       "code": "NVDA",
       "name": "NVIDIA CORP",
       "shares": 2965,
-      "weight": "1.6401%",
+      "weight": "1.64%",
       "lot_size": null,
       "reported_quantity": 2965.0,
       "quantity_unit": "股"
@@ -519,43 +535,25 @@
       "code": "MPWR",
       "name": "MONOLITHIC POWER SYSTEMS INC",
       "shares": 346,
-      "weight": "1.6342%",
+      "weight": "1.6106%",
       "lot_size": null,
       "reported_quantity": 346.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "U",
-      "name": "UNITY SOFTWARE INC",
-      "shares": 9095,
-      "weight": "1.6314%",
-      "lot_size": null,
-      "reported_quantity": 9095.0,
       "quantity_unit": "股"
     },
     {
       "code": "INTC",
       "name": "INTEL CORP",
       "shares": 7794,
-      "weight": "1.5794%",
+      "weight": "1.5316%",
       "lot_size": null,
       "reported_quantity": 7794.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "HOOD",
-      "name": "ROBINHOOD MARKETS INC - A",
-      "shares": 5668,
-      "weight": "1.499%",
-      "lot_size": null,
-      "reported_quantity": 5668.0,
       "quantity_unit": "股"
     },
     {
       "code": "ACN",
       "name": "ACCENTURE PLC-CL A",
       "shares": 1721,
-      "weight": "1.4643%",
+      "weight": "1.5102%",
       "lot_size": null,
       "reported_quantity": 1721.0,
       "quantity_unit": "股"
@@ -564,34 +562,34 @@
       "code": "ADBE",
       "name": "ADOBE INC",
       "shares": 1684,
-      "weight": "1.3904%",
+      "weight": "1.4675%",
       "lot_size": null,
       "reported_quantity": 1684.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "HOOD",
+      "name": "ROBINHOOD MARKETS INC - A",
+      "shares": 5668,
+      "weight": "1.4469%",
+      "lot_size": null,
+      "reported_quantity": 5668.0,
       "quantity_unit": "股"
     },
     {
       "code": "PLTR",
       "name": "PALANTIR TECHNOLOGIES INC-A",
       "shares": 2257,
-      "weight": "1.2879%",
+      "weight": "1.2824%",
       "lot_size": null,
       "reported_quantity": 2257.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "TEM",
-      "name": "TEMPUS AI INC",
-      "shares": 5266,
-      "weight": "1.2807%",
-      "lot_size": null,
-      "reported_quantity": 5266.0,
       "quantity_unit": "股"
     },
     {
       "code": "ADI",
       "name": "ANALOG DEVICES INC",
       "shares": 935,
-      "weight": "1.2639%",
+      "weight": "1.2692%",
       "lot_size": null,
       "reported_quantity": 935.0,
       "quantity_unit": "股"
@@ -600,16 +598,25 @@
       "code": "RIVN",
       "name": "RIVIAN AUTOMOTIVE INC-A",
       "shares": 28278,
-      "weight": "1.1699%",
+      "weight": "1.2121%",
       "lot_size": null,
       "reported_quantity": 28278.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "TEM",
+      "name": "TEMPUS AI INC",
+      "shares": 5266,
+      "weight": "1.2081%",
+      "lot_size": null,
+      "reported_quantity": 5266.0,
       "quantity_unit": "股"
     },
     {
       "code": "TEAM",
       "name": "ATLASSIAN CORP PLC-CLASS A",
       "shares": 2182,
-      "weight": "1.1117%",
+      "weight": "1.159%",
       "lot_size": null,
       "reported_quantity": 2182.0,
       "quantity_unit": "股"
@@ -618,25 +625,16 @@
       "code": "VEEV",
       "name": "VEEVA SYSTEMS INC-CLASS A",
       "shares": 1051,
-      "weight": "1.0764%",
+      "weight": "1.1143%",
       "lot_size": null,
       "reported_quantity": 1051.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "LITE",
-      "name": "LUMENTUM HOLDINGS INC",
-      "shares": 515,
-      "weight": "1.0437%",
-      "lot_size": null,
-      "reported_quantity": 515.0,
       "quantity_unit": "股"
     },
     {
       "code": "ILMN",
       "name": "ILLUMINA INC",
       "shares": 1464,
-      "weight": "1.0294%",
+      "weight": "1.0269%",
       "lot_size": null,
       "reported_quantity": 1464.0,
       "quantity_unit": "股"
@@ -645,16 +643,25 @@
       "code": "CDNS",
       "name": "CADENCE DESIGN SYS INC",
       "shares": 916,
-      "weight": "1.005%",
+      "weight": "1.0041%",
       "lot_size": null,
       "reported_quantity": 916.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "LITE",
+      "name": "LUMENTUM HOLDINGS INC",
+      "shares": 515,
+      "weight": "0.9961%",
+      "lot_size": null,
+      "reported_quantity": 515.0,
       "quantity_unit": "股"
     },
     {
       "code": "TSM",
       "name": "TAIWAN SEMICONDUCTOR-SP ADR",
       "shares": 725,
-      "weight": "0.9819%",
+      "weight": "0.9591%",
       "lot_size": null,
       "reported_quantity": 725.0,
       "quantity_unit": "股"
@@ -663,7 +670,7 @@
       "code": "DDOG",
       "name": "DATADOG INC - CLASS A",
       "shares": 1490,
-      "weight": "0.932%",
+      "weight": "0.9124%",
       "lot_size": null,
       "reported_quantity": 1490.0,
       "quantity_unit": "股"
@@ -672,7 +679,7 @@
       "code": "SPCX",
       "name": "SPACE EXPLORATION TECHN-CL A",
       "shares": 1866,
-      "weight": "0.8817%",
+      "weight": "0.908%",
       "lot_size": null,
       "reported_quantity": 1866.0,
       "quantity_unit": "股"
@@ -681,7 +688,7 @@
       "code": "NOW",
       "name": "SERVICENOW INC",
       "shares": 2523,
-      "weight": "0.8763%",
+      "weight": "0.8881%",
       "lot_size": null,
       "reported_quantity": 2523.0,
       "quantity_unit": "股"
@@ -690,7 +697,7 @@
       "code": "ROK",
       "name": "ROCKWELL AUTOMATION INC",
       "shares": 631,
-      "weight": "0.8626%",
+      "weight": "0.8604%",
       "lot_size": null,
       "reported_quantity": 631.0,
       "quantity_unit": "股"
@@ -699,178 +706,178 @@
       "code": "WRBY",
       "name": "WARBY PARKER INC-CLASS A",
       "shares": 9116,
-      "weight": "0.8497%",
+      "weight": "0.8471%",
       "lot_size": null,
       "reported_quantity": 9116.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "CIEN",
-      "name": "CIENA CORP",
-      "shares": 868,
-      "weight": "0.8271%",
-      "lot_size": null,
-      "reported_quantity": 868.0,
       "quantity_unit": "股"
     },
     {
       "code": "ESTC",
       "name": "ELASTIC NV",
       "shares": 2746,
-      "weight": "0.8222%",
+      "weight": "0.8345%",
       "lot_size": null,
       "reported_quantity": 2746.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "OKTA",
-      "name": "OKTA INC",
-      "shares": 1281,
-      "weight": "0.7957%",
-      "lot_size": null,
-      "reported_quantity": 1281.0,
       "quantity_unit": "股"
     },
     {
       "code": "LMND",
       "name": "LEMONADE INC",
       "shares": 5199,
-      "weight": "0.7804%",
+      "weight": "0.8188%",
       "lot_size": null,
       "reported_quantity": 5199.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "OKTA",
+      "name": "OKTA INC",
+      "shares": 1281,
+      "weight": "0.8088%",
+      "lot_size": null,
+      "reported_quantity": 1281.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "CIEN",
+      "name": "CIENA CORP",
+      "shares": 868,
+      "weight": "0.792%",
+      "lot_size": null,
+      "reported_quantity": 868.0,
       "quantity_unit": "股"
     },
     {
       "code": "MDB",
       "name": "MONGODB INC",
       "shares": 657,
-      "weight": "0.7458%",
+      "weight": "0.7376%",
       "lot_size": null,
       "reported_quantity": 657.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "ALAB",
-      "name": "ASTERA LABS INC",
-      "shares": 965,
-      "weight": "0.7271%",
-      "lot_size": null,
-      "reported_quantity": 965.0,
       "quantity_unit": "股"
     },
     {
       "code": "GWRE",
       "name": "GUIDEWIRE SOFTWARE INC",
       "shares": 1315,
-      "weight": "0.7067%",
+      "weight": "0.722%",
       "lot_size": null,
       "reported_quantity": 1315.0,
       "quantity_unit": "股"
     },
     {
-      "code": "CRDO",
-      "name": "CREDO TECHNOLOGY GROUP HOLDI",
-      "shares": 1556,
-      "weight": "0.6951%",
+      "code": "ALAB",
+      "name": "ASTERA LABS INC",
+      "shares": 965,
+      "weight": "0.6917%",
       "lot_size": null,
-      "reported_quantity": 1556.0,
+      "reported_quantity": 965.0,
       "quantity_unit": "股"
     },
     {
       "code": "SWKS",
       "name": "SKYWORKS SOLUTIONS INC",
       "shares": 2249,
-      "weight": "0.6871%",
+      "weight": "0.6892%",
       "lot_size": null,
       "reported_quantity": 2249.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "CRDO",
+      "name": "CREDO TECHNOLOGY GROUP HOLDI",
+      "shares": 1556,
+      "weight": "0.6654%",
+      "lot_size": null,
+      "reported_quantity": 1556.0,
       "quantity_unit": "股"
     },
     {
       "code": "TXG",
       "name": "10X GENOMICS INC-CLASS A",
       "shares": 3403,
-      "weight": "0.6726%",
+      "weight": "0.6629%",
       "lot_size": null,
       "reported_quantity": 3403.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "TWST",
-      "name": "TWIST BIOSCIENCE CORP",
-      "shares": 1647,
-      "weight": "0.6243%",
-      "lot_size": null,
-      "reported_quantity": 1647.0,
       "quantity_unit": "股"
     },
     {
       "code": "XYZ",
       "name": "BLOCK INC",
       "shares": 2152,
-      "weight": "0.6182%",
+      "weight": "0.6324%",
       "lot_size": null,
       "reported_quantity": 2152.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "TWST",
+      "name": "TWIST BIOSCIENCE CORP",
+      "shares": 1647,
+      "weight": "0.6129%",
+      "lot_size": null,
+      "reported_quantity": 1647.0,
       "quantity_unit": "股"
     },
     {
       "code": "MTSI",
       "name": "MACOM TECHNOLOGY SOLUTIONS H",
       "shares": 757,
-      "weight": "0.5967%",
+      "weight": "0.5912%",
       "lot_size": null,
       "reported_quantity": 757.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "MU",
-      "name": "MICRON TECHNOLOGY INC",
-      "shares": 206,
-      "weight": "0.5446%",
-      "lot_size": null,
-      "reported_quantity": 206.0,
       "quantity_unit": "股"
     },
     {
       "code": "ENTG",
       "name": "ENTEGRIS INC",
       "shares": 1071,
-      "weight": "0.5363%",
+      "weight": "0.5312%",
       "lot_size": null,
       "reported_quantity": 1071.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "MU",
+      "name": "MICRON TECHNOLOGY INC",
+      "shares": 206,
+      "weight": "0.5247%",
+      "lot_size": null,
+      "reported_quantity": 206.0,
       "quantity_unit": "股"
     },
     {
       "code": "SYM",
       "name": "SYMBOTIC INC",
       "shares": 3843,
-      "weight": "0.4546%",
+      "weight": "0.4667%",
       "lot_size": null,
       "reported_quantity": 3843.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "SNDK",
-      "name": "SANDISK CORP-W/I",
-      "shares": 117,
-      "weight": "0.3517%",
-      "lot_size": null,
-      "reported_quantity": 117.0,
       "quantity_unit": "股"
     },
     {
       "code": "NU",
       "name": "NU HOLDINGS LTD/CAYMAN ISL-A",
       "shares": 7564,
-      "weight": "0.3397%",
+      "weight": "0.3398%",
       "lot_size": null,
       "reported_quantity": 7564.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "SNDK",
+      "name": "SANDISK CORP-W/I",
+      "shares": 117,
+      "weight": "0.3354%",
+      "lot_size": null,
+      "reported_quantity": 117.0,
       "quantity_unit": "股"
     },
     {
       "code": "WDAY",
       "name": "WORKDAY INC-CLASS A",
       "shares": 471,
-      "weight": "0.3143%",
+      "weight": "0.3238%",
       "lot_size": null,
       "reported_quantity": 471.0,
       "quantity_unit": "股"
@@ -879,77 +886,16 @@
       "code": "GENB",
       "name": "GENERATE BIOMEDICINES INC",
       "shares": 2245,
-      "weight": "0.092%",
+      "weight": "0.0834%",
       "lot_size": null,
       "reported_quantity": 2245.0,
       "quantity_unit": "股"
     }
   ],
-  "changes": [
-    {
-      "code": "NVDA",
-      "name": "NVIDIA CORP",
-      "shares": 2965,
-      "weight": "1.6401%",
-      "lot_size": null,
-      "reported_quantity": 2965.0,
-      "quantity_unit": "股",
-      "previous_shares": 6740,
-      "delta_shares": -3775,
-      "delta_lots": null
-    },
-    {
-      "code": "SWKS",
-      "name": "SKYWORKS SOLUTIONS INC",
-      "shares": 2249,
-      "weight": "0.6871%",
-      "lot_size": null,
-      "reported_quantity": 2249.0,
-      "quantity_unit": "股",
-      "previous_shares": 1254,
-      "delta_shares": 995,
-      "delta_lots": null
-    },
-    {
-      "code": "TWST",
-      "name": "TWIST BIOSCIENCE CORP",
-      "shares": 1647,
-      "weight": "0.6243%",
-      "lot_size": null,
-      "reported_quantity": 1647.0,
-      "quantity_unit": "股",
-      "previous_shares": 1124,
-      "delta_shares": 523,
-      "delta_lots": null
-    },
-    {
-      "code": "ACN",
-      "name": "ACCENTURE PLC-CL A",
-      "shares": 1721,
-      "weight": "1.4643%",
-      "lot_size": null,
-      "reported_quantity": 1721.0,
-      "quantity_unit": "股",
-      "previous_shares": 1601,
-      "delta_shares": 120,
-      "delta_lots": null
-    },
-    {
-      "code": "NET",
-      "name": "CLOUDFLARE INC - CLASS A",
-      "shares": 3013,
-      "weight": "3.1297%",
-      "lot_size": null,
-      "reported_quantity": 3013.0,
-      "quantity_unit": "股",
-      "previous_shares": 2919,
-      "delta_shares": 94,
-      "delta_lots": null
-    }
-  ],
+  "changes": [],
   "comparable": true,
-  "added_shares": 1732,
-  "reduced_shares": 3775,
+  "added_shares": 0,
+  "reduced_shares": 0,
   "comparison_note": "持股快照差異不是實際成交紀錄，可能包含申贖、分割或資料修正；海外持股不換算台股張數。",
   "profit_note": "基金及成分股實際買進成本未提供，無法由持股快照計算基金目前獲利。可另外輸入個人持倉成本試算。"
 }
