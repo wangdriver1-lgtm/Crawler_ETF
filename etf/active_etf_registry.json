@@ -1,5 +1,5 @@
 {
-  "checked_at": "20261118",
+  "checked_at": "20261119",
   "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html",
   "etfs": {
     "00980A": {
@@ -351,6 +351,16 @@
       "listed_date": "20261111",
       "discovered_at": "20261111",
       "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html"
+    },
+    "00420A": {
+      "code": "00420A",
+      "name": "主動野村亞洲科技",
+      "company": "野村證券投資信託股份有限公司",
+      "category": "foreign",
+      "listed_date": "20261119",
+      "discovered_at": "20261119",
+      "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html",
+      "url": "https://www.nomurafunds.com.tw/ETFWEB/product-description?fundNo=00420A&tab=Shareholding"
     }
   }
 }

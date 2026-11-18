@@ -1,7 +1,7 @@
 {
   "code": "00990A",
   "name": "主動元大AI新經濟",
-  "asof": "20261116",
+  "asof": "20261117",
   "data_status": "fresh",
   "source_kind": "backup",
   "source_name": "ETF資訊網（公開持股備援）",
@@ -9,6 +9,98 @@
   "date_basis": "issuer",
   "unchanged": false,
   "history": [
+    {
+      "date": "20261117",
+      "previous_date": "20261116",
+      "status": "changed",
+      "comparable": true,
+      "changes": [
+        {
+          "code": "U US",
+          "name": "UNITY SOFTWARE INC",
+          "shares": 249700,
+          "weight": "1.49%",
+          "lot_size": null,
+          "reported_quantity": 249700.0,
+          "quantity_unit": "股",
+          "previous_shares": 0,
+          "delta_shares": 249700,
+          "delta_lots": null
+        },
+        {
+          "code": "3037",
+          "name": "欣興",
+          "shares": 444000,
+          "weight": "1.02%",
+          "lot_size": 1000,
+          "reported_quantity": 444000.0,
+          "quantity_unit": "股",
+          "previous_shares": 667000,
+          "delta_shares": -223000,
+          "delta_lots": -223.0
+        },
+        {
+          "code": "2383",
+          "name": "台光電",
+          "shares": 83000,
+          "weight": "1.06%",
+          "lot_size": 1000,
+          "reported_quantity": 83000.0,
+          "quantity_unit": "股",
+          "previous_shares": 125000,
+          "delta_shares": -42000,
+          "delta_lots": -42.0
+        },
+        {
+          "code": "NVDA US",
+          "name": "NVIDIA CORP",
+          "shares": 37400,
+          "weight": "0.69%",
+          "lot_size": null,
+          "reported_quantity": 37400.0,
+          "quantity_unit": "股",
+          "previous_shares": 67400,
+          "delta_shares": -30000,
+          "delta_lots": null
+        },
+        {
+          "code": "APP US",
+          "name": "APPLOVIN CORP-CLASS A",
+          "shares": 60360,
+          "weight": "2.85%",
+          "lot_size": null,
+          "reported_quantity": 60360.0,
+          "quantity_unit": "股",
+          "previous_shares": 39600,
+          "delta_shares": 20760,
+          "delta_lots": null
+        },
+        {
+          "code": "AVGO US",
+          "name": "BROADCOM INC",
+          "shares": 84560,
+          "weight": "3.42%",
+          "lot_size": null,
+          "reported_quantity": 84560.0,
+          "quantity_unit": "股",
+          "previous_shares": 97480,
+          "delta_shares": -12920,
+          "delta_lots": null
+        },
+        {
+          "code": "AMD US",
+          "name": "ADVANCED MICRO DEVICES",
+          "shares": 58379,
+          "weight": "3.48%",
+          "lot_size": null,
+          "reported_quantity": 58379.0,
+          "quantity_unit": "股",
+          "previous_shares": 66939,
+          "delta_shares": -8560,
+          "delta_lots": null
+        }
+      ]
+    },
     {
       "date": "20261116",
       "previous_date": "20261113",
@@ -920,14 +1012,14 @@
       "changes": []
     }
   ],
-  "previous_date": "20261113",
+  "previous_date": "20261116",
   "official_url": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html",
   "holdings": [
     {
       "code": "MSFT US",
       "name": "MICROSOFT CORP",
       "shares": 100680,
-      "weight": "6.05%",
+      "weight": "6.03%",
       "lot_size": null,
       "reported_quantity": 100680.0,
       "quantity_unit": "股"
@@ -936,7 +1028,7 @@
       "code": "BE US",
       "name": "BLOOM ENERGY CORP- A",
       "shares": 255293,
-      "weight": "5.25%",
+      "weight": "5.24%",
       "lot_size": null,
       "reported_quantity": 255293.0,
       "quantity_unit": "股"
@@ -945,7 +1037,7 @@
       "code": "PLTR US",
       "name": "PALANTIR TECHNOLOGIES INC-A",
       "shares": 266842,
-      "weight": "4.96%",
+      "weight": "4.95%",
       "lot_size": null,
       "reported_quantity": 266842.0,
       "quantity_unit": "股"
@@ -954,7 +1046,7 @@
       "code": "META US",
       "name": "META PLATFORMS INC-CLASS A",
       "shares": 64600,
-      "weight": "4.69%",
+      "weight": "4.73%",
       "lot_size": null,
       "reported_quantity": 64600.0,
       "quantity_unit": "股"
@@ -963,7 +1055,7 @@
       "code": "AMZN US",
       "name": "AMAZON.COM INC",
       "shares": 151860,
-      "weight": "4.54%",
+      "weight": "4.64%",
       "lot_size": null,
       "reported_quantity": 151860.0,
       "quantity_unit": "股"
@@ -972,7 +1064,7 @@
       "code": "GOOGL US",
       "name": "ALPHABET INC-CL A",
       "shares": 130520,
-      "weight": "4.29%",
+      "weight": "4.33%",
       "lot_size": null,
       "reported_quantity": 130520.0,
       "quantity_unit": "股"
@@ -981,7 +1073,7 @@
       "code": "2330",
       "name": "台積電",
       "shares": 518000,
-      "weight": "4.03%",
+      "weight": "4.04%",
       "lot_size": 1000,
       "reported_quantity": 518000.0,
       "quantity_unit": "股"
@@ -989,98 +1081,107 @@
     {
       "code": "AMD US",
       "name": "ADVANCED MICRO DEVICES",
-      "shares": 66939,
-      "weight": "3.91%",
+      "shares": 58379,
+      "weight": "3.48%",
       "lot_size": null,
-      "reported_quantity": 66939.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "AVGO US",
-      "name": "BROADCOM INC",
-      "shares": 97480,
-      "weight": "3.77%",
-      "lot_size": null,
-      "reported_quantity": 97480.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "SHOP US",
-      "name": "SHOPIFY INC - CLASS A",
-      "shares": 204100,
-      "weight": "3.5%",
-      "lot_size": null,
-      "reported_quantity": 204100.0,
+      "reported_quantity": 58379.0,
       "quantity_unit": "股"
     },
     {
       "code": "CRWD US",
       "name": "CROWDSTRIKE HOLDINGS INC - A",
       "shares": 132263,
-      "weight": "3.42%",
+      "weight": "3.44%",
       "lot_size": null,
       "reported_quantity": 132263.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "SHOP US",
+      "name": "SHOPIFY INC - CLASS A",
+      "shares": 204100,
+      "weight": "3.43%",
+      "lot_size": null,
+      "reported_quantity": 204100.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "AVGO US",
+      "name": "BROADCOM INC",
+      "shares": 84560,
+      "weight": "3.42%",
+      "lot_size": null,
+      "reported_quantity": 84560.0,
       "quantity_unit": "股"
     },
     {
       "code": "LLY US",
       "name": "ELI LILLY & CO",
       "shares": 19380,
-      "weight": "3.22%",
+      "weight": "3.25%",
       "lot_size": null,
       "reported_quantity": 19380.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "3443",
-      "name": "創意",
-      "shares": 109000,
-      "weight": "2.97%",
-      "lot_size": 1000,
-      "reported_quantity": 109000.0,
       "quantity_unit": "股"
     },
     {
       "code": "GE US",
       "name": "GENERAL ELECTRIC",
       "shares": 75800,
-      "weight": "2.86%",
+      "weight": "2.93%",
       "lot_size": null,
       "reported_quantity": 75800.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "SNOW US",
-      "name": "SNOWFLAKE INC",
-      "shares": 84880,
-      "weight": "2.76%",
-      "lot_size": null,
-      "reported_quantity": 84880.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "ANET US",
-      "name": "ARISTA NETWORKS INC",
-      "shares": 125800,
-      "weight": "2.73%",
-      "lot_size": null,
-      "reported_quantity": 125800.0,
       "quantity_unit": "股"
     },
     {
       "code": "6098 JP",
       "name": "RECRUIT HOLDINGS CO LTD",
       "shares": 215200,
-      "weight": "2.71%",
+      "weight": "2.91%",
       "lot_size": null,
       "reported_quantity": 215200.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "APP US",
+      "name": "APPLOVIN CORP-CLASS A",
+      "shares": 60360,
+      "weight": "2.85%",
+      "lot_size": null,
+      "reported_quantity": 60360.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "ANET US",
+      "name": "ARISTA NETWORKS INC",
+      "shares": 125800,
+      "weight": "2.78%",
+      "lot_size": null,
+      "reported_quantity": 125800.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "SNOW US",
+      "name": "SNOWFLAKE INC",
+      "shares": 84880,
+      "weight": "2.74%",
+      "lot_size": null,
+      "reported_quantity": 84880.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "3443",
+      "name": "創意",
+      "shares": 109000,
+      "weight": "2.73%",
+      "lot_size": 1000,
+      "reported_quantity": 109000.0,
       "quantity_unit": "股"
     },
     {
       "code": "NET US",
       "name": "CLOUDFLARE INC - CLASS A",
       "shares": 79260,
-      "weight": "2.7%",
+      "weight": "2.67%",
       "lot_size": null,
       "reported_quantity": 79260.0,
       "quantity_unit": "股"
@@ -1089,25 +1190,16 @@
       "code": "2454",
       "name": "聯發科",
       "shares": 193000,
-      "weight": "2.57%",
+      "weight": "2.66%",
       "lot_size": 1000,
       "reported_quantity": 193000.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "APP US",
-      "name": "APPLOVIN CORP-CLASS A",
-      "shares": 39600,
-      "weight": "1.91%",
-      "lot_size": null,
-      "reported_quantity": 39600.0,
       "quantity_unit": "股"
     },
     {
       "code": "FROG US",
       "name": "JFROG LTD",
       "shares": 148008,
-      "weight": "1.89%",
+      "weight": "1.84%",
       "lot_size": null,
       "reported_quantity": 148008.0,
       "quantity_unit": "股"
@@ -1116,7 +1208,7 @@
       "code": "3017",
       "name": "奇鋐",
       "shares": 190000,
-      "weight": "1.83%",
+      "weight": "1.69%",
       "lot_size": 1000,
       "reported_quantity": 190000.0,
       "quantity_unit": "股"
@@ -1125,34 +1217,16 @@
       "code": "ZS US",
       "name": "ZSCALER INC",
       "shares": 76600,
-      "weight": "1.7%",
+      "weight": "1.68%",
       "lot_size": null,
       "reported_quantity": 76600.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "2383",
-      "name": "台光電",
-      "shares": 125000,
-      "weight": "1.67%",
-      "lot_size": 1000,
-      "reported_quantity": 125000.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "3037",
-      "name": "欣興",
-      "shares": 667000,
-      "weight": "1.66%",
-      "lot_size": 1000,
-      "reported_quantity": 667000.0,
       "quantity_unit": "股"
     },
     {
       "code": "HWM US",
       "name": "HOWMET AEROSPACE INC",
       "shares": 65100,
-      "weight": "1.61%",
+      "weight": "1.66%",
       "lot_size": null,
       "reported_quantity": 65100.0,
       "quantity_unit": "股"
@@ -1167,28 +1241,46 @@
       "quantity_unit": "股"
     },
     {
+      "code": "U US",
+      "name": "UNITY SOFTWARE INC",
+      "shares": 249700,
+      "weight": "1.49%",
+      "lot_size": null,
+      "reported_quantity": 249700.0,
+      "quantity_unit": "股"
+    },
+    {
       "code": "2368",
       "name": "金像電",
       "shares": 442000,
-      "weight": "1.44%",
+      "weight": "1.33%",
       "lot_size": 1000,
       "reported_quantity": 442000.0,
       "quantity_unit": "股"
     },
     {
-      "code": "NVDA US",
-      "name": "NVIDIA CORP",
-      "shares": 67400,
-      "weight": "1.22%",
-      "lot_size": null,
-      "reported_quantity": 67400.0,
+      "code": "2383",
+      "name": "台光電",
+      "shares": 83000,
+      "weight": "1.06%",
+      "lot_size": 1000,
+      "reported_quantity": 83000.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "3037",
+      "name": "欣興",
+      "shares": 444000,
+      "weight": "1.02%",
+      "lot_size": 1000,
+      "reported_quantity": 444000.0,
       "quantity_unit": "股"
     },
     {
       "code": "CLS US",
       "name": "CELESTICA INC",
       "shares": 35840,
-      "weight": "0.99%",
+      "weight": "1%",
       "lot_size": null,
       "reported_quantity": 35840.0,
       "quantity_unit": "股"
@@ -1197,7 +1289,7 @@
       "code": "2308",
       "name": "台達電",
       "shares": 240000,
-      "weight": "0.94%",
+      "weight": "0.91%",
       "lot_size": 1000,
       "reported_quantity": 240000.0,
       "quantity_unit": "股"
@@ -1206,16 +1298,25 @@
       "code": "MU US",
       "name": "MICRON TECHNOLOGY INC",
       "shares": 10825,
-      "weight": "0.9%",
+      "weight": "0.91%",
       "lot_size": null,
       "reported_quantity": 10825.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "NVDA US",
+      "name": "NVIDIA CORP",
+      "shares": 37400,
+      "weight": "0.69%",
+      "lot_size": null,
+      "reported_quantity": 37400.0,
       "quantity_unit": "股"
     },
     {
       "code": "8046",
       "name": "南電",
       "shares": 170000,
-      "weight": "0.53%",
+      "weight": "0.48%",
       "lot_size": 1000,
       "reported_quantity": 170000.0,
       "quantity_unit": "股"
@@ -1224,7 +1325,7 @@
       "code": "9602 JP",
       "name": "TOHO CO LTD",
       "shares": 159500,
-      "weight": "0.21%",
+      "weight": "0.22%",
       "lot_size": null,
       "reported_quantity": 159500.0,
       "quantity_unit": "股"
@@ -1232,69 +1333,93 @@
   ],
   "changes": [
     {
-      "code": "HPE US",
-      "name": "HEWLETT PACKARD ENTERPRISE",
-      "shares": 0,
-      "weight": "0.5%",
+      "code": "U US",
+      "name": "UNITY SOFTWARE INC",
+      "shares": 249700,
+      "weight": "1.49%",
       "lot_size": null,
-      "reported_quantity": 94200.0,
+      "reported_quantity": 249700.0,
       "quantity_unit": "股",
-      "previous_shares": 94200,
-      "delta_shares": -94200,
+      "previous_shares": 0,
+      "delta_shares": 249700,
       "delta_lots": null
     },
     {
-      "code": "AMD US",
-      "name": "ADVANCED MICRO DEVICES",
-      "shares": 66939,
-      "weight": "3.91%",
-      "lot_size": null,
-      "reported_quantity": 66939.0,
+      "code": "3037",
+      "name": "欣興",
+      "shares": 444000,
+      "weight": "1.02%",
+      "lot_size": 1000,
+      "reported_quantity": 444000.0,
       "quantity_unit": "股",
-      "previous_shares": 100699,
-      "delta_shares": -33760,
+      "previous_shares": 667000,
+      "delta_shares": -223000,
+      "delta_lots": -223.0
+    },
+    {
+      "code": "2383",
+      "name": "台光電",
+      "shares": 83000,
+      "weight": "1.06%",
+      "lot_size": 1000,
+      "reported_quantity": 83000.0,
+      "quantity_unit": "股",
+      "previous_shares": 125000,
+      "delta_shares": -42000,
+      "delta_lots": -42.0
+    },
+    {
+      "code": "NVDA US",
+      "name": "NVIDIA CORP",
+      "shares": 37400,
+      "weight": "0.69%",
+      "lot_size": null,
+      "reported_quantity": 37400.0,
+      "quantity_unit": "股",
+      "previous_shares": 67400,
+      "delta_shares": -30000,
       "delta_lots": null
     },
     {
       "code": "APP US",
       "name": "APPLOVIN CORP-CLASS A",
-      "shares": 39600,
-      "weight": "1.91%",
+      "shares": 60360,
+      "weight": "2.85%",
       "lot_size": null,
-      "reported_quantity": 39600.0,
+      "reported_quantity": 60360.0,
       "quantity_unit": "股",
-      "previous_shares": 17560,
-      "delta_shares": 22040,
+      "previous_shares": 39600,
+      "delta_shares": 20760,
       "delta_lots": null
     },
     {
-      "code": "MU US",
-      "name": "MICRON TECHNOLOGY INC",
-      "shares": 10825,
-      "weight": "0.9%",
+      "code": "AVGO US",
+      "name": "BROADCOM INC",
+      "shares": 84560,
+      "weight": "3.42%",
       "lot_size": null,
-      "reported_quantity": 10825.0,
+      "reported_quantity": 84560.0,
       "quantity_unit": "股",
-      "previous_shares": 22425,
-      "delta_shares": -11600,
+      "previous_shares": 97480,
+      "delta_shares": -12920,
       "delta_lots": null
     },
     {
-      "code": "2383",
-      "name": "台光電",
-      "shares": 125000,
-      "weight": "1.67%",
-      "lot_size": 1000,
-      "reported_quantity": 125000.0,
+      "code": "AMD US",
+      "name": "ADVANCED MICRO DEVICES",
+      "shares": 58379,
+      "weight": "3.48%",
+      "lot_size": null,
+      "reported_quantity": 58379.0,
       "quantity_unit": "股",
-      "previous_shares": 134000,
-      "delta_shares": -9000,
-      "delta_lots": -9.0
+      "previous_shares": 66939,
+      "delta_shares": -8560,
+      "delta_lots": null
     }
   ],
   "comparable": true,
-  "added_shares": 22040,
-  "reduced_shares": 148560,
+  "added_shares": 270460,
+  "reduced_shares": 316480,
   "comparison_note": "持股快照差異不是實際成交紀錄，可能包含申贖、分割或資料修正；海外持股不換算台股張數。",
   "profit_note": "基金及成分股實際買進成本未提供，無法由持股快照計算基金目前獲利。可另外輸入個人持倉成本試算。"
 }
