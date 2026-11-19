@@ -1,7 +1,7 @@
 {
   "code": "00986A",
   "name": "主動台新龍頭成長",
-  "asof": "20261119",
+  "asof": "20261120",
   "data_status": "fresh",
   "source_kind": "official",
   "source_name": "投信官方持股頁",
@@ -9,6 +9,13 @@
   "date_basis": "crawl_date",
   "unchanged": false,
   "history": [
+    {
+      "date": "20261120",
+      "previous_date": "20261119",
+      "status": "changed",
+      "comparable": true,
+      "changes": []
+    },
     {
       "date": "20261119",
       "previous_date": "20261118",
@@ -194,48 +201,16 @@
       "status": "unchanged",
       "comparable": false,
       "changes": []
-    },
-    {
-      "date": "20261105",
-      "previous_date": "20261104",
-      "status": "changed",
-      "comparable": true,
-      "changes": [
-        {
-          "code": "HOOD US",
-          "name": "羅賓漢市場公司",
-          "shares": 0,
-          "weight": "0.6543%",
-          "lot_size": null,
-          "reported_quantity": null,
-          "quantity_unit": null,
-          "previous_shares": 1200,
-          "delta_shares": -1200,
-          "delta_lots": null
-        },
-        {
-          "code": "NTRA US",
-          "name": "那提拉公司",
-          "shares": 0,
-          "weight": "0.9857%",
-          "lot_size": null,
-          "reported_quantity": null,
-          "quantity_unit": null,
-          "previous_shares": 400,
-          "delta_shares": -400,
-          "delta_lots": null
-        }
-      ]
     }
   ],
-  "previous_date": "20261118",
+  "previous_date": "20261119",
   "official_url": "https://www.tsit.com.tw/ETF/Home/ETFSeriesDetail/00986A",
   "holdings": [
     {
       "code": "2330 TT",
       "name": "台積電",
       "shares": 18000,
-      "weight": "8.6324%",
+      "weight": "8.5420%",
       "lot_size": 1000,
       "reported_quantity": null,
       "quantity_unit": null
@@ -244,7 +219,7 @@
       "code": "GOOGL US",
       "name": "Alphabet 公司",
       "shares": 3000,
-      "weight": "6.1105%",
+      "weight": "6.1017%",
       "lot_size": null,
       "reported_quantity": null,
       "quantity_unit": null
@@ -253,16 +228,7 @@
       "code": "AMZN US",
       "name": "AMAZON. COM INC",
       "shares": 2800,
-      "weight": "5.2491%",
-      "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
-    },
-    {
-      "code": "MSFT US",
-      "name": "Microsoft Corp",
-      "shares": 1400,
-      "weight": "5.1520%",
+      "weight": "5.3986%",
       "lot_size": null,
       "reported_quantity": null,
       "quantity_unit": null
@@ -271,7 +237,16 @@
       "code": "AMD US",
       "name": "超微半導體公司",
       "shares": 1400,
-      "weight": "5.1232%",
+      "weight": "5.3447%",
+      "lot_size": null,
+      "reported_quantity": null,
+      "quantity_unit": null
+    },
+    {
+      "code": "MSFT US",
+      "name": "Microsoft Corp",
+      "shares": 1400,
+      "weight": "5.1244%",
       "lot_size": null,
       "reported_quantity": null,
       "quantity_unit": null
@@ -280,16 +255,7 @@
       "code": "CRWD US",
       "name": "Crowdstrike控股公司",
       "shares": 3000,
-      "weight": "4.7886%",
-      "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
-    },
-    {
-      "code": "LLY US",
-      "name": "禮來公司",
-      "shares": 450,
-      "weight": "4.6305%",
+      "weight": "5.1207%",
       "lot_size": null,
       "reported_quantity": null,
       "quantity_unit": null
@@ -298,7 +264,16 @@
       "code": "AVGO US",
       "name": "博通公司",
       "shares": 1800,
-      "weight": "4.4697%",
+      "weight": "4.5893%",
+      "lot_size": null,
+      "reported_quantity": null,
+      "quantity_unit": null
+    },
+    {
+      "code": "LLY US",
+      "name": "禮來公司",
+      "shares": 450,
+      "weight": "4.4809%",
       "lot_size": null,
       "reported_quantity": null,
       "quantity_unit": null
@@ -307,7 +282,7 @@
       "code": "MU US",
       "name": "美光科技公司",
       "shares": 800,
-      "weight": "4.1430%",
+      "weight": "4.0631%",
       "lot_size": null,
       "reported_quantity": null,
       "quantity_unit": null
@@ -316,7 +291,7 @@
       "code": "AAPL US",
       "name": "蘋果公司",
       "shares": 1250,
-      "weight": "3.1977%",
+      "weight": "3.1726%",
       "lot_size": null,
       "reported_quantity": null,
       "quantity_unit": null
@@ -325,16 +300,7 @@
       "code": "LITE US",
       "name": "魯門特姆控股公司",
       "shares": 780,
-      "weight": "3.1750%",
-      "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
-    },
-    {
-      "code": "JPM US",
-      "name": "摩根大通銀行",
-      "shares": 1100,
-      "weight": "2.6384%",
+      "weight": "3.0953%",
       "lot_size": null,
       "reported_quantity": null,
       "quantity_unit": null
@@ -343,7 +309,16 @@
       "code": "NET US",
       "name": "Cloudflare公司",
       "shares": 1200,
-      "weight": "2.4843%",
+      "weight": "2.6003%",
+      "lot_size": null,
+      "reported_quantity": null,
+      "quantity_unit": null
+    },
+    {
+      "code": "JPM US",
+      "name": "摩根大通銀行",
+      "shares": 1100,
+      "weight": "2.5674%",
       "lot_size": null,
       "reported_quantity": null,
       "quantity_unit": null
@@ -352,7 +327,7 @@
       "code": "ETN US",
       "name": "伊頓公開有限公司",
       "shares": 1000,
-      "weight": "2.4505%",
+      "weight": "2.4365%",
       "lot_size": null,
       "reported_quantity": null,
       "quantity_unit": null
@@ -361,16 +336,7 @@
       "code": "GEV US",
       "name": "奇異維諾瓦公司",
       "shares": 400,
-      "weight": "2.2677%",
-      "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
-    },
-    {
-      "code": "NVDA US",
-      "name": "輝達",
-      "shares": 2000,
-      "weight": "2.2602%",
+      "weight": "2.2244%",
       "lot_size": null,
       "reported_quantity": null,
       "quantity_unit": null
@@ -379,7 +345,16 @@
       "code": "SNOW US",
       "name": "Snowflake公司",
       "shares": 1100,
-      "weight": "2.1825%",
+      "weight": "2.2150%",
+      "lot_size": null,
+      "reported_quantity": null,
+      "quantity_unit": null
+    },
+    {
+      "code": "NVDA US",
+      "name": "輝達",
+      "shares": 2000,
+      "weight": "2.1742%",
       "lot_size": null,
       "reported_quantity": null,
       "quantity_unit": null
@@ -388,7 +363,7 @@
       "code": "BE US",
       "name": "布魯姆能源公司",
       "shares": 1700,
-      "weight": "2.1436%",
+      "weight": "2.0932%",
       "lot_size": null,
       "reported_quantity": null,
       "quantity_unit": null
@@ -397,7 +372,7 @@
       "code": "2454 TT",
       "name": "聯發科",
       "shares": 2000,
-      "weight": "1.6973%",
+      "weight": "1.7193%",
       "lot_size": 1000,
       "reported_quantity": null,
       "quantity_unit": null
@@ -406,7 +381,7 @@
       "code": "MA US",
       "name": "萬事達卡",
       "shares": 350,
-      "weight": "1.6429%",
+      "weight": "1.6216%",
       "lot_size": null,
       "reported_quantity": null,
       "quantity_unit": null
@@ -415,7 +390,7 @@
       "code": "PLTR US",
       "name": "帕蘭提爾科技公司",
       "shares": 1400,
-      "weight": "1.5933%",
+      "weight": "1.5795%",
       "lot_size": null,
       "reported_quantity": null,
       "quantity_unit": null
@@ -424,7 +399,7 @@
       "code": "GS US",
       "name": "高盛集團",
       "shares": 200,
-      "weight": "1.2758%",
+      "weight": "1.2576%",
       "lot_size": null,
       "reported_quantity": null,
       "quantity_unit": null
@@ -433,7 +408,7 @@
       "code": "RBRK US",
       "name": "Rubrik Inc",
       "shares": 1300,
-      "weight": "0.9514%",
+      "weight": "1.0298%",
       "lot_size": null,
       "reported_quantity": null,
       "quantity_unit": null
@@ -442,7 +417,7 @@
       "code": "SKHY US",
       "name": "愛思開海力士公司",
       "shares": 1000,
-      "weight": "0.8913%",
+      "weight": "0.8819%",
       "lot_size": null,
       "reported_quantity": null,
       "quantity_unit": null
