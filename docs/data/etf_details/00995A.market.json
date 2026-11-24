@@ -1,10 +1,10 @@
 {
   "code": "00995A",
   "quote": {
-    "date": "20261123",
-    "close": 11.0,
-    "change": 0.64,
-    "volume": 6455923,
+    "date": "20261124",
+    "close": 12.1,
+    "change": 1.1,
+    "volume": 12271203,
     "currency": "TWD",
     "source": "https://openapi.twse.com.tw/v1/exchangeReport/STOCK_DAY_ALL"
   },
@@ -20,5 +20,5 @@
   "dividend_status": "ok",
   "dividend_source": "https://www.twse.com.tw/zh/products/securities/etf/products/div.html",
   "dividend_period": "2025/01/01–2026/12/31",
-  "retrieved_at": "2026-11-24T08:32:44.152443+08:00"
+  "retrieved_at": "2026-11-25T06:58:02.821257+08:00"
 }

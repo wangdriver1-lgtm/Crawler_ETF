@@ -1,10 +1,10 @@
 {
   "code": "00413A",
   "quote": {
-    "date": "20261123",
-    "close": 8.25,
-    "change": 0.38,
-    "volume": 3739710,
+    "date": "20261124",
+    "close": 9.07,
+    "change": 0.82,
+    "volume": 6383996,
     "currency": "TWD",
     "source": "https://openapi.twse.com.tw/v1/exchangeReport/STOCK_DAY_ALL"
   },
@@ -13,5 +13,5 @@
   "dividend_status": "ok",
   "dividend_source": "https://www.twse.com.tw/zh/products/securities/etf/products/div.html",
   "dividend_period": "2025/01/01–2026/12/31",
-  "retrieved_at": "2026-11-24T08:32:57.642806+08:00"
+  "retrieved_at": "2026-11-25T06:58:33.542199+08:00"
 }

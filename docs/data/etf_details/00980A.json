@@ -1,14 +1,21 @@
 {
   "code": "00980A",
   "name": "主動野村臺灣優選",
-  "asof": "20261124",
+  "asof": "20261125",
   "data_status": "fresh",
   "source_kind": "official",
   "source_name": "投信官方持股頁",
   "source_url": "https://www.nomurafunds.com.tw/ETFWEB/product-description?fundNo=00980A&tab=Shareholding",
   "date_basis": "crawl_date",
-  "unchanged": false,
+  "unchanged": true,
   "history": [
+    {
+      "date": "20261125",
+      "previous_date": "20261124",
+      "status": "unchanged",
+      "comparable": false,
+      "changes": []
+    },
     {
       "date": "20261124",
       "previous_date": "20261119",
@@ -84,29 +91,9 @@
       "status": "unchanged",
       "comparable": false,
       "changes": []
-    },
-    {
-      "date": "20261103",
-      "previous_date": "20261102",
-      "status": "changed",
-      "comparable": true,
-      "changes": [
-        {
-          "code": "TX",
-          "name": "台灣證交所加權股價指數",
-          "shares": 60,
-          "weight": "",
-          "lot_size": null,
-          "reported_quantity": null,
-          "quantity_unit": null,
-          "previous_shares": 30,
-          "delta_shares": 30,
-          "delta_lots": null
-        }
-      ]
     }
   ],
-  "previous_date": "20261119",
+  "previous_date": "20261124",
   "official_url": "https://www.nomurafunds.com.tw/ETFWEB/product-description?fundNo=00980A&tab=Shareholding",
   "holdings": [
     {
@@ -236,18 +223,18 @@
       "quantity_unit": null
     },
     {
-      "code": "2891",
-      "name": "中國信託金融控股",
-      "shares": 4151000,
+      "code": "2368",
+      "name": "金像電子（股）公司",
+      "shares": 337000,
       "weight": "",
       "lot_size": 1000,
       "reported_quantity": null,
       "quantity_unit": null
     },
     {
-      "code": "2368",
-      "name": "金像電子（股）公司",
-      "shares": 337000,
+      "code": "2891",
+      "name": "中國信託金融控股",
+      "shares": 4151000,
       "weight": "",
       "lot_size": 1000,
       "reported_quantity": null,
@@ -326,18 +313,18 @@
       "quantity_unit": null
     },
     {
-      "code": "2884",
-      "name": "玉山金融控股",
-      "shares": 5156622,
+      "code": "2344",
+      "name": "華邦電子",
+      "shares": 2057000,
       "weight": "",
       "lot_size": 1000,
       "reported_quantity": null,
       "quantity_unit": null
     },
     {
-      "code": "2344",
-      "name": "華邦電子",
-      "shares": 2057000,
+      "code": "2884",
+      "name": "玉山金融控股",
+      "shares": 5156622,
       "weight": "",
       "lot_size": 1000,
       "reported_quantity": null,
