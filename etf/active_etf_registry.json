@@ -1,5 +1,5 @@
 {
-  "checked_at": "20261125",
+  "checked_at": "20261126",
   "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html",
   "etfs": {
     "00980A": {
@@ -361,6 +361,15 @@
       "discovered_at": "20261119",
       "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html",
       "url": "https://www.nomurafunds.com.tw/ETFWEB/product-description?fundNo=00420A&tab=Shareholding"
+    },
+    "00419A": {
+      "code": "00419A",
+      "name": "主動施羅德AI台股",
+      "company": "施羅德證券投資信託股份有限公司",
+      "category": "domestic",
+      "listed_date": "20261126",
+      "discovered_at": "20261126",
+      "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html"
     }
   }
 }

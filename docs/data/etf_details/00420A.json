@@ -1,14 +1,82 @@
 {
   "code": "00420A",
   "name": "主動野村亞洲科技",
-  "asof": "20261125",
+  "asof": "20261126",
   "data_status": "fresh",
   "source_kind": "official",
   "source_name": "投信官方持股頁",
   "source_url": "https://www.nomurafunds.com.tw/ETFWEB/product-description?fundNo=00420A&tab=Shareholding",
   "date_basis": "crawl_date",
-  "unchanged": true,
+  "unchanged": false,
   "history": [
+    {
+      "date": "20261126",
+      "previous_date": "20261125",
+      "status": "changed",
+      "comparable": true,
+      "changes": [
+        {
+          "code": "5801 JP",
+          "name": "古河電氣工業",
+          "shares": 46800,
+          "weight": "",
+          "lot_size": null,
+          "reported_quantity": null,
+          "quantity_unit": null,
+          "previous_shares": 44400,
+          "delta_shares": 2400,
+          "delta_lots": null
+        },
+        {
+          "code": "5803 JP",
+          "name": "藤倉",
+          "shares": 33700,
+          "weight": "",
+          "lot_size": null,
+          "reported_quantity": null,
+          "quantity_unit": null,
+          "previous_shares": 31900,
+          "delta_shares": 1800,
+          "delta_lots": null
+        },
+        {
+          "code": "6981 JP",
+          "name": "村田製作所",
+          "shares": 29300,
+          "weight": "",
+          "lot_size": null,
+          "reported_quantity": null,
+          "quantity_unit": null,
+          "previous_shares": 28600,
+          "delta_shares": 700,
+          "delta_lots": null
+        },
+        {
+          "code": "095340 KS",
+          "name": "ISC",
+          "shares": 4762,
+          "weight": "",
+          "lot_size": null,
+          "reported_quantity": null,
+          "quantity_unit": null,
+          "previous_shares": 4494,
+          "delta_shares": 268,
+          "delta_lots": null
+        },
+        {
+          "code": "6857 JP",
+          "name": "愛德萬測試",
+          "shares": 12000,
+          "weight": "",
+          "lot_size": null,
+          "reported_quantity": null,
+          "quantity_unit": null,
+          "previous_shares": 11900,
+          "delta_shares": 100,
+          "delta_lots": null
+        }
+      ]
+    },
     {
       "date": "20261125",
       "previous_date": "20261124",
@@ -388,7 +456,7 @@
       "changes": []
     }
   ],
-  "previous_date": "20261124",
+  "previous_date": "20261125",
   "official_url": "https://www.nomurafunds.com.tw/ETFWEB/product-description?fundNo=00420A&tab=Shareholding",
   "holdings": [
     {
@@ -403,7 +471,7 @@
     {
       "code": "6857 JP",
       "name": "愛德萬測試",
-      "shares": 11900,
+      "shares": 12000,
       "weight": "",
       "lot_size": null,
       "reported_quantity": null,
@@ -437,15 +505,6 @@
       "quantity_unit": null
     },
     {
-      "code": "8035 JP",
-      "name": "東京威力科創",
-      "shares": 20900,
-      "weight": "",
-      "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
-    },
-    {
       "code": "3017",
       "name": "奇鋐科技",
       "shares": 15000,
@@ -464,6 +523,15 @@
       "quantity_unit": null
     },
     {
+      "code": "8035 JP",
+      "name": "東京威力科創",
+      "shares": 20900,
+      "weight": "",
+      "lot_size": null,
+      "reported_quantity": null,
+      "quantity_unit": null
+    },
+    {
       "code": "2454",
       "name": "聯發科技",
       "shares": 9000,
@@ -475,7 +543,7 @@
     {
       "code": "6981 JP",
       "name": "村田製作所",
-      "shares": 28600,
+      "shares": 29300,
       "weight": "",
       "lot_size": null,
       "reported_quantity": null,
@@ -491,15 +559,6 @@
       "quantity_unit": null
     },
     {
-      "code": "6861 JP",
-      "name": "Keyence Corp",
-      "shares": 7500,
-      "weight": "",
-      "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
-    },
-    {
       "code": "2383",
       "name": "台光電子材料",
       "shares": 7000,
@@ -509,18 +568,18 @@
       "quantity_unit": null
     },
     {
-      "code": "4004 JP",
-      "name": "Resonac",
-      "shares": 8700,
+      "code": "6861 JP",
+      "name": "Keyence Corp",
+      "shares": 7500,
       "weight": "",
       "lot_size": null,
       "reported_quantity": null,
       "quantity_unit": null
     },
     {
-      "code": "6702 JP",
-      "name": "富士通",
-      "shares": 28300,
+      "code": "4004 JP",
+      "name": "Resonac",
+      "shares": 8700,
       "weight": "",
       "lot_size": null,
       "reported_quantity": null,
@@ -536,6 +595,24 @@
       "quantity_unit": null
     },
     {
+      "code": "6702 JP",
+      "name": "富士通",
+      "shares": 28300,
+      "weight": "",
+      "lot_size": null,
+      "reported_quantity": null,
+      "quantity_unit": null
+    },
+    {
+      "code": "5801 JP",
+      "name": "古河電氣工業",
+      "shares": 46800,
+      "weight": "",
+      "lot_size": null,
+      "reported_quantity": null,
+      "quantity_unit": null
+    },
+    {
       "code": "3443",
       "name": "創意電子",
       "shares": 3000,
@@ -545,29 +622,20 @@
       "quantity_unit": null
     },
     {
+      "code": "5803 JP",
+      "name": "藤倉",
+      "shares": 33700,
+      "weight": "",
+      "lot_size": null,
+      "reported_quantity": null,
+      "quantity_unit": null
+    },
+    {
       "code": "6223",
       "name": "旺矽科技",
       "shares": 4000,
       "weight": "",
       "lot_size": 1000,
-      "reported_quantity": null,
-      "quantity_unit": null
-    },
-    {
-      "code": "5801 JP",
-      "name": "古河電氣工業",
-      "shares": 44400,
-      "weight": "",
-      "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
-    },
-    {
-      "code": "5803 JP",
-      "name": "藤倉",
-      "shares": 31900,
-      "weight": "",
-      "lot_size": null,
       "reported_quantity": null,
       "quantity_unit": null
     },
@@ -583,7 +651,7 @@
     {
       "code": "095340 KS",
       "name": "ISC",
-      "shares": 4494,
+      "shares": 4762,
       "weight": "",
       "lot_size": null,
       "reported_quantity": null,
@@ -635,15 +703,6 @@
       "quantity_unit": null
     },
     {
-      "code": "688072 C1",
-      "name": "拓荊科技",
-      "shares": 3141,
-      "weight": "",
-      "lot_size": null,
-      "reported_quantity": null,
-      "quantity_unit": null
-    },
-    {
       "code": "688256 C1",
       "name": "中科寒武紀科技",
       "shares": 1694,
@@ -653,9 +712,9 @@
       "quantity_unit": null
     },
     {
-      "code": "688008 C1",
-      "name": "瀾起科技",
-      "shares": 11634,
+      "code": "688072 C1",
+      "name": "拓荊科技",
+      "shares": 3141,
       "weight": "",
       "lot_size": null,
       "reported_quantity": null,
@@ -667,6 +726,15 @@
       "shares": 2000,
       "weight": "",
       "lot_size": 1000,
+      "reported_quantity": null,
+      "quantity_unit": null
+    },
+    {
+      "code": "688008 C1",
+      "name": "瀾起科技",
+      "shares": 11634,
+      "weight": "",
+      "lot_size": null,
       "reported_quantity": null,
       "quantity_unit": null
     },
@@ -689,10 +757,71 @@
       "quantity_unit": null
     }
   ],
-  "changes": [],
-  "comparable": false,
-  "added_shares": null,
-  "reduced_shares": null,
+  "changes": [
+    {
+      "code": "5801 JP",
+      "name": "古河電氣工業",
+      "shares": 46800,
+      "weight": "",
+      "lot_size": null,
+      "reported_quantity": null,
+      "quantity_unit": null,
+      "previous_shares": 44400,
+      "delta_shares": 2400,
+      "delta_lots": null
+    },
+    {
+      "code": "5803 JP",
+      "name": "藤倉",
+      "shares": 33700,
+      "weight": "",
+      "lot_size": null,
+      "reported_quantity": null,
+      "quantity_unit": null,
+      "previous_shares": 31900,
+      "delta_shares": 1800,
+      "delta_lots": null
+    },
+    {
+      "code": "6981 JP",
+      "name": "村田製作所",
+      "shares": 29300,
+      "weight": "",
+      "lot_size": null,
+      "reported_quantity": null,
+      "quantity_unit": null,
+      "previous_shares": 28600,
+      "delta_shares": 700,
+      "delta_lots": null
+    },
+    {
+      "code": "095340 KS",
+      "name": "ISC",
+      "shares": 4762,
+      "weight": "",
+      "lot_size": null,
+      "reported_quantity": null,
+      "quantity_unit": null,
+      "previous_shares": 4494,
+      "delta_shares": 268,
+      "delta_lots": null
+    },
+    {
+      "code": "6857 JP",
+      "name": "愛德萬測試",
+      "shares": 12000,
+      "weight": "",
+      "lot_size": null,
+      "reported_quantity": null,
+      "quantity_unit": null,
+      "previous_shares": 11900,
+      "delta_shares": 100,
+      "delta_lots": null
+    }
+  ],
+  "comparable": true,
+  "added_shares": 5268,
+  "reduced_shares": 0,
   "comparison_note": "持股快照差異不是實際成交紀錄，可能包含申贖、分割或資料修正；海外持股不換算台股張數。",
   "profit_note": "基金及成分股實際買進成本未提供，無法由持股快照計算基金目前獲利。可另外輸入個人持倉成本試算。"
 }

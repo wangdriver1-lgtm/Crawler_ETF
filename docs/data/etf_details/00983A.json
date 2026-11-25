@@ -1,7 +1,7 @@
 {
   "code": "00983A",
   "name": "主動中信ARK創新",
-  "asof": "20261123",
+  "asof": "20261124",
   "data_status": "fresh",
   "source_kind": "backup",
   "source_name": "ETF資訊網（公開持股備援）",
@@ -9,6 +9,74 @@
   "date_basis": "source",
   "unchanged": false,
   "history": [
+    {
+      "date": "20261124",
+      "previous_date": "20261123",
+      "status": "changed",
+      "comparable": true,
+      "changes": [
+        {
+          "code": "COIN US",
+          "name": "比特幣基地全球公司",
+          "shares": 0,
+          "weight": "1.38%",
+          "lot_size": null,
+          "reported_quantity": 2918.0,
+          "quantity_unit": "股",
+          "previous_shares": 2918,
+          "delta_shares": -2918,
+          "delta_lots": null
+        },
+        {
+          "code": "AMD US",
+          "name": "超微半導體公司",
+          "shares": 2194,
+          "weight": "3.96%",
+          "lot_size": null,
+          "reported_quantity": 2194.0,
+          "quantity_unit": "股",
+          "previous_shares": 1994,
+          "delta_shares": 200,
+          "delta_lots": null
+        },
+        {
+          "code": "NET US",
+          "name": "Cloudflare公司",
+          "shares": 1771,
+          "weight": "2.22%",
+          "lot_size": null,
+          "reported_quantity": 1771.0,
+          "quantity_unit": "股",
+          "previous_shares": 1571,
+          "delta_shares": 200,
+          "delta_lots": null
+        },
+        {
+          "code": "TSM US",
+          "name": "台積電",
+          "shares": 1955,
+          "weight": "2.98%",
+          "lot_size": null,
+          "reported_quantity": 1955.0,
+          "quantity_unit": "股",
+          "previous_shares": 1765,
+          "delta_shares": 190,
+          "delta_lots": null
+        },
+        {
+          "code": "ESLT US",
+          "name": "埃爾比系統公司",
+          "shares": 194,
+          "weight": "0.56%",
+          "lot_size": null,
+          "reported_quantity": 194.0,
+          "quantity_unit": "股",
+          "previous_shares": 159,
+          "delta_shares": 35,
+          "delta_lots": null
+        }
+      ]
+    },
     {
       "date": "20261123",
       "previous_date": "20261120",
@@ -1161,14 +1229,14 @@
       "changes": []
     }
   ],
-  "previous_date": "20261120",
+  "previous_date": "20261123",
   "official_url": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html",
   "holdings": [
     {
       "code": "TSLA US",
       "name": "特斯拉公司",
       "shares": 5503,
-      "weight": "9.21%",
+      "weight": "9.24%",
       "lot_size": null,
       "reported_quantity": 5503.0,
       "quantity_unit": "股"
@@ -1177,7 +1245,7 @@
       "code": "SPCX US",
       "name": "太空探索科技公司",
       "shares": 15108,
-      "weight": "8.76%",
+      "weight": "8.3%",
       "lot_size": null,
       "reported_quantity": 15108.0,
       "quantity_unit": "股"
@@ -1186,7 +1254,7 @@
       "code": "AMZN US",
       "name": "亞馬遜公司",
       "shares": 4551,
-      "weight": "5.05%",
+      "weight": "5.01%",
       "lot_size": null,
       "reported_quantity": 4551.0,
       "quantity_unit": "股"
@@ -1195,7 +1263,7 @@
       "code": "SHOP US",
       "name": "Shopify公司",
       "shares": 8253,
-      "weight": "4.82%",
+      "weight": "4.77%",
       "lot_size": null,
       "reported_quantity": 8253.0,
       "quantity_unit": "股"
@@ -1204,7 +1272,7 @@
       "code": "TEM US",
       "name": "Tempus AI Inc",
       "shares": 18102,
-      "weight": "4.49%",
+      "weight": "4.33%",
       "lot_size": null,
       "reported_quantity": 18102.0,
       "quantity_unit": "股"
@@ -1213,7 +1281,7 @@
       "code": "META US",
       "name": "Meta平台公司",
       "shares": 1652,
-      "weight": "4.29%",
+      "weight": "4.25%",
       "lot_size": null,
       "reported_quantity": 1652.0,
       "quantity_unit": "股"
@@ -1222,7 +1290,7 @@
       "code": "MSFT US",
       "name": "微軟",
       "shares": 1863,
-      "weight": "3.99%",
+      "weight": "4.04%",
       "lot_size": null,
       "reported_quantity": 1863.0,
       "quantity_unit": "股"
@@ -1230,17 +1298,17 @@
     {
       "code": "AMD US",
       "name": "超微半導體公司",
-      "shares": 1994,
-      "weight": "3.93%",
+      "shares": 2194,
+      "weight": "3.96%",
       "lot_size": null,
-      "reported_quantity": 1994.0,
+      "reported_quantity": 2194.0,
       "quantity_unit": "股"
     },
     {
       "code": "GOOG US",
       "name": "Alphabet公司 Class C",
       "shares": 2892,
-      "weight": "3.51%",
+      "weight": "3.49%",
       "lot_size": null,
       "reported_quantity": 2892.0,
       "quantity_unit": "股"
@@ -1249,7 +1317,7 @@
       "code": "PLTR US",
       "name": "帕蘭提爾科技公司",
       "shares": 4704,
-      "weight": "3.26%",
+      "weight": "3.31%",
       "lot_size": null,
       "reported_quantity": 4704.0,
       "quantity_unit": "股"
@@ -1258,34 +1326,34 @@
       "code": "TWST US",
       "name": "Twist Bioscience Corp",
       "shares": 6348,
-      "weight": "3.07%",
+      "weight": "3.02%",
       "lot_size": null,
       "reported_quantity": 6348.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "TSM US",
+      "name": "台積電",
+      "shares": 1955,
+      "weight": "2.98%",
+      "lot_size": null,
+      "reported_quantity": 1955.0,
       "quantity_unit": "股"
     },
     {
       "code": "TXG US",
       "name": "10X Genomics Inc",
       "shares": 11168,
-      "weight": "2.8%",
-      "lot_size": null,
-      "reported_quantity": 11168.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "TSM US",
-      "name": "台積電",
-      "shares": 1765,
       "weight": "2.79%",
       "lot_size": null,
-      "reported_quantity": 1765.0,
+      "reported_quantity": 11168.0,
       "quantity_unit": "股"
     },
     {
       "code": "CRSP US",
       "name": "CRISPR治療公司",
       "shares": 14433,
-      "weight": "2.71%",
+      "weight": "2.78%",
       "lot_size": null,
       "reported_quantity": 14433.0,
       "quantity_unit": "股"
@@ -1294,7 +1362,7 @@
       "code": "XYZ US",
       "name": "布洛克公司",
       "shares": 8280,
-      "weight": "2.64%",
+      "weight": "2.68%",
       "lot_size": null,
       "reported_quantity": 8280.0,
       "quantity_unit": "股"
@@ -1303,99 +1371,81 @@
       "code": "NVDA US",
       "name": "輝達",
       "shares": 3607,
-      "weight": "2.59%",
+      "weight": "2.45%",
       "lot_size": null,
       "reported_quantity": 3607.0,
       "quantity_unit": "股"
     },
     {
-      "code": "CRCL US",
-      "name": "Circle Internet Group Inc",
-      "shares": 10393,
-      "weight": "2.32%",
+      "code": "NET US",
+      "name": "Cloudflare公司",
+      "shares": 1771,
+      "weight": "2.22%",
       "lot_size": null,
-      "reported_quantity": 10393.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "HOOD US",
-      "name": "羅賓漢市場公司",
-      "shares": 7320,
-      "weight": "2.14%",
-      "lot_size": null,
-      "reported_quantity": 7320.0,
+      "reported_quantity": 1771.0,
       "quantity_unit": "股"
     },
     {
       "code": "LLY US",
       "name": "禮來公司",
       "shares": 358,
-      "weight": "2.12%",
+      "weight": "2.2%",
       "lot_size": null,
       "reported_quantity": 358.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "CRCL US",
+      "name": "Circle Internet Group Inc",
+      "shares": 10393,
+      "weight": "2.17%",
+      "lot_size": null,
+      "reported_quantity": 10393.0,
       "quantity_unit": "股"
     },
     {
       "code": "BEAM US",
       "name": "光束治療公司",
       "shares": 20258,
-      "weight": "2.01%",
+      "weight": "2.15%",
       "lot_size": null,
       "reported_quantity": 20258.0,
       "quantity_unit": "股"
     },
     {
-      "code": "NET US",
-      "name": "Cloudflare公司",
-      "shares": 1571,
-      "weight": "1.99%",
+      "code": "HOOD US",
+      "name": "羅賓漢市場公司",
+      "shares": 7320,
+      "weight": "2.1%",
       "lot_size": null,
-      "reported_quantity": 1571.0,
+      "reported_quantity": 7320.0,
       "quantity_unit": "股"
     },
     {
       "code": "GOOGL US",
       "name": "Alphabet公司 Class A",
       "shares": 1389,
-      "weight": "1.7%",
+      "weight": "1.69%",
       "lot_size": null,
       "reported_quantity": 1389.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "COIN US",
-      "name": "比特幣基地全球公司",
-      "shares": 2918,
-      "weight": "1.38%",
-      "lot_size": null,
-      "reported_quantity": 2918.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "RKLB US",
-      "name": "火箭實驗室美國公司",
-      "shares": 6312,
-      "weight": "1.36%",
-      "lot_size": null,
-      "reported_quantity": 6312.0,
       "quantity_unit": "股"
     },
     {
       "code": "NTRA US",
       "name": "那提拉公司",
       "shares": 977,
-      "weight": "1.24%",
+      "weight": "1.27%",
       "lot_size": null,
       "reported_quantity": 977.0,
       "quantity_unit": "股"
     },
     {
-      "code": "AVGO US",
-      "name": "博通公司",
-      "shares": 879,
-      "weight": "1.2%",
+      "code": "RKLB US",
+      "name": "火箭實驗室美國公司",
+      "shares": 6312,
+      "weight": "1.27%",
       "lot_size": null,
-      "reported_quantity": 879.0,
+      "reported_quantity": 6312.0,
       "quantity_unit": "股"
     },
     {
@@ -1408,10 +1458,19 @@
       "quantity_unit": "股"
     },
     {
+      "code": "AVGO US",
+      "name": "博通公司",
+      "shares": 879,
+      "weight": "1.16%",
+      "lot_size": null,
+      "reported_quantity": 879.0,
+      "quantity_unit": "股"
+    },
+    {
       "code": "NTLA US",
       "name": "英特利亞治療公司",
       "shares": 25295,
-      "weight": "1.12%",
+      "weight": "1.16%",
       "lot_size": null,
       "reported_quantity": 25295.0,
       "quantity_unit": "股"
@@ -1420,7 +1479,7 @@
       "code": "RXRX US",
       "name": "利可迅生技公司",
       "shares": 82918,
-      "weight": "0.96%",
+      "weight": "0.97%",
       "lot_size": null,
       "reported_quantity": 82918.0,
       "quantity_unit": "股"
@@ -1429,7 +1488,7 @@
       "code": "BLSH US",
       "name": "Bullish",
       "shares": 9331,
-      "weight": "0.85%",
+      "weight": "0.79%",
       "lot_size": null,
       "reported_quantity": 9331.0,
       "quantity_unit": "股"
@@ -1438,7 +1497,7 @@
       "code": "BMNR US",
       "name": "BitMine Immersion Technologi",
       "shares": 12684,
-      "weight": "0.79%",
+      "weight": "0.73%",
       "lot_size": null,
       "reported_quantity": 12684.0,
       "quantity_unit": "股"
@@ -1453,28 +1512,28 @@
       "quantity_unit": "股"
     },
     {
-      "code": "DE US",
-      "name": "迪爾",
-      "shares": 181,
-      "weight": "0.5%",
+      "code": "ESLT US",
+      "name": "埃爾比系統公司",
+      "shares": 194,
+      "weight": "0.56%",
       "lot_size": null,
-      "reported_quantity": 181.0,
+      "reported_quantity": 194.0,
       "quantity_unit": "股"
     },
     {
-      "code": "ESLT US",
-      "name": "埃爾比系統公司",
-      "shares": 159,
-      "weight": "0.46%",
+      "code": "DE US",
+      "name": "迪爾",
+      "shares": 181,
+      "weight": "0.49%",
       "lot_size": null,
-      "reported_quantity": 159.0,
+      "reported_quantity": 181.0,
       "quantity_unit": "股"
     },
     {
       "code": "WGS US",
       "name": "GeneDx控股公司",
       "shares": 2064,
-      "weight": "0.45%",
+      "weight": "0.44%",
       "lot_size": null,
       "reported_quantity": 2064.0,
       "quantity_unit": "股"
@@ -1492,7 +1551,7 @@
       "code": "TER US",
       "name": "泰瑞達公司",
       "shares": 66,
-      "weight": "0.07%",
+      "weight": "0.06%",
       "lot_size": null,
       "reported_quantity": 66.0,
       "quantity_unit": "股"
@@ -1500,21 +1559,69 @@
   ],
   "changes": [
     {
-      "code": "SPCX US",
-      "name": "太空探索科技公司",
-      "shares": 15108,
-      "weight": "8.76%",
+      "code": "COIN US",
+      "name": "比特幣基地全球公司",
+      "shares": 0,
+      "weight": "1.38%",
       "lot_size": null,
-      "reported_quantity": 15108.0,
+      "reported_quantity": 2918.0,
       "quantity_unit": "股",
-      "previous_shares": 15438,
-      "delta_shares": -330,
+      "previous_shares": 2918,
+      "delta_shares": -2918,
+      "delta_lots": null
+    },
+    {
+      "code": "AMD US",
+      "name": "超微半導體公司",
+      "shares": 2194,
+      "weight": "3.96%",
+      "lot_size": null,
+      "reported_quantity": 2194.0,
+      "quantity_unit": "股",
+      "previous_shares": 1994,
+      "delta_shares": 200,
+      "delta_lots": null
+    },
+    {
+      "code": "NET US",
+      "name": "Cloudflare公司",
+      "shares": 1771,
+      "weight": "2.22%",
+      "lot_size": null,
+      "reported_quantity": 1771.0,
+      "quantity_unit": "股",
+      "previous_shares": 1571,
+      "delta_shares": 200,
+      "delta_lots": null
+    },
+    {
+      "code": "TSM US",
+      "name": "台積電",
+      "shares": 1955,
+      "weight": "2.98%",
+      "lot_size": null,
+      "reported_quantity": 1955.0,
+      "quantity_unit": "股",
+      "previous_shares": 1765,
+      "delta_shares": 190,
+      "delta_lots": null
+    },
+    {
+      "code": "ESLT US",
+      "name": "埃爾比系統公司",
+      "shares": 194,
+      "weight": "0.56%",
+      "lot_size": null,
+      "reported_quantity": 194.0,
+      "quantity_unit": "股",
+      "previous_shares": 159,
+      "delta_shares": 35,
       "delta_lots": null
     }
   ],
   "comparable": true,
-  "added_shares": 0,
-  "reduced_shares": 330,
+  "added_shares": 625,
+  "reduced_shares": 2918,
   "comparison_note": "持股快照差異不是實際成交紀錄，可能包含申贖、分割或資料修正；海外持股不換算台股張數。",
   "profit_note": "基金及成分股實際買進成本未提供，無法由持股快照計算基金目前獲利。可另外輸入個人持倉成本試算。"
 }

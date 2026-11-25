@@ -1,7 +1,7 @@
 {
   "code": "00990A",
   "name": "主動元大AI新經濟",
-  "asof": "20261123",
+  "asof": "20261124",
   "data_status": "fresh",
   "source_kind": "backup",
   "source_name": "ETF資訊網（公開持股備援）",
@@ -9,6 +9,86 @@
   "date_basis": "issuer",
   "unchanged": false,
   "history": [
+    {
+      "date": "20261124",
+      "previous_date": "20261123",
+      "status": "changed",
+      "comparable": true,
+      "changes": [
+        {
+          "code": "9602 JP",
+          "name": "TOHO CO LTD",
+          "shares": 0,
+          "weight": "0.44%",
+          "lot_size": null,
+          "reported_quantity": 304900.0,
+          "quantity_unit": "股",
+          "previous_shares": 304900,
+          "delta_shares": -304900,
+          "delta_lots": null
+        },
+        {
+          "code": "4004 JP",
+          "name": "RESONAC HOLDINGS CORP",
+          "shares": 78600,
+          "weight": "0.75%",
+          "lot_size": null,
+          "reported_quantity": 78600.0,
+          "quantity_unit": "股",
+          "previous_shares": 0,
+          "delta_shares": 78600,
+          "delta_lots": null
+        },
+        {
+          "code": "6857 JP",
+          "name": "ADVANTEST CORP",
+          "shares": 68500,
+          "weight": "1.46%",
+          "lot_size": null,
+          "reported_quantity": 68500.0,
+          "quantity_unit": "股",
+          "previous_shares": 0,
+          "delta_shares": 68500,
+          "delta_lots": null
+        },
+        {
+          "code": "SMTC US",
+          "name": "SEMTECH CORP",
+          "shares": 60900,
+          "weight": "0.65%",
+          "lot_size": null,
+          "reported_quantity": 60900.0,
+          "quantity_unit": "股",
+          "previous_shares": 0,
+          "delta_shares": 60900,
+          "delta_lots": null
+        },
+        {
+          "code": "COHR US",
+          "name": "COHERENT CORP",
+          "shares": 31240,
+          "weight": "0.76%",
+          "lot_size": null,
+          "reported_quantity": 31240.0,
+          "quantity_unit": "股",
+          "previous_shares": 0,
+          "delta_shares": 31240,
+          "delta_lots": null
+        },
+        {
+          "code": "MU US",
+          "name": "MICRON TECHNOLOGY INC",
+          "shares": 16425,
+          "weight": "1.29%",
+          "lot_size": null,
+          "reported_quantity": 16425.0,
+          "quantity_unit": "股",
+          "previous_shares": 10825,
+          "delta_shares": 5600,
+          "delta_lots": null
+        }
+      ]
+    },
     {
       "date": "20261123",
       "previous_date": "20261120",
@@ -1004,108 +1084,16 @@
           "delta_lots": 3.0
         }
       ]
-    },
-    {
-      "date": "20261110",
-      "previous_date": "20261109",
-      "status": "changed",
-      "comparable": true,
-      "changes": [
-        {
-          "code": "FROG US",
-          "name": "JFROG LTD",
-          "shares": 58200,
-          "weight": "0.67%",
-          "lot_size": null,
-          "reported_quantity": 58200.0,
-          "quantity_unit": "股",
-          "previous_shares": 0,
-          "delta_shares": 58200,
-          "delta_lots": null
-        },
-        {
-          "code": "ZS US",
-          "name": "ZSCALER INC",
-          "shares": 53000,
-          "weight": "1.14%",
-          "lot_size": null,
-          "reported_quantity": 53000.0,
-          "quantity_unit": "股",
-          "previous_shares": 98300,
-          "delta_shares": -45300,
-          "delta_lots": null
-        },
-        {
-          "code": "DDOG US",
-          "name": "DATADOG INC - CLASS A",
-          "shares": 0,
-          "weight": "0.81%",
-          "lot_size": null,
-          "reported_quantity": 40500.0,
-          "quantity_unit": "股",
-          "previous_shares": 40500,
-          "delta_shares": -40500,
-          "delta_lots": null
-        },
-        {
-          "code": "SPCX US",
-          "name": "SPACE EXPLORATION TECHN-CL A",
-          "shares": 220228,
-          "weight": "3.49%",
-          "lot_size": null,
-          "reported_quantity": 220228.0,
-          "quantity_unit": "股",
-          "previous_shares": 188528,
-          "delta_shares": 31700,
-          "delta_lots": null
-        },
-        {
-          "code": "APP US",
-          "name": "APPLOVIN CORP-CLASS A",
-          "shares": 17560,
-          "weight": "0.77%",
-          "lot_size": null,
-          "reported_quantity": 17560.0,
-          "quantity_unit": "股",
-          "previous_shares": 0,
-          "delta_shares": 17560,
-          "delta_lots": null
-        },
-        {
-          "code": "SNOW US",
-          "name": "SNOWFLAKE INC",
-          "shares": 84880,
-          "weight": "2.78%",
-          "lot_size": null,
-          "reported_quantity": 84880.0,
-          "quantity_unit": "股",
-          "previous_shares": 69400,
-          "delta_shares": 15480,
-          "delta_lots": null
-        },
-        {
-          "code": "NET US",
-          "name": "CLOUDFLARE INC - CLASS A",
-          "shares": 64500,
-          "weight": "2.18%",
-          "lot_size": null,
-          "reported_quantity": 64500.0,
-          "quantity_unit": "股",
-          "previous_shares": 56060,
-          "delta_shares": 8440,
-          "delta_lots": null
-        }
-      ]
     }
   ],
-  "previous_date": "20261120",
+  "previous_date": "20261123",
   "official_url": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html",
   "holdings": [
     {
       "code": "MSFT US",
       "name": "MICROSOFT CORP",
       "shares": 116560,
-      "weight": "7.24%",
+      "weight": "7.19%",
       "lot_size": null,
       "reported_quantity": 116560.0,
       "quantity_unit": "股"
@@ -1114,7 +1102,7 @@
       "code": "GOOGL US",
       "name": "ALPHABET INC-CL A",
       "shares": 159480,
-      "weight": "5.67%",
+      "weight": "5.53%",
       "lot_size": null,
       "reported_quantity": 159480.0,
       "quantity_unit": "股"
@@ -1123,7 +1111,7 @@
       "code": "AMZN US",
       "name": "AMAZON.COM INC",
       "shares": 151860,
-      "weight": "4.89%",
+      "weight": "4.76%",
       "lot_size": null,
       "reported_quantity": 151860.0,
       "quantity_unit": "股"
@@ -1132,9 +1120,18 @@
       "code": "META US",
       "name": "META PLATFORMS INC-CLASS A",
       "shares": 64600,
-      "weight": "4.87%",
+      "weight": "4.74%",
       "lot_size": null,
       "reported_quantity": 64600.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "2330",
+      "name": "台積電",
+      "shares": 518000,
+      "weight": "4.36%",
+      "lot_size": 1000,
+      "reported_quantity": 518000.0,
       "quantity_unit": "股"
     },
     {
@@ -1147,102 +1144,84 @@
       "quantity_unit": "股"
     },
     {
-      "code": "2330",
-      "name": "台積電",
-      "shares": 518000,
-      "weight": "4.03%",
-      "lot_size": 1000,
-      "reported_quantity": 518000.0,
+      "code": "LLY US",
+      "name": "ELI LILLY & CO",
+      "shares": 19380,
+      "weight": "3.39%",
+      "lot_size": null,
+      "reported_quantity": 19380.0,
       "quantity_unit": "股"
     },
     {
       "code": "BE US",
       "name": "BLOOM ENERGY CORP- A",
       "shares": 157053,
-      "weight": "3.33%",
+      "weight": "3.05%",
       "lot_size": null,
       "reported_quantity": 157053.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "LLY US",
-      "name": "ELI LILLY & CO",
-      "shares": 19380,
-      "weight": "3.33%",
-      "lot_size": null,
-      "reported_quantity": 19380.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "GE US",
-      "name": "GENERAL ELECTRIC",
-      "shares": 75800,
-      "weight": "3.07%",
-      "lot_size": null,
-      "reported_quantity": 75800.0,
       "quantity_unit": "股"
     },
     {
       "code": "CRWD US",
       "name": "CROWDSTRIKE HOLDINGS INC - A",
       "shares": 115363,
-      "weight": "3.04%",
+      "weight": "3.02%",
       "lot_size": null,
       "reported_quantity": 115363.0,
       "quantity_unit": "股"
     },
     {
-      "code": "PANW US",
-      "name": "PALO ALTO NETWORKS INC",
-      "shares": 67000,
-      "weight": "2.98%",
+      "code": "GE US",
+      "name": "GENERAL ELECTRIC",
+      "shares": 75800,
+      "weight": "3%",
       "lot_size": null,
-      "reported_quantity": 67000.0,
+      "reported_quantity": 75800.0,
       "quantity_unit": "股"
     },
     {
       "code": "APP US",
       "name": "APPLOVIN CORP-CLASS A",
       "shares": 62440,
-      "weight": "2.94%",
+      "weight": "2.96%",
       "lot_size": null,
       "reported_quantity": 62440.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "NET US",
-      "name": "CLOUDFLARE INC - CLASS A",
-      "shares": 79260,
-      "weight": "2.91%",
-      "lot_size": null,
-      "reported_quantity": 79260.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "SNOW US",
-      "name": "SNOWFLAKE INC",
-      "shares": 84880,
-      "weight": "2.9%",
-      "lot_size": null,
-      "reported_quantity": 84880.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "ANET US",
-      "name": "ARISTA NETWORKS INC",
-      "shares": 125800,
-      "weight": "2.83%",
-      "lot_size": null,
-      "reported_quantity": 125800.0,
       "quantity_unit": "股"
     },
     {
       "code": "2454",
       "name": "聯發科",
       "shares": 193000,
-      "weight": "2.73%",
+      "weight": "2.95%",
       "lot_size": 1000,
       "reported_quantity": 193000.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "PANW US",
+      "name": "PALO ALTO NETWORKS INC",
+      "shares": 67000,
+      "weight": "2.94%",
+      "lot_size": null,
+      "reported_quantity": 67000.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "SNOW US",
+      "name": "SNOWFLAKE INC",
+      "shares": 84880,
+      "weight": "2.86%",
+      "lot_size": null,
+      "reported_quantity": 84880.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "NET US",
+      "name": "CLOUDFLARE INC - CLASS A",
+      "shares": 79260,
+      "weight": "2.83%",
+      "lot_size": null,
+      "reported_quantity": 79260.0,
       "quantity_unit": "股"
     },
     {
@@ -1255,28 +1234,37 @@
       "quantity_unit": "股"
     },
     {
-      "code": "AVGO US",
-      "name": "BROADCOM INC",
-      "shares": 60760,
-      "weight": "2.4%",
+      "code": "ANET US",
+      "name": "ARISTA NETWORKS INC",
+      "shares": 125800,
+      "weight": "2.64%",
       "lot_size": null,
-      "reported_quantity": 60760.0,
+      "reported_quantity": 125800.0,
       "quantity_unit": "股"
     },
     {
       "code": "SHOP US",
       "name": "SHOPIFY INC - CLASS A",
       "shares": 141600,
-      "weight": "2.4%",
+      "weight": "2.33%",
       "lot_size": null,
       "reported_quantity": 141600.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "AVGO US",
+      "name": "BROADCOM INC",
+      "shares": 60760,
+      "weight": "2.27%",
+      "lot_size": null,
+      "reported_quantity": 60760.0,
       "quantity_unit": "股"
     },
     {
       "code": "FROG US",
       "name": "JFROG LTD",
       "shares": 170308,
-      "weight": "2.29%",
+      "weight": "2.21%",
       "lot_size": null,
       "reported_quantity": 170308.0,
       "quantity_unit": "股"
@@ -1285,61 +1273,79 @@
       "code": "U US",
       "name": "UNITY SOFTWARE INC",
       "shares": 351600,
-      "weight": "2.1%",
+      "weight": "2.11%",
       "lot_size": null,
       "reported_quantity": 351600.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "AMD US",
-      "name": "ADVANCED MICRO DEVICES",
-      "shares": 33099,
-      "weight": "1.89%",
-      "lot_size": null,
-      "reported_quantity": 33099.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "HWM US",
-      "name": "HOWMET AEROSPACE INC",
-      "shares": 65100,
-      "weight": "1.78%",
-      "lot_size": null,
-      "reported_quantity": 65100.0,
       "quantity_unit": "股"
     },
     {
       "code": "3017",
       "name": "奇鋐",
       "shares": 190000,
-      "weight": "1.72%",
+      "weight": "1.87%",
       "lot_size": 1000,
       "reported_quantity": 190000.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "HWM US",
+      "name": "HOWMET AEROSPACE INC",
+      "shares": 65100,
+      "weight": "1.71%",
+      "lot_size": null,
+      "reported_quantity": 65100.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "AMD US",
+      "name": "ADVANCED MICRO DEVICES",
+      "shares": 33099,
+      "weight": "1.7%",
+      "lot_size": null,
+      "reported_quantity": 33099.0,
       "quantity_unit": "股"
     },
     {
       "code": "TTWO US",
       "name": "TAKE-TWO INTERACTIVE SOFTWRE",
       "shares": 60200,
-      "weight": "1.59%",
+      "weight": "1.65%",
       "lot_size": null,
       "reported_quantity": 60200.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "6857 JP",
+      "name": "ADVANTEST CORP",
+      "shares": 68500,
+      "weight": "1.46%",
+      "lot_size": null,
+      "reported_quantity": 68500.0,
       "quantity_unit": "股"
     },
     {
       "code": "6098 JP",
       "name": "RECRUIT HOLDINGS CO LTD",
       "shares": 100200,
-      "weight": "1.34%",
+      "weight": "1.36%",
       "lot_size": null,
       "reported_quantity": 100200.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "MU US",
+      "name": "MICRON TECHNOLOGY INC",
+      "shares": 16425,
+      "weight": "1.29%",
+      "lot_size": null,
+      "reported_quantity": 16425.0,
       "quantity_unit": "股"
     },
     {
       "code": "3443",
       "name": "創意",
       "shares": 57000,
-      "weight": "1.12%",
+      "weight": "1.21%",
       "lot_size": 1000,
       "reported_quantity": 57000.0,
       "quantity_unit": "股"
@@ -1348,149 +1354,134 @@
       "code": "2383",
       "name": "台光電",
       "shares": 83000,
-      "weight": "0.98%",
+      "weight": "1.06%",
       "lot_size": 1000,
       "reported_quantity": 83000.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "MU US",
-      "name": "MICRON TECHNOLOGY INC",
-      "shares": 10825,
-      "weight": "0.97%",
-      "lot_size": null,
-      "reported_quantity": 10825.0,
       "quantity_unit": "股"
     },
     {
       "code": "3037",
       "name": "欣興",
       "shares": 444000,
-      "weight": "0.95%",
+      "weight": "1.03%",
       "lot_size": 1000,
       "reported_quantity": 444000.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "COHR US",
+      "name": "COHERENT CORP",
+      "shares": 31240,
+      "weight": "0.76%",
+      "lot_size": null,
+      "reported_quantity": 31240.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "4004 JP",
+      "name": "RESONAC HOLDINGS CORP",
+      "shares": 78600,
+      "weight": "0.75%",
+      "lot_size": null,
+      "reported_quantity": 78600.0,
+      "quantity_unit": "股"
+    },
+    {
+      "code": "SMTC US",
+      "name": "SEMTECH CORP",
+      "shares": 60900,
+      "weight": "0.65%",
+      "lot_size": null,
+      "reported_quantity": 60900.0,
       "quantity_unit": "股"
     },
     {
       "code": "7974 JP",
       "name": "NINTENDO CO LTD",
       "shares": 80400,
-      "weight": "0.56%",
+      "weight": "0.54%",
       "lot_size": null,
       "reported_quantity": 80400.0,
-      "quantity_unit": "股"
-    },
-    {
-      "code": "9602 JP",
-      "name": "TOHO CO LTD",
-      "shares": 304900,
-      "weight": "0.44%",
-      "lot_size": null,
-      "reported_quantity": 304900.0,
       "quantity_unit": "股"
     }
   ],
   "changes": [
     {
-      "code": "2368",
-      "name": "金像電",
+      "code": "9602 JP",
+      "name": "TOHO CO LTD",
       "shares": 0,
-      "weight": "0.93%",
-      "lot_size": 1000,
-      "reported_quantity": 332000.0,
-      "quantity_unit": "股",
-      "previous_shares": 332000,
-      "delta_shares": -332000,
-      "delta_lots": -332.0
-    },
-    {
-      "code": "ZS US",
-      "name": "ZSCALER INC",
-      "shares": 0,
-      "weight": "1.94%",
+      "weight": "0.44%",
       "lot_size": null,
-      "reported_quantity": 76600.0,
+      "reported_quantity": 304900.0,
       "quantity_unit": "股",
-      "previous_shares": 76600,
-      "delta_shares": -76600,
+      "previous_shares": 304900,
+      "delta_shares": -304900,
       "delta_lots": null
     },
     {
-      "code": "3443",
-      "name": "創意",
-      "shares": 57000,
-      "weight": "1.12%",
-      "lot_size": 1000,
-      "reported_quantity": 57000.0,
-      "quantity_unit": "股",
-      "previous_shares": 109000,
-      "delta_shares": -52000,
-      "delta_lots": -52.0
-    },
-    {
-      "code": "U US",
-      "name": "UNITY SOFTWARE INC",
-      "shares": 351600,
-      "weight": "2.1%",
+      "code": "4004 JP",
+      "name": "RESONAC HOLDINGS CORP",
+      "shares": 78600,
+      "weight": "0.75%",
       "lot_size": null,
-      "reported_quantity": 351600.0,
+      "reported_quantity": 78600.0,
       "quantity_unit": "股",
-      "previous_shares": 300000,
-      "delta_shares": 51600,
+      "previous_shares": 0,
+      "delta_shares": 78600,
       "delta_lots": null
     },
     {
-      "code": "GOOGL US",
-      "name": "ALPHABET INC-CL A",
-      "shares": 159480,
-      "weight": "5.67%",
+      "code": "6857 JP",
+      "name": "ADVANTEST CORP",
+      "shares": 68500,
+      "weight": "1.46%",
       "lot_size": null,
-      "reported_quantity": 159480.0,
+      "reported_quantity": 68500.0,
       "quantity_unit": "股",
-      "previous_shares": 130520,
-      "delta_shares": 28960,
+      "previous_shares": 0,
+      "delta_shares": 68500,
       "delta_lots": null
     },
     {
-      "code": "PANW US",
-      "name": "PALO ALTO NETWORKS INC",
-      "shares": 67000,
-      "weight": "2.98%",
+      "code": "SMTC US",
+      "name": "SEMTECH CORP",
+      "shares": 60900,
+      "weight": "0.65%",
       "lot_size": null,
-      "reported_quantity": 67000.0,
+      "reported_quantity": 60900.0,
       "quantity_unit": "股",
-      "previous_shares": 42320,
-      "delta_shares": 24680,
+      "previous_shares": 0,
+      "delta_shares": 60900,
       "delta_lots": null
     },
     {
-      "code": "AAPL US",
-      "name": "APPLE INC",
-      "shares": 93320,
-      "weight": "4.11%",
+      "code": "COHR US",
+      "name": "COHERENT CORP",
+      "shares": 31240,
+      "weight": "0.76%",
       "lot_size": null,
-      "reported_quantity": 93320.0,
+      "reported_quantity": 31240.0,
       "quantity_unit": "股",
-      "previous_shares": 70840,
-      "delta_shares": 22480,
+      "previous_shares": 0,
+      "delta_shares": 31240,
       "delta_lots": null
     },
     {
-      "code": "MSFT US",
-      "name": "MICROSOFT CORP",
-      "shares": 116560,
-      "weight": "7.24%",
+      "code": "MU US",
+      "name": "MICRON TECHNOLOGY INC",
+      "shares": 16425,
+      "weight": "1.29%",
       "lot_size": null,
-      "reported_quantity": 116560.0,
+      "reported_quantity": 16425.0,
       "quantity_unit": "股",
-      "previous_shares": 100680,
-      "delta_shares": 15880,
+      "previous_shares": 10825,
+      "delta_shares": 5600,
       "delta_lots": null
     }
   ],
   "comparable": true,
-  "added_shares": 143600,
-  "reduced_shares": 460600,
+  "added_shares": 244840,
+  "reduced_shares": 304900,
   "comparison_note": "持股快照差異不是實際成交紀錄，可能包含申贖、分割或資料修正；海外持股不換算台股張數。",
   "profit_note": "基金及成分股實際買進成本未提供，無法由持股快照計算基金目前獲利。可另外輸入個人持倉成本試算。"
 }
