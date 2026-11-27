@@ -14,7 +14,7 @@
       "ex_date": "115年12月01日",
       "record_date": "115年12月07日",
       "pay_date": "115年12月23日",
-      "cash_per_unit": null
+      "cash_per_unit": 0.085
     },
     {
       "ex_date": "115年11月03日",
@@ -62,5 +62,5 @@
   "dividend_status": "ok",
   "dividend_source": "https://www.twse.com.tw/zh/products/securities/etf/products/div.html",
   "dividend_period": "2025/01/01–2026/12/31",
-  "retrieved_at": "2026-11-27T06:11:36.483222+08:00"
+  "retrieved_at": "2026-11-28T02:03:00.762333+08:00"
 }

@@ -1,5 +1,5 @@
 {
-  "checked_at": "20261127",
+  "checked_at": "20261128",
   "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html",
   "etfs": {
     "00980A": {
@@ -369,7 +369,8 @@
       "category": "domestic",
       "listed_date": "20261126",
       "discovered_at": "20261126",
-      "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html"
+      "source": "https://www.twse.com.tw/zh/products/securities/etf/products/active-list.html",
+      "url": "https://www.schroders.com/zh-tw/tw/individual/fund-centre/etf/?language=zh-tw&location=tw&channel=etf&clientId=schdr&clientVersion=v1&externalId=SCHDR_F00002KHVY&r=%2Ffund%2FSCHDR_F00002KHVY%2F"
     }
   }
 }
