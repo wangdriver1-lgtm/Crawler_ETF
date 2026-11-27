@@ -12,34 +12,9 @@
     {
       "date": "20261127",
       "previous_date": "20261126",
-      "status": "changed",
-      "comparable": true,
-      "changes": [
-        {
-          "code": "2316",
-          "name": "楠梓電",
-          "shares": 1032000,
-          "weight": "0.3256%",
-          "lot_size": 1000,
-          "reported_quantity": null,
-          "quantity_unit": null,
-          "previous_shares": 0,
-          "delta_shares": 1032000,
-          "delta_lots": 1032.0
-        },
-        {
-          "code": "2351",
-          "name": "順德",
-          "shares": 1112000,
-          "weight": "0.3236%",
-          "lot_size": 1000,
-          "reported_quantity": null,
-          "quantity_unit": null,
-          "previous_shares": 1152000,
-          "delta_shares": -40000,
-          "delta_lots": -40.0
-        }
-      ]
+      "status": "source_changed",
+      "comparable": false,
+      "changes": []
     },
     {
       "date": "20261126",
@@ -1976,35 +1951,10 @@
       "quantity_unit": null
     }
   ],
-  "changes": [
-    {
-      "code": "2316",
-      "name": "楠梓電",
-      "shares": 1032000,
-      "weight": "0.3256%",
-      "lot_size": 1000,
-      "reported_quantity": null,
-      "quantity_unit": null,
-      "previous_shares": 0,
-      "delta_shares": 1032000,
-      "delta_lots": 1032.0
-    },
-    {
-      "code": "2351",
-      "name": "順德",
-      "shares": 1112000,
-      "weight": "0.3236%",
-      "lot_size": 1000,
-      "reported_quantity": null,
-      "quantity_unit": null,
-      "previous_shares": 1152000,
-      "delta_shares": -40000,
-      "delta_lots": -40.0
-    }
-  ],
-  "comparable": true,
-  "added_shares": 1032000,
-  "reduced_shares": 40000,
+  "changes": [],
+  "comparable": false,
+  "added_shares": null,
+  "reduced_shares": null,
   "comparison_note": "持股快照差異不是實際成交紀錄，可能包含申贖、分割或資料修正；海外持股不換算台股張數。",
   "profit_note": "基金及成分股實際買進成本未提供，無法由持股快照計算基金目前獲利。可另外輸入個人持倉成本試算。"
 }

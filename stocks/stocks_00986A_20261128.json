@@ -5,7 +5,8 @@
         "ETF股票代號": "00986A",
         "股數": "18,000",
         "持股比例": "8.9739%",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "GOOGL US",
@@ -13,7 +14,8 @@
         "ETF股票代號": "00986A",
         "股數": "3,000",
         "持股比例": "6.3017%",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "MSFT US",
@@ -21,7 +23,8 @@
         "ETF股票代號": "00986A",
         "股數": "1,600",
         "持股比例": "6.0293%",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "AMZN US",
@@ -29,7 +32,8 @@
         "ETF股票代號": "00986A",
         "股數": "2,800",
         "持股比例": "5.2641%",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "CRWD US",
@@ -37,7 +41,8 @@
         "ETF股票代號": "00986A",
         "股數": "3,000",
         "持股比例": "4.8295%",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "LLY US",
@@ -45,7 +50,8 @@
         "ETF股票代號": "00986A",
         "股數": "450",
         "持股比例": "4.8188%",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "AMD US",
@@ -53,7 +59,8 @@
         "ETF股票代號": "00986A",
         "股數": "1,400",
         "持股比例": "4.3722%",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "AVGO US",
@@ -61,7 +68,8 @@
         "ETF股票代號": "00986A",
         "股數": "1,800",
         "持股比例": "4.1654%",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "MU US",
@@ -69,7 +77,8 @@
         "ETF股票代號": "00986A",
         "股數": "800",
         "持股比例": "3.6996%",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "AAPL US",
@@ -77,7 +86,8 @@
         "ETF股票代號": "00986A",
         "股數": "1,250",
         "持股比例": "3.4187%",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "LITE US",
@@ -85,7 +95,8 @@
         "ETF股票代號": "00986A",
         "股數": "780",
         "持股比例": "2.8592%",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "JPM US",
@@ -93,7 +104,8 @@
         "ETF股票代號": "00986A",
         "股數": "1,100",
         "持股比例": "2.6799%",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "NET US",
@@ -101,7 +113,8 @@
         "ETF股票代號": "00986A",
         "股數": "1,200",
         "持股比例": "2.6148%",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "ETN US",
@@ -109,7 +122,8 @@
         "ETF股票代號": "00986A",
         "股數": "1,000",
         "持股比例": "2.4445%",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "NVDA US",
@@ -117,7 +131,8 @@
         "ETF股票代號": "00986A",
         "股數": "2,000",
         "持股比例": "2.2967%",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "SNOW US",
@@ -125,7 +140,8 @@
         "ETF股票代號": "00986A",
         "股數": "1,100",
         "持股比例": "2.2651%",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "BE US",
@@ -133,7 +149,8 @@
         "ETF股票代號": "00986A",
         "股數": "1,900",
         "持股比例": "2.2343%",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "PLTR US",
@@ -141,7 +158,8 @@
         "ETF股票代號": "00986A",
         "股數": "1,700",
         "持股比例": "2.1391%",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "MA US",
@@ -149,7 +167,8 @@
         "ETF股票代號": "00986A",
         "股數": "350",
         "持股比例": "1.7767%",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "2454 TT",
@@ -157,7 +176,8 @@
         "ETF股票代號": "00986A",
         "股數": "2,000",
         "持股比例": "1.6904%",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "GEV US",
@@ -165,7 +185,8 @@
         "ETF股票代號": "00986A",
         "股數": "200",
         "持股比例": "1.0999%",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "RBRK US",
@@ -173,7 +194,8 @@
         "ETF股票代號": "00986A",
         "股數": "1,300",
         "持股比例": "1.0796%",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "SKHY US",
@@ -181,7 +203,8 @@
         "ETF股票代號": "00986A",
         "股數": "1,200",
         "持股比例": "1.0258%",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "ANET US",
@@ -189,7 +212,8 @@
         "ETF股票代號": "00986A",
         "股數": "637",
         "持股比例": "0.8035%",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "P US",
@@ -197,6 +221,7 @@
         "ETF股票代號": "00986A",
         "股數": "583",
         "持股比例": "0.4246%",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     }
 ]

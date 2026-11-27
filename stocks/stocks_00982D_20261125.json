@@ -7,7 +7,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 600000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US172967EW71",
@@ -17,7 +18,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 540000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US260543BY86",
@@ -27,7 +29,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 500000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US743263AE50",
@@ -37,7 +40,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 540000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US03523TBF49",
@@ -47,7 +51,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 480000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US37045VAL45",
@@ -57,7 +62,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 570000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US06849RAC60",
@@ -67,7 +73,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 500000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US054989AD07",
@@ -77,7 +84,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 500000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US25156PAD50",
@@ -87,7 +95,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 430000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US13645RAD61",
@@ -97,7 +106,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 460000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US24703TAK25",
@@ -107,7 +117,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 380000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US406216AY74",
@@ -117,7 +128,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 390000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US36962G4B75",
@@ -127,7 +139,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 390000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US24703TAJ51",
@@ -137,7 +150,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 380000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US852060AT99",
@@ -147,7 +161,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 370000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US694308KH99",
@@ -157,7 +172,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 380000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US013716AQ81",
@@ -167,7 +183,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 340000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US969457BM15",
@@ -177,7 +194,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 300000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US054989AC24",
@@ -187,7 +205,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 320000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US927804FG41",
@@ -197,7 +216,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 270000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US233835AQ08",
@@ -207,7 +227,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 300000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US8935268Z94",
@@ -217,7 +238,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 290000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US879385AD49",
@@ -227,7 +249,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 280000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US694308KK29",
@@ -237,7 +260,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 300000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US42824CAY57",
@@ -247,7 +271,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 300000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US682680BN20",
@@ -257,7 +282,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 240000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US251799AA02",
@@ -267,7 +293,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 200000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US548661CP07",
@@ -277,7 +304,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 200000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US37045VAK61",
@@ -287,7 +315,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 200000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US260543DH36",
@@ -297,7 +326,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 174000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US111021AE12",
@@ -307,7 +337,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 150000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "USU8531HAE00",
@@ -317,7 +348,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 200000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US717081CY74",
@@ -327,7 +359,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 140000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US101137AL15",
@@ -337,7 +370,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 120000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US617446HD43",
@@ -347,7 +381,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 120000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US02079KCT25",
@@ -357,7 +392,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 130000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US023135EF90",
@@ -367,7 +403,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 130000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US50076QAR74",
@@ -377,7 +414,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 110000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US36962GXZ26",
@@ -387,7 +425,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 100000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US494550AW68",
@@ -397,7 +436,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 100000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US303901BR22",
@@ -407,7 +447,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 110000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US87938WAC73",
@@ -417,7 +458,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 100000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US20030NAV38",
@@ -427,7 +469,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 100000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US210385AE04",
@@ -437,7 +480,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 100000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US67066GAU85",
@@ -447,7 +491,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 100000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US68389XAE58",
@@ -457,7 +502,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 100000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "USU8531HAD27",
@@ -467,7 +513,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 100000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US641423BU11",
@@ -477,7 +524,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 60000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US00817YAF51",
@@ -487,7 +535,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 60000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US832696AZ12",
@@ -497,7 +546,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 60000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US832696AY47",
@@ -507,7 +557,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 60000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US871829BN62",
@@ -517,7 +568,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 60000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US29273RAR03",
@@ -527,7 +579,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 60000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US87612GAD34",
@@ -537,7 +590,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 60000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US92344GAM87",
@@ -547,7 +601,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 50000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US91324PBK75",
@@ -557,7 +612,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 50000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US209111EU37",
@@ -567,7 +623,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 50000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US86722TAB89",
@@ -577,7 +634,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 50000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US29250NBZ78",
@@ -587,7 +645,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 50000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US04686JAL52",
@@ -597,7 +656,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 50000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US30303MAK80",
@@ -607,7 +667,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 50000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "US90353TAQ31",
@@ -617,7 +678,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 50000,
         "數量單位": "面額",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "LQDW US",
@@ -627,7 +689,8 @@
         "ETF股票代號": "00982D",
         "原始數量": 75000,
         "數量單位": "股",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "TLTW US",
@@ -637,6 +700,7 @@
         "ETF股票代號": "00982D",
         "原始數量": 72000,
         "數量單位": "股",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     }
 ]

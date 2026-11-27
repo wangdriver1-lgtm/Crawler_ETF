@@ -7,7 +7,8 @@
         "ETF股票代號": "00988A",
         "原始數量": 160000,
         "數量單位": "股",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "SPCX US",
@@ -17,7 +18,8 @@
         "ETF股票代號": "00988A",
         "原始數量": 570000,
         "數量單位": "股",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "PLTR US",
@@ -27,7 +29,8 @@
         "ETF股票代號": "00988A",
         "原始數量": 410000,
         "數量單位": "股",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "AAPL US",
@@ -37,7 +40,8 @@
         "ETF股票代號": "00988A",
         "原始數量": 180000,
         "數量單位": "股",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "AMZN US",
@@ -47,7 +51,8 @@
         "ETF股票代號": "00988A",
         "原始數量": 190000,
         "數量單位": "股",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "OKTA US",
@@ -57,7 +62,8 @@
         "ETF股票代號": "00988A",
         "原始數量": 225000,
         "數量單位": "股",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "PANW US",
@@ -67,7 +73,8 @@
         "ETF股票代號": "00988A",
         "原始數量": 125000,
         "數量單位": "股",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "3017",
@@ -77,7 +84,8 @@
         "ETF股票代號": "00988A",
         "原始數量": 550000,
         "數量單位": "股",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "NTSK US",
@@ -87,7 +95,8 @@
         "ETF股票代號": "00988A",
         "原始數量": 1400000,
         "數量單位": "股",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "3443",
@@ -97,7 +106,8 @@
         "ETF股票代號": "00988A",
         "原始數量": 240000,
         "數量單位": "股",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "NET US",
@@ -107,7 +117,8 @@
         "ETF股票代號": "00988A",
         "原始數量": 120000,
         "數量單位": "股",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "1303",
@@ -117,7 +128,8 @@
         "ETF股票代號": "00988A",
         "原始數量": 4800000,
         "數量單位": "股",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "AMD US",
@@ -127,7 +139,8 @@
         "ETF股票代號": "00988A",
         "原始數量": 80000,
         "數量單位": "股",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "CRWD US",
@@ -137,7 +150,8 @@
         "ETF股票代號": "00988A",
         "原始數量": 155000,
         "數量單位": "股",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "2330",
@@ -147,7 +161,8 @@
         "ETF股票代號": "00988A",
         "原始數量": 480000,
         "數量單位": "股",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "3037",
@@ -157,7 +172,8 @@
         "ETF股票代號": "00988A",
         "原始數量": 1350000,
         "數量單位": "股",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "ZS US",
@@ -167,7 +183,8 @@
         "ETF股票代號": "00988A",
         "原始數量": 100145,
         "數量單位": "股",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "2454",
@@ -177,7 +194,8 @@
         "ETF股票代號": "00988A",
         "原始數量": 207000,
         "數量單位": "股",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "MRNA US",
@@ -187,7 +205,8 @@
         "ETF股票代號": "00988A",
         "原始數量": 100000,
         "數量單位": "股",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "3711",
@@ -197,7 +216,8 @@
         "ETF股票代號": "00988A",
         "原始數量": 1500000,
         "數量單位": "股",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "SNOW US",
@@ -207,7 +227,8 @@
         "ETF股票代號": "00988A",
         "原始數量": 80000,
         "數量單位": "股",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "BE US",
@@ -217,7 +238,8 @@
         "ETF股票代號": "00988A",
         "原始數量": 140000,
         "數量單位": "股",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "META US",
@@ -227,7 +249,8 @@
         "ETF股票代號": "00988A",
         "原始數量": 25000,
         "數量單位": "股",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "APP US",
@@ -237,7 +260,8 @@
         "ETF股票代號": "00988A",
         "原始數量": 40000,
         "數量單位": "股",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "6223",
@@ -247,7 +271,8 @@
         "ETF股票代號": "00988A",
         "原始數量": 110000,
         "數量單位": "股",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "3665",
@@ -257,7 +282,8 @@
         "ETF股票代號": "00988A",
         "原始數量": 200000,
         "數量單位": "股",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "TSLA US",
@@ -267,7 +293,8 @@
         "ETF股票代號": "00988A",
         "原始數量": 25000,
         "數量單位": "股",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "6857 JP",
@@ -277,7 +304,8 @@
         "ETF股票代號": "00988A",
         "原始數量": 60000,
         "數量單位": "股",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "009150 KS",
@@ -287,7 +315,8 @@
         "ETF股票代號": "00988A",
         "原始數量": 10000,
         "數量單位": "股",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "3697 JP",
@@ -297,7 +326,8 @@
         "ETF股票代號": "00988A",
         "原始數量": 800000,
         "數量單位": "股",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "7532 JP",
@@ -307,7 +337,8 @@
         "ETF股票代號": "00988A",
         "原始數量": 1000000,
         "數量單位": "股",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "MU US",
@@ -317,7 +348,8 @@
         "ETF股票代號": "00988A",
         "原始數量": 7500,
         "數量單位": "股",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "V US",
@@ -327,6 +359,7 @@
         "ETF股票代號": "00988A",
         "原始數量": 4000,
         "數量單位": "股",
-        "_source_kind": "backup"
+        "_source_kind": "backup",
+        "_date_basis": "issuer"
     }
 ]

@@ -6,7 +6,8 @@
         "金額": "11,118,000,000",
         "持股比例": "17.402%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "2383",
@@ -15,7 +16,8 @@
         "金額": "5,227,250,000",
         "持股比例": "8.182%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "3017",
@@ -24,7 +26,8 @@
         "金額": "5,049,000,000",
         "持股比例": "7.903%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "2454",
@@ -33,7 +36,8 @@
         "金額": "4,784,000,000",
         "持股比例": "7.488%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "2059",
@@ -42,7 +46,8 @@
         "金額": "3,863,750,000",
         "持股比例": "6.048%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "3037",
@@ -51,7 +56,8 @@
         "金額": "3,746,800,000",
         "持股比例": "5.865%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "1303",
@@ -60,7 +66,8 @@
         "金額": "3,615,000,000",
         "持股比例": "5.658%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "3189",
@@ -69,7 +76,8 @@
         "金額": "2,640,000,000",
         "持股比例": "4.132%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "8046",
@@ -78,7 +86,8 @@
         "金額": "2,566,800,000",
         "持股比例": "4.018%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "3711",
@@ -87,7 +96,8 @@
         "金額": "2,467,200,000",
         "持股比例": "3.862%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "3653",
@@ -96,7 +106,8 @@
         "金額": "1,954,000,000",
         "持股比例": "3.058%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "5274",
@@ -105,7 +116,8 @@
         "金額": "1,492,800,000",
         "持股比例": "2.337%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "6223",
@@ -114,7 +126,8 @@
         "金額": "1,414,800,000",
         "持股比例": "2.214%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "3665",
@@ -123,7 +136,8 @@
         "金額": "1,360,800,000",
         "持股比例": "2.130%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "2368",
@@ -132,7 +146,8 @@
         "金額": "1,347,050,000",
         "持股比例": "2.108%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "2308",
@@ -141,7 +156,8 @@
         "金額": "1,215,000,000",
         "持股比例": "1.902%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "2345",
@@ -150,7 +166,8 @@
         "金額": "1,119,600,000",
         "持股比例": "1.752%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "3026",
@@ -159,7 +176,8 @@
         "金額": "776,600,000",
         "持股比例": "1.216%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "2603",
@@ -168,7 +186,8 @@
         "金額": "672,300,000",
         "持股比例": "1.052%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "4958",
@@ -177,7 +196,8 @@
         "金額": "658,350,000",
         "持股比例": "1.030%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "6669",
@@ -186,7 +206,8 @@
         "金額": "501,000,000",
         "持股比例": "0.784%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "3231",
@@ -195,7 +216,8 @@
         "金額": "453,600,000",
         "持股比例": "0.710%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "2382",
@@ -204,7 +226,8 @@
         "金額": "444,800,000",
         "持股比例": "0.696%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "2885",
@@ -213,7 +236,8 @@
         "金額": "442,422,752",
         "持股比例": "0.692%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "2881",
@@ -222,7 +246,8 @@
         "金額": "441,000,000",
         "持股比例": "0.690%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "2891",
@@ -231,7 +256,8 @@
         "金額": "440,960,000",
         "持股比例": "0.690%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "2882",
@@ -240,7 +266,8 @@
         "金額": "438,600,000",
         "持股比例": "0.687%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "2317",
@@ -249,7 +276,8 @@
         "金額": "438,000,000",
         "持股比例": "0.686%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "6805",
@@ -258,7 +286,8 @@
         "金額": "364,500,000",
         "持股比例": "0.571%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "2408",
@@ -267,7 +296,8 @@
         "金額": "308,000,000",
         "持股比例": "0.482%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "8299",
@@ -276,7 +306,8 @@
         "金額": "268,600,000",
         "持股比例": "0.420%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "2395",
@@ -285,7 +316,8 @@
         "金額": "150,250,000",
         "持股比例": "0.235%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "3293",
@@ -294,7 +326,8 @@
         "金額": "148,390,000",
         "持股比例": "0.232%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "2404",
@@ -303,7 +336,8 @@
         "金額": "139,200,000",
         "持股比例": "0.218%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "2618",
@@ -312,7 +346,8 @@
         "金額": "136,350,000",
         "持股比例": "0.213%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "3008",
@@ -321,7 +356,8 @@
         "金額": "131,285,000",
         "持股比例": "0.205%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "3105",
@@ -330,7 +366,8 @@
         "金額": "128,905,000",
         "持股比例": "0.202%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "1477",
@@ -339,7 +376,8 @@
         "金額": "117,500,000",
         "持股比例": "0.184%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "2412",
@@ -348,7 +386,8 @@
         "金額": "115,850,000",
         "持股比例": "0.181%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "5347",
@@ -357,7 +396,8 @@
         "金額": "1,093,500",
         "持股比例": "0.002%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "6505",
@@ -366,7 +406,8 @@
         "金額": "776,700",
         "持股比例": "0.001%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "2303",
@@ -375,7 +416,8 @@
         "金額": "787,500",
         "持股比例": "0.001%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "3044",
@@ -384,7 +426,8 @@
         "金額": "483,500",
         "持股比例": "0.001%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "2886",
@@ -393,7 +436,8 @@
         "金額": "423,450",
         "持股比例": "0.001%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "2880",
@@ -402,7 +446,8 @@
         "金額": "383,144",
         "持股比例": "0.001%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "2892",
@@ -411,7 +456,8 @@
         "金額": "321,300",
         "持股比例": "0.001%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "2884",
@@ -420,7 +466,8 @@
         "金額": "364,500",
         "持股比例": "0.001%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "2890",
@@ -429,7 +476,8 @@
         "金額": "326,351",
         "持股比例": "0.001%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "2887",
@@ -438,7 +486,8 @@
         "金額": "312,300",
         "持股比例": "0.000%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     },
     {
         "股票代號": "2883",
@@ -447,6 +496,7 @@
         "金額": "269,550",
         "持股比例": "0.000%",
         "ETF股票代號": "00991A",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "crawl_date"
     }
 ]

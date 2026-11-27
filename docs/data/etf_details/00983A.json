@@ -12,58 +12,9 @@
     {
       "date": "20261125",
       "previous_date": "20261124",
-      "status": "changed",
-      "comparable": true,
-      "changes": [
-        {
-          "code": "XYZ US",
-          "name": "布洛克公司",
-          "shares": 9207,
-          "weight": "3.07%",
-          "lot_size": null,
-          "reported_quantity": 9207.0,
-          "quantity_unit": "股",
-          "previous_shares": 8280,
-          "delta_shares": 927,
-          "delta_lots": null
-        },
-        {
-          "code": "AMZN US",
-          "name": "亞馬遜公司",
-          "shares": 4823,
-          "weight": "5.17%",
-          "lot_size": null,
-          "reported_quantity": 4823.0,
-          "quantity_unit": "股",
-          "previous_shares": 4551,
-          "delta_shares": 272,
-          "delta_lots": null
-        },
-        {
-          "code": "TSLA US",
-          "name": "特斯拉公司",
-          "shares": 5325,
-          "weight": "8.91%",
-          "lot_size": null,
-          "reported_quantity": 5325.0,
-          "quantity_unit": "股",
-          "previous_shares": 5503,
-          "delta_shares": -178,
-          "delta_lots": null
-        },
-        {
-          "code": "AMD US",
-          "name": "超微半導體公司",
-          "shares": 2360,
-          "weight": "4.2%",
-          "lot_size": null,
-          "reported_quantity": 2360.0,
-          "quantity_unit": "股",
-          "previous_shares": 2194,
-          "delta_shares": 166,
-          "delta_lots": null
-        }
-      ]
+      "status": "source_changed",
+      "comparable": false,
+      "changes": []
     },
     {
       "date": "20261124",
@@ -1606,59 +1557,10 @@
       "quantity_unit": "股"
     }
   ],
-  "changes": [
-    {
-      "code": "XYZ US",
-      "name": "布洛克公司",
-      "shares": 9207,
-      "weight": "3.07%",
-      "lot_size": null,
-      "reported_quantity": 9207.0,
-      "quantity_unit": "股",
-      "previous_shares": 8280,
-      "delta_shares": 927,
-      "delta_lots": null
-    },
-    {
-      "code": "AMZN US",
-      "name": "亞馬遜公司",
-      "shares": 4823,
-      "weight": "5.17%",
-      "lot_size": null,
-      "reported_quantity": 4823.0,
-      "quantity_unit": "股",
-      "previous_shares": 4551,
-      "delta_shares": 272,
-      "delta_lots": null
-    },
-    {
-      "code": "TSLA US",
-      "name": "特斯拉公司",
-      "shares": 5325,
-      "weight": "8.91%",
-      "lot_size": null,
-      "reported_quantity": 5325.0,
-      "quantity_unit": "股",
-      "previous_shares": 5503,
-      "delta_shares": -178,
-      "delta_lots": null
-    },
-    {
-      "code": "AMD US",
-      "name": "超微半導體公司",
-      "shares": 2360,
-      "weight": "4.2%",
-      "lot_size": null,
-      "reported_quantity": 2360.0,
-      "quantity_unit": "股",
-      "previous_shares": 2194,
-      "delta_shares": 166,
-      "delta_lots": null
-    }
-  ],
-  "comparable": true,
-  "added_shares": 1365,
-  "reduced_shares": 178,
+  "changes": [],
+  "comparable": false,
+  "added_shares": null,
+  "reduced_shares": null,
   "comparison_note": "持股快照差異不是實際成交紀錄，可能包含申贖、分割或資料修正；海外持股不換算台股張數。",
   "profit_note": "基金及成分股實際買進成本未提供，無法由持股快照計算基金目前獲利。可另外輸入個人持倉成本試算。"
 }

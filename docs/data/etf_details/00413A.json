@@ -12,58 +12,9 @@
     {
       "date": "20261127",
       "previous_date": "20261126",
-      "status": "changed",
-      "comparable": true,
-      "changes": [
-        {
-          "code": "3105",
-          "name": "穩懋",
-          "shares": 55000,
-          "weight": "1.89%",
-          "lot_size": 1000,
-          "reported_quantity": 55000.0,
-          "quantity_unit": "股",
-          "previous_shares": 35000,
-          "delta_shares": 20000,
-          "delta_lots": 20.0
-        },
-        {
-          "code": "1560",
-          "name": "中砂",
-          "shares": 30000,
-          "weight": "1.52%",
-          "lot_size": 1000,
-          "reported_quantity": 30000.0,
-          "quantity_unit": "股",
-          "previous_shares": 21000,
-          "delta_shares": 9000,
-          "delta_lots": 9.0
-        },
-        {
-          "code": "3017",
-          "name": "奇鋐",
-          "shares": 29000,
-          "weight": "6.29%",
-          "lot_size": 1000,
-          "reported_quantity": 29000.0,
-          "quantity_unit": "股",
-          "previous_shares": 25000,
-          "delta_shares": 4000,
-          "delta_lots": 4.0
-        },
-        {
-          "code": "5274",
-          "name": "信驊",
-          "shares": 750,
-          "weight": "0.56%",
-          "lot_size": 1000,
-          "reported_quantity": 750.0,
-          "quantity_unit": "股",
-          "previous_shares": 800,
-          "delta_shares": -50,
-          "delta_lots": -0.05
-        }
-      ]
+      "status": "source_changed",
+      "comparable": false,
+      "changes": []
     },
     {
       "date": "20261126",
@@ -481,59 +432,10 @@
       "quantity_unit": "股"
     }
   ],
-  "changes": [
-    {
-      "code": "3105",
-      "name": "穩懋",
-      "shares": 55000,
-      "weight": "1.89%",
-      "lot_size": 1000,
-      "reported_quantity": 55000.0,
-      "quantity_unit": "股",
-      "previous_shares": 35000,
-      "delta_shares": 20000,
-      "delta_lots": 20.0
-    },
-    {
-      "code": "1560",
-      "name": "中砂",
-      "shares": 30000,
-      "weight": "1.52%",
-      "lot_size": 1000,
-      "reported_quantity": 30000.0,
-      "quantity_unit": "股",
-      "previous_shares": 21000,
-      "delta_shares": 9000,
-      "delta_lots": 9.0
-    },
-    {
-      "code": "3017",
-      "name": "奇鋐",
-      "shares": 29000,
-      "weight": "6.29%",
-      "lot_size": 1000,
-      "reported_quantity": 29000.0,
-      "quantity_unit": "股",
-      "previous_shares": 25000,
-      "delta_shares": 4000,
-      "delta_lots": 4.0
-    },
-    {
-      "code": "5274",
-      "name": "信驊",
-      "shares": 750,
-      "weight": "0.56%",
-      "lot_size": 1000,
-      "reported_quantity": 750.0,
-      "quantity_unit": "股",
-      "previous_shares": 800,
-      "delta_shares": -50,
-      "delta_lots": -0.05
-    }
-  ],
-  "comparable": true,
-  "added_shares": 33000,
-  "reduced_shares": 50,
+  "changes": [],
+  "comparable": false,
+  "added_shares": null,
+  "reduced_shares": null,
   "comparison_note": "持股快照差異不是實際成交紀錄，可能包含申贖、分割或資料修正；海外持股不換算台股張數。",
   "profit_note": "基金及成分股實際買進成本未提供，無法由持股快照計算基金目前獲利。可另外輸入個人持倉成本試算。"
 }

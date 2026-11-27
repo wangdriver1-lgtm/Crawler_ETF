@@ -12,8 +12,8 @@
     {
       "date": "20261127",
       "previous_date": "20261126",
-      "status": "changed",
-      "comparable": true,
+      "status": "source_changed",
+      "comparable": false,
       "changes": []
     },
     {
@@ -1137,9 +1137,9 @@
     }
   ],
   "changes": [],
-  "comparable": true,
-  "added_shares": 0,
-  "reduced_shares": 0,
+  "comparable": false,
+  "added_shares": null,
+  "reduced_shares": null,
   "comparison_note": "持股快照差異不是實際成交紀錄，可能包含申贖、分割或資料修正；海外持股不換算台股張數。",
   "profit_note": "基金及成分股實際買進成本未提供，無法由持股快照計算基金目前獲利。可另外輸入個人持倉成本試算。"
 }

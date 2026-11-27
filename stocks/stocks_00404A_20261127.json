@@ -7,7 +7,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 320000.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "2851",
@@ -17,7 +18,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 833000.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "2301",
@@ -27,7 +29,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 82000.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "5434",
@@ -37,7 +40,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 131000.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "6957",
@@ -47,7 +51,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 6000.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "2330",
@@ -57,7 +62,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 356000.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "2383",
@@ -67,7 +73,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 26000.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "8081",
@@ -77,7 +84,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 119000.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "2347",
@@ -87,7 +95,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 733000.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "2317",
@@ -97,7 +106,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 71000.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "2637",
@@ -107,7 +117,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 403000.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "2887",
@@ -117,7 +128,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 1643150.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "6505",
@@ -127,7 +139,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 187000.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "2303",
@@ -137,7 +150,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 443000.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "2379",
@@ -147,7 +161,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 101000.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "2882",
@@ -157,7 +172,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 989000.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "3017",
@@ -167,7 +183,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 16000.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "6196",
@@ -177,7 +194,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 177000.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "5904",
@@ -187,7 +205,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 217000.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "3034",
@@ -197,7 +216,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 161000.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "6691",
@@ -207,7 +227,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 86000.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "3264",
@@ -217,7 +238,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 84000.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "2890",
@@ -227,7 +249,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 977305.9999999999,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "4961",
@@ -237,7 +260,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 114000.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "3653",
@@ -247,7 +271,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 8000.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "6206",
@@ -257,7 +282,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 221000.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "6669",
@@ -267,7 +293,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 24000.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "6223",
@@ -277,7 +304,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 6500.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "2382",
@@ -287,7 +315,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 55000.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "7769",
@@ -297,7 +326,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 11000.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "3036",
@@ -307,7 +337,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 206000.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "6491",
@@ -317,7 +348,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 86000.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "2357",
@@ -327,7 +359,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 50000.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "2603",
@@ -337,7 +370,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 194000.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "2377",
@@ -347,7 +381,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 106000.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "2885",
@@ -357,7 +392,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 1645960.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "2395",
@@ -367,7 +403,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 111000.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "2360",
@@ -377,7 +414,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 13000.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "3374",
@@ -387,7 +425,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 10000.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "5274",
@@ -397,7 +436,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 7440.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "3037",
@@ -407,7 +447,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 15000.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "3711",
@@ -417,7 +458,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 226000.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "6257",
@@ -427,7 +469,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 151000.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "2006",
@@ -437,7 +480,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 552000.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "3293",
@@ -447,7 +491,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 82000.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "8016",
@@ -457,7 +502,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 258000.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "3443",
@@ -467,7 +513,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 9000.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "2454",
@@ -477,7 +524,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 64500.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "8299",
@@ -487,7 +535,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 27000.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "1303",
@@ -497,7 +546,8 @@
         "ETF股票代號": "00404A",
         "原始數量": 93000.0,
         "數量單位": "股",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "未提供代碼：台指選擇權12/26 46500 買權",
@@ -507,7 +557,8 @@
         "ETF股票代號": "00404A",
         "原始數量": -483.0,
         "數量單位": "來源未提供",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "未提供代碼：台指選擇權01/27 47500 買權",
@@ -517,7 +568,8 @@
         "ETF股票代號": "00404A",
         "原始數量": -25.0,
         "數量單位": "來源未提供",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     },
     {
         "股票代號": "未提供代碼：台股期貨12/26",
@@ -527,6 +579,7 @@
         "ETF股票代號": "00404A",
         "原始數量": 83.0,
         "數量單位": "口",
-        "_source_kind": "official"
+        "_source_kind": "official",
+        "_date_basis": "issuer"
     }
 ]
