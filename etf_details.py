@@ -72,7 +72,8 @@ def snapshot_signature(rows):
 
 
 def snapshot_source(rows):
-    return tuple(sorted({row.get('_source_kind', 'official') for row in rows}))
+    return tuple(sorted({(row.get('_source_kind', 'official'), row.get('_date_basis') or
+                          ('issuer' if row.get('_source_kind') == 'backup' else 'crawl_date')) for row in rows}))
 
 
 def compare_holdings(current, previous):

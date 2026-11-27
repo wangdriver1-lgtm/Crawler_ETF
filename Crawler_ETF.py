@@ -2417,6 +2417,9 @@ def scrape_etf(etf_config: Dict[str, str]) -> Optional[List[Dict[str, str]]]:
     chrome_opts.add_argument("--headless=new")
     chrome_opts.add_argument("--window-size=1920,1080")
     chrome_opts.add_argument("--disable-dev-shm-usage")
+    if site_type == "nomurafunds":
+        # Third-party resources can hold the load event open after the SPA is ready.
+        chrome_opts.page_load_strategy = "eager"
     if site_type == "ctbcinvestments":
         # 需要 performance log 攔截 token
         chrome_opts.set_capability("goog:loggingPrefs", {"performance": "ALL"})
@@ -2570,7 +2573,8 @@ def _run_crawler(today: str, log_path: str) -> int:
 
     for etf_config in configs:
         previous = previous_payload.get('etfs', {}).get(etf_config['code'], {})
-        if recover_only and previous.get('stocks') and previous.get('status') == 'fresh':
+        if (recover_only and previous_payload.get('date') == today
+                and previous.get('stocks') and previous.get('status') == 'fresh'):
             all_stocks[etf_config['code']] = dict(previous)
             reused_codes.add(etf_config['code'])
             print(f"  補缺模式：{etf_config['code']} 已有成功快照，沿用來源日期 {previous.get('date')}。")
@@ -2585,7 +2589,8 @@ def _run_crawler(today: str, log_path: str) -> int:
                     official_snapshot = stocks
                     stocks = official_snapshot['stocks']
                     old_date = previous.get('date') or previous_payload.get('date') or ''
-                    if previous.get('stocks') and old_date > official_snapshot['date']:
+                    if (previous.get('stocks') and old_date > official_snapshot['date']
+                            and previous.get('date_basis') not in (None, 'crawl_date')):
                         print('  官方來源日期較舊，保留較新快照並嘗試備援。')
                         stocks, official_snapshot = None, None
             except Exception as e:
@@ -2614,7 +2619,8 @@ def _run_crawler(today: str, log_path: str) -> int:
             dated_source = backup or official_snapshot or {}
             source_kind = 'backup' if backup else 'official'
             # Store provenance with dated snapshots so history can detect source switches.
-            stocks = [{**row, '_source_kind': source_kind} for row in stocks]
+            stocks = [{**row, '_source_kind': source_kind,
+                       '_date_basis': dated_source.get('date_basis', 'crawl_date')} for row in stocks]
             all_stocks[etf_config["code"]] = {
                 "name": etf_config["name"],
                 "date": dated_source.get('date', today),
@@ -2793,6 +2799,10 @@ def _run_crawler(today: str, log_path: str) -> int:
                      for code in included_etfs):
                 print('  前後持股資料來源不同，略過彙總增減比較。')
                 prev_summary = None
+            elif any(prev_summary.get('date_basis_by_etf', {}).get(code, 'crawl_date') != all_stocks[code].get('date_basis', 'crawl_date')
+                     for code in included_etfs):
+                print('  前後資料日期基準不同，略過彙總增減比較。')
+                prev_summary = None
 
         if prev_summary:
             prev_date = prev_summary.get("date") or os.path.basename(prev_path)
@@ -2922,6 +2932,7 @@ def _run_crawler(today: str, log_path: str) -> int:
     agg_summary = {
         "date": today,
         "source_by_etf": {code: all_stocks[code].get('source_kind', 'official') for code in included_etfs},
+        "date_basis_by_etf": {code: all_stocks[code].get('date_basis', 'crawl_date') for code in included_etfs},
         "included_etfs": included_etfs,
         "missing_share_etfs": missing_share_etfs,
         "stale_etfs": failed_etfs,

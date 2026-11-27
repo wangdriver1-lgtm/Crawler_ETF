@@ -116,7 +116,7 @@ def fetch_capital_holdings(code, official_url, today=None):
     fund_id = match[1]
     base = 'https://www.capitalfund.com.tw/CFWeb/api/etf'
     identity = request_json(f'{base}/detail/{fund_id}')
-    if identity.get('code') != 200 or identity.get('data', {}).get('stockCode') != code:
+    if identity.get('code') != 200 or str(identity.get('data', {}).get('stockCode') or '').strip().upper() != code:
         raise ValueError('群益基金代號與請求不符')
     payload = request_json(base + '/buyback', {'fundId': fund_id, 'date': None})
     result = parse_capital_holdings(payload, code, today)

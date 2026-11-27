@@ -74,6 +74,12 @@ class CrawlerRegressionTests(unittest.TestCase):
         self.assertIsNone(result)
         self.assertIn("--headless=new", chrome.call_args.kwargs["options"].arguments)
 
+    def test_nomura_does_not_wait_for_all_external_resources(self):
+        with patch.object(crawler.webdriver, "Chrome", side_effect=RuntimeError("stop before navigation")) as chrome:
+            with contextlib.redirect_stdout(io.StringIO()):
+                crawler.scrape_etf({"code": "00980A", "name": "A", "url": "https://www.nomurafunds.com.tw/ETFWEB/product-description?fundNo=00980A"})
+        self.assertEqual(chrome.call_args.kwargs["options"].page_load_strategy, "eager")
+
     def test_tsit_waits_for_holdings_rows_instead_of_static_headings(self):
         empty = '<table><thead><tr><th>代號</th><th>名稱</th><th>股數</th></tr></thead><tbody></tbody></table>'
         loaded = empty.replace('<tbody></tbody>', '<tbody><tr><td>2330</td><td>台積電</td><td>1000</td></tr></tbody>')
@@ -138,7 +144,7 @@ class CrawlerRegressionTests(unittest.TestCase):
 
     def test_recover_only_reuses_successful_source_metadata_without_scraping(self):
         self.config('AAA')
-        self.write('etf/all_stocks.json', {'date': '20260528', 'etfs': {
+        self.write('etf/all_stocks.json', {'date': '20260601', 'etfs': {
             'AAA': {'name': 'AAA', 'date': '20260528', 'status': 'fresh', 'source_kind': 'backup',
                     'source_url': 'https://example.test/source', 'stocks': [self.stock()]}}})
         with patch.dict(os.environ, {'CRAWLER_RECOVER_ONLY': '1'}), \
@@ -149,6 +155,18 @@ class CrawlerRegressionTests(unittest.TestCase):
         self.assertEqual(result['etfs']['AAA']['source_kind'], 'backup')
         self.assertEqual(result['updated_etfs'], [])
         self.assertEqual(result['reused_etfs'], ['AAA'])
+
+    def test_recovery_after_failed_build_does_not_reuse_an_older_runs_fresh_flag(self):
+        self.config('AAA')
+        self.write('etf/all_stocks.json', {'date': '20260528', 'etfs': {
+            'AAA': {'name': 'AAA', 'date': '20260528', 'status': 'fresh', 'stocks': [self.stock()]}}})
+        with patch.dict(os.environ, {'CRAWLER_RECOVER_ONLY': '1'}), \
+                patch.object(crawler, 'scrape_etf', return_value=[self.stock('2000')]) as scrape:
+            self.assertEqual(self.run_main(), 0)
+            scrape.assert_called_once()
+        result = self.read('etf/all_stocks.json')
+        self.assertEqual(result['updated_etfs'], ['AAA'])
+        self.assertEqual(result['reused_etfs'], [])
 
     def test_official_api_uses_issuer_date_and_provenance(self):
         self.config('AAA')
@@ -161,6 +179,20 @@ class CrawlerRegressionTests(unittest.TestCase):
         self.assertEqual(saved['source_name'], '投信官方 API')
         self.assertEqual(saved['source_kind'], 'official')
         self.assertTrue(Path('stocks/stocks_AAA_20260528.json').exists())
+
+    def test_precise_issuer_date_can_replace_a_legacy_crawl_date_without_false_staleness(self):
+        self.config('AAA')
+        self.write('etf/all_stocks.json', {'date': '20260601', 'etfs': {
+            'AAA': {'name': 'AAA', 'date': '20260601', 'date_basis': 'crawl_date',
+                    'status': 'stale', 'stocks': [self.stock()]}}})
+        result = {'stocks': [self.stock('2000')], 'date': '20260528', 'date_basis': 'issuer',
+                  'source_name': '投信官方 API', 'source_url': 'https://example.test/official'}
+        with patch.object(crawler, 'scrape_etf', return_value=result):
+            self.assertEqual(self.run_main(), 0)
+        saved = self.read('etf/all_stocks.json')['etfs']['AAA']
+        self.assertEqual(saved['status'], 'fresh')
+        self.assertEqual(saved['date'], '20260528')
+        self.assertEqual(saved['stocks'][0]['_date_basis'], 'issuer')
 
     def test_delayed_weekend_schedule_can_fetch_without_fabricating_changes(self):
         self.config('AAA')

@@ -34,6 +34,12 @@ class IssuerTests(unittest.TestCase):
         payload['data']['stocks'] = []
         with self.assertRaises(ValueError):
             parse_capital_holdings(payload, '00982A')
+
+    def test_capital_ignores_publisher_trailing_whitespace_in_fund_identity(self):
+        with patch('issuer_holdings.request_json', side_effect=[
+            {'code': 200, 'data': {'stockCode': '00992A '}}, self.capital()]):
+            result = fetch_capital_holdings('00992A', 'https://www.capitalfund.com.tw/etf/product/detail/500/portfolio')
+        self.assertEqual(result['stocks'][0]['ETF股票代號'], '00992A')
         payload = self.capital()
         payload['data']['stocks'][0]['share'] = -1
         with self.assertRaises(ValueError):
