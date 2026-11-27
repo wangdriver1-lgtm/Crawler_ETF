@@ -1,6 +1,6 @@
 {
   "date": "20261128",
-  "updated_at": "2026-11-28T02:02:36.176032+08:00",
+  "updated_at": "2026-11-28T02:10:22.905624+08:00",
   "missing_share_etfs": [
     "00400A",
     "00403A",
@@ -9,12 +9,19 @@
     "00983D",
     "00984D"
   ],
-  "failed_etfs": [
-    "00980A",
-    "00992A",
-    "00997A"
-  ],
+  "failed_etfs": [],
   "etfs": {
+    "00980A": {
+      "name": "主動野村臺灣優選",
+      "company": "野村證券投資信託股份有限公司",
+      "price": "N/A",
+      "change": "N/A",
+      "date": "20261128",
+      "status": "fresh",
+      "source_kind": "official",
+      "source_name": "投信官方持股頁",
+      "source_url": "https://www.nomurafunds.com.tw/ETFWEB/product-description?fundNo=00980A&tab=Shareholding"
+    },
     "00982A": {
       "name": "主動群益台灣強棒",
       "company": "群益證券投資信託股份有限公司",
@@ -92,6 +99,17 @@
       "source_name": "ETF資訊網（公開持股備援）",
       "source_url": "https://www.etfinfo.tw/etf/00987A/holdings"
     },
+    "00992A": {
+      "name": "主動群益科技創新",
+      "company": "群益證券投資信託股份有限公司",
+      "price": "N/A",
+      "change": "N/A",
+      "date": "20261127",
+      "status": "fresh",
+      "source_kind": "official",
+      "source_name": "群益投信官方完整投資組合 API",
+      "source_url": "https://www.capitalfund.com.tw/etf/product/detail/500/portfolio"
+    },
     "00994A": {
       "name": "主動第一金台股優",
       "company": "第一金證券投資信託股份有限公司",
@@ -157,6 +175,17 @@
       "source_kind": "official",
       "source_name": "投信官方持股頁",
       "source_url": "https://am.jpmorgan.com/tw/zh/asset-management/twetf/products/jpmorgan-taiwan-taiwan-equity-high-income-active-etf-tw00000401a1#/portfolio"
+    },
+    "00997A": {
+      "name": "主動群益美國增長",
+      "company": "群益證券投資信託股份有限公司",
+      "price": "N/A",
+      "change": "N/A",
+      "date": "20261126",
+      "status": "fresh",
+      "source_kind": "official",
+      "source_name": "群益投信官方完整投資組合 API",
+      "source_url": "https://www.capitalfund.com.tw/etf/product/detail/502/portfolio"
     },
     "00983A": {
       "name": "主動中信ARK創新",
@@ -421,39 +450,6 @@
       "source_kind": "official",
       "source_name": "施羅德官方基金中心每日完整持股",
       "source_url": "https://www.schroders.com/zh-tw/tw/individual/fund-centre/etf/?language=zh-tw&location=tw&channel=etf&clientId=schdr&clientVersion=v1&externalId=SCHDR_F00002KHVY&r=%2Ffund%2FSCHDR_F00002KHVY%2F"
-    },
-    "00980A": {
-      "name": "主動野村臺灣優選",
-      "company": "野村證券投資信託股份有限公司",
-      "price": "N/A",
-      "change": "N/A",
-      "date": "20261127",
-      "status": "stale",
-      "source_kind": "official",
-      "source_name": "投信官方持股頁",
-      "source_url": "https://www.nomurafunds.com.tw/ETFWEB/product-description?fundNo=00980A&tab=Shareholding"
-    },
-    "00992A": {
-      "name": "主動群益科技創新",
-      "company": "群益證券投資信託股份有限公司",
-      "price": "N/A",
-      "change": "N/A",
-      "date": "20261127",
-      "status": "stale",
-      "source_kind": "official",
-      "source_name": "投信官方持股頁",
-      "source_url": "https://www.capitalfund.com.tw/etf/product/detail/500/portfolio"
-    },
-    "00997A": {
-      "name": "主動群益美國增長",
-      "company": "群益證券投資信託股份有限公司",
-      "price": "N/A",
-      "change": "N/A",
-      "date": "20261127",
-      "status": "stale",
-      "source_kind": "official",
-      "source_name": "投信官方持股頁",
-      "source_url": "https://www.capitalfund.com.tw/etf/product/detail/502/portfolio"
     }
   }
 }
