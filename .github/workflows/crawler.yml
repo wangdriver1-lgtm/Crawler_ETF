@@ -17,6 +17,7 @@ permissions:
   contents: write
   pages: write
   id-token: write
+  actions: read
 
 concurrency:
   group: etf-update-and-pages
@@ -26,9 +27,12 @@ jobs:
   run_crawler:
     runs-on: ubuntu-latest
     timeout-minutes: 45
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+    outputs:
+      artifact_id: ${{ steps.upload_site.outputs.artifact_id }}
+      artifact_name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
+      needs_retry: ${{ steps.health.outputs.needs_retry }}
+      failed_codes: ${{ steps.health.outputs.failed_codes }}
+      crawl_failed: ${{ steps.crawl.outcome == 'failure' }}
     env:
       TZ: Asia/Taipei
       PYTHONUNBUFFERED: '1'
@@ -57,13 +61,23 @@ jobs:
         run: python etf_registry.py
 
       - name: 運行爬蟲
+        id: crawl
         if: github.event_name != 'push'
+        continue-on-error: true
         env:
           CRAWLER_ALLOW_PARTIAL: '1'
           CRAWLER_RETRIES: '1'
           CRAWLER_USE_BACKUP: '1'
           CRAWLER_RECOVER_ONLY: ${{ inputs.recover_only && '1' || '0' }}
+          # GitHub may start Friday's scheduled run after midnight. Still fetch
+          # the latest source snapshots; identical holdings never create trades.
+          CRAWLER_FORCE_FETCH: '1'
         run: python Crawler_ETF.py
+
+      - name: 檢查全部 ETF 更新結果
+        id: health
+        if: github.event_name != 'push'
+        run: python ci_health.py --outputs
 
       - name: 保存執行紀錄
         if: always() && github.event_name != 'push'
@@ -140,10 +154,67 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: 上傳網站
+        id: upload_site
         uses: actions/upload-pages-artifact@v4
         with:
           path: docs
+          name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
 
+  deploy:
+    needs: run_crawler
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 確認網站發佈檔案已可讀取
+        uses: actions/github-script@v8
+        env:
+          ARTIFACT_ID: ${{ needs.run_crawler.outputs.artifact_id }}
+          ARTIFACT_NAME: ${{ needs.run_crawler.outputs.artifact_name }}
+        with:
+          script: |
+            const id = Number(process.env.ARTIFACT_ID);
+            if (!Number.isSafeInteger(id) || id <= 0) throw new Error('Missing uploaded artifact ID');
+            for (let attempt = 0; attempt < 8; attempt++) {
+              try {
+                const { data } = await github.rest.actions.listWorkflowRunArtifacts({
+                  ...context.repo, run_id: context.runId, per_page: 100
+                });
+                const match = data.artifacts.find(a => a.id === id && a.name === process.env.ARTIFACT_NAME && !a.expired);
+                if (match) return core.info(`Pages artifact ready: ${match.id}`);
+              } catch (error) {
+                if (![404, 429, 500, 502, 503, 504].includes(error.status)) throw error;
+              }
+              await new Promise(resolve => setTimeout(resolve, Math.min(5000 * 2 ** attempt, 30000)));
+            }
+            throw new Error('Pages artifact was uploaded but is not yet visible; recovery workflow will retry after 30 minutes.');
       - name: 發佈網站
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5.0.1
+        with:
+          artifact_name: ${{ needs.run_crawler.outputs.artifact_name }}
+
+  verify:
+    needs: [run_crawler, deploy]
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - name: 確認資料與部署皆完成
+        env:
+          BUILD_RESULT: ${{ needs.run_crawler.result }}
+          DEPLOY_RESULT: ${{ needs.deploy.result }}
+          DATA_RETRY: ${{ needs.run_crawler.outputs.needs_retry }}
+          CRAWL_FAILED: ${{ needs.run_crawler.outputs.crawl_failed }}
+          FAILED_CODES: ${{ needs.run_crawler.outputs.failed_codes }}
+        run: |
+          if [ "$BUILD_RESULT" != success ] || [ "$DEPLOY_RESULT" != success ]; then
+            echo '建置或網站發佈失敗，將交由半小時重試流程處理。'
+            exit 1
+          fi
+          if [ "$DATA_RETRY" = true ] || [ "$CRAWL_FAILED" = true ]; then
+            echo "待補抓的 ETF：$FAILED_CODES；已發佈成功部分，半小時後自動補抓。"
+            exit 1
+          fi
+          echo '全部 ETF 都有有效持股，網站部署成功。'

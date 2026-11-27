@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 import re
 import urllib.request
-from issuer_holdings import ab_url
+from issuer_holdings import ab_url, schroders_url, SCHRODERS_PRODUCTS
 
 ACTIVE_URL = "https://www.twse.com.tw/rwd/zh/ETF/activeList?response=json"
 LIST_URL = "https://www.twse.com.tw/rwd/zh/ETF/list?response=json"
@@ -52,6 +52,8 @@ def discover(root=Path("."), today=None):
             item["url"] = f"https://www.tsit.com.tw/ETF/Home/ETFSeriesDetail/{code}"
         elif '聯博' in name:
             item['url'] = ab_url(code)
+        elif code in SCHRODERS_PRODUCTS:
+            item['url'] = schroders_url(code)
         registry[code] = item
         found += 1
     if not found:
@@ -69,6 +71,8 @@ def merge_config(configs, registry):
         result[code].setdefault("url", "")
         if not result[code]['url'] and '聯博' in item.get('name', ''):
             result[code]['url'] = ab_url(code)
+        if not result[code]['url'] and code in SCHRODERS_PRODUCTS:
+            result[code]['url'] = schroders_url(code)
     return list(result.values())
 
 

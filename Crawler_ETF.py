@@ -21,7 +21,7 @@ from pathlib import Path
 from etf_registry import cached_registry, merge_config
 from etf_details import snapshot_signature
 from holdings_fallback import fetch_holdings as fetch_backup_holdings
-from issuer_holdings import fetch_ab_holdings
+from issuer_holdings import fetch_ab_holdings, fetch_capital_holdings, fetch_schroders_holdings
 
 
 def _parse_shares(value) -> Optional[int]:
@@ -182,6 +182,8 @@ def detect_site_type(url: str) -> str:
         return "jpmorgan"
     elif domain == 'www.abfunds.com.tw':
         return 'abfunds'
+    elif domain == 'www.schroders.com':
+        return 'schroders'
     else:
         return "unknown"
 
@@ -2391,6 +2393,10 @@ def scrape_etf(etf_config: Dict[str, str]) -> Optional[List[Dict[str, str]]]:
     # 純 API 路徑：免開瀏覽器
     if site_type == 'abfunds':
         return fetch_ab_holdings(etf_code)
+    if site_type == 'capitalfund':
+        return fetch_capital_holdings(etf_code, etf_url)
+    if site_type == 'schroders':
+        return fetch_schroders_holdings(etf_code)
     if site_type == "cathaysite":
         stocks = scrape_cathaysite_api(etf_code, etf_url)
         if stocks:
@@ -2557,7 +2563,7 @@ def _run_crawler(today: str, log_path: str) -> int:
 
     # 交易日判斷：非交易日直接結束，不執行任何爬取
     today_date = datetime.datetime.strptime(today, "%Y%m%d").date()
-    if not recover_only and not is_tw_trading_day(today_date):
+    if not recover_only and os.environ.get('CRAWLER_FORCE_FETCH') != '1' and not is_tw_trading_day(today_date):
         print(f"\n今日 {today_date.isoformat()} 非交易日，停止執行。")
         print(f"Log 已寫入 {log_path}")
         return 0

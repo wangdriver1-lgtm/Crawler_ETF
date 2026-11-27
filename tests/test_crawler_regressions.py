@@ -162,6 +162,17 @@ class CrawlerRegressionTests(unittest.TestCase):
         self.assertEqual(saved['source_kind'], 'official')
         self.assertTrue(Path('stocks/stocks_AAA_20260528.json').exists())
 
+    def test_delayed_weekend_schedule_can_fetch_without_fabricating_changes(self):
+        self.config('AAA')
+        self.write('etf/all_stocks.json', {'date': '20260528', 'etfs': {'AAA': {
+            'date': '20260528', 'name': 'AAA', 'status': 'fresh', 'stocks': [self.stock()]}}})
+        self.write('stock_shares/stock_shares_diff.json', {'sentinel': True})
+        with patch.dict(os.environ, {'CRAWLER_FORCE_FETCH': '1'}), \
+                patch.object(crawler, 'is_tw_trading_day', return_value=False), \
+                patch.object(crawler, 'scrape_etf', return_value=[self.stock()]):
+            self.assertEqual(self.run_main(), 0)
+        self.assertEqual(self.read('stock_shares/stock_shares_diff.json'), {'sentinel': True})
+
     def test_partial_failure_preserves_all_previous_outputs(self):
         self.config("AAA", "BBB")
         paths = ["etf/all_stocks.json", "stocks/stocks_AAA_20260601.json",

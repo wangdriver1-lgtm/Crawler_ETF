@@ -1,0 +1,42 @@
+name: Retry failed ETF update after 30 minutes
+
+on:
+  workflow_run:
+    workflows: ['Daily Crawler ETF']
+    types: [completed]
+    branches: [main]
+
+permissions:
+  contents: read
+  actions: write
+
+concurrency:
+  group: etf-recovery-timer
+  cancel-in-progress: true
+
+jobs:
+  recovery:
+    if: github.event.workflow_run.conclusion != 'cancelled' && github.event.workflow_run.head_repository.full_name == github.repository
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: 判斷是否需要重試
+        id: plan
+        run: python ci_retry.py plan
+      - name: 等待距離失敗滿半小時
+        if: steps.plan.outputs.pending == 'true'
+        env:
+          WAIT_SECONDS: ${{ steps.plan.outputs.wait_seconds }}
+        run: sleep "$WAIT_SECONDS"
+      - name: 再次確認並重新抓取缺漏資料
+        if: steps.plan.outputs.pending == 'true'
+        run: python ci_retry.py dispatch
